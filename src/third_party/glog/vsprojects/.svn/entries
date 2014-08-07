@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="33"
+   name=""
+   committed-date="2009-01-23T18:56:19.639069Z"
+   url="http://google-glog.googlecode.com/svn/trunk/vsprojects"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   name="libglog"
+   kind="dir"/>
+<entry
+   name="logging_unittest"
+   kind="dir"/>
+<entry
+   name="libglog_static"
+   kind="dir"/>
+<entry
+   name="logging_unittest_static"
+   kind="dir"/>
+</wc-entries>

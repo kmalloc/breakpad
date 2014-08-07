@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1233"
+   name=""
+   committed-date="2012-02-23T02:02:02.641829Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules/src/external"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1233"
+   name="external.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2012-02-23T02:02:02.641829Z"
+   checksum="42fa97008a03b8ce479d82f484c0b638"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="1071"
+   name="file1.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2011-10-13T19:44:55.639170Z"
+   checksum="73e97a6d5fdf3a548f30c1bb96511941"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="1071"
+   name="file2.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2011-10-13T19:44:55.639170Z"
+   checksum="19f9b8fb0f08ebe09e59f6236bd9a985"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+</wc-entries>

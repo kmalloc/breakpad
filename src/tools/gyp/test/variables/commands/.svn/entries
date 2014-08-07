@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1640"
+   name=""
+   committed-date="2013-06-01T03:45:39.752850Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/variables/commands"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1640"
+   name="commands.gyp"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="4d58a0791081b3d35e974bfcb999ddb2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1640"
+   name="commands.gyp.stdout"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="dda19c1870edcd9196786982d36961b0"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1640"
+   name="commands-repeated.gypd.golden"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="f85a233d85d914c47e73c613a0248ee5"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1496"
+   name="gyptest-commands.py"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="a533fe862490d3915b3df56d56714733"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="788"
+   name="commands-repeated.gyp"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2010-02-23T23:45:28.037785Z"
+   checksum="298a5184ab4980a57dd1b8e6bb5ca853"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1150"
+   name="test.py"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2012-01-12T21:30:06.693986Z"
+   checksum="4f0db56e329fb82ab6d7f3aa20a3e7b1"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1640"
+   name="commands-repeated.gyp.stdout"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="6ff24a9e1b74a91b77737b857a0da560"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1640"
+   name="commands.gyp.ignore-env.stdout"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="dda19c1870edcd9196786982d36961b0"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1640"
+   name="commands.gypi"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="9013970eb9919f733b134a7bd5f24cd5"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1639"
+   name="update_golden"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:14:37.476913Z"
+   checksum="3a0752750b0eed69da80a9896dd8d150"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1640"
+   name="commands.gypd.golden"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2013-06-01T03:45:39.752850Z"
+   checksum="c8b2c968ca7838346881114c3a6fcad2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1444"
+   name="gyptest-commands-repeated.py"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2012-08-01T00:54:14.260574Z"
+   checksum="2e2bcf7eb8f9900b6fde127fca964b88"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+<entry
+   committed-rev="1444"
+   name="gyptest-commands-ignore-env.py"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2012-08-01T00:54:14.260574Z"
+   checksum="5938a8ef2a7f4b268230be1ba6dc5077"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+</wc-entries>

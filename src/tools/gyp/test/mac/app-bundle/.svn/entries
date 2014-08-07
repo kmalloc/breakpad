@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1734"
+   name=""
+   committed-date="2013-09-17T23:42:47.465512Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/app-bundle"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="965"
+   name="empty.c"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2011-07-19T19:44:25.493685Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:13.000000Z"/>
+<entry
+   name="TestApp"
+   kind="dir"/>
+<entry
+   committed-rev="1573"
+   name="test-error.gyp"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-02-13T18:51:16.310385Z"
+   checksum="e303df173f8bc5381003178ff7abdc9f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1718"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-09-06T15:17:23.418494Z"
+   checksum="dbd50655ab34c25c90f09703cbeb7875"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+</wc-entries>

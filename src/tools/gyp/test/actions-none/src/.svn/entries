@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1283"
+   name=""
+   committed-date="2012-03-27T19:07:16.483884Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions-none/src"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1283"
+   name="fake_cross.py"
+   text-time="2014-08-07T09:39:39.000000Z"
+   committed-date="2012-03-27T19:07:16.483884Z"
+   checksum="09f244c5a228735cad24ad3dc2412451"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:39.000000Z"/>
+<entry
+   committed-rev="1283"
+   name="foo.cc"
+   text-time="2014-08-07T09:39:39.000000Z"
+   committed-date="2012-03-27T19:07:16.483884Z"
+   checksum="f44b55614a85a73137ae8c9187bac19b"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:39.000000Z"/>
+<entry
+   committed-rev="1283"
+   name="none_with_source_files.gyp"
+   text-time="2014-08-07T09:39:39.000000Z"
+   committed-date="2012-03-27T19:07:16.483884Z"
+   checksum="66ac5767dc8e5cde1f3b612c9add7f67"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:39.000000Z"/>
+</wc-entries>

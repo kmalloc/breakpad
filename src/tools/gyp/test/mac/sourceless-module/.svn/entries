@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1729"
+   name=""
+   committed-date="2013-09-13T16:47:45.421402Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/sourceless-module"
+   last-author="justincohen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1136"
+   name="empty.c"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-01-09T18:29:46.074141Z"
+   checksum="f881137628fc8dd673b761eb7a1e2432"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1711"
+   name="fun.c"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2013-09-03T22:49:00.524585Z"
+   checksum="6df5212d82b3f03b4f84a3ba7e27f677"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1729"
+   name="empty.txt"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2013-09-13T16:47:45.421402Z"
+   checksum="e1c06d85ae7b8b032bef47e42e4c08f9"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1729"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2013-09-13T16:47:45.421402Z"
+   checksum="70f4101e8331449926379647953f702b"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+</wc-entries>

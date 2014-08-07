@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="46"
+   name=""
+   committed-date="2009-04-10T05:49:58.610451Z"
+   url="http://google-glog.googlecode.com/svn/trunk/packages/rpm"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="46"
+   name="rpm.spec"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2009-04-10T05:49:58.610451Z"
+   checksum="70a0eac4b89ffd3c8a8a301e115b8e7d"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+</wc-entries>

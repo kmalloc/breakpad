@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1796"
+   name=""
+   committed-date="2013-11-20T22:31:17.085809Z"
+   url="http://gyp.googlecode.com/svn/trunk/buildbot"
+   last-author="bungeman@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1796"
+   name="buildbot_run.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-11-20T22:31:17.085809Z"
+   checksum="87f3480ce113483974ce712f8fe58b8e"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+</wc-entries>

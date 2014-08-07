@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1331"
+   name=""
+   committed-date="2012-04-18T00:41:21.334311Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/external-cross-compile/src"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1285"
+   name="bogus2.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="14737a9c9e7ff77aae0deafbcbfdc3cd"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="test2.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="8c3d9548dd4061b28e632c4fb6e7e5b6"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="test4.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="7f1f3dc088ab8744a94b6d29322770fc"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="bogus1.cc"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="b6d3ff5f1a03a322f7a544d603453e6d"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="test1.cc"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="1bd7522ffb4b28dc3f7d0ef6f6b73107"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="fake_cross.py"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="8421d568cf6da63619847b7d88a40816"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="test3.cc"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="185bdfe9c1aebdb617a6b458a8df2b7b"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1331"
+   name="cross.gyp"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-04-18T00:41:21.334311Z"
+   checksum="8636de7e54eb46bd54a8465b92bab1dd"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="tochar.py"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="7f80f2f5bc4e9da67d8cd3296ab3f377"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1331"
+   name="cross_compile.gypi"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-04-18T00:41:21.334311Z"
+   checksum="31540a0d86e0ecc2d3090b102dc27709"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="1285"
+   name="program.cc"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2012-03-28T18:45:03.491597Z"
+   checksum="835f835ce451a10ae23e7ec78d9be243"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+</wc-entries>

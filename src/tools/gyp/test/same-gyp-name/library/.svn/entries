@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1504"
+   name=""
+   committed-date="2012-09-21T04:54:53.768982Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/same-gyp-name/library"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="one"
+   kind="dir"/>
+<entry
+   name="two"
+   kind="dir"/>
+<entry
+   committed-rev="1504"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2012-09-21T04:54:53.768982Z"
+   checksum="6c2ce12fc947cfba1cb633d5dd9a5bf7"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:41.000000Z"/>
+</wc-entries>

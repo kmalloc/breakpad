@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="386"
+   name=""
+   committed-date="2010-03-04T22:15:53.373274Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/samples"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   committed-rev="40"
+   name="sample1_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="8dde1323dd4677079d06351e1105e9a1"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="40"
+   name="sample1.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="3f203052d364bdd8e80764d8864706d4"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="383"
+   name="sample2_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-02-27T08:21:11.589477Z"
+   checksum="4c356a22184be8315b46a86010f5da35"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="383"
+   name="sample2.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-02-27T08:21:11.589477Z"
+   checksum="13202fe45a1a7b74920edb2478ba212c"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="383"
+   name="sample3_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-02-27T08:21:11.589477Z"
+   checksum="07d765e3e01d74c7bb301c6b3de6e82d"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="40"
+   name="sample1.h"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="f3d0792aaef87485e72268f507e05322"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="40"
+   name="sample4_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="a4a84a13ab4ee12152d93801551d1ff2"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="40"
+   name="sample4.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="3e6515480cb273e4a6f30aa35f606ec4"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="383"
+   name="sample5_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-02-27T08:21:11.589477Z"
+   checksum="81501c45c4a56323c0e62c2f242b49f9"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="383"
+   name="sample2.h"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-02-27T08:21:11.589477Z"
+   checksum="c1b87d18c8ca589f7e8ee41eb02a94a5"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="195"
+   name="sample6_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2009-02-23T23:21:55.698355Z"
+   checksum="9cb8afeafd0e94c6c28873e111736c98"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="sample7_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-03-04T22:15:53.373274Z"
+   checksum="b05657d3ab085097653f40af2f582fc8"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="40"
+   name="sample4.h"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="9106f59e7512f882b8aa16299828226c"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="386"
+   name="sample8_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-03-04T22:15:53.373274Z"
+   checksum="2f3a4dc3b56060e062ea13aac76a878a"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="365"
+   name="prime_tables.h"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-01-08T00:23:45.844214Z"
+   checksum="f53551ead66aa409c184fd7b1fb6cde3"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="359"
+   name="sample9_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2009-12-29T19:45:33.644833Z"
+   checksum="762dda4b3b3feb01f4740f58c7ef6800"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="359"
+   name="sample10_unittest.cc"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2009-12-29T19:45:33.644833Z"
+   checksum="edb49cdb0bd449db056fc8382b10ac93"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+<entry
+   committed-rev="383"
+   name="sample3-inl.h"
+   text-time="2014-08-07T09:38:50.000000Z"
+   committed-date="2010-02-27T08:21:11.589477Z"
+   checksum="2737ae2fe048e14aa25c7e6ac640d91c"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:50.000000Z"/>
+</wc-entries>

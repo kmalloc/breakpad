@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="747"
+   name=""
+   committed-date="2009-11-10T17:01:19.808871Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/home_dot_gyp/home"
+   last-author="mmoss@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name=".gyp"
+   kind="dir"/>
+</wc-entries>

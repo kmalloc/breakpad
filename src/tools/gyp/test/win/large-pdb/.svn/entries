@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1603"
+   name=""
+   committed-date="2013-03-27T14:49:00.013499Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/large-pdb"
+   last-author="chrisha@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1600"
+   name="dllmain.cc"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2013-03-18T19:32:05.584841Z"
+   checksum="fe49cf5306b03558cf6a2485b11a0ba0"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1600"
+   name="main.cc"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2013-03-18T19:32:05.584841Z"
+   checksum="66ba3aa185586213d007fb7cde86d5a8"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1603"
+   name="large-pdb.gyp"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2013-03-27T14:49:00.013499Z"
+   checksum="c933c8e4663fabef2e712458c46f0689"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+</wc-entries>

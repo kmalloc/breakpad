@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1160"
+   name=""
+   committed-date="2012-01-14T01:13:04.516102Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/action-envvars/action"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1160"
+   name="action.sh"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2012-01-14T01:13:04.516102Z"
+   checksum="698668d63a90c716e12297db17ecb4aa"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="action.gyp"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2012-01-14T01:13:04.516102Z"
+   checksum="75fd29e24e9866d8dc9cf918d86d1f8b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+</wc-entries>

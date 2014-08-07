@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="154"
+   name=""
+   committed-date="2008-12-10T05:45:40.661741Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/build-aux"
+   last-author="shiqian"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   committed-rev="154"
+   name=".keep"
+   text-time="2014-08-07T09:38:48.000000Z"
+   committed-date="2008-12-10T05:45:40.661741Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:48.000000Z"/>
+</wc-entries>

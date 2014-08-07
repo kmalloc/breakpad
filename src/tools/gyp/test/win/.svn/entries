@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1877"
+   name=""
+   committed-date="2014-03-18T16:08:58.691750Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="asm-files"
+   kind="dir"/>
+<entry
+   committed-rev="1832"
+   name="gyptest-link-pdb.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2014-01-08T23:08:01.136542Z"
+   checksum="5f084423ed6bcc85f4884ae64ffadd9d"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-link-delay-load-dlls.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="59c874b050bbf648d86e7c353a0bb6bc"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1820"
+   name="gyptest-link-ordering.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-17T05:14:06.514729Z"
+   checksum="00015f22e29eb5ac40cf707146c438af"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1554"
+   name="gyptest-link-large-address-aware.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-12-25T07:49:33.215205Z"
+   checksum="207eb31baffc3e7adf00722fce47ef11"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1262"
+   name="gyptest-cl-warning-level.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-25T04:28:15.694329Z"
+   checksum="0d08bd571782110d70fe94ec92fd981d"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1347"
+   name="gyptest-macros-containing-gyp.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-05-01T00:14:53.715740Z"
+   checksum="46c429aa4d9aa87ae65fad70cce8250a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1679"
+   name="gyptest-link-mapfile.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-07-19T01:04:02.872281Z"
+   checksum="5e8f782b82171e08b7e4970d50256057"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   name="large-pdb"
+   kind="dir"/>
+<entry
+   name="uldi"
+   kind="dir"/>
+<entry
+   committed-rev="1278"
+   name="gyptest-link-library-directories.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T22:38:42.341737Z"
+   checksum="48023ec3c0c9418c369c42eecbe456d4"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   name="lib-flags"
+   kind="dir"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-cl-exception-handling.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="77f05204fd9a5288a6989bcda6d8472f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   name="shard"
+   kind="dir"/>
+<entry
+   committed-rev="1275"
+   name="gyptest-cl-runtime-checks.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T22:28:40.208995Z"
+   checksum="95a39eadd7af1368157c872b8554034a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   name="compiler-flags"
+   kind="dir"/>
+<entry
+   committed-rev="1393"
+   name="gyptest-cl-additional-include-dirs.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-05-23T20:55:15.454498Z"
+   checksum="9ffd28f98b8303828f22b2ee57482998"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   name="batch-file-action"
+   kind="dir"/>
+<entry
+   committed-rev="1272"
+   name="gyptest-cl-buffer-security-check.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T22:18:48.925921Z"
+   checksum="1fbf27b0fa20779e1b13901679f0d4d5"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1340"
+   name="gyptest-quoting-commands.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-27T07:21:17.504489Z"
+   checksum="f1fe024b70dc1d575426a34a4d766e12"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   name="vs-macros"
+   kind="dir"/>
+<entry
+   committed-rev="1286"
+   name="gyptest-link-library-adjust.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-29T21:12:06.809644Z"
+   checksum="4488d6b6dd78ac96a4648666f51799b5"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1264"
+   name="gyptest-cl-warning-as-error.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-25T04:31:38.394495Z"
+   checksum="67c193f3ddd54b454410ec70455e894e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1788"
+   name="gyptest-link-subsystem.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-11-17T22:45:46.236948Z"
+   checksum="dce402da9df3673050a84931252736b3"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1294"
+   name="gyptest-link-deffile.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-30T20:42:46.304323Z"
+   checksum="578a4de6b8ed3ff41ded6e498aa38951"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1526"
+   name="gyptest-link-profile.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-10-29T22:03:42.164787Z"
+   checksum="4b889278f71409af7d45b2105c7f87b7"
+   last-author="noelallen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-link-aslr.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="cf073e49a26b8d10ff2261f2b8a738d0"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1337"
+   name="gyptest-link-restat-importlib.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-25T19:42:37.375370Z"
+   checksum="511749f64e7870e22ced3222d754a481"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1360"
+   name="gyptest-macro-vcinstalldir.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-05-04T04:31:05.875221Z"
+   checksum="fab352d932cc17a6e8140e1b6288b9fc"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1832"
+   name="gyptest-link-pdb-output.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2014-01-08T23:08:01.136542Z"
+   checksum="f18b748e0ba84f8de76a18f5832856c9"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1282"
+   name="gyptest-long-command-line.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-27T00:35:21.231982Z"
+   checksum="6a686c1ed0997a51ec7565689c814fa9"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1551"
+   name="gyptest-link-tsaware.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-12-24T12:08:42.546185Z"
+   checksum="12c8aad6667034ae58d3a375df89f905"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1288"
+   name="gyptest-link-nodefaultlib.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-30T02:15:40.378092Z"
+   checksum="d717e0e14c70f1f269bde39b1b58b642"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1584"
+   name="gyptest-link-default-libs.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-02-25T22:29:21.122958Z"
+   checksum="ce1b1cf09462958bcfd7db62623bd93a"
+   last-author="siggi@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1740"
+   name="gyptest-cl-disable-specific-warnings.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-09-26T18:18:39.034590Z"
+   checksum="f18c59f75776dc8aef0d82b74a56fcf9"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1276"
+   name="gyptest-cl-debug-format.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T22:30:16.539228Z"
+   checksum="17139acb39e101b57173a9e245c44525"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   name="idl-rules"
+   kind="dir"/>
+<entry
+   name="importlib"
+   kind="dir"/>
+<entry
+   committed-rev="1345"
+   name="gyptest-asm-files.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-30T20:57:08.984718Z"
+   checksum="943d1247c529bf8d4d0960eb0cf2353a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1813"
+   name="gyptest-link-update-manifest.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-12T21:09:32.805355Z"
+   checksum="562658751f1b4e7a7dc882f8c8ee82c9"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   name="command-quote"
+   kind="dir"/>
+<entry
+   committed-rev="1814"
+   name="gyptest-link-generate-manifest.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-12T21:54:27.423137Z"
+   checksum="a55ada8377fb426fd64bd727bb409d7a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1312"
+   name="gyptest-macros-in-inputs-and-outputs.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-05T21:58:36.555613Z"
+   checksum="b11099bc7045fe7b053c9a093729ebcd"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1314"
+   name="gyptest-link-outputfile.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-06T22:26:36.746843Z"
+   checksum="828ab3a1eba9fc2357e60088f1af7104"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1412"
+   name="gyptest-link-entrypointsymbol.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-06-07T18:57:06.730693Z"
+   checksum="f6de7d3b142ee6633e723d050dc1614c"
+   last-author="grt@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-link-additional-deps.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="a7438818145b40d8e115fbf65f0605f7"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-link-additional-options.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="dcb0fac71366d362c804b7d254f26172"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1271"
+   name="gyptest-link-opt-icf.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T22:15:31.755678Z"
+   checksum="2a14f35db0059a3a713058a1f4e16eb2"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-cl-additional-options.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="f4bfe5a9543dbdb7975c699db9c087ac"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1805"
+   name="gyptest-link-warnings-as-errors.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-04T16:47:43.795845Z"
+   checksum="1b2f476a15bba0abf590a5848466400d"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1490"
+   name="gyptest-rc-build.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-09-01T00:24:44.697520Z"
+   checksum="dfb759534d591b87cf335a4bbe6446c5"
+   last-author="grt@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1279"
+   name="gyptest-link-fixed-base.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:02:42.357127Z"
+   checksum="ac211effe1c2ff0363a8e842a852d777"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1800"
+   name="gyptest-cl-pdbname.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-11-27T00:58:00.857029Z"
+   checksum="1d2bf3292375a36062c2f022227b5d72"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1697"
+   name="gyptest-cl-optimizations.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-08-19T22:22:02.464565Z"
+   checksum="1c10a5f54392bf1e3aef0bbc383fb00f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1312"
+   name="gyptest-macro-projectname.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-05T21:58:36.555613Z"
+   checksum="d33827ad787c650b59d45e3943011160"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1431"
+   name="gyptest-command-quote.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-07-18T23:57:01.726814Z"
+   checksum="f39efb219c9ab14593b7238f87b485df"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1655"
+   name="gyptest-link-embed-manifest.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-06-26T18:03:45.554294Z"
+   checksum="05de8ab378cc1df1d3849bac5c9cb510"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   name="generator-output-different-drive"
+   kind="dir"/>
+<entry
+   committed-rev="1540"
+   name="gyptest-cl-force-include-files.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-11-30T23:48:46.719121Z"
+   checksum="bc297d16c168cc641f27c38281e5ca1d"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   name="rc-build"
+   kind="dir"/>
+<entry
+   committed-rev="1539"
+   name="gyptest-cl-default-char-is-unsigned.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-11-30T01:50:19.214229Z"
+   checksum="9b1063f1ea54f1d3163bf487043a44de"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   name="precompiled"
+   kind="dir"/>
+<entry
+   committed-rev="1544"
+   name="gyptest-cl-treat-wchar-t-as-built-in-type.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-12-09T04:46:20.998140Z"
+   checksum="021f6dc60cce935b5b9ef79ea5f688b5"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-cl-character-set.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="87f3b822df6b4b123ee6f83976361099"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-cl-runtime-library.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="f62156ea4885e0e486a9c0528d5a1e7a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1785"
+   name="gyptest-link-target-machine.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-11-12T06:54:06.331763Z"
+   checksum="1fc927e80bcd1e61a9aa475bf397bca7"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="gyptest-link-ltcg.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="86536574ca8855e363ed6b3fea80e933"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1280"
+   name="gyptest-link-nxcompat.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:31:00.457624Z"
+   checksum="485e646d8dc54f4dcc968c614ac9796b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1682"
+   name="gyptest-macro-targetname.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-07-19T23:49:13.424057Z"
+   checksum="0df4bc6e78a6955a0514331d88fd8835"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1813"
+   name="gyptest-link-unsupported-manifest.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-12T21:09:32.805355Z"
+   checksum="494ac6a0a07d4238354ca0a40788ac51"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1794"
+   name="gyptest-link-base-address.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-11-20T15:34:03.850397Z"
+   checksum="5c3415ac00eef3f4bb723674b0620a14"
+   last-author="robertshield@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1822"
+   name="gyptest-link-force-symbol-reference.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-18T20:06:03.805183Z"
+   checksum="6733f9dadc123760fe8d9ed4cbe51a3a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1336"
+   name="gyptest-link-uldi.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-04-25T04:28:40.472450Z"
+   checksum="f861367dd4cafb8b54403b530b72657f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1603"
+   name="gyptest-link-large-pdb.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-03-27T14:49:00.013499Z"
+   checksum="1adfcdec66241f238b0bffd6989f8806"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   name="linker-flags"
+   kind="dir"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-link-incremental.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="4298552f8c212ad1e397aa3f49a7a2bc"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1873"
+   name="gyptest-link-shard.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2014-03-14T17:38:01.757010Z"
+   checksum="f6f99ce8872dde14354efbd5d9ed89ab"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1553"
+   name="gyptest-lib-ltcg.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-12-24T13:01:33.858479Z"
+   checksum="07d27b0dd51b65423bb1e5c90e123e22"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1865"
+   name="gyptest-cl-enable-enhanced-instruction-set.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2014-03-11T18:27:07.933300Z"
+   checksum="23a8249a1af5e790acfc7d7177559a82"
+   last-author="grt@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1659"
+   name="gyptest-link-defrelink.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-07-06T00:26:12.978331Z"
+   checksum="663c798e8290e99f44e877bb9bd4a6e4"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1270"
+   name="gyptest-link-opt-ref.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T22:14:05.505202Z"
+   checksum="4808ecdbaf6afa1372f7d850fc72a693"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1280"
+   name="gyptest-link-debug-info.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:31:00.457624Z"
+   checksum="95eb16d952a3913a000e68cd236adc6f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   name="long-command-line"
+   kind="dir"/>
+<entry
+   committed-rev="1577"
+   name="gyptest-midl-rules.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-02-21T20:09:46.931931Z"
+   checksum="8433b116f2f1aef7e1ddcd605404ae20"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-cl-rtti.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="31a415588cebcc5b0e75ced31784d8ef"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1560"
+   name="gyptest-cl-pdbname-override.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-01-15T22:52:14.794749Z"
+   checksum="cbc62c36517b3f5d7486833b7b70d898"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="gyptest-cl-function-level-linking.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="ae31158bd2268d8bce33e434f4e02638"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1522"
+   name="gyptest-cl-analysis.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2012-10-23T21:30:06.895143Z"
+   checksum="e9c4476030e0e929f690f63a46845f7d"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="gyptest-link-pgo.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="d66115adaff36d23a30432c32d1b64b5"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   name="win-tool"
+   kind="dir"/>
+<entry
+   committed-rev="1673"
+   name="gyptest-link-enable-uac.py"
+   text-time="2014-08-07T09:39:38.000000Z"
+   committed-date="2013-07-15T17:55:47.758354Z"
+   checksum="fc00791446e293df4231d41a039d8da1"
+   last-author="alexeypa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+</wc-entries>

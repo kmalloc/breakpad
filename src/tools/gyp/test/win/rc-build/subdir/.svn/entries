@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1408"
+   name=""
+   committed-date="2012-05-31T20:48:15.259856Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/rc-build/subdir"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1408"
+   name="hello2.rc"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2012-05-31T20:48:15.259856Z"
+   checksum="49ff17601e1c570ab1b15fe64b64c8d9"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1408"
+   name="include.h"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2012-05-31T20:48:15.259856Z"
+   checksum="5e667abe24a3b2dd5c7a4cd7219bb537"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+</wc-entries>

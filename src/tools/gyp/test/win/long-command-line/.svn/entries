@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1373"
+   name=""
+   committed-date="2012-05-09T04:10:08.304028Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/long-command-line"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1282"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-27T00:35:21.231982Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1373"
+   name="function.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-05-09T04:10:08.304028Z"
+   checksum="019441cb1e0318b94cd19589edcb2de7"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1373"
+   name="long-command-line.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-05-09T04:10:08.304028Z"
+   checksum="ec99fe9b83418dc4a0afa4c03fc699fe"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+</wc-entries>

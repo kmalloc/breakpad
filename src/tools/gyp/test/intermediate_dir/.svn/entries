@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1466"
+   name=""
+   committed-date="2012-08-09T21:33:12.041290Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/intermediate_dir"
+   last-author="iannucci@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1466"
+   name="gyptest-intermediate-dir.py"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-08-09T21:33:12.041290Z"
+   checksum="7b81f77fce9c5443ff26eb5f383dc72a"
+   last-author="iannucci@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+</wc-entries>

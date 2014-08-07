@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1830"
+   name=""
+   committed-date="2014-01-08T10:10:11.317145Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/generator-output"
+   last-author="jochen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="actions"
+   kind="dir"/>
+<entry
+   name="copies"
+   kind="dir"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-relocate.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="32757f9a2498ee431af408498e05429a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:49.000000Z"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-actions.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="408731fb3640f7b1a0708cd0129a7a3a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:49.000000Z"/>
+<entry
+   committed-rev="1796"
+   name="gyptest-copies.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2013-11-20T22:31:17.085809Z"
+   checksum="fc6c58a9b7706e185ee7f6a8965c51c3"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:49.000000Z"/>
+<entry
+   name="mac-bundle"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1830"
+   name="gyptest-depth.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2014-01-08T10:10:11.317145Z"
+   checksum="92b3d7a16088560b5ba35eae29b5d95d"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:51.000000Z"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-subdir2-deep.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="0d45c9f6164007502735ac5e4a29a571"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:51.000000Z"/>
+<entry
+   name="rules"
+   kind="dir"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-symlink.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="43df7b9affb27f46a1ed119c373cea00"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-mac-bundle.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="1ed2d44fe9512341be2018843f4dd5d6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-top-all.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="d324e2e225efea4cdcc3351d2cd56676"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+<entry
+   committed-rev="1555"
+   name="gyptest-rules.py"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2012-12-26T16:49:26.899264Z"
+   checksum="3b0e0a01ac2b909a58a565d5a7740af8"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+</wc-entries>

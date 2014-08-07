@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1877"
+   name=""
+   committed-date="2014-03-18T16:08:58.691750Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1488"
+   name="an_asm.S"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2012-08-29T17:26:40.801747Z"
+   checksum="917a4d5196531f2c39430b6fb83e2825"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   name="external"
+   kind="dir"/>
+<entry
+   committed-rev="1075"
+   name="somefile.ext"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2011-10-18T02:36:01.518986Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   committed-rev="1877"
+   name="special-variables.gyp"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2014-03-18T16:08:58.691750Z"
+   checksum="28974fce40458fd5816b7e14ae450b87"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="1488"
+   name="as.bat"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2012-08-29T17:26:40.801747Z"
+   checksum="842dd45ebc27d589c46a58a7379b0b23"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   name="subdir1"
+   kind="dir"/>
+<entry
+   name="noaction"
+   kind="dir"/>
+<entry
+   name="subdir2"
+   kind="dir"/>
+<entry
+   name="subdir3"
+   kind="dir"/>
+<entry
+   name="subdir4"
+   kind="dir"/>
+<entry
+   committed-rev="1074"
+   name="input-root.gyp"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2011-10-17T01:21:47.086806Z"
+   checksum="da6e4b385f46d560b1b86b3337824365"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1410"
+   name="actions.gyp"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2012-05-31T23:07:56.535880Z"
+   checksum="085cb6255bf3555163466978c060b804"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="copy-file.py"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="4fd48ee39d048cbaa29ff46c12002448"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="rule.py"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="e9082e13271478187a2ef00830a4eff0"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+</wc-entries>

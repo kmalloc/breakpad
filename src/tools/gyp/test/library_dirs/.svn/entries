@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1750"
+   name=""
+   committed-date="2013-10-04T23:12:17.116174Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/library_dirs"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1750"
+   name="gyptest-library-dirs.py"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-10-04T23:12:17.116174Z"
+   checksum="99675db487e81c16b77e035ceea2e514"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   name="subdir"
+   kind="dir"/>
+</wc-entries>

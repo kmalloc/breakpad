@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1886"
+   name=""
+   committed-date="2014-04-02T17:56:04.373243Z"
+   url="http://gyp.googlecode.com/svn/trunk/pylib/gyp/generator"
+   last-author="torne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   prop-time="2014-08-07T09:38:59.000000Z"
+   revision="1886"/>
+<entry
+   committed-rev="1878"
+   name="msvs.py"
+   text-time="2014-08-07T09:38:59.000000Z"
+   committed-date="2014-03-19T14:52:56.832467Z"
+   checksum="15bd8e55870a417613d939802cd426f9"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gypsh.py"
+   text-time="2014-08-07T09:38:59.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="9fbf0b9920c0ead05bd268ffea65137e"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1747"
+   name="dump_dependency_json.py"
+   text-time="2014-08-07T09:38:59.000000Z"
+   committed-date="2013-10-03T18:32:29.806078Z"
+   checksum="505f86cb0e7f31b7ed09a1071bd3646a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1830"
+   name="make.py"
+   text-time="2014-08-07T09:38:59.000000Z"
+   committed-date="2014-01-08T10:10:11.317145Z"
+   checksum="82f529c79b46a5bde48b2f5cad7a0a82"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1692"
+   name="ninja_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-08-12T13:39:13.142699Z"
+   checksum="7d5be7c66b9dc39c68c2d198ed8b8b30"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="19"
+   name="__init__.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2009-01-27T21:01:30.000000Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1883"
+   name="ninja.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-25T01:00:04.925411Z"
+   checksum="ba71d268157fadd8ee3bae35d355fbf2"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1886"
+   name="android.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-04-02T17:56:04.373243Z"
+   checksum="a74c0450cdc3550a0dfa21469a9064cd"
+   last-author="torne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1815"
+   name="cmake.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-12-12T22:20:21.472229Z"
+   checksum="997a231f8c92c48d6bc4d578ab64cf71"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1658"
+   name="xcode_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-07-02T21:01:18.973864Z"
+   checksum="a0207c03e4c648f8600bebd1271c8fe7"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1861"
+   name="xcode.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-04T22:55:23.451034Z"
+   checksum="151648b9cd60291b7e63358e2dd08965"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gypd.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="48b369778bc4caeaab41582e6c77b748"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1844"
+   name="eclipse.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-01-22T23:55:03.245969Z"
+   checksum="6165bf3460969588771eec9cea1ece18"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1505"
+   name="msvs_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2012-09-24T21:42:55.734519Z"
+   checksum="06ca11fbf54654f4d37efcfeb2cc0e66"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+</wc-entries>

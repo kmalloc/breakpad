@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="401"
+   name=""
+   committed-date="2011-07-05T17:16:07.285443Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf/compiler"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="349"
+   name="mock_code_generator.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="6e545e4212f0f5911bf98bbb1c7cb960"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="349"
+   name="parser_unittest.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="0c97b7d15394ae5896fbad0a9a02cd61"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="349"
+   name="parser.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="dc0eafd2881fa0244632e86120024f4d"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="262"
+   name="test_plugin.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2009-12-21T21:19:05.203733Z"
+   checksum="3652e58556c7b815b967e02986d3c3dd"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:37.000000Z"/>
+<entry
+   name="python"
+   kind="dir"/>
+<entry
+   name="java"
+   kind="dir"/>
+<entry
+   committed-rev="349"
+   name="plugin.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="851dd8b5a7e0cc56782d57dc9fc5afd9"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="zip_writer.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="8b13a36d22bdb617ec57a02557a77c80"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="plugin.pb.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="330f6ba613d2ae412d5f6c0ece12be10"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="parser.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="16be09cc3a9a807a2ef564913948d724"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   name="cpp"
+   kind="dir"/>
+<entry
+   committed-rev="392"
+   name="plugin.pb.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2011-05-03T07:06:03.429172Z"
+   checksum="b14a9de7dcff74fc1c119e7dfb4a8059"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="120"
+   name="importer_unittest.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="7bf0d96636e10addb68389f50200a4c7"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="401"
+   name="plugin.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2011-07-05T17:16:07.285443Z"
+   checksum="f0c0534b2384e349f9831894dd978c56"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="zip_writer.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="7fb9fed287fab54cd959c51991c9ab67"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="356"
+   name="importer.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-12-07T06:23:55.529854Z"
+   checksum="503abd9466a1b0580decf5f38d506769"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="120"
+   name="importer.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="01b4af97fab37556429d87bb705eac06"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="363"
+   name="command_line_interface_unittest.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-12-21T05:56:35.112762Z"
+   checksum="af00232a1916314f803747e308f25bd3"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="353"
+   name="command_line_interface.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-12-03T09:12:33.096283Z"
+   checksum="abae867cde3a8ecd751d040892ded3e0"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="zip_output_unittest.sh"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="7edd5523c9535893ac792ac396ef4315"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="command_line_interface.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="025a14a72030dcac6bfb8ac546a4b0e0"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="50"
+   name="package_info.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="adac506a56c39666686166dc0bc3b751"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="plugin.proto"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="5c347b376b3b1b05c1b7e5b4b1835430"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="code_generator.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="6abebab20235c1709042cbc1a4fe0ac2"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="code_generator.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="fcdcfe99ceec52003b850f20cd748865"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="251"
+   name="main.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="470fcfd6514510d052a1e2ee4a3c2e2a"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="subprocess.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="3dc87041bfdb724ed43e70a38ae193d4"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="mock_code_generator.cc"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="08cc19b3cc0c7da501065e18910da1f8"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="401"
+   name="subprocess.h"
+   text-time="2014-08-07T09:38:39.000000Z"
+   committed-date="2011-07-05T17:16:07.285443Z"
+   checksum="c86682bf73f84daaa531b913f2bbc418"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+</wc-entries>

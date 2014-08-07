@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1613"
+   name=""
+   committed-date="2013-04-17T18:21:30.907928Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/builddir/src"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="649"
+   name="func3.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-09-11T18:20:27.833534Z"
+   checksum="d3ef861024e1720f22d6f728590be03b"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:05.000000Z"/>
+<entry
+   committed-rev="649"
+   name="func4.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-09-11T18:20:27.833534Z"
+   checksum="62bcd01cfa7e1f75ed9031a6137476c5"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:05.000000Z"/>
+<entry
+   committed-rev="649"
+   name="func5.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-09-11T18:20:27.833534Z"
+   checksum="1fda4784075f32cc9f8ee6555a57af6f"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:05.000000Z"/>
+<entry
+   committed-rev="1613"
+   name="builddir.gypi"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="2aa4563985a0e59e8b14b3b0b6facac2"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:05.000000Z"/>
+<entry
+   committed-rev="721"
+   name="prog1.gyp"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="89962e7bd01f7fe7f8ae65e53b60180c"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:05.000000Z"/>
+<entry
+   committed-rev="649"
+   name="prog1.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-09-11T18:20:27.833534Z"
+   checksum="e6e7fcd94950b5fd17ef16f2eda08890"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:05.000000Z"/>
+<entry
+   name="subdir2"
+   kind="dir"/>
+<entry
+   committed-rev="649"
+   name="func1.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-09-11T18:20:27.833534Z"
+   checksum="349895ef25184350b397bf9eaa0b48e0"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+<entry
+   committed-rev="649"
+   name="func2.c"
+   text-time="2014-08-07T09:39:06.000000Z"
+   committed-date="2009-09-11T18:20:27.833534Z"
+   checksum="07bf206f73a74735310c46b15bfffdc4"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:06.000000Z"/>
+</wc-entries>

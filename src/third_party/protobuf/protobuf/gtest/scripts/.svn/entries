@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="400"
+   name=""
+   committed-date="2010-03-23T07:23:27.527941Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/scripts"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="191"
+   name="upload_gtest.py"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2009-02-13T07:27:00.227327Z"
+   checksum="04f7964708c1fbdc69b3f0e2a2b21b45"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="318"
+   name="gen_gtest_pred_impl.py"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2009-09-22T16:19:19.561610Z"
+   checksum="d33fdf6ceda834ba9af9223d3fa95768"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="238"
+   name="fuse_gtest_files.py"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2009-04-09T02:57:38.739483Z"
+   checksum="5186b474ffb3fba2d1960c4ebc5e3d0d"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="400"
+   name="pump.py"
+   text-time="2014-08-07T09:38:48.000000Z"
+   committed-date="2010-03-23T07:23:27.527941Z"
+   checksum="92f0800d1806672a9c18df8611a02de5"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="191"
+   name="upload.py"
+   text-time="2014-08-07T09:38:48.000000Z"
+   committed-date="2009-02-13T07:27:00.227327Z"
+   checksum="f92904342be5677b10a8010e33fdebb7"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="376"
+   name="gtest-config.in"
+   text-time="2014-08-07T09:38:48.000000Z"
+   committed-date="2010-02-24T17:19:25.682360Z"
+   checksum="32d2a68bd7262f5324f10f083c00652a"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+</wc-entries>

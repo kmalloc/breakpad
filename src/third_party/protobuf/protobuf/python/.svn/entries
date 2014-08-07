@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="395"
+   name=""
+   committed-date="2011-06-07T03:38:28.121109Z"
+   url="http://protobuf.googlecode.com/svn/trunk/python"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="368"
+   name="ez_setup.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2011-01-21T05:46:41.030493Z"
+   checksum="b1fd4b2a9da5f9b9db665617d24205f8"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="392"
+   name="setup.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2011-05-03T07:06:03.429172Z"
+   checksum="e9e81c2687bee3f0b7def8bf20b999b0"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="2"
+   name="mox.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="9a0e09fca3ac9adb52ac737505f50404"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="388"
+   name="README.txt"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2011-04-29T02:12:48.565995Z"
+   checksum="ec19461329a6c9941fb6d05e5b48f7fb"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   name="google"
+   kind="dir"/>
+<entry
+   committed-rev="2"
+   name="stubout.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="91fa2b8d8f8b79c06acf825139c709cf"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+</wc-entries>

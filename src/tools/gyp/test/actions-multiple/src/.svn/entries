@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1403"
+   name=""
+   committed-date="2012-05-29T23:11:27.451699Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions-multiple/src"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="copy.py"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="aaa8aad52e6b453858cf1bde5d665abe"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   committed-rev="901"
+   name="foo.c"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2011-03-16T23:28:57.731445Z"
+   checksum="4da095c084de0503b0e1b8dd4b2a4b8a"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   committed-rev="901"
+   name="main.c"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2011-03-16T23:28:57.731445Z"
+   checksum="90b57c118e25d7c593a1f4cc8cefd67f"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="filter.py"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="437d56c3ca20a91f54214279f0d41d59"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   committed-rev="901"
+   name="input.txt"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2011-03-16T23:28:57.731445Z"
+   checksum="2d01d5d9c24034d54fe4fba0ede5182d"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   committed-rev="1403"
+   name="actions.gyp"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2012-05-29T23:11:27.451699Z"
+   checksum="808c6e792241639e8b3ec10b724c876e"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+</wc-entries>

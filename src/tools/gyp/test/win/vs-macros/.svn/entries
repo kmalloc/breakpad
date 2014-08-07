@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1877"
+   name=""
+   committed-date="2014-03-18T16:08:58.691750Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/vs-macros"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1347"
+   name="input.S"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-05-01T00:14:53.715740Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1312"
+   name="do_stuff.py"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-05T21:58:36.555613Z"
+   checksum="0eb8f120f8c7fd618cef0a5abebcf0c1"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1877"
+   name="containing-gyp.gyp"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2014-03-18T16:08:58.691750Z"
+   checksum="a542f41a2409671b588abaf06afce346"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1682"
+   name="targetname.gyp"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2013-07-19T23:49:13.424057Z"
+   checksum="ae3beec468da65a92bc542c38c676dcc"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1312"
+   name="projectname.gyp"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-05T21:58:36.555613Z"
+   checksum="5a273d256e362df21492a6b24ae55a6c"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="test_exists.py"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-05-03T22:42:17.008987Z"
+   checksum="c128a7fc845c592df7777879ca2d3d37"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1312"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-05T21:58:36.555613Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1347"
+   name="as.py"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-05-01T00:14:53.715740Z"
+   checksum="1aeea1d4bcea204cb2e389dc327e1f7c"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1360"
+   name="vcinstalldir.gyp"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-05-04T04:31:05.875221Z"
+   checksum="6fe822b1553238a5b8f6c468d2581489"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1312"
+   name="stuff.blah"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-05T21:58:36.555613Z"
+   checksum="49137b08ee319c41cb14ab3f9940d551"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1877"
+   name="input-output-macros.gyp"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2014-03-18T16:08:58.691750Z"
+   checksum="d4609f1ab1713af9b504d8123d62c489"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+</wc-entries>

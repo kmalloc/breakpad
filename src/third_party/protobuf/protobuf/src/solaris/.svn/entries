@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="49"
+   name=""
+   committed-date="2008-09-23T21:05:07.363868Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/solaris"
+   last-author="kenton@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="49"
+   name="libstdc++.la"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2008-09-23T21:05:07.363868Z"
+   checksum="a987cc4c2b531fce6a69404f5f42f5e0"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+</wc-entries>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1537"
+   name=""
+   committed-date="2012-11-28T12:02:52.233998Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/same-source-file-name/src"
+   last-author="jochen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1357"
+   name="all.gyp"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-05-03T01:14:51.675786Z"
+   checksum="814dedb5bcc29da72bbf387f028b8728"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   committed-rev="1537"
+   name="double-executable.gyp"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="9587698f1ba1711517266a09458f1bc6"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   name="subdir1"
+   kind="dir"/>
+<entry
+   committed-rev="651"
+   name="prog1.c"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2009-09-11T22:26:43.670580Z"
+   checksum="a8c66948e9c02df3ca70d1e9f97132ab"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   name="subdir2"
+   kind="dir"/>
+<entry
+   committed-rev="651"
+   name="prog2.c"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2009-09-11T22:26:43.670580Z"
+   checksum="ef130b20de8901138e34899d1081b599"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   committed-rev="1537"
+   name="prog3.c"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="8953a858ecc734f04c3b5398e4d817fe"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="651"
+   name="func.c"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2009-09-11T22:26:43.670580Z"
+   checksum="61a1dc33a20606e7aaea9772fdff0d44"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="1537"
+   name="double-shared.gyp"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="b82ba4f554f04057164210c1effcd7e9"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="1537"
+   name="double-static.gyp"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="e92fe95b7b36f4fd6ebf96b3b1a1b223"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+</wc-entries>

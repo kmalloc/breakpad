@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1702"
+   name=""
+   committed-date="2013-08-22T16:50:21.686242Z"
+   url="http://gyp.googlecode.com/svn/trunk/tools"
+   last-author="fischman@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="graphviz.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="71857136b133f9efb5311f306c16ed24"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1392"
+   name="pretty_vcproj.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2012-05-22T21:06:31.299372Z"
+   checksum="9d380b8b0732e125ec3af69abeade521"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   name="Xcode"
+   kind="dir"/>
+<entry
+   name="emacs"
+   kind="dir"/>
+<entry
+   committed-rev="1392"
+   name="pretty_sln.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2012-05-22T21:06:31.299372Z"
+   checksum="d8efce4bae7c4afc56cc6405002e2511"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+<entry
+   committed-rev="1394"
+   name="pretty_gyp.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2012-05-25T21:36:14.946763Z"
+   checksum="4a77d3a1802c9a6a349b3eb2cec2299b"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+<entry
+   committed-rev="139"
+   name="README"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2009-02-09T19:15:51.154307Z"
+   checksum="0edc01bc0cf706a94acc1d9dbd3e0ffb"
+   last-author="nsylvain@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+</wc-entries>

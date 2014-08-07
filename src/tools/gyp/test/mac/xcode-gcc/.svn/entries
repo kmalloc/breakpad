@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1809"
+   name=""
+   committed-date="2013-12-10T17:45:22.031395Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/xcode-gcc"
+   last-author="sdefresne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1678"
+   name="test-clang.gyp"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-07-16T23:30:52.311511Z"
+   checksum="2917c052818e2776aa702ec3bb78de52"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1405"
+   name="valid_mm.mm"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-05-30T21:32:50.392728Z"
+   checksum="35a67dd19e2a5da0c6567be96f85055f"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1405"
+   name="valid_c.c"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-05-30T21:32:50.392728Z"
+   checksum="34a79774b6ab2111bb5141b589dad7fd"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1405"
+   name="valid_m.m"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-05-30T21:32:50.392728Z"
+   checksum="6271e3008afccdfba73984399bb37fdf"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1395"
+   name="warn_about_invalid_offsetof_macro.cc"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-05-25T22:53:12.854358Z"
+   checksum="dbc250387f830cdc7f7a9fd55f691440"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1405"
+   name="valid_cc.cc"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-05-30T21:32:50.392728Z"
+   checksum="e9fd5e0b62c7142d7e908d39bedb6381"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1678"
+   name="aliasing.cc"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-07-16T23:30:52.311511Z"
+   checksum="8bdd59ccdf34851f09fb721f4646fa0c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1395"
+   name="warn_about_missing_newline.c"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-05-25T22:53:12.854358Z"
+   checksum="5317b10562f66494a96462990aa8c0d2"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1809"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-12-10T17:45:22.031395Z"
+   checksum="5a8d71e76ca893fa1ec8836d25d170ed"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+</wc-entries>

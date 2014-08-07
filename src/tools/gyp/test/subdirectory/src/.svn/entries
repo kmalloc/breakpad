@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="721"
+   name=""
+   committed-date="2009-10-22T20:02:37.997393Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/subdirectory/src"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="721"
+   name="symroot.gypi"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="c7b2e5542ae4cb32374a7468bc787b6b"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="721"
+   name="prog1.gyp"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="d2ef378b23353ef7464735b56f21767b"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   name="subdir"
+   kind="dir"/>
+<entry
+   committed-rev="615"
+   name="prog1.c"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2009-08-28T18:36:45.185211Z"
+   checksum="0410112fcffe56bf5dcbd61325437028"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+</wc-entries>

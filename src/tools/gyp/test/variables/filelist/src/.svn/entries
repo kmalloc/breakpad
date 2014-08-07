@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1762"
+   name=""
+   committed-date="2013-10-17T01:17:03.097451Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/variables/filelist/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1762"
+   name="dummy.py"
+   text-time="2014-08-07T09:39:22.000000Z"
+   committed-date="2013-10-17T01:17:03.097451Z"
+   checksum="eb7d3ca0ba8464752995d7e9dfc512dd"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   committed-rev="790"
+   name="filelist.gyp"
+   text-time="2014-08-07T09:39:22.000000Z"
+   committed-date="2010-02-26T00:31:34.626768Z"
+   checksum="7ff727a061f942158470f6ff34130b5b"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   committed-rev="1762"
+   name="filelist2.gyp"
+   text-time="2014-08-07T09:39:22.000000Z"
+   committed-date="2013-10-17T01:17:03.097451Z"
+   checksum="1e7f11f71f135591598263cf57121984"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+</wc-entries>

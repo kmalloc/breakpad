@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1465"
+   name=""
+   committed-date="2012-08-09T19:36:02.547884Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/same-rule-output-file-name"
+   last-author="iannucci@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1413"
+   name="gyptest-all.py"
+   text-time="2014-08-07T09:39:24.000000Z"
+   committed-date="2012-06-08T15:15:48.016947Z"
+   checksum="733849762b89fd241160bec6351703dd"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:24.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1699"
+   name=""
+   committed-date="2013-08-20T00:47:50.856882Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/cflags"
+   last-author="tony@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1698"
+   name="cflags.c"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-08-19T23:12:57.927700Z"
+   checksum="cc5b5c0543295843c807e0a3d3a8b088"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1699"
+   name="gyptest-cflags.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-08-20T00:47:50.856882Z"
+   checksum="4a9b090c7ce7706a91f0dab06c3433bf"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1698"
+   name="cflags.gyp"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-08-19T23:12:57.927700Z"
+   checksum="5bc27b0bdee42c577c2ab6ed1feb04ee"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+</wc-entries>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1774"
+   name=""
+   committed-date="2013-10-30T22:45:08.620904Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/xctest/test.xcodeproj/xcshareddata/xcschemes"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1774"
+   name="classes.xcscheme"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="d6b4ebaa5f47418a36abda2b82b4d6b8"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:11.000000Z"/>
+</wc-entries>

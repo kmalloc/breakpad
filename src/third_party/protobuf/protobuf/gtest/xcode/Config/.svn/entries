@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="350"
+   name=""
+   committed-date="2009-12-16T19:54:05.302794Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/xcode/Config"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   committed-rev="299"
+   name="StaticLibraryTarget.xcconfig"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2009-08-28T22:11:18.390408Z"
+   checksum="5343b8f4d9064a909ac95e3451bbcf05"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+<entry
+   committed-rev="299"
+   name="FrameworkTarget.xcconfig"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2009-08-28T22:11:18.390408Z"
+   checksum="31b51020a654d935aefcb86179374ad5"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+<entry
+   committed-rev="120"
+   name="TestTarget.xcconfig"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2008-11-20T01:40:35.220766Z"
+   checksum="f96bfc683cccc9603a12e789da15471c"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+<entry
+   committed-rev="67"
+   name="ReleaseProject.xcconfig"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2008-07-25T00:54:56.924595Z"
+   checksum="b9027577044f6b5c2e58cc8d00e6339f"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+<entry
+   committed-rev="350"
+   name="General.xcconfig"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2009-12-16T19:54:05.302794Z"
+   checksum="e32e6f87185908428631ce5a478aaabc"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+<entry
+   committed-rev="67"
+   name="DebugProject.xcconfig"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2008-07-25T00:54:56.924595Z"
+   checksum="f4f9d09c04ccf16de5d4248f77827520"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+</wc-entries>

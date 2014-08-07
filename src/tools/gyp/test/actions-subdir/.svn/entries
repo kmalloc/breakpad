@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1102"
+   name=""
+   committed-date="2011-11-28T16:07:19.276060Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions-subdir"
+   last-author="maruel@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-action.py"
+   text-time="2014-08-07T09:39:02.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="d3b7635617e5a54d8300070dd191cf91"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

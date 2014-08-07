@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1146"
+   name=""
+   committed-date="2012-01-12T18:12:05.440490Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/postbuild-defaults"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1146"
+   name="postbuild-defaults.sh"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-12T18:12:05.440490Z"
+   checksum="6bf13f5252b2cf5f5a3b66a6819d1984"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1141"
+   name="main.c"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-11T22:50:04.373209Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1146"
+   name="Info.plist"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-12T18:12:05.440490Z"
+   checksum="64cc64dade28fabfcc55e8a883412995"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1141"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-11T22:50:04.373209Z"
+   checksum="33f06f80510c56100945b81ea608314b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+</wc-entries>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="362"
+   name=""
+   committed-date="2010-12-21T05:33:13.956873Z"
+   url="http://protobuf.googlecode.com/svn/trunk/python/google/protobuf/internal"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="251"
+   name="type_checkers.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="cb92b4e0a9d5ae87f5c18afc4ac99540"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="251"
+   name="message_listener.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="e390820c1fa93b817eafc22327b68e4b"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="reflection_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="f6a12b3dfbdfb99bf9f89eaad6a8c3f9"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="359"
+   name="text_format_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-12-09T08:59:21.610893Z"
+   checksum="166cac120fffa6225b078b1c6436b1f2"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="50"
+   name="more_extensions.proto"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="7248c66a5e084d6a15766814ca134b51"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="2"
+   name="__init__.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="50"
+   name="more_messages.proto"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="de21f7aca8b4307a0dca9d3d0824ac57"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="decoder.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="6faea59ee73756036beecd24ff97a79b"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="containers.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="07dfc1e71c6e7444454c552076bb08a2"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="92"
+   name="service_reflection_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2009-01-22T01:27:00.416079Z"
+   checksum="44bd2c50d7406aaecdd659dc36e490a2"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="251"
+   name="test_util.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="6383ba2391045639b16ecd70c31f2bee"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="76"
+   name="wire_format_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-11-21T00:06:27.699869Z"
+   checksum="9631d9090165366dafed6011cebc9ff8"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="251"
+   name="descriptor_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="5b291f7e0e231ec22a9677942ba6bba2"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="api_implementation.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="f93b3c9923d5c042d7577d634eff2f12"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="251"
+   name="wire_format.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="e3293864a9a46ceb488ee2280cc6d136"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="encoder.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="0d38b8df2b7b215d16dc2db5631b8570"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="message_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="536b96727c39a7710da1c87bf42233fa"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="python_message.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="b71626933df94d1b42d9635cc5c0d687"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="362"
+   name="generator_test.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="4d5ac0f2a5cd01499dea98e00ca4a068"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_message.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="399a14e7b3a48efa83766c2cb6b94f76"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+</wc-entries>

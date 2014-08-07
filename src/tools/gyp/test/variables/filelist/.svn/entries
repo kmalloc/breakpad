@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1773"
+   name=""
+   committed-date="2013-10-28T16:39:31.035311Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/variables/filelist"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1773"
+   name="gyptest-filelist.py"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2013-10-28T16:39:31.035311Z"
+   checksum="8ba13d68d7bd76824b9c5557fa1fc79a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   committed-rev="790"
+   name="filelist.gypd.golden"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-02-26T00:31:34.626768Z"
+   checksum="15dd6ee3d5a68b9f81b60625b1ca52cf"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   committed-rev="1762"
+   name="gyptest-filelist-golden.py"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2013-10-17T01:17:03.097451Z"
+   checksum="b360f272f9632424835eb9cfca7de5d4"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="789"
+   name="update_golden"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-02-25T22:47:49.825090Z"
+   checksum="3759e94549cd931f3887b4004dea7808"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   committed-rev="1444"
+   name="filelist.gyp.stdout"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2012-08-01T00:54:14.260574Z"
+   checksum="06192030ac55ed345c91ebe29714d7cd"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+</wc-entries>

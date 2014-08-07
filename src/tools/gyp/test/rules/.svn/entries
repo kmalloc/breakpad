@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1877"
+   name=""
+   committed-date="2014-03-18T16:08:58.691750Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-input-root.py"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="16e12ecb06751cfcc1ff3b6a86c34dd5"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-default.py"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="ab2cec25b3b3df7f78051ace14ad65f8"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1488"
+   name="gyptest-special-variables.py"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2012-08-29T17:26:40.801747Z"
+   checksum="4d749cf8b12fd76104cff1572d232cff"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1410"
+   name="gyptest-all.py"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2012-05-31T23:07:56.535880Z"
+   checksum="7ce09e283df68f932aa6891b5e5329ab"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+</wc-entries>

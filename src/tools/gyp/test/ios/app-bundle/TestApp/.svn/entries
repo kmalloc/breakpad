@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1798"
+   name=""
+   committed-date="2013-11-26T14:19:41.118612Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ios/app-bundle/TestApp"
+   last-author="justincohen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1631"
+   name="main.m"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-05-13T18:33:58.706398Z"
+   checksum="cd645d978fb115cd127d282efe28f4af"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1756"
+   name="check_no_signature.py"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-10-15T17:32:22.347162Z"
+   checksum="7ab56771bfe5e5aaf33807697108ffd8"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1630"
+   name="TestApp-Info.plist"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-05-09T00:10:52.178384Z"
+   checksum="f0121fd0dceb8a8780516caa67177e23"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1798"
+   name="only-compile-in-32-bits.m"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-11-26T14:19:41.118612Z"
+   checksum="197d789cac3dfa279586e3bbcc9d9622"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1798"
+   name="only-compile-in-64-bits.m"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-11-26T14:19:41.118612Z"
+   checksum="5cfa806420a9971530e48771d987aa61"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   name="English.lproj"
+   kind="dir"/>
+</wc-entries>

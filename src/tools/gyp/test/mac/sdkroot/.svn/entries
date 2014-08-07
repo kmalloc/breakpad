@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1810"
+   name=""
+   committed-date="2013-12-11T09:09:23.130686Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/sdkroot"
+   last-author="sdefresne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1810"
+   name="test_shorthand.sh"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2013-12-11T09:09:23.130686Z"
+   checksum="7e2219bf335b05bb9f4fa408ee2527dd"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1238"
+   name="file.cc"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2012-03-08T20:07:45.289985Z"
+   checksum="56c71976144fb78052bf86ce75ca4630"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1606"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2013-04-09T19:11:48.624950Z"
+   checksum="d4b67747b19987f45a1f9619a9fb55e5"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+</wc-entries>

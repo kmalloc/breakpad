@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1621"
+   name=""
+   committed-date="2013-04-29T20:08:18.898807Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/external_builder"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1619"
+   name="external_builder.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-24T19:19:38.764782Z"
+   checksum="3839e30827c5902fa1fe76a545e864f4"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1619"
+   name="external.gyp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-24T19:19:38.764782Z"
+   checksum="8f5eebc7bb2b3db1bf9c756b78a57ea5"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1619"
+   name="msbuild_action.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-24T19:19:38.764782Z"
+   checksum="0d27f38ab39b9d9ec2a717de74ea49b1"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1619"
+   name="hello.cpp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-24T19:19:38.764782Z"
+   checksum="88ba15e514c098815b2f32a50e72f5eb"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1619"
+   name="hello.z"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-24T19:19:38.764782Z"
+   checksum="7ae6ee2f20e74ec7ec272016a351f31b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1621"
+   name="gyptest-all.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-29T20:08:18.898807Z"
+   checksum="e506cdced770c0a6065b1a5a8a3fb831"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1619"
+   name="msbuild_rule.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2013-04-24T19:19:38.764782Z"
+   checksum="e380fba5f69f82b0038c6c07d2134e2b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1774"
+   name=""
+   committed-date="2013-10-30T22:45:08.620904Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/xctest"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1774"
+   name="MyClass.h"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="b30cbb6a6c2708ad2c589bd4ff0a0316"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1774"
+   name="resource.txt"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="d3b07384d113edec49eaa6238ad5ff00"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1774"
+   name="TestCase.m"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="9d280a63e0b400339fc441d89c112591"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:11.000000Z"/>
+<entry
+   committed-rev="1774"
+   name="MyClass.m"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="a684362011e028b197fb2f64fc379bed"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:11.000000Z"/>
+<entry
+   name="test.xcodeproj"
+   kind="dir"/>
+<entry
+   committed-rev="1774"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="24b441094998728d83a644e5e385f874"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:11.000000Z"/>
+</wc-entries>

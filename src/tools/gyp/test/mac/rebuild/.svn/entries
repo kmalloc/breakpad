@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1181"
+   name=""
+   committed-date="2012-01-26T02:25:43.054452Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/rebuild"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1181"
+   name="empty.c"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-01-26T02:25:43.054452Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1181"
+   name="TestApp-Info.plist"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-01-26T02:25:43.054452Z"
+   checksum="465e5a070155de0b20d7862f656cc28a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1181"
+   name="main.c"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-01-26T02:25:43.054452Z"
+   checksum="f881137628fc8dd673b761eb7a1e2432"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1181"
+   name="delay-touch.sh"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-01-26T02:25:43.054452Z"
+   checksum="1c1932b27c522a3ac410efbc01fb80de"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1181"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-01-26T02:25:43.054452Z"
+   checksum="8adbad85131be98ba37a51e279ba8c7d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+</wc-entries>

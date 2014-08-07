@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1681"
+   name=""
+   committed-date="2013-07-19T19:09:46.260648Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/objc-arc"
+   last-author="fischman@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1681"
+   name="c-file.c"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="ae5769b28875aad02ba0008895b7ee02"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1681"
+   name="m-file-no-arc.m"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="ad91bcdc7761ffdf6b353ed6ebb95600"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1681"
+   name="m-file.m"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="317e4c2ef0f3e368023e1dff7f8c907b"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1681"
+   name="cc-file.cc"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="caaeebf49b1b56d23e3573d24759502c"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1681"
+   name="mm-file-no-arc.mm"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="3cfd525dc17519cec8e2a7d3effcfe55"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1681"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="01bcb11b3eedd842d9f3475a40a78d57"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1681"
+   name="mm-file.mm"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="a139d62f573343e8b3543a85c17690db"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+</wc-entries>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1774"
+   name=""
+   committed-date="2013-10-30T22:45:08.620904Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/xctest/test.xcodeproj/xcshareddata"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="xcschemes"
+   kind="dir"/>
+</wc-entries>

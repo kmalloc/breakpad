@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1884"
+   name=""
+   committed-date="2014-03-26T14:36:43.131774Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac"
+   last-author="sdefresne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1433"
+   name="gyptest-framework-dirs.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-07-23T17:23:13.906306Z"
+   checksum="071a1f3dc907a6868deeb9939e60d675"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1809"
+   name="gyptest-xcode-gcc.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-12-10T17:45:22.031395Z"
+   checksum="aafc0511b1302aa5bbbe134ae8023ba5"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="gyptest-action-envvars.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-14T01:13:04.516102Z"
+   checksum="35f7de3a8f292c7975340281e41abd4b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   name="postbuild-copy-bundle"
+   kind="dir"/>
+<entry
+   name="clang-cxx-library"
+   kind="dir"/>
+<entry
+   committed-rev="1159"
+   name="gyptest-type-envvars.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-13T22:26:50.862202Z"
+   checksum="c0c0345f7b0aebf9f183f3180924af7d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   name="postbuilds"
+   kind="dir"/>
+<entry
+   committed-rev="1389"
+   name="gyptest-framework-headers.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-05-21T18:22:37.656213Z"
+   checksum="7f8d9c76dbc9e2417941e64bc9719653"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="1306"
+   name="gyptest-installname.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-04-05T18:03:01.581145Z"
+   checksum="7ccc417834e56f9ad4425e4c507decf1"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   name="framework"
+   kind="dir"/>
+<entry
+   committed-rev="1180"
+   name="gyptest-postbuild-defaults.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-26T01:18:54.593173Z"
+   checksum="9c9d92b514aa6f6a3131061539c8d3cd"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="1241"
+   name="gyptest-missing-cfbundlesignature.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-03-09T17:43:32.908482Z"
+   checksum="93d1cce43174897e807f0f3709825678"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   name="action-envvars"
+   kind="dir"/>
+<entry
+   name="archs"
+   kind="dir"/>
+<entry
+   committed-rev="1576"
+   name="gyptest-postbuild-fail.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-02-13T22:26:48.568939Z"
+   checksum="a5709ead80d1485f8c285771b309579b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1678"
+   name="gyptest-xcode-gcc-clang.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-07-16T23:30:52.311511Z"
+   checksum="d62050f7a27aa5ee99d40657bc1e3830"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   name="framework-headers"
+   kind="dir"/>
+<entry
+   committed-rev="1733"
+   name="gyptest-framework.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-16T22:33:56.871645Z"
+   checksum="57096d9c84a6ba7d509755c5de0b7bfa"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1170"
+   name="gyptest-global-settings.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-19T17:23:22.966289Z"
+   checksum="714145e136de7d044cb808812d4ba61e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   name="infoplist-process"
+   kind="dir"/>
+<entry
+   committed-rev="1867"
+   name="gyptest-xcode-env-order.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2014-03-12T08:48:14.544229Z"
+   checksum="0db16667e8a75eded2b23f608cba3624"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   name="sdkroot"
+   kind="dir"/>
+<entry
+   name="rebuild"
+   kind="dir"/>
+<entry
+   committed-rev="1595"
+   name="gyptest-deployment-target.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-03-14T20:50:19.210350Z"
+   checksum="6e9dfc60a8fbffafb7ff937209f6e62e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1605"
+   name="gyptest-app-error.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-03-28T19:56:08.798178Z"
+   checksum="51a4469fc8839d9f8f25f4b8033f082d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   name="framework-dirs"
+   kind="dir"/>
+<entry
+   committed-rev="1133"
+   name="gyptest-copy-dylib.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-06T19:04:37.373912Z"
+   checksum="b742dcdae9b7404504a5b5f943053e0b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1182"
+   name="gyptest-libraries.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-26T03:58:23.610222Z"
+   checksum="5aa1564d40afa6611ffb7185f1468521"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   name="clang-cxx-language-standard"
+   kind="dir"/>
+<entry
+   committed-rev="1779"
+   name="gyptest-bundle-resources.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-11-06T03:20:34.390280Z"
+   checksum="df7bf6f8780c310b78a45dfa949c30f2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1533"
+   name="gyptest-postbuild-copy-bundle.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-11-07T20:04:09.697993Z"
+   checksum="b976aaac732c0cb255469ea005830ecb"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1180"
+   name="gyptest-postbuild-multiple-configurations.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-26T01:18:54.593173Z"
+   checksum="2964c4db6b517ba18ca39ab5792e5ebe"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   name="xctest"
+   kind="dir"/>
+<entry
+   name="missing-cfbundlesignature"
+   kind="dir"/>
+<entry
+   name="copy-dylib"
+   kind="dir"/>
+<entry
+   name="ldflags-libtool"
+   kind="dir"/>
+<entry
+   name="depend-on-bundle"
+   kind="dir"/>
+<entry
+   name="objc-arc"
+   kind="dir"/>
+<entry
+   name="bundle-resources"
+   kind="dir"/>
+<entry
+   committed-rev="1884"
+   name="gyptest-archs.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2014-03-26T14:36:43.131774Z"
+   checksum="a1347e4bb1911436a6af0e4eef585aeb"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   name="type_envvars"
+   kind="dir"/>
+<entry
+   name="loadable-module"
+   kind="dir"/>
+<entry
+   name="postbuild-multiple-configurations"
+   kind="dir"/>
+<entry
+   committed-rev="1180"
+   name="gyptest-debuginfo.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-26T01:18:54.593173Z"
+   checksum="61865910023980a45093942b1a512d9b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:13.000000Z"/>
+<entry
+   name="app-bundle"
+   kind="dir"/>
+<entry
+   committed-rev="1595"
+   name="gyptest-clang-cxx-language-standard.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-03-14T20:50:19.210350Z"
+   checksum="1bf355f9a7ff02cfc599799056058149"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1868"
+   name="gyptest-objc-gc.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2014-03-12T13:40:21.532592Z"
+   checksum="80cc74448104dc504bbb62148758c777"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1126"
+   name="gyptest-prefixheader.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-04T01:43:37.813482Z"
+   checksum="c09bf23dd9e090e319a38374a386fbef"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   name="xcode-gcc"
+   kind="dir"/>
+<entry
+   name="postbuild-static-library"
+   kind="dir"/>
+<entry
+   name="non-strs-flattened-to-env"
+   kind="dir"/>
+<entry
+   committed-rev="1729"
+   name="gyptest-sourceless-module.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-13T16:47:45.421402Z"
+   checksum="d1b17a460055ae331fc5e7ea0aae6bcd"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1774"
+   name="gyptest-xctest.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-10-30T22:45:08.620904Z"
+   checksum="d795ad1e2de015ca58b8ae5a9e3509c1"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   name="strip"
+   kind="dir"/>
+<entry
+   name="xcode-env-order"
+   kind="dir"/>
+<entry
+   name="debuginfo"
+   kind="dir"/>
+<entry
+   committed-rev="1375"
+   name="gyptest-rpath.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-05-10T22:34:52.777453Z"
+   checksum="1909849a76302efa92473127c4d3429c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+<entry
+   name="objc-gc"
+   kind="dir"/>
+<entry
+   committed-rev="1681"
+   name="gyptest-objc-arc.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-07-19T19:09:46.260648Z"
+   checksum="587a68e04d3e2c8f60a9760a698b60dd"
+   last-author="fischman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1137"
+   name="gyptest-depend-on-bundle.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-10T19:31:54.910624Z"
+   checksum="81c8c3f5662888724da19ecc893e3a86"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1159"
+   name="gyptest-copies.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-13T22:26:50.862202Z"
+   checksum="bcf5853ce90bea385c9dbfbe518dd35a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1730"
+   name="gyptest-strip-default.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-14T04:31:34.861985Z"
+   checksum="2b91d3d1e7e4fba5e0b528242cee3a1d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   name="sourceless-module"
+   kind="dir"/>
+<entry
+   committed-rev="1392"
+   name="gyptest-rebuild.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-05-22T21:06:31.299372Z"
+   checksum="497f5f0445ec12dc85e8c914caef6486"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   name="rpath"
+   kind="dir"/>
+<entry
+   committed-rev="1708"
+   name="gyptest-postbuild-static-library.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-03T18:09:40.643393Z"
+   checksum="86808b41cc39eb17024f8b3826fb5ff6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1159"
+   name="gyptest-non-strs-flattened-to-env.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-13T22:26:50.862202Z"
+   checksum="6026a88a38d8e7716da18091c2be4247"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1730"
+   name="gyptest-cflags.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-14T04:31:34.861985Z"
+   checksum="8b05f0be2cccf713d67eae6d60697c16"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   name="unicode-settings"
+   kind="dir"/>
+<entry
+   committed-rev="1869"
+   name="gyptest-strip.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2014-03-12T13:47:25.502737Z"
+   checksum="da8ee71b7d0fd98e4b806db22252132c"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   committed-rev="1313"
+   name="gyptest-postbuild.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-04-06T22:10:26.198514Z"
+   checksum="d36be90bb003633da193574ac7141ca4"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   name="global-settings"
+   kind="dir"/>
+<entry
+   committed-rev="1861"
+   name="gyptest-xcode-support-actions.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2014-03-04T22:55:23.451034Z"
+   checksum="19ffa2416eb33f8e963b734932b2eaf4"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+<entry
+   name="cflags"
+   kind="dir"/>
+<entry
+   committed-rev="1572"
+   name="gyptest-ldflags-passed-to-libtool.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-02-13T17:23:58.201931Z"
+   checksum="6f32d2501a816972958161eb45ce00b5"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1325"
+   name="gyptest-ldflags.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-04-11T22:13:29.875289Z"
+   checksum="bd4b15255cbe2f0cc44da2a96ce74ca6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   name="deployment-target"
+   kind="dir"/>
+<entry
+   committed-rev="1867"
+   name="gyptest-app.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2014-03-12T08:48:14.544229Z"
+   checksum="ca8e6cf4ef12ec05363fbac755695bb4"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   name="prefixheader"
+   kind="dir"/>
+<entry
+   name="installname"
+   kind="dir"/>
+<entry
+   committed-rev="1159"
+   name="gyptest-infoplist-process.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-13T22:26:50.862202Z"
+   checksum="4c803f48c2593fadde0fa44d434524cf"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1728"
+   name="gyptest-unicode-settings.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-13T15:28:41.211251Z"
+   checksum="b0b794b1ce51ffe64a13b437ba4b852b"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1810"
+   name="gyptest-sdkroot.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-12-11T09:09:23.130686Z"
+   checksum="5fdf069dbed1986944013e3a86868ee3"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   name="postbuild-defaults"
+   kind="dir"/>
+<entry
+   name="xcode-support-actions"
+   kind="dir"/>
+<entry
+   committed-rev="1598"
+   name="gyptest-clang-cxx-library.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-03-18T15:38:36.242942Z"
+   checksum="278920966e1e996ea93848b8aa923897"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1716"
+   name="gyptest-loadable-module.py"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2013-09-05T15:38:18.195784Z"
+   checksum="9e54f2f413c680912e1a31c711a6d54f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   name="libraries"
+   kind="dir"/>
+<entry
+   name="ldflags"
+   kind="dir"/>
+<entry
+   name="postbuild-fail"
+   kind="dir"/>
+</wc-entries>

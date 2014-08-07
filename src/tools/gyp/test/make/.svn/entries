@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1392"
+   name=""
+   committed-date="2012-05-22T21:06:31.299372Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/make"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-noload.py"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="de504e954e466bc9c3bcc470d542ec61"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+<entry
+   committed-rev="849"
+   name="dependencies.gyp"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-10-12T19:41:40.050847Z"
+   checksum="e0b7b1f63f2aaf4ded2e48a051928284"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+<entry
+   committed-rev="849"
+   name="main.cc"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-10-12T19:41:40.050847Z"
+   checksum="d78259e8e06c89c8e4f03009bdfef342"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+<entry
+   committed-rev="1392"
+   name="gyptest-dependencies.py"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2012-05-22T21:06:31.299372Z"
+   checksum="6014e349293433f92f408555feb69d84"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+<entry
+   committed-rev="849"
+   name="main.h"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-10-12T19:41:40.050847Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+<entry
+   name="noload"
+   kind="dir"/>
+</wc-entries>

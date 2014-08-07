@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1812"
+   name=""
+   committed-date="2013-12-11T23:29:27.860351Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/linker-flags/b"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1812"
+   name="y.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-11T23:29:27.860351Z"
+   checksum="3beb2df4b9b14076b28afd1cf69f82c6"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+</wc-entries>

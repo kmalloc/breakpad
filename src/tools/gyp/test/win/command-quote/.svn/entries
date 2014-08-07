@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1877"
+   name=""
+   committed-date="2014-03-18T16:08:58.691750Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/command-quote"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1349"
+   name="a.S"
+   text-time="2014-08-07T09:39:33.000000Z"
+   committed-date="2012-05-01T20:28:01.294903Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1349"
+   name="bat with spaces.bat"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2012-05-01T20:28:01.294903Z"
+   checksum="ec5305055fac5ecca99d4f049c83bc84"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   committed-rev="1877"
+   name="command-quote.gyp"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2014-03-18T16:08:58.691750Z"
+   checksum="297459cae41dc7490d67b43dd69f3fa7"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+<entry
+   name="subdir"
+   kind="dir"/>
+<entry
+   committed-rev="1349"
+   name="go.bat"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2012-05-01T20:28:01.294903Z"
+   checksum="ec5305055fac5ecca99d4f049c83bc84"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:33.000000Z"/>
+</wc-entries>

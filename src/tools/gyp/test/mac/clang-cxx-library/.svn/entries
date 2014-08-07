@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1596"
+   name=""
+   committed-date="2013-03-15T23:59:04.275316Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/clang-cxx-library"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1595"
+   name="libc++.cc"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2013-03-14T20:50:19.210350Z"
+   checksum="22ab5cff8e7a1548cbde86d86307e070"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1596"
+   name="clang-cxx-library.gyp"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2013-03-15T23:59:04.275316Z"
+   checksum="54754e31b4fdc8171387788f211ec125"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1595"
+   name="libstdc++.cc"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2013-03-14T20:50:19.210350Z"
+   checksum="34a917a2b4ab0b33adee7284cdac5cdf"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+</wc-entries>

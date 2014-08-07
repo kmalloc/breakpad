@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="395"
+   name=""
+   committed-date="2011-06-07T03:38:28.121109Z"
+   url="http://protobuf.googlecode.com/svn/trunk/python/google"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   name="protobuf"
+   kind="dir"/>
+<entry
+   committed-rev="2"
+   name="__init__.py"
+   text-time="2014-08-07T09:38:30.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="050042c7144e01b0a29eb3d46929e962"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:30.000000Z"/>
+</wc-entries>

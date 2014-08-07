@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1090"
+   name=""
+   committed-date="2011-11-14T17:49:46.216464Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/infoplist-process"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1090"
+   name="test2.gyp"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2011-11-14T17:49:46.216464Z"
+   checksum="60cdee77d6ba28f37d128a0ef95380a4"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1089"
+   name="test3.gyp"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2011-11-14T14:55:16.914957Z"
+   checksum="f58fe0b155dfd52942d0ae7733b323e8"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1089"
+   name="main.c"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2011-11-14T14:55:16.914957Z"
+   checksum="fa725aeecb66a50de9408761b87293ee"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1089"
+   name="Info.plist"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2011-11-14T14:55:16.914957Z"
+   checksum="60b13917201278d0403acf669f580053"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+<entry
+   committed-rev="1089"
+   name="test1.gyp"
+   text-time="2014-08-07T09:39:09.000000Z"
+   committed-date="2011-11-14T14:55:16.914957Z"
+   checksum="27bdb224d89c67c037b8208eabd3ea30"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:09.000000Z"/>
+</wc-entries>

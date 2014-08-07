@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="721"
+   name=""
+   committed-date="2009-10-22T20:02:37.997393Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/dependency-copy/src"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="721"
+   name="copies.gyp"
+   text-time="2014-08-07T09:39:02.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="c21c71af5ed596967c70929c6870ff8f"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:02.000000Z"/>
+<entry
+   committed-rev="644"
+   name="file1.c"
+   text-time="2014-08-07T09:39:02.000000Z"
+   committed-date="2009-09-09T21:32:34.700639Z"
+   checksum="3690c8cfe4e9f5d54d50ca9e54388f62"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:02.000000Z"/>
+<entry
+   committed-rev="644"
+   name="file2.c"
+   text-time="2014-08-07T09:39:02.000000Z"
+   committed-date="2009-09-09T21:32:34.700639Z"
+   checksum="bd056a90b2f1c8e2284069f2f322c873"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:02.000000Z"/>
+</wc-entries>

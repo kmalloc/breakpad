@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1338"
+   name=""
+   committed-date="2012-04-27T05:01:52.465145Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/hard_dependency/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1028"
+   name="a.c"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="6da2a9a96900e945aa8b40921379bd23"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1028"
+   name="b.c"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="baa0bd47925d4fb08e237f8d082f93c2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1338"
+   name="c.c"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2012-04-27T05:01:52.465145Z"
+   checksum="48c144148abd60f24ce0077733566480"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1028"
+   name="d.c"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="f8b1e9edb82a89fc25d7befc8e6b2e2d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="emit.py"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="99b03d5472b522b446d39701b672e0ca"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1028"
+   name="a.h"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="e302ff92b7e508cbdbb6715172032a2e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1028"
+   name="b.h"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="9d6d24acf4af9da9f32009e924669988"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1028"
+   name="c.h"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="e62752f885513d12a8920c9c27b564b7"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+<entry
+   committed-rev="1028"
+   name="hard_dependency.gyp"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2011-09-05T21:19:05.672638Z"
+   checksum="d608fb159ec3afe729c7f7d6b051bfc5"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:44.000000Z"/>
+</wc-entries>

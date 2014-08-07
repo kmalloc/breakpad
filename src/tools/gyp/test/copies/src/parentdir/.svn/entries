@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="792"
+   name=""
+   committed-date="2010-03-04T18:36:24.931125Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/copies/src/parentdir"
+   last-author="mmoss@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="subdir"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1622"
+   name=""
+   committed-date="2013-04-30T18:29:48.056138Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/non-strs-flattened-to-env"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1139"
+   name="main.c"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-01-11T04:57:42.494123Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1139"
+   name="Info.plist"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-01-11T04:57:42.494123Z"
+   checksum="a9abdc8c4802a5d066c5a7e01f553d7f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1622"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-04-30T18:29:48.056138Z"
+   checksum="8c58d30d52cc0bf3a152cd5229e8a18d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+</wc-entries>

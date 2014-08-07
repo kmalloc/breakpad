@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1613"
+   name=""
+   committed-date="2013-04-17T18:21:30.907928Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions/src/subdir1"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="787"
+   name="executable.gyp"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2010-02-22T22:34:37.046530Z"
+   checksum="37e01cbd4ca76d28a5b61d6e5d5ea01d"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1613"
+   name="counter.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="81444b4e5e03303890cc138afbacbf76"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="645"
+   name="program.c"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2009-09-10T20:42:24.291288Z"
+   checksum="efeb3ee2ca062c2cb00a893b6f771577"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="make-prog1.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="e5d409578ee9866a905ed648a11b74b1"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="make-prog2.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="748ecc4b9bf2d2e6dabfab1722291239"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+</wc-entries>

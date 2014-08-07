@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="349"
+   name=""
+   committed-date="2010-11-02T13:14:58.097196Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf/compiler/python"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="349"
+   name="python_plugin_unittest.cc"
+   text-time="2014-08-07T09:38:37.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="603bdaeefba590a28c80cca1867e181d"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:37.000000Z"/>
+<entry
+   committed-rev="349"
+   name="python_generator.cc"
+   text-time="2014-08-07T09:38:37.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="6d8d1ab0e129b758282bab8e81005fc0"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:37.000000Z"/>
+<entry
+   committed-rev="349"
+   name="python_generator.h"
+   text-time="2014-08-07T09:38:37.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="605a01d97827669c1b3e6ac37e802951"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:37.000000Z"/>
+</wc-entries>

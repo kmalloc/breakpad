@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1163"
+   name=""
+   committed-date="2012-01-17T17:26:40.630935Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/global-settings/src/dir1"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1163"
+   name="dir1.gyp"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-01-17T17:26:40.630935Z"
+   checksum="3f394fa1b9a0ea21fac57a8f8aaa1002"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:16.000000Z"/>
+</wc-entries>

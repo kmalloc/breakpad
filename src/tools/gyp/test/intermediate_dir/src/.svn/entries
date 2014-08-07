@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1465"
+   name=""
+   committed-date="2012-08-09T19:36:02.547884Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/intermediate_dir/src"
+   last-author="iannucci@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1339"
+   name="test2.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-04-27T05:14:03.477216Z"
+   checksum="8d699d952c4ab6e1b63a283dafcac375"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1339"
+   name="shared_infile.txt"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-04-27T05:14:03.477216Z"
+   checksum="ca2038f30940900d6da62b2a703d47ef"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1465"
+   name="script.py"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-08-09T19:36:02.547884Z"
+   checksum="ea554d18aa915b4aeef9ed798b83a10f"
+   last-author="iannucci@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1339"
+   name="test.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-04-27T05:14:03.477216Z"
+   checksum="76f1df919cb6462698abc7bb0b461311"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+</wc-entries>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="89"
+   name=""
+   committed-date="2010-06-15T06:30:24.013207Z"
+   url="http://google-glog.googlecode.com/svn/trunk/packages"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="15"
+   name="deb.sh"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-11-04T07:09:16.838775Z"
+   checksum="5429391f8cda528c906e83d20e4a9f25"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="rpm.sh"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="1c12bcc9f6f05ff98514e2f0224e616c"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   name="deb"
+   kind="dir"/>
+<entry
+   name="rpm"
+   kind="dir"/>
+</wc-entries>

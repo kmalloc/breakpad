@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1384"
+   name=""
+   committed-date="2012-05-17T18:15:23.038595Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/objc-gc"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1384"
+   name="main.m"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-05-17T18:15:23.038595Z"
+   checksum="b88083d8330430cd4a0de1c0346968c6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+<entry
+   committed-rev="1384"
+   name="c-file.c"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-05-17T18:15:23.038595Z"
+   checksum="5b07665ef8b885a7c3ac88c23a7f793d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+<entry
+   committed-rev="1384"
+   name="needs-gc.m"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-05-17T18:15:23.038595Z"
+   checksum="ffc9adc841c88dfcb920bf006ccf6736"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+<entry
+   committed-rev="1384"
+   name="needs-gc-mm.mm"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-05-17T18:15:23.038595Z"
+   checksum="4ecc81c8a4cbc22df7c47f021e29ce73"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+<entry
+   committed-rev="1384"
+   name="cc-file.cc"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-05-17T18:15:23.038595Z"
+   checksum="f535c79dbf4d47da2554efe97c50feff"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+<entry
+   committed-rev="1384"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:16.000000Z"
+   committed-date="2012-05-17T18:15:23.038595Z"
+   checksum="b16c1b819f6100e67401a118efd40f89"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:15.000000Z"/>
+</wc-entries>

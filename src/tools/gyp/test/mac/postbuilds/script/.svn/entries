@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1014"
+   name=""
+   committed-date="2011-08-25T00:04:10.235409Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/postbuilds/script"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1014"
+   name="shared_library_postbuild.sh"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2011-08-25T00:04:10.235409Z"
+   checksum="57e17e68726dffde31af70ba6ff325d9"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1014"
+   name="static_library_postbuild.sh"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2011-08-25T00:04:10.235409Z"
+   checksum="1218f4fecd10e25ab271a3c362d1781c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+</wc-entries>

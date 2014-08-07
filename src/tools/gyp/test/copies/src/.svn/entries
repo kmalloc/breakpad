@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1779"
+   name=""
+   committed-date="2013-11-06T03:20:34.390280Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/copies/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="792"
+   name="copies.gyp"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2010-03-04T18:36:24.931125Z"
+   checksum="308cbbdcad530e445f6be7bab62d88ca"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:46.000000Z"/>
+<entry
+   committed-rev="633"
+   name="file1"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2009-09-02T21:41:00.537464Z"
+   checksum="a3814bc196b27f6b4c6409d2a0e5899f"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:46.000000Z"/>
+<entry
+   committed-rev="1480"
+   name="copies-updir.gyp"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2012-08-27T15:49:45.357165Z"
+   checksum="0e38af2e3f1c4812bb8a68de335b924c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:47.000000Z"/>
+<entry
+   committed-rev="633"
+   name="file2"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2009-09-02T21:41:00.537464Z"
+   checksum="9b8e53b5fc42b87857abe63b84600691"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:47.000000Z"/>
+<entry
+   committed-rev="1566"
+   name="copies-samedir.gyp"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2013-02-03T16:48:10.070497Z"
+   checksum="998d2f8affb2a28b38aeee3f68c20c47"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:47.000000Z"/>
+<entry
+   name="directory"
+   kind="dir"/>
+<entry
+   committed-rev="1779"
+   name="copies-attribs.gyp"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2013-11-06T03:20:34.390280Z"
+   checksum="814f0932a48aa27decaba462e9f48dc5"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:47.000000Z"/>
+<entry
+   committed-rev="1779"
+   name="executable-file.sh"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2013-11-06T03:20:34.390280Z"
+   checksum="9395127da89864e735bb1e6a4269fd41"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:47.000000Z"/>
+<entry
+   name="parentdir"
+   kind="dir"/>
+<entry
+   committed-rev="1096"
+   name="copies-slash.gyp"
+   text-time="2014-08-07T09:39:47.000000Z"
+   committed-date="2011-11-22T19:02:03.172082Z"
+   checksum="fc710bce94fb2063af58cfca5dc1613e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:47.000000Z"/>
+</wc-entries>

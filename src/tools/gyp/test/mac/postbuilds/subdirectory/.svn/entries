@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1313"
+   name=""
+   committed-date="2012-04-06T22:10:26.198514Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/postbuilds/subdirectory"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1313"
+   name="copied_file.txt"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2012-04-06T22:10:26.198514Z"
+   checksum="5c3f414836fa91b3375763ccab5597fd"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="1313"
+   name="nested_target.gyp"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2012-04-06T22:10:26.198514Z"
+   checksum="3565f3cf242bad33771146cc2489f46f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+</wc-entries>

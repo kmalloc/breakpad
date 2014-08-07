@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1331"
+   name=""
+   committed-date="2012-04-18T00:41:21.334311Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/variables/latelate/src"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1331"
+   name="latelate.gyp"
+   text-time="2014-08-07T09:39:22.000000Z"
+   committed-date="2012-04-18T00:41:21.334311Z"
+   checksum="dc22c0c5eff187def7f89174f88a61d4"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+<entry
+   committed-rev="1331"
+   name="program.cc"
+   text-time="2014-08-07T09:39:22.000000Z"
+   committed-date="2012-04-18T00:41:21.334311Z"
+   checksum="3eadeade7ce33ef1d10bfa296f8a2bbb"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:22.000000Z"/>
+</wc-entries>

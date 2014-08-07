@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1382"
+   name=""
+   committed-date="2012-05-16T23:17:27.795783Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/many-actions"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1381"
+   name="file0"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T22:26:01.044576Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1379"
+   name="many-actions.gyp"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T19:36:21.515322Z"
+   checksum="cf2204ca3e85115e8d1e17101890472f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1381"
+   name="file1"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T22:26:01.044576Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1381"
+   name="many-actions-unsorted.gyp"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T22:26:01.044576Z"
+   checksum="b5bb2faf1a9a39599d56baa3d5850bea"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1381"
+   name="file2"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T22:26:01.044576Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1381"
+   name="file3"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T22:26:01.044576Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1381"
+   name="file4"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T22:26:01.044576Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1378"
+   name="gyptest-many-actions.py"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T18:30:06.815897Z"
+   checksum="04b10da3bf4b0082afa2df52eb110dfa"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1382"
+   name="gyptest-many-actions-unsorted.py"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-05-16T23:17:27.795783Z"
+   checksum="c41a8ffce77b5654c78f18f522de6002"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1187"
+   name=""
+   committed-date="2012-02-03T23:54:22.513398Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/list_excluded"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1187"
+   name="hello.cpp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2012-02-03T23:54:22.513398Z"
+   checksum="88ba15e514c098815b2f32a50e72f5eb"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1187"
+   name="hello_mac.cpp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2012-02-03T23:54:22.513398Z"
+   checksum="d1361e6b3edd2c93f7414768bd7217f6"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1187"
+   name="hello_exclude.gyp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2012-02-03T23:54:22.513398Z"
+   checksum="a78357e69f874490bb9afc1c70dd2b7b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1187"
+   name="gyptest-all.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2012-02-03T23:54:22.513398Z"
+   checksum="7b17cb8552765f9cef497eaab109953b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+</wc-entries>

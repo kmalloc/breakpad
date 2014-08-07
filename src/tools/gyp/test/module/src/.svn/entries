@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1716"
+   name=""
+   committed-date="2013-09-05T15:38:18.195784Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/module/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1716"
+   name="module.gyp"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2013-09-05T15:38:18.195784Z"
+   checksum="485e06cc99b072c88646f2e234d11a90"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+<entry
+   committed-rev="1594"
+   name="program.c"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2013-03-14T20:21:59.780203Z"
+   checksum="bd267e2865ef48ee0d4bb714c813b3ba"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+<entry
+   committed-rev="676"
+   name="lib1.c"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2009-10-06T14:43:44.503743Z"
+   checksum="934814abce2d3be634d7deed7aa20595"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+<entry
+   committed-rev="676"
+   name="lib2.c"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2009-10-06T14:43:44.503743Z"
+   checksum="9fc5b6e3c82482760243b8e0cbea7e83"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+</wc-entries>

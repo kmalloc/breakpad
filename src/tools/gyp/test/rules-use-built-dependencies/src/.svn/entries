@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1643"
+   name=""
+   committed-date="2013-06-04T21:51:26.027762Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules-use-built-dependencies/src"
+   last-author="bungeman@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1643"
+   name="use-built-dependencies-rule.gyp"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2013-06-04T21:51:26.027762Z"
+   checksum="6f4c720edb5de7ccea9690d4d8deda99"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+<entry
+   committed-rev="1643"
+   name="main.cc"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2013-06-04T21:51:26.027762Z"
+   checksum="b2681ceefc4e516b468e0dcc66691876"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+</wc-entries>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1796"
+   name=""
+   committed-date="2013-11-20T22:31:17.085809Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/subdirectory"
+   last-author="bungeman@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-SYMROOT-default.py"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="727b923ba41a45fdbaf61dad1b06aa49"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="1796"
+   name="gyptest-subdir-all.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2013-11-20T22:31:17.085809Z"
+   checksum="7dc8a87580827d5fbf6197db4f5b6e39"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-SYMROOT-all.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="6afd024dc62071365d329009eee5e983"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1613"
+   name="gyptest-top-default.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="2a338ee0a86050299f0cd63a3c9e527c"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-subdir2-deep.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="b93e4d2aeb0fee4866e86a487790b4a3"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="1613"
+   name="gyptest-top-all.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="1ceca938e84d8d45e6be9d847f316284"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="1796"
+   name="gyptest-subdir-default.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2013-11-20T22:31:17.085809Z"
+   checksum="a9cc546047942cf714725a6f6d361671"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1392"
+   name=""
+   committed-date="2012-05-22T21:06:31.299372Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/props"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1239"
+   name="hello.gyp"
+   text-time="2014-08-07T09:39:25.000000Z"
+   committed-date="2012-03-08T22:53:34.740201Z"
+   checksum="381f6a3601cf3f29341b309cc68daeb8"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:25.000000Z"/>
+<entry
+   committed-rev="1239"
+   name="AppName.props"
+   text-time="2014-08-07T09:39:25.000000Z"
+   committed-date="2012-03-08T22:53:34.740201Z"
+   checksum="d55936c897ecf19a31da243c60bc0fce"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:25.000000Z"/>
+<entry
+   committed-rev="1239"
+   name="hello.c"
+   text-time="2014-08-07T09:39:25.000000Z"
+   committed-date="2012-03-08T22:53:34.740201Z"
+   checksum="0d28c4989348cc2b8f44e652be5f0282"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:25.000000Z"/>
+<entry
+   committed-rev="1392"
+   name="gyptest-props.py"
+   text-time="2014-08-07T09:39:25.000000Z"
+   committed-date="2012-05-22T21:06:31.299372Z"
+   checksum="7ac2e1feefe0eb80a963f52037d902c9"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:25.000000Z"/>
+<entry
+   committed-rev="1239"
+   name="AppName.vsprops"
+   text-time="2014-08-07T09:39:25.000000Z"
+   committed-date="2012-03-08T22:53:34.740201Z"
+   checksum="5f7906c815db1f75d4f558f249b63acb"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:25.000000Z"/>
+</wc-entries>

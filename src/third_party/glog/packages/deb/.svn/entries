@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="89"
+   name=""
+   committed-date="2010-06-15T06:30:24.013207Z"
+   url="http://google-glog.googlecode.com/svn/trunk/packages/deb"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="2"
+   name="control"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="48ecc294f608e6cb979f7cfcc6c1c562"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="compat"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="48a24b70a0b376535542b996af517398"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="46"
+   name="libgoogle-glog-dev.dirs"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2009-04-10T05:49:58.610451Z"
+   checksum="f34477b557ae684b35d6d70f644fd142"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="89"
+   name="changelog"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2010-06-15T06:30:24.013207Z"
+   checksum="19cbd49bb0072014d76e51fc1fab73aa"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="docs"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="ad4ffd385e6f88cb52b520fb119e3567"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="copyright"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="063aab51935c1b0d8f1ff0011abcc217"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="libgoogle-glog0.dirs"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="3dbf8c38685cfb2a60a98bddcf25b292"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="rules"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="d4819f5489a5760835fcc7478acbf164"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="46"
+   name="libgoogle-glog-dev.install"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2009-04-10T05:49:58.610451Z"
+   checksum="8b6039efe8509f3eba3c161fdc9e35e8"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="README"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="d4c29fa922136ba5bb1a0129b80b369d"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="libgoogle-glog0.install"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="1a98c4e5f943ebb05bc37a4127d1628c"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+</wc-entries>

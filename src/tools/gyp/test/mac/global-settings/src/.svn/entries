@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1170"
+   name=""
+   committed-date="2012-01-19T17:23:22.966289Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/global-settings/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="dir1"
+   kind="dir"/>
+<entry
+   name="dir2"
+   kind="dir"/>
+</wc-entries>

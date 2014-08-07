@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="33"
+   name=""
+   committed-date="2009-01-23T18:56:19.639069Z"
+   url="http://google-glog.googlecode.com/svn/trunk/vsprojects/libglog_static"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="33"
+   name="libglog_static.vcproj"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2009-01-23T18:56:19.639069Z"
+   checksum="a21ddcc5a81a1ff3eedb39599d2a44a8"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+</wc-entries>

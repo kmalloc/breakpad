@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="395"
+   name=""
+   committed-date="2011-06-07T03:38:28.121109Z"
+   url="http://protobuf.googlecode.com/svn/trunk/python/google/protobuf/pyext"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="349"
+   name="python_descriptor.cc"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="0f0ab190ac912cea29eb575f18c16c63"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="349"
+   name="python_protobuf.cc"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="45970346de4d74f147d18ecf08811a4f"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="349"
+   name="python_descriptor.h"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="2ef20abc98106e7d734abbc5dfe3fbf6"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="349"
+   name="python_protobuf.h"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="f1af51f77a6407933d5c2a249c501ed9"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="395"
+   name="python-proto2.cc"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2011-06-07T03:38:28.121109Z"
+   checksum="b734479db7d2be23014ee74a35e84d98"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+</wc-entries>

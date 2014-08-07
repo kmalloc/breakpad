@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="88"
+   name=""
+   committed-date="2010-06-15T06:28:38.498085Z"
+   url="http://google-glog.googlecode.com/svn/trunk/src/windows"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   name="glog"
+   kind="dir"/>
+<entry
+   committed-rev="23"
+   name="port.cc"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2008-12-19T15:20:40.414628Z"
+   checksum="37468df22d3199b707a3d2e198895bc2"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="23"
+   name="port.h"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2008-12-19T15:20:40.414628Z"
+   checksum="6452fae25f31c8a3bc1246a19415b41d"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="23"
+   name="config.h"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2008-12-19T15:20:40.414628Z"
+   checksum="008d06aec9faf3edda7540fc75d7d048"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="23"
+   name="preprocess.sh"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2008-12-19T15:20:40.414628Z"
+   checksum="96809bb82b7f5dbfbf641f8a86c48f7e"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+</wc-entries>

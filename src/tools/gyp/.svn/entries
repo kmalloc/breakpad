@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1886"
+   name=""
+   committed-date="2014-04-02T17:56:04.373243Z"
+   url="http://gyp.googlecode.com/svn/trunk"
+   last-author="torne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="pylib"
+   kind="dir"/>
+<entry
+   committed-rev="721"
+   name="LICENSE"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="ab828cb8ce4c62ee82945a11247b6bbd"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1829"
+   name="AUTHORS"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2014-01-07T04:51:52.366360Z"
+   checksum="bf862aef81d3bb9a1540d9253b350100"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1796"
+   name="gyptest.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-11-20T22:31:17.085809Z"
+   checksum="0f8f7af4e364c5b792727cf655511b89"
+   last-author="bungeman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1736"
+   name="setup.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-09-19T18:55:25.413661Z"
+   checksum="ca3b31fb96f6365396aee4db03acc654"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1713"
+   name="gyp_main.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-09-04T17:51:09.896668Z"
+   checksum="31e65e63424e8a92cbedbb04f317d84a"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1613"
+   name="DEPS"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="19bd55e68d3ef77e83eaa36505bbc03c"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="819"
+   name="codereview.settings"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2010-04-27T23:47:26.886571Z"
+   checksum="9a4d4638f62ffd13f73854a2ddcd8620"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1787"
+   name="gyp"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-11-15T19:14:54.776072Z"
+   checksum="f32d7f319323ee2cc0ed964cf2a2caf5"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   committed-rev="1806"
+   name="PRESUBMIT.py"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-12-04T17:25:10.330745Z"
+   checksum="8ea449ef64426d0443af3c1f12c940f4"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+<entry
+   name="samples"
+   kind="dir"/>
+<entry
+   name="buildbot"
+   kind="dir"/>
+<entry
+   committed-rev="1667"
+   name="gyp.bat"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2013-07-08T22:36:01.898341Z"
+   checksum="962ac97ba2737832f3233916d7c56494"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+<entry
+   committed-rev="1103"
+   name="pylintrc"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2011-11-28T16:31:34.399321Z"
+   checksum="0e6a75746a5f6e0edbc3b961ce46a345"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+<entry
+   committed-rev="1003"
+   name=".gitignore"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2011-08-19T18:02:40.788516Z"
+   checksum="140a5c671ee97b3723686f6412818f0e"
+   last-author="evan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+<entry
+   name="data"
+   kind="dir"/>
+<entry
+   committed-rev="909"
+   name="OWNERS"
+   text-time="2014-08-07T09:40:05.000000Z"
+   committed-date="2011-04-01T22:56:20.004609Z"
+   checksum="b3136a962c78ed1216a17f6c0e30b9c0"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:05.000000Z"/>
+</wc-entries>

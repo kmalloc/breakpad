@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1397"
+   name=""
+   committed-date="2012-05-28T18:27:42.752115Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/precompiled"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+</wc-entries>

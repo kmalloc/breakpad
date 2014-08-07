@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="747"
+   name=""
+   committed-date="2009-11-10T17:01:19.808871Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/home_dot_gyp/src"
+   last-author="mmoss@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="747"
+   name="printfoo.c"
+   text-time="2014-08-07T09:39:57.000000Z"
+   committed-date="2009-11-10T17:01:19.808871Z"
+   checksum="840ad77eaf032a156a8c3902325f1841"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   committed-rev="747"
+   name="all.gyp"
+   text-time="2014-08-07T09:39:57.000000Z"
+   committed-date="2009-11-10T17:01:19.808871Z"
+   checksum="db7cb8abc57480f148cf40fe2586d623"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+</wc-entries>

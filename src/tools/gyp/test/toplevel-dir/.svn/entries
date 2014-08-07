@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1185"
+   name=""
+   committed-date="2012-01-28T03:08:58.925710Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/toplevel-dir"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1185"
+   name="gyptest-toplevel-dir.py"
+   text-time="2014-08-07T09:39:21.000000Z"
+   committed-date="2012-01-28T03:08:58.925710Z"
+   checksum="fc0ade169a43e68e105c346dbd66af74"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+</wc-entries>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1722"
+   name=""
+   committed-date="2013-09-11T15:20:09.016735Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/dependencies"
+   last-author="sbaig1@bloomberg.net"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1114"
+   name="none_traversal.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2011-12-21T02:22:35.710182Z"
+   checksum="1a5450c1bd906c7ca72dd4168ff15e66"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:02.000000Z"/>
+<entry
+   name="b"
+   kind="dir"/>
+<entry
+   name="c"
+   kind="dir"/>
+<entry
+   committed-rev="1108"
+   name="gyptest-none-traversal.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2011-12-19T19:15:51.849452Z"
+   checksum="e22825db572b0f64c1d18fbf1d5e34a8"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1717"
+   name="gyptest-sharedlib-linksettings.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2013-09-05T19:39:10.418878Z"
+   checksum="8e9b2c525dd46cb91e6197bba75c8f39"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1322"
+   name="double_dependent.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-04-09T15:57:19.849613Z"
+   checksum="1284bd6697bf53f90e63d115633c1b41"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="771"
+   name="a.c"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2010-01-08T14:58:07.256663Z"
+   checksum="edc0d65f249232f8775865be766f1b51"
+   last-author="thomasvl@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:02.000000Z"/>
+<entry
+   committed-rev="721"
+   name="lib_only.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="91f9c58e1de87474128ed6e56195cecf"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1108"
+   name="main.c"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2011-12-19T19:15:51.849452Z"
+   checksum="0d7e5e78b244878551a1ff8190114e5f"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1322"
+   name="double_dependency.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-04-09T15:57:19.849613Z"
+   checksum="0089d55c94ff83203732ecf28e5f5ada"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1613"
+   name="gyptest-lib-only.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="3e25bb162528600cdf5233c1eb7ad7c8"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   name="sharedlib-linksettings"
+   kind="dir"/>
+<entry
+   committed-rev="721"
+   name="extra_targets.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="e898085073ecc4a155b41f78e350934b"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1322"
+   name="gyptest-double-dependency.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-04-09T15:57:19.849613Z"
+   checksum="bfd65ad2dbc3343cf6c943b5e940bdcf"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-extra-targets.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="94f752639f0df2942554442973a52278"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+</wc-entries>

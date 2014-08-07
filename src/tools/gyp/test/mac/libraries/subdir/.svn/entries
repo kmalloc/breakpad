@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1594"
+   name=""
+   committed-date="2013-03-14T20:21:59.780203Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/libraries/subdir"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1173"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-23T23:31:34.510731Z"
+   checksum="b956631eacb831d1d3db77b7b8230214"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1173"
+   name="README.txt"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-23T23:31:34.510731Z"
+   checksum="db05bbbdacce2d06dfae3fc3bc67ba81"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1173"
+   name="mylib.c"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2012-01-23T23:31:34.510731Z"
+   checksum="13198dd13143332c5f66254f94ffe420"
+   last-author="viettrungluu@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1594"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2013-03-14T20:21:59.780203Z"
+   checksum="a0c7253c7402460f304f214bbdb76b0b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+</wc-entries>

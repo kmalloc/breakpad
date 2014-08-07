@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1133"
+   name=""
+   committed-date="2012-01-06T19:04:37.373912Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/copy-dylib"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1133"
+   name="empty.c"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2012-01-06T19:04:37.373912Z"
+   checksum="f881137628fc8dd673b761eb7a1e2432"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:11.000000Z"/>
+<entry
+   committed-rev="1133"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:11.000000Z"
+   committed-date="2012-01-06T19:04:37.373912Z"
+   checksum="5b8e2179d7bf62f2ce548cbdeff2a00f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:11.000000Z"/>
+</wc-entries>

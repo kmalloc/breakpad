@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1422"
+   name=""
+   committed-date="2012-06-28T17:20:49.960457Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/configurations/x64"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1422"
+   name="configurations.gyp"
+   text-time="2014-08-07T09:39:04.000000Z"
+   committed-date="2012-06-28T17:20:49.960457Z"
+   checksum="78bc3ab442895157ab3d0a163ac0d4e3"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1422"
+   name="gyptest-x86.py"
+   text-time="2014-08-07T09:39:04.000000Z"
+   committed-date="2012-06-28T17:20:49.960457Z"
+   checksum="f226c834599474118251a327352731c3"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="739"
+   name="configurations.c"
+   text-time="2014-08-07T09:39:04.000000Z"
+   committed-date="2009-10-30T21:33:16.966538Z"
+   checksum="b56338e8c96e14cb59f99e97bcfdd359"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:04.000000Z"/>
+</wc-entries>

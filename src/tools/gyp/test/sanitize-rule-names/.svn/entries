@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1411"
+   name=""
+   committed-date="2012-06-07T16:40:37.000603Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/sanitize-rule-names"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1346"
+   name="gyptest-sanitize-rule-names.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2012-04-30T21:40:18.009912Z"
+   checksum="e064659cd65f96deb047a987d3fbace0"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1348"
+   name="blah.S"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2012-05-01T16:19:15.840398Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1346"
+   name="hello.cc"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2012-04-30T21:40:18.009912Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1411"
+   name="sanitize-rule-names.gyp"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2012-06-07T16:40:37.000603Z"
+   checksum="ca3058d8490412692e6daf98cfc1749c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   committed-rev="1346"
+   name="script.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2012-04-30T21:40:18.009912Z"
+   checksum="47fdc18fa97feb090046e20dcbd940b7"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+</wc-entries>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1773"
+   name=""
+   committed-date="2013-10-28T16:39:31.035311Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/errors"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1496"
+   name="missing_dep.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="75516c431cde3e1bf7a52f7ba57eb842"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1496"
+   name="duplicate_rule.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="c11c1c39b9e2a6298662f38ec5d81eb1"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1496"
+   name="missing_targets.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="f9330d4599e929428672f92ddcb0e080"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1773"
+   name="gyptest-errors.py"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2013-10-28T16:39:31.035311Z"
+   checksum="b7cec30b0db4bb45b62b3d33902aa545"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1496"
+   name="duplicate_targets.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="c13bf2cae93dd80f9ccdf095173710a8"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1496"
+   name="duplicate_basenames.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="1b5857c407063e51537483680c10c5c2"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1496"
+   name="duplicate_node.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2012-09-12T19:34:11.043854Z"
+   checksum="b936a274acd7a2ebafab15b5e59125aa"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+</wc-entries>

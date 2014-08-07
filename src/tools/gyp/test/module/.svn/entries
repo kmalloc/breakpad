@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1716"
+   name=""
+   committed-date="2013-09-05T15:38:18.195784Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/module"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1428"
+   name="gyptest-default.py"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2012-07-04T14:20:02.871758Z"
+   checksum="a18dc3983306f99ab877e74eebea8ffa"
+   last-author="steveblock@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:59.000000Z"/>
+</wc-entries>

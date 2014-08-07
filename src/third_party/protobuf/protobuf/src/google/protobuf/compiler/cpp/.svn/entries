@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="362"
+   name=""
+   committed-date="2010-12-21T05:33:13.956873Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf/compiler/cpp"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="120"
+   name="cpp_message_field.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="a63581c17cf243ab3f2de225649b91fb"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_plugin_unittest.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="b8bd3f7033f2c8f5911d9945cc2bddf3"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="163"
+   name="cpp_service.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="4d7565c92f4de323cd2d885c777945d0"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="362"
+   name="cpp_helpers.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="85be22cb14e5bcc53696ca5d4b42fe14"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="50"
+   name="cpp_service.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="7dbd7f45e4fd64c2bece54dfe0d22b6d"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_enum.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="532687fbee947fc523f602ac8265ba47"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="362"
+   name="cpp_helpers.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="79b930db95861d7dee6d334435c6a33f"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="163"
+   name="cpp_enum.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="534caf6b9b96c2762a5ff78b2d2f7359"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_enum_field.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="ff00a623405133779496d0ec1468a520"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="362"
+   name="cpp_string_field.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="c878dab069b1dd4f16f88cd8419eedcc"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_enum_field.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="868d44b74add4a64e157cc4ce549a850"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_primitive_field.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="c1d772ca347653d0198123b28b221522"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="120"
+   name="cpp_string_field.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="0319896ef777c0856cbb9e9b045831d2"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_extension.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="76cd8ff04f3b2c9f2b26e80bb73b0db1"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_bootstrap_unittest.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="1798a652f89a23f89f35e136aaac5c80"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_primitive_field.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="5f6df370e6ad14f0c5429be3dd1c935d"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="120"
+   name="cpp_extension.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="07fb241d1a7b555aef04e6da68c06753"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="362"
+   name="cpp_file.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="2e670f88f76119acc03114e9aa97c00c"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="362"
+   name="cpp_unittest.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="46bdbe52fde47b211c6ebd5f6b5e254c"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="52"
+   name="cpp_file.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2008-09-30T00:09:40.274566Z"
+   checksum="58b5c27996fbf79e940fe78fd9457b8e"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_field.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="2af9788299fc5c9cd3f20d30d75c4788"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_message.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="6e660f457bf4881f898a9296f8511e20"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_field.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="ec773baa0734ab605a7f68bcabaf1700"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="251"
+   name="cpp_message.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="c629e883df1ea12bc80767d759c74d82"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_generator.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="8aaa934f84302a13db5317514c62f978"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_message_field.cc"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="e99750caca0ec6ee11281ba8c22e1e18"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_test_bad_identifiers.proto"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="86d39c3bd9818e72a0dfeb93242f57ad"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+<entry
+   committed-rev="349"
+   name="cpp_generator.h"
+   text-time="2014-08-07T09:38:38.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="806ee5607ed6ac290ff359518b2b104e"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:38.000000Z"/>
+</wc-entries>

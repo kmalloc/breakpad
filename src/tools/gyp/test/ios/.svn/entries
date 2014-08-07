@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1881"
+   name=""
+   committed-date="2014-03-21T14:52:18.340400Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ios"
+   last-author="sdefresne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="deployment-target"
+   kind="dir"/>
+<entry
+   committed-rev="1881"
+   name="gyptest-archs.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2014-03-21T14:52:18.340400Z"
+   checksum="253ec152464f681123ef812d5a217731"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1881"
+   name="gyptest-crosscompile.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2014-03-21T14:52:18.340400Z"
+   checksum="794f7ac058d640adba6c7a0f0faad1ab"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   name="app-bundle"
+   kind="dir"/>
+<entry
+   committed-rev="1595"
+   name="gyptest-deployment-target.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-03-14T20:50:19.210350Z"
+   checksum="2bb11e42cc7bb75353b16ed3bb54b30a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1795"
+   name="gyptest-per-config-settings.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-11-20T22:06:49.235491Z"
+   checksum="770eb6d52a6932ab3085e71fbee27868"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1778"
+   name="gyptest-app-ios.py"
+   text-time="2014-08-07T09:40:01.000000Z"
+   committed-date="2013-11-05T18:28:56.165467Z"
+   checksum="9506f319c9b13933b43cd67a062bcd4a"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+</wc-entries>

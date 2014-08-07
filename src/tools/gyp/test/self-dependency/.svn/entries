@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1589"
+   name=""
+   committed-date="2013-02-27T14:15:28.196270Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/self-dependency"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1589"
+   name="common.gypi"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2013-02-27T14:15:28.196270Z"
+   checksum="d392028dae901378a50819203642da70"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:20.000000Z"/>
+<entry
+   committed-rev="1589"
+   name="self_dependency.gyp"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2013-02-27T14:15:28.196270Z"
+   checksum="c7c88fa614bae8ec05c741c3482dbd37"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:20.000000Z"/>
+<entry
+   committed-rev="1589"
+   name="dep.gyp"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2013-02-27T14:15:28.196270Z"
+   checksum="013e4a0aa3e99dce3712513241e5dd9f"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:20.000000Z"/>
+<entry
+   committed-rev="1589"
+   name="gyptest-self-dependency.py"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2013-02-27T14:15:28.196270Z"
+   checksum="b69075667b5cea19addef134d99bed16"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:20.000000Z"/>
+</wc-entries>

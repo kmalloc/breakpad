@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="396"
+   name=""
+   committed-date="2011-06-07T03:51:33.442171Z"
+   url="http://protobuf.googlecode.com/svn/trunk/java"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="392"
+   name="pom.xml"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-05-03T07:06:03.429172Z"
+   checksum="4a4809097221d068c606019ded81c934"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="183"
+   name="README.txt"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-08-05T19:55:17.264098Z"
+   checksum="8f82857daf86f7fe3612a2dba1cee0ba"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+</wc-entries>

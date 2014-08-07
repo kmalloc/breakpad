@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="852"
+   name=""
+   committed-date="2010-10-25T22:40:15.930543Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/library/src"
+   last-author="tony@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="752"
+   name="library.gyp"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2009-11-12T00:31:46.632894Z"
+   checksum="0c8e4e44551d049238b1c5097d169484"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:53.000000Z"/>
+<entry
+   committed-rev="665"
+   name="lib1_moveable.c"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2009-09-19T15:25:51.639233Z"
+   checksum="990ab2c868121ac8b5f9f2713eef8113"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:53.000000Z"/>
+<entry
+   committed-rev="852"
+   name="shared_dependency.gyp"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2010-10-25T22:40:15.930543Z"
+   checksum="5aeee9eb881fd2b5b117656cf7240737"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:54.000000Z"/>
+<entry
+   committed-rev="665"
+   name="lib2_moveable.c"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2009-09-19T15:25:51.639233Z"
+   checksum="e23a8020d9756bfda8ab902a775f855c"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:54.000000Z"/>
+<entry
+   committed-rev="665"
+   name="program.c"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2009-09-19T15:25:51.639233Z"
+   checksum="ab42c64fa687027cd8012668e48ba076"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:54.000000Z"/>
+<entry
+   committed-rev="665"
+   name="lib1.c"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2009-09-19T15:25:51.639233Z"
+   checksum="09e5eefaf03f9c9d6d9dc2e53e7b5aa1"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:54.000000Z"/>
+<entry
+   committed-rev="665"
+   name="lib2.c"
+   text-time="2014-08-07T09:39:54.000000Z"
+   committed-date="2009-09-19T15:25:51.639233Z"
+   checksum="1e24dfd67260bc5e97374202abd4f1b8"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:54.000000Z"/>
+</wc-entries>

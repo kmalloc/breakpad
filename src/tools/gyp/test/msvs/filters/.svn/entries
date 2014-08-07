@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1859"
+   name=""
+   committed-date="2014-02-27T21:55:20.936974Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/filters"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1859"
+   name="gyptest-filters-2008.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2014-02-27T21:55:20.936974Z"
+   checksum="6e4e8f11ac78b4077636e3c864be6b22"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1859"
+   name="filters.gyp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2014-02-27T21:55:20.936974Z"
+   checksum="4d1253c3cc595e11fbf0a94614660ee2"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1859"
+   name="gyptest-filters-2010.py"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2014-02-27T21:55:20.936974Z"
+   checksum="7c143387f31b35971450889695e32e9c"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+</wc-entries>

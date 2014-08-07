@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="95"
+   name=""
+   committed-date="2011-09-05T07:58:38.170089Z"
+   url="http://google-glog.googlecode.com/svn/trunk/doc"
+   last-author="shinichiro.hamaji@gmail.com"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="3"
+   name="designstyle.css"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2008-10-08T11:20:32.021747Z"
+   checksum="f2f0e7cf3ebe55371ac6fd753a8b7d3f"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="95"
+   name="glog.html"
+   text-time="2014-08-07T09:38:57.000000Z"
+   committed-date="2011-09-05T07:58:38.170089Z"
+   checksum="80e3f8e1a2497aaa547c200e14b36a43"
+   last-author="shinichiro.hamaji@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+</wc-entries>

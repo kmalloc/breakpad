@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1721"
+   name=""
+   committed-date="2013-09-10T22:45:33.268090Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/no-cpp/src"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1721"
+   name="call-f-main.c"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="5fd041232e08bac67bcaca9869431f65"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1721"
+   name="empty-main.c"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="f881137628fc8dd673b761eb7a1e2432"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1721"
+   name="f.cc"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="695b6715fd11495678165bb8d0c720f7"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+<entry
+   committed-rev="1721"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:29.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="a1fc90b1a05a8f495753a95286b01429"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:29.000000Z"/>
+</wc-entries>

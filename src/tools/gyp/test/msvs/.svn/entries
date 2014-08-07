@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1859"
+   name=""
+   committed-date="2014-02-27T21:55:20.936974Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="uldi2010"
+   kind="dir"/>
+<entry
+   name="config_attrs"
+   kind="dir"/>
+<entry
+   name="precompiled"
+   kind="dir"/>
+<entry
+   name="props"
+   kind="dir"/>
+<entry
+   name="buildevents"
+   kind="dir"/>
+<entry
+   name="shared_output"
+   kind="dir"/>
+<entry
+   name="filters"
+   kind="dir"/>
+<entry
+   name="external_builder"
+   kind="dir"/>
+<entry
+   name="list_excluded"
+   kind="dir"/>
+<entry
+   name="express"
+   kind="dir"/>
+<entry
+   name="missing_sources"
+   kind="dir"/>
+</wc-entries>

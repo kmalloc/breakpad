@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="402"
+   name=""
+   committed-date="2011-07-05T21:05:40.988101Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="359"
+   name="Makefile.am"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-12-09T08:59:21.610893Z"
+   checksum="fe782dc3e1d7a55632be7d05b29b6d5b"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   name="solaris"
+   kind="dir"/>
+<entry
+   name="google"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1883"
+   name=""
+   committed-date="2014-03-25T01:00:04.925411Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ninja/none-rules"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1883"
+   name="none-rules.gyp"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2014-03-25T01:00:04.925411Z"
+   checksum="3af3e3e79bfa422425832e93c730c3d0"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1883"
+   name="gyptest-none-rules.py"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2014-03-25T01:00:04.925411Z"
+   checksum="c2b9ede37674bdcc33fe7c345768745a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1499"
+   name=""
+   committed-date="2012-09-18T18:05:05.756462Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/build-option"
+   last-author="sbc@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1499"
+   name="hello.gyp"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2012-09-18T18:05:05.756462Z"
+   checksum="e912f5a539c4228908761eb790884c3f"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+<entry
+   committed-rev="1499"
+   name="gyptest-build.py"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2012-09-18T18:05:05.756462Z"
+   checksum="a397b2090a2b77ef9bf41124dee67238"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+<entry
+   committed-rev="1499"
+   name="hello.c"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2012-09-18T18:05:05.756462Z"
+   checksum="e647ffd32d596498a5450816de4f6b83"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+</wc-entries>

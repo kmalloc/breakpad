@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="251"
+   name=""
+   committed-date="2009-12-18T02:11:36.748259Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf/testing"
+   last-author="kenton@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="221"
+   name="googletest.cc"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2009-08-17T20:34:29.268800Z"
+   checksum="d83e9795005c25d75d1d6924dcacc906"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="119"
+   name="googletest.h"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2009-04-22T20:06:20.880481Z"
+   checksum="3dd61dd97489e20cc67962e8095b49c2"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="251"
+   name="file.cc"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="4db818e16e701a0be6d573e83ad33c52"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="50"
+   name="file.h"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="a06c2feeeca034ef70d9b5404bc9f0d3"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="107"
+   name="zcgzip.cc"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2009-04-16T22:30:56.497916Z"
+   checksum="804e9a40d6faa5f00c2dc3d6fb8c9c26"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="107"
+   name="zcgunzip.cc"
+   text-time="2014-08-07T09:38:34.000000Z"
+   committed-date="2009-04-16T22:30:56.497916Z"
+   checksum="1d95fbc4102ec53ead3f4535e899dcb8"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+</wc-entries>

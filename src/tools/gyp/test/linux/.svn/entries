@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1604"
+   name=""
+   committed-date="2013-03-28T17:20:47.894336Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/linux"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="implicit-rpath"
+   kind="dir"/>
+<entry
+   committed-rev="1604"
+   name="gyptest-implicit-rpath.py"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2013-03-28T17:20:47.894336Z"
+   checksum="a8c9c0bbe083db202ade81f5ece7a875"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:41.000000Z"/>
+</wc-entries>

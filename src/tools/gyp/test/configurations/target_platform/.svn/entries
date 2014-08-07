@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1102"
+   name=""
+   committed-date="2011-11-28T16:07:19.276060Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/configurations/target_platform"
+   last-author="maruel@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="760"
+   name="configurations.gyp"
+   text-time="2014-08-07T09:39:05.000000Z"
+   committed-date="2009-11-17T02:04:36.574452Z"
+   checksum="99345d65251bf300e4cfadd9ced393db"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:04.000000Z"/>
+<entry
+   committed-rev="760"
+   name="front.c"
+   text-time="2014-08-07T09:39:05.000000Z"
+   committed-date="2009-11-17T02:04:36.574452Z"
+   checksum="07bd4379d304a1c0f036dddfd9f6a168"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:04.000000Z"/>
+<entry
+   committed-rev="760"
+   name="left.c"
+   text-time="2014-08-07T09:39:05.000000Z"
+   committed-date="2009-11-17T02:04:36.574452Z"
+   checksum="75d0131f27bd9b46660ef81877de13e5"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:04.000000Z"/>
+<entry
+   committed-rev="760"
+   name="right.c"
+   text-time="2014-08-07T09:39:05.000000Z"
+   committed-date="2009-11-17T02:04:36.574452Z"
+   checksum="b66a2e5c191bf4677f4902ef17c5ac0b"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:04.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-target_platform.py"
+   text-time="2014-08-07T09:39:05.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="da585962b5a8ef40ae60109245563e2d"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:04.000000Z"/>
+</wc-entries>

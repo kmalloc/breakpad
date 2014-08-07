@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1866"
+   name=""
+   committed-date="2014-03-11T18:45:17.530788Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/link-dependency"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1860"
+   name="main.c"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2014-03-04T15:25:00.126292Z"
+   checksum="b448e293fa39c03bdbb13151bad0f333"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+<entry
+   committed-rev="1866"
+   name="gyptest-link-dependency.py"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2014-03-11T18:45:17.530788Z"
+   checksum="281deb5c468b865fe5bd6f9c7e01aa32"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+<entry
+   committed-rev="1860"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2014-03-04T15:25:00.126292Z"
+   checksum="7441d7ba8926a31daac25ecd33d2ba05"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+<entry
+   committed-rev="1866"
+   name="mymalloc.c"
+   text-time="2014-08-07T09:39:44.000000Z"
+   committed-date="2014-03-11T18:45:17.530788Z"
+   checksum="1f9789082239b00a97cdb133fe1f6d8d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+</wc-entries>

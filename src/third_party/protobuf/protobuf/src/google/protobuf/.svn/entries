@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="402"
+   name=""
+   committed-date="2011-07-05T21:05:40.988101Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="251"
+   name="wire_format_lite.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="2c9e50ee715f3518fc2e5724f78eb0b3"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="251"
+   name="wire_format_lite.h"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="95e5d9865ff2b1dabd90ae959fc29c7a"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="text_format.h"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="becbc8853a52ea0739b367b963856c2a"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="generated_message_util.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="483aae0518b245dfe592dca7d0ce975f"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="401"
+   name="generated_message_util.h"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2011-07-05T17:16:07.285443Z"
+   checksum="7595ed101b832b1e11e2ea66a150ca74"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="251"
+   name="message_lite.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="e4b782047dd8c423ce03abc3b16d425a"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="120"
+   name="unittest_empty.proto"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="9af4b2bfc7ef4270b0bdb9e04883b225"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="generated_message_reflection.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="d0ddf6e221c7b4f0ed97a726f08ad4e9"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="251"
+   name="unknown_field_set.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="82a1190aff5cebbb13104a1d32041134"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="251"
+   name="test_util.h"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="03a6fac3ea631c1da7dfe45d670ee8b2"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="163"
+   name="wire_format.h"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="c79d7f7895d9415c65b6b1e4f42620e3"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="50"
+   name="unittest_mset.proto"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="4bf06c67bc331eb035c29300b4a81180"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="message.h"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="5282982d871a979fd1d8f4f24259644b"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="50"
+   name="unittest_import.proto"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="3a654515f44b2ccb95de0129aa796bcd"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="unittest_no_generic_services.proto"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="0ea63d8f5fd7652612bbc2abac686c7a"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   name="testing"
+   kind="dir"/>
+<entry
+   committed-rev="349"
+   name="repeated_field_unittest.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="7770c142e3de0ece2a385b90ffac904a"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="text_format.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="a95498726f54ca15a5c996add5504582"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="394"
+   name="descriptor.proto"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2011-05-25T06:25:24.368362Z"
+   checksum="53a22204fa38c551f258fdba5b98cbc5"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   name="stubs"
+   kind="dir"/>
+<entry
+   committed-rev="251"
+   name="test_util.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="039444602f9bf5e9379fb4486e99fbb2"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:34.000000Z"/>
+<entry
+   committed-rev="349"
+   name="descriptor_unittest.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="7c1ca12f3da94d978fb5097cf54ef868"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="380"
+   name="descriptor.cc"
+   text-time="2014-08-07T09:38:40.000000Z"
+   committed-date="2011-02-07T19:03:53.098027Z"
+   checksum="169581e021afaf1ffcb5e8223a3b3ca5"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="163"
+   name="unittest_lite_imports_nonlite.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="c2c542b5d5de01802c0a2cefac990fce"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="76"
+   name="unittest_optimize_for.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2008-11-21T00:06:27.699869Z"
+   checksum="aa5c1e0a6c5b683d8179ecd7feaffaea"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="271"
+   name="message.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-22T19:43:41.444920Z"
+   checksum="7da3c07ece7ef7cc48e4dfc4690bdd3c"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   name="testdata"
+   kind="dir"/>
+<entry
+   committed-rev="92"
+   name="dynamic_message_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-01-22T01:27:00.416079Z"
+   checksum="f4b789f3843d6196b5223f3dcfb8bb4d"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="349"
+   name="extension_set.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="abfd54309523c64cda04e50283266534"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="349"
+   name="extension_set.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="fe3ad94e16def7dbbde450b880b449c8"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="163"
+   name="test_util_lite.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="1ddceb62806aec38fc30a63fce0d32b7"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="362"
+   name="unittest.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-12-21T05:33:13.956873Z"
+   checksum="f0bacc177baff256510b83d1df23d486"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="401"
+   name="repeated_field.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2011-07-05T17:16:07.285443Z"
+   checksum="09c1144db8fd78e26bb9812fe54978cf"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="353"
+   name="wire_format_lite_inl.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-12-03T09:12:33.096283Z"
+   checksum="73359376530a82b4a5b388640c829092"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="251"
+   name="descriptor_database_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="0edfa43a07598cc7a8ca05b7e0f38560"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="353"
+   name="descriptor_database.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-12-03T09:12:33.096283Z"
+   checksum="f34afbac968fa816c2b63f95a810998b"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="349"
+   name="unittest_custom_options.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="1e5cbaae39b4428e000337c4ae8d3793"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="294"
+   name="service.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-01-08T03:56:03.021022Z"
+   checksum="bb83a80e5c17ca159b0b5929ab0962cd"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="192"
+   name="message_lite.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-08-08T03:23:04.509612Z"
+   checksum="3cde1b6843ccafa50e6b6eefa74772a3"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="220"
+   name="SEBS"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-08-17T09:42:47.687680Z"
+   checksum="18c4ed54995f8ebee2b3ca45b07ef970"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="163"
+   name="unittest_lite.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="c2f1d42bccb4f191757a5037559bbc17"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="155"
+   name="generated_message_reflection_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-06-25T19:05:36.238062Z"
+   checksum="1a3623a4a823dba818eceec8427553ef"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="50"
+   name="reflection_ops.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="68ec212ca948aff04a6e5127e2293553"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="50"
+   name="reflection_ops.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="3b04ed8f5902367b0d7368efcc34bc02"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="349"
+   name="descriptor.pb.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="8f72a84ab0b5d1ab27d9ccbebcc6cb72"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="251"
+   name="unknown_field_set.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="e60669d2eb6630bae4fda30e686172c5"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="251"
+   name="descriptor.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="2f3567eae83e2315a31508f45c628ab8"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="251"
+   name="unittest_enormous_descriptor.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="3f1dffdd23d03bd23aec6c09f6a35c77"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:36.000000Z"/>
+<entry
+   committed-rev="251"
+   name="extension_set_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="6c4907acabf16c98c9fcdd3ada27c226"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   name="compiler"
+   kind="dir"/>
+<entry
+   committed-rev="251"
+   name="dynamic_message.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="5676a8f6fd4d3cffbe7f2f38aa21bc0f"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="text_format_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="dd983dd2fb2bd33d6203ad596bb7eaab"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="173"
+   name="lite_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-08-01T02:16:55.320075Z"
+   checksum="7eb9cdb4b3e680f598d0af87e98330e5"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="349"
+   name="repeated_field.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="e4fe3fe54831039b01cec1af622448bc"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="50"
+   name="service.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="6ff0fee1aa5cfefd0a012b27732f7f3b"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="251"
+   name="descriptor_database.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="817f085898dee999f83fe87c0441a791"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="163"
+   name="unittest_import_lite.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="6520580fade69d8630a304df5dea8e56"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="50"
+   name="package_info.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="6e53625450e0d2097b3b560ed0b277e5"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="120"
+   name="reflection_ops_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="2616136767baec9aecf968ce078c7f22"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="120"
+   name="unknown_field_set_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="c9341bcaab9531f5e2a38fb43b6dd156"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="251"
+   name="wire_format_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="d2d00f5b1f5164c44ae8de5ac0e4c28a"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="251"
+   name="generated_message_reflection.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="cca90e0b10589b2cb4e1c312559cc41f"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="251"
+   name="wire_format.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="21ec333087711b3d30a42abc592ab3b7"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="50"
+   name="unittest_embed_optimize_for.proto"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="b2de317fe30228c575039939fc1a6c12"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   committed-rev="392"
+   name="descriptor.pb.h"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2011-05-03T07:06:03.429172Z"
+   checksum="e7af4b4bf9b397f1086ba6fc838abded"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:39.000000Z"/>
+<entry
+   name="io"
+   kind="dir"/>
+<entry
+   committed-rev="286"
+   name="extension_set_heavy.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2010-01-04T21:15:47.645225Z"
+   checksum="f3b09038341e036397367493728e23ea"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:40.000000Z"/>
+<entry
+   committed-rev="271"
+   name="message_unittest.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-22T19:43:41.444920Z"
+   checksum="c411ae4bd43922b7956cb5728dcce398"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:40.000000Z"/>
+<entry
+   committed-rev="251"
+   name="dynamic_message.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="e6805a5a00b1c7fcceeb9979322782be"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:40.000000Z"/>
+<entry
+   committed-rev="163"
+   name="test_util_lite.cc"
+   text-time="2014-08-07T09:38:41.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="00304709fcf6dcb9e40fbbea7d994044"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:40.000000Z"/>
+</wc-entries>

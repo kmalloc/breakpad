@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1773"
+   name=""
+   committed-date="2013-10-28T16:39:31.035311Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/variables"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="commands"
+   kind="dir"/>
+<entry
+   name="variable-in-path"
+   kind="dir"/>
+<entry
+   name="latelate"
+   kind="dir"/>
+<entry
+   name="filelist"
+   kind="dir"/>
+</wc-entries>

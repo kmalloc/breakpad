@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1734"
+   name=""
+   committed-date="2013-09-17T23:42:47.465512Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/app-bundle/TestApp"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="956"
+   name="main.m"
+   text-time="2014-08-07T09:39:13.000000Z"
+   committed-date="2011-07-18T21:13:37.409121Z"
+   checksum="bbc1df196a6e4e1a19798c0e182bb508"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:13.000000Z"/>
+<entry
+   committed-rev="956"
+   name="TestAppAppDelegate.h"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2011-07-18T21:13:37.409121Z"
+   checksum="da23c86a9d944a4863198d5127a0751c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:13.000000Z"/>
+<entry
+   committed-rev="1734"
+   name="TestApp-Info.plist"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2013-09-17T23:42:47.465512Z"
+   checksum="d57b27a4f41409690790f637fdaaddb7"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:13.000000Z"/>
+<entry
+   committed-rev="956"
+   name="TestAppAppDelegate.m"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2011-07-18T21:13:37.409121Z"
+   checksum="1a7c2dbb259b9e000ccaebf77b8f8fd9"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:13.000000Z"/>
+<entry
+   name="English.lproj"
+   kind="dir"/>
+</wc-entries>

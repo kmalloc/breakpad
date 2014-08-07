@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1474"
+   name=""
+   committed-date="2012-08-20T16:05:26.755264Z"
+   url="http://gyp.googlecode.com/svn/trunk/tools/emacs/testdata"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1474"
+   name="media.gyp.fontified"
+   text-time="2014-08-07T09:40:04.000000Z"
+   committed-date="2012-08-20T16:05:26.755264Z"
+   checksum="7e943f700eeaf77127ca193ac6b2e372"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+<entry
+   committed-rev="1474"
+   name="media.gyp"
+   text-time="2014-08-07T09:40:04.000000Z"
+   committed-date="2012-08-20T16:05:26.755264Z"
+   checksum="df2e84418c3afb235d98a65f66bcc306"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:04.000000Z"/>
+</wc-entries>

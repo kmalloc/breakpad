@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="645"
+   name=""
+   committed-date="2009-09-10T20:42:24.291288Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/generator-output/actions/subdir2/build"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="645"
+   name="README.txt"
+   text-time="2014-08-07T09:39:48.000000Z"
+   committed-date="2009-09-10T20:42:24.291288Z"
+   checksum="90847a39ab6064c21b59c8a7d02e9dc8"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:48.000000Z"/>
+</wc-entries>

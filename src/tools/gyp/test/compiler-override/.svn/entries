@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1824"
+   name=""
+   committed-date="2013-12-21T01:30:35.170053Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/compiler-override"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1470"
+   name="test.c"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="94b5cde9b32d15431ee0b936840501af"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1470"
+   name="my_cc.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="054c44b3376483ba35c5ba5bdc882fd7"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1824"
+   name="compiler-host.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2013-12-21T01:30:35.170053Z"
+   checksum="6f897910e411ce989ed9803cd5e9c378"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1721"
+   name="gyptest-compiler-env.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="a2cc338809fbfecf8c12dedfb3787cf3"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1470"
+   name="cxxtest.cc"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="94b5cde9b32d15431ee0b936840501af"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1470"
+   name="compiler.gyp"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="6c93267ff4dda0491b3b8330308f3920"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1470"
+   name="compiler-global-settings.gyp.in"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="26b22e568544df70b865b3eeddccebc9"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1824"
+   name="gyptest-compiler-global-settings.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2013-12-21T01:30:35.170053Z"
+   checksum="05d9f896312b2bd3d6f607066989103a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1470"
+   name="my_ld.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="054c44b3376483ba35c5ba5bdc882fd7"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+<entry
+   committed-rev="1470"
+   name="my_cxx.py"
+   text-time="2014-08-07T09:39:03.000000Z"
+   committed-date="2012-08-15T17:11:26.777489Z"
+   checksum="054c44b3376483ba35c5ba5bdc882fd7"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:03.000000Z"/>
+</wc-entries>

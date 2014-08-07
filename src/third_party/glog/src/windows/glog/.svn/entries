@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="88"
+   name=""
+   committed-date="2010-06-15T06:28:38.498085Z"
+   url="http://google-glog.googlecode.com/svn/trunk/src/windows/glog"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="39"
+   name="log_severity.h"
+   text-time="2014-08-07T09:38:54.000000Z"
+   committed-date="2009-01-28T17:04:50.991785Z"
+   checksum="1c17d2c35450c8da123afc43365ecd71"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="82"
+   name="vlog_is_on.h"
+   text-time="2014-08-07T09:38:54.000000Z"
+   committed-date="2010-05-28T03:32:50.465719Z"
+   checksum="8666ca5e51b75edf4bbe2fb85577f10b"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="56"
+   name="raw_logging.h"
+   text-time="2014-08-07T09:38:54.000000Z"
+   committed-date="2009-07-08T17:19:09.629548Z"
+   checksum="25b148d302f949811f57669aaca61d36"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="88"
+   name="logging.h"
+   text-time="2014-08-07T09:38:54.000000Z"
+   committed-date="2010-06-15T06:28:38.498085Z"
+   checksum="5a1627ede33588857a6dbffca65f74f8"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="39"
+   name="stl_logging.h"
+   text-time="2014-08-07T09:38:54.000000Z"
+   committed-date="2009-01-28T17:04:50.991785Z"
+   checksum="484bfa217203c7a61af0394723d54dc7"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+</wc-entries>

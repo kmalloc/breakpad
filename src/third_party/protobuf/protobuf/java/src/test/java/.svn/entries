@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="396"
+   name=""
+   committed-date="2011-06-07T03:51:33.442171Z"
+   url="http://protobuf.googlecode.com/svn/trunk/java/src/test/java"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   name="com"
+   kind="dir"/>
+</wc-entries>

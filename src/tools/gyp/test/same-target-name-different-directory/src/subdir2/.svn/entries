@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1415"
+   name=""
+   committed-date="2012-06-11T09:47:53.899094Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/same-target-name-different-directory/src/subdir2"
+   last-author="steveblock@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1415"
+   name="subdir2.gyp"
+   text-time="2014-08-07T09:39:39.000000Z"
+   committed-date="2012-06-11T09:47:53.899094Z"
+   checksum="58fe72fde6fd8c26e04bb08ed7b479ca"
+   last-author="steveblock@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:39.000000Z"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1336"
+   name=""
+   committed-date="2012-04-25T04:28:40.472450Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/uldi"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1336"
+   name="a.cc"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2012-04-25T04:28:40.472450Z"
+   checksum="200920dd5119e1e63745ad513368a5cc"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1336"
+   name="b.cc"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2012-04-25T04:28:40.472450Z"
+   checksum="200920dd5119e1e63745ad513368a5cc"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1336"
+   name="main.cc"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2012-04-25T04:28:40.472450Z"
+   checksum="fa64fc537a5ee3a0b517526ef41953cb"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+<entry
+   committed-rev="1336"
+   name="uldi.gyp"
+   text-time="2014-08-07T09:39:30.000000Z"
+   committed-date="2012-04-25T04:28:40.472450Z"
+   checksum="65f3ee568c686fde695cf52b3b495ba4"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:30.000000Z"/>
+</wc-entries>

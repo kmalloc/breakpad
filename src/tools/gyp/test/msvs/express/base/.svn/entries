@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="754"
+   name=""
+   committed-date="2009-11-12T22:45:24.280494Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/express/base"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="754"
+   name="base.gyp"
+   text-time="2014-08-07T09:39:27.000000Z"
+   committed-date="2009-11-12T22:45:24.280494Z"
+   checksum="dec410bf8b53160aa03abcec8a405857"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:27.000000Z"/>
+</wc-entries>

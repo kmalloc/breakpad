@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1886"
+   name=""
+   committed-date="2014-04-02T17:56:04.373243Z"
+   url="http://gyp.googlecode.com/svn/trunk/pylib/gyp"
+   last-author="torne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   prop-time="2014-08-07T09:39:00.000000Z"
+   revision="1886"/>
+<entry
+   committed-rev="1813"
+   name="common.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-12-12T21:09:32.805355Z"
+   checksum="a993662d34fe8f9fd2823f735496cf20"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1878"
+   name="win_tool.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-19T14:52:56.832467Z"
+   checksum="325a84ca71f13c12d975dca28cbd3637"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1741"
+   name="flock_tool.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-09-26T19:32:53.291376Z"
+   checksum="086ab282f808fca780701d50c551a729"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1843"
+   name="xcodeproj_file.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-01-22T22:38:16.510243Z"
+   checksum="6a43659a8d916f4f54ee78b109d2ad4d"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1795"
+   name="mac_tool.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-11-20T22:06:49.235491Z"
+   checksum="1fd7cfa27c2978221dae9a8dc953001d"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1700"
+   name="input_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-08-20T13:28:36.131694Z"
+   checksum="d6394847ea5fe0dd987736082db7fc3e"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1829"
+   name="MSVSVersion.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-01-07T04:51:52.366360Z"
+   checksum="b73d31dce179c959fbf6ee73336d8ae5"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1862"
+   name="input.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-07T22:28:44.469005Z"
+   checksum="1f66b8a9111c59666b25a3a1d39bff3d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   committed-rev="1773"
+   name="__init__.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-10-28T16:39:31.035311Z"
+   checksum="224db3a431fbc608f35ca7dc5e389922"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:59.000000Z"/>
+<entry
+   name="generator"
+   kind="dir"/>
+<entry
+   committed-rev="1767"
+   name="MSVSNew.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-10-22T19:29:51.066819Z"
+   checksum="ee123fd8d6355e5d2428107dc86c4988"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1876"
+   name="msvs_emulation.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-17T18:02:11.709023Z"
+   checksum="4d819d3f1b7ea184533303d29ffb2604"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1609"
+   name="ninja_syntax.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-04-12T21:36:58.924324Z"
+   checksum="14284d62abb0549fa9c57d1f64672e19"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="xml_fix.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="42a0159fbbaed9810fb948e3728caa95"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1845"
+   name="MSVSSettings_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-01-24T20:40:09.300657Z"
+   checksum="636cb8aa60005080f73e3ef234ad01a4"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1865"
+   name="MSVSSettings.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-11T18:27:07.933300Z"
+   checksum="324994743524c1e4d9c642d8e87c3841"
+   last-author="grt@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1394"
+   name="MSVSProject.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2012-05-25T21:36:14.946763Z"
+   checksum="b97fa93c493c4200ca47d81389d645d8"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1884"
+   name="xcode_emulation.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-26T14:36:43.131774Z"
+   checksum="a54ce117e9e30ec6ee35b64ff924f5f2"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1477"
+   name="easy_xml_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2012-08-21T17:57:33.634799Z"
+   checksum="f85d517153e04dba432e77cbc45357ee"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1477"
+   name="easy_xml.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2012-08-21T17:57:33.634799Z"
+   checksum="b5272294634f84505154f201b41f1792"
+   last-author="sbc@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1394"
+   name="MSVSToolFile.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2012-05-25T21:36:14.946763Z"
+   checksum="9ee1d6f57cd4f56d183e78e052392481"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1873"
+   name="MSVSUtil.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2014-03-14T17:38:01.757010Z"
+   checksum="f39ae065ce5271a1aeed87aa15854259"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1394"
+   name="MSVSUserFile.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2012-05-25T21:36:14.946763Z"
+   checksum="35f9fa1706a815e3d7c1379759ed4f9a"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1590"
+   name="common_test.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-03-04T19:39:26.430610Z"
+   checksum="9312973407a8b31483aeefc67f6a6904"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+<entry
+   committed-rev="1828"
+   name="ordered_dict.py"
+   text-time="2014-08-07T09:39:00.000000Z"
+   committed-date="2013-12-28T19:08:35.178127Z"
+   checksum="58382d1ba35ed508a1adf230930bbf06"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:00.000000Z"/>
+</wc-entries>

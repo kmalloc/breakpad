@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1295"
+   name=""
+   committed-date="2012-03-30T23:43:45.157001Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/restat"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1128"
+   name="gyptest-restat.py"
+   text-time="2014-08-07T09:39:20.000000Z"
+   committed-date="2012-01-04T18:37:45.409440Z"
+   checksum="4c029af2a932239f10df987b5d296259"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:20.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

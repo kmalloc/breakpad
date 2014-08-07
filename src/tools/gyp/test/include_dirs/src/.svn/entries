@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="848"
+   name=""
+   committed-date="2010-10-12T01:15:46.755557Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/include_dirs/src"
+   last-author="tony@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="629"
+   name="inc.h"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2009-09-01T23:46:21.668494Z"
+   checksum="f6f3a790e4549ce77865e049d0641d50"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:42.000000Z"/>
+<entry
+   committed-rev="844"
+   name="includes.gyp"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2010-09-14T20:40:20.776833Z"
+   checksum="cd0506b2924582c59a9fe45c932a9436"
+   last-author="evan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:42.000000Z"/>
+<entry
+   name="shadow1"
+   kind="dir"/>
+<entry
+   name="shadow2"
+   kind="dir"/>
+<entry
+   committed-rev="844"
+   name="includes.c"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2010-09-14T20:40:20.776833Z"
+   checksum="08746458550d92db59a63ad4f30e4247"
+   last-author="evan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+<entry
+   name="subdir"
+   kind="dir"/>
+<entry
+   name="inc1"
+   kind="dir"/>
+</wc-entries>

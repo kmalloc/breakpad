@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="721"
+   name=""
+   committed-date="2009-10-22T20:02:37.997393Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/generator-output/rules/subdir2"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="build"
+   kind="dir"/>
+<entry
+   name="rules-out"
+   kind="dir"/>
+<entry
+   committed-rev="669"
+   name="file1.in0"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2009-09-26T13:52:57.812692Z"
+   checksum="13c2febd8153eca96199f334948e3ff2"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:51.000000Z"/>
+<entry
+   committed-rev="669"
+   name="file2.in0"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2009-09-26T13:52:57.812692Z"
+   checksum="0448b7d19c4c14035b8af56fc0d2083b"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+<entry
+   committed-rev="669"
+   name="file3.in1"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2009-09-26T13:52:57.812692Z"
+   checksum="db5a93df9d8114daf1de8063032ccbcb"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+<entry
+   committed-rev="669"
+   name="file4.in1"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2009-09-26T13:52:57.812692Z"
+   checksum="09505c78bd1553fa713c7531581658f9"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+<entry
+   committed-rev="721"
+   name="none.gyp"
+   text-time="2014-08-07T09:39:52.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="50dae7a733af34a7cd996469611be6bf"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:52.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1870"
+   name=""
+   committed-date="2014-03-12T21:58:41.920492Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ninja/normalize-paths-win"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1870"
+   name="gyptest-normalize-paths.py"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2014-03-12T21:58:41.920492Z"
+   checksum="b77a8f12d8b48619850e8b3655a5de17"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:41.000000Z"/>
+<entry
+   committed-rev="1343"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2012-04-27T23:07:02.102627Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:41.000000Z"/>
+<entry
+   committed-rev="1870"
+   name="normalize-paths.gyp"
+   text-time="2014-08-07T09:39:41.000000Z"
+   committed-date="2014-03-12T21:58:41.920492Z"
+   checksum="3cfb41fbfdb12ad9f75a16650401bc54"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:41.000000Z"/>
+</wc-entries>

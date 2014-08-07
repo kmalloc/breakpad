@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1180"
+   name=""
+   committed-date="2012-01-26T01:18:54.593173Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/postbuild-fail"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1049"
+   name="file.c"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2011-09-20T16:18:07.576045Z"
+   checksum="90795a77bba3192a8ea8ec583929b3bc"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1049"
+   name="touch-static.sh"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2011-09-20T16:18:07.576045Z"
+   checksum="f31cdd58af9e85f50dd10c6ea28ae3b0"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1180"
+   name="postbuild-fail.sh"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2012-01-26T01:18:54.593173Z"
+   checksum="fef3e93663b8c829a7a4b341d7208301"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1049"
+   name="touch-dynamic.sh"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2011-09-20T16:18:07.576045Z"
+   checksum="67909bfc4b4eec7756e40a1bd7d2978c"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+<entry
+   committed-rev="1049"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:19.000000Z"
+   committed-date="2011-09-20T16:18:07.576045Z"
+   checksum="f2e76410120f94d116f705ccd1e39125"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:19.000000Z"/>
+</wc-entries>

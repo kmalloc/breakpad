@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1137"
+   name=""
+   committed-date="2012-01-10T19:31:54.910624Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/depend-on-bundle"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1137"
+   name="executable.c"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2012-01-10T19:31:54.910624Z"
+   checksum="0489f4ac75cc0ac0b35b4d9764d89b42"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1137"
+   name="Info.plist"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2012-01-10T19:31:54.910624Z"
+   checksum="5c03427a02fbc004d6a2493204ce1779"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1137"
+   name="bundle.c"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2012-01-10T19:31:54.910624Z"
+   checksum="6df5212d82b3f03b4f84a3ba7e27f677"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1137"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2012-01-10T19:31:54.910624Z"
+   checksum="895de64b2b1e5b2d87651eb22103c6ae"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   name="English.lproj"
+   kind="dir"/>
+</wc-entries>

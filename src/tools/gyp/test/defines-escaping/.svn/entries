@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1102"
+   name=""
+   committed-date="2011-11-28T16:07:19.276060Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/defines-escaping"
+   last-author="maruel@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="798"
+   name="defines-escaping.gyp"
+   text-time="2014-08-07T09:39:42.000000Z"
+   committed-date="2010-03-20T00:07:12.684520Z"
+   checksum="b753cfc9a1788631e085f60db2f70753"
+   last-author="tschmelcher@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:42.000000Z"/>
+<entry
+   committed-rev="798"
+   name="defines-escaping.c"
+   text-time="2014-08-07T09:39:42.000000Z"
+   committed-date="2010-03-20T00:07:12.684520Z"
+   checksum="128be215b698498e543ce50550c2359f"
+   last-author="tschmelcher@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:42.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-defines-escaping.py"
+   text-time="2014-08-07T09:39:42.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="d3f9c21ac8fdc0e38bc0969dda98cfbd"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:42.000000Z"/>
+</wc-entries>

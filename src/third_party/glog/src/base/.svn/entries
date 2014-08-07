@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="76"
+   name=""
+   committed-date="2010-01-20T07:39:18.007415Z"
+   url="http://google-glog.googlecode.com/svn/trunk/src/base"
+   last-author="shinichiro.hamaji"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="2"
+   name="googleinit.h"
+   text-time="2014-08-07T09:38:56.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="fda7f34fe2f6c7ad0bee572ea5962082"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="61"
+   name="mutex.h"
+   text-time="2014-08-07T09:38:56.000000Z"
+   committed-date="2009-07-27T08:13:30.504199Z"
+   checksum="ce5bb9b20411aecc506601ba66029995"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="76"
+   name="commandlineflags.h"
+   text-time="2014-08-07T09:38:56.000000Z"
+   committed-date="2010-01-20T07:39:18.007415Z"
+   checksum="5237ab9005859fa0fff43c3158d37a25"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+</wc-entries>

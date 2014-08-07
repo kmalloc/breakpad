@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1533"
+   name=""
+   committed-date="2012-11-07T20:04:09.697993Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/postbuild-copy-bundle"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1179"
+   name="empty.c"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-01-26T00:53:08.078000Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1179"
+   name="Framework-Info.plist"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-01-26T00:53:08.078000Z"
+   checksum="321f9b8729823b0a771dce0405352ce6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1179"
+   name="postbuild-copy-framework.sh"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-01-26T00:53:08.078000Z"
+   checksum="eaf11cf657aa8c6268410c238b70577f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1533"
+   name="copied.txt"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-11-07T20:04:09.697993Z"
+   checksum="f0d8a0d734276a34a43ce8ab38746cc2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1179"
+   name="TestApp-Info.plist"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-01-26T00:53:08.078000Z"
+   checksum="465e5a070155de0b20d7862f656cc28a"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1179"
+   name="main.c"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-01-26T00:53:08.078000Z"
+   checksum="837b75f79659e616084466e060211ab9"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1179"
+   name="resource_file.sb"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-01-26T00:53:08.078000Z"
+   checksum="f2b9bc67f8c9b9d53880197ab3bc61cc"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+<entry
+   committed-rev="1533"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:07.000000Z"
+   committed-date="2012-11-07T20:04:09.697993Z"
+   checksum="6cdbdb37108ab65ad2a412910e32b51d"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:07.000000Z"/>
+</wc-entries>

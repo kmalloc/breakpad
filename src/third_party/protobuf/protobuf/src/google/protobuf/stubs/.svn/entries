@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="402"
+   name=""
+   committed-date="2011-07-05T21:05:40.988101Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf/stubs"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="249"
+   name="structurally_valid_unittest.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-12-11T03:49:28.220239Z"
+   checksum="24852336a47d67309ad5e7d175bc63a9"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="249"
+   name="structurally_valid.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-12-11T03:49:28.220239Z"
+   checksum="4c17d14c68df9129c1b4d66d8968ec62"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="83"
+   name="strutil_unittest.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-12-04T20:34:50.257567Z"
+   checksum="26e1b97b2e01eee94ae5d5df54b4352e"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="402"
+   name="strutil.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2011-07-05T21:05:40.988101Z"
+   checksum="0dee42e2fe84d10de6b854257c6bce82"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="317"
+   name="strutil.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2010-02-10T00:13:33.216830Z"
+   checksum="b624d0a0ead9e8cb85795280fbb3ac55"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="50"
+   name="substitute.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="76b248fb413763532e82614978c181cd"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="50"
+   name="substitute.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="31313a006d9f1e6af6cad4dc4e48d412"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="50"
+   name="stl_util-inl.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-09-24T20:31:01.145770Z"
+   checksum="f13e84a67eb91fdfe9b754379fa88095"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="256"
+   name="once_unittest.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-12-18T08:21:00.152697Z"
+   checksum="29432066a601dc7e512bae0b74faee7c"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="256"
+   name="once.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-12-18T08:21:00.152697Z"
+   checksum="5b5f4f5bba34daa49371e1013e2d1f4c"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="260"
+   name="hash.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-12-21T19:24:21.151794Z"
+   checksum="9d53c84f040e5d1c8e3dc00df9766b77"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="256"
+   name="once.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-12-18T08:21:00.152697Z"
+   checksum="966f7ffb5c4a7b166e9264e9b7e827d1"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="318"
+   name="common_unittest.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2010-02-16T21:59:09.162452Z"
+   checksum="fd2a0c0a6becc304257dfb559bff2b96"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="356"
+   name="common.cc"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2010-12-07T06:23:55.529854Z"
+   checksum="59ff55516ea14bf0f0763480e8a707e6"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="392"
+   name="common.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2011-05-03T07:06:03.429172Z"
+   checksum="44890abc792ebcf172b4d0a4d86caad4"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="120"
+   name="map-util.h"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="d391071d2b278937c11129b1f8818f74"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+</wc-entries>

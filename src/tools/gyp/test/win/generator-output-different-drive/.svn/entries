@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1684"
+   name=""
+   committed-date="2013-07-22T20:33:51.245402Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/generator-output-different-drive"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1683"
+   name="gyptest-generator-output-different-drive.py"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2013-07-22T20:30:27.712390Z"
+   checksum="4e4177adc4088b71d7eb69736d92d1c8"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1684"
+   name="prog.gyp"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2013-07-22T20:33:51.245402Z"
+   checksum="ee45c687088e1269a4c3ea10f48a3bce"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+<entry
+   committed-rev="1683"
+   name="prog.c"
+   text-time="2014-08-07T09:39:34.000000Z"
+   committed-date="2013-07-22T20:30:27.712390Z"
+   checksum="570a7a6cc8fbb06b22b3304febb29702"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:34.000000Z"/>
+</wc-entries>

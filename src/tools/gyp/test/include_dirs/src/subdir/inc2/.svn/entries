@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="629"
+   name=""
+   committed-date="2009-09-01T23:46:21.668494Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/include_dirs/src/subdir/inc2"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="629"
+   name="include2.h"
+   text-time="2014-08-07T09:39:43.000000Z"
+   committed-date="2009-09-01T23:46:21.668494Z"
+   checksum="aa8988cbb95f6452094ac49a9eb70784"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:43.000000Z"/>
+</wc-entries>

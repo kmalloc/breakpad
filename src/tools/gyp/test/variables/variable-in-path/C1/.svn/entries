@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1445"
+   name=""
+   committed-date="2012-08-01T16:08:52.109031Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/variables/variable-in-path/C1"
+   last-author="qsr@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1445"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:22.000000Z"
+   committed-date="2012-08-01T16:08:52.109031Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:21.000000Z"/>
+</wc-entries>

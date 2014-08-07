@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1613"
+   name=""
+   committed-date="2013-04-17T18:21:30.907928Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions-none"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1613"
+   name="gyptest-none.py"
+   text-time="2014-08-07T09:39:39.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="6d0044752db898ad5f2161b089a47d23"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:39.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1607"
+   name=""
+   committed-date="2013-04-11T18:28:51.343168Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/toolsets"
+   last-author="yfriedman@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1607"
+   name="gyptest-toolsets.py"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2013-04-11T18:28:51.343168Z"
+   checksum="ccf15f20f293442f2ec3e605868aba61"
+   last-author="yfriedman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="771"
+   name="toolsets.cc"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2010-01-08T14:58:07.256663Z"
+   checksum="fc2b3090cfe22ef4b86568e2215a5408"
+   last-author="thomasvl@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1607"
+   name="toolsets_shared.cc"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2013-04-11T18:28:51.343168Z"
+   checksum="af91eecfe94962238348283690c5099b"
+   last-author="yfriedman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1607"
+   name="main.cc"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2013-04-11T18:28:51.343168Z"
+   checksum="c233521f17af2f022b80940c58fe27e7"
+   last-author="yfriedman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+<entry
+   committed-rev="1607"
+   name="toolsets.gyp"
+   text-time="2014-08-07T09:40:03.000000Z"
+   committed-date="2013-04-11T18:28:51.343168Z"
+   checksum="2e68f09326b130891abf70b4f435b1bc"
+   last-author="yfriedman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:03.000000Z"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1779"
+   name=""
+   committed-date="2013-11-06T03:20:34.390280Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/bundle-resources"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1714"
+   name="secret.txt"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-09-04T21:42:14.971654Z"
+   checksum="0bee89b07a248e27c83fc3d5951213c1"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1779"
+   name="executable-file.sh"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-11-06T03:20:34.390280Z"
+   checksum="9395127da89864e735bb1e6a4269fd41"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1779"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-11-06T03:20:34.390280Z"
+   checksum="04183fa178a02c129b665f5ae74be679"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+<entry
+   committed-rev="1715"
+   name="change.sh"
+   text-time="2014-08-07T09:39:12.000000Z"
+   committed-date="2013-09-04T23:29:38.646717Z"
+   checksum="e88185d81ad5bbcc0947b68a0af83757"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:12.000000Z"/>
+</wc-entries>

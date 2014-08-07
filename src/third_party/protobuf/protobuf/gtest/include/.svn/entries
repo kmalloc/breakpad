@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="414"
+   name=""
+   committed-date="2010-04-13T04:40:32.048136Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/include"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   name="gtest"
+   kind="dir"/>
+</wc-entries>

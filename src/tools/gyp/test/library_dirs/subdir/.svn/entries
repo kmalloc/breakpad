@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1750"
+   name=""
+   committed-date="2013-10-04T23:12:17.116174Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/library_dirs/subdir"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1657"
+   name="mylib.cc"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-07-02T00:49:07.819899Z"
+   checksum="1761eccd3d752b96cb2793b60f7d3e18"
+   last-author="dimator@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1657"
+   name="mylib.h"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-07-02T00:49:07.819899Z"
+   checksum="05b06a48b196aeca67f3f7273f80c2df"
+   last-author="dimator@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1657"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-07-02T00:49:07.819899Z"
+   checksum="71ed5d2f6f40f501fb3b6af87c5ef14f"
+   last-author="dimator@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1750"
+   name="test-win.gyp"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-10-04T23:12:17.116174Z"
+   checksum="81e085227d68d7f0a2b03611c280cb7d"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1657"
+   name="README.txt"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-07-02T00:49:07.819899Z"
+   checksum="db05bbbdacce2d06dfae3fc3bc67ba81"
+   last-author="dimator@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1744"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2013-10-01T20:00:24.626905Z"
+   checksum="74781447ad5edd9279cbdcc88f66afa3"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+</wc-entries>

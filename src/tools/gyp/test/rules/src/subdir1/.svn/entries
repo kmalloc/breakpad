@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1613"
+   name=""
+   committed-date="2013-04-17T18:21:30.907928Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules/src/subdir1"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1613"
+   name="executable.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2013-04-17T18:21:30.907928Z"
+   checksum="c27e0e018af87d645c443a7b63842ae7"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="622"
+   name="program.c"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2009-08-31T20:29:35.223648Z"
+   checksum="c103b2c4b358aca668c555183f3c2d70"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="622"
+   name="function1.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2009-08-31T20:29:35.223648Z"
+   checksum="e08efe64850ee47f5bc40fe0b06e5e41"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="622"
+   name="function2.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2009-08-31T20:29:35.223648Z"
+   checksum="a7182dda7cd951e090c069c739840d29"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+</wc-entries>

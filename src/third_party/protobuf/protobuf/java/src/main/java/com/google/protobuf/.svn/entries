@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="385"
+   name=""
+   committed-date="2011-04-28T09:42:23.939285Z"
+   url="http://protobuf.googlecode.com/svn/trunk/java/src/main/java/com/google/protobuf"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="294"
+   name="Service.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-01-08T03:56:03.021022Z"
+   checksum="8bcfc85a4514f790543c9f2fc411d7e4"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="294"
+   name="RpcCallback.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-01-08T03:56:03.021022Z"
+   checksum="69186a3e0ee540745a592c49c57ca741"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="Descriptors.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="333958e765c10ab41881d08554caaf04"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="LazyStringArrayList.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="11417b415d457c6bb69c44c62422adc1"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="251"
+   name="ExtensionRegistry.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="9694c4b7a8769c82190145277c5cd258"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="CodedInputStream.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="86120adb1fdd94852c4b73fbb1ba3431"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="353"
+   name="MessageLiteOrBuilder.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-12-03T09:12:33.096283Z"
+   checksum="60c4895de8f5e53dfbb0d4ed7c943f61"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="WireFormat.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="8a155d4624b52dbadef949f6f1c2c713"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="163"
+   name="InvalidProtocolBufferException.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="2928161d5ec0a89951de46b540f413bc"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="163"
+   name="ExtensionRegistryLite.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="262cb688b28accec2fb653ad397a38b4"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="Message.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="acdc0ec75183e11b6b8812ea6bcf01ab"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="384"
+   name="SmallSortedMap.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-04-28T09:37:40.074472Z"
+   checksum="c76ffee46b523070bb0853e0746aefc7"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="ByteString.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="4e49402ac1ab738c951b36d627f779c7"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="163"
+   name="UninitializedMessageException.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="ffe579b8482ba4898741073bc5aa47ae"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="FieldSet.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="4bae6afe1f507e6b98ab0ce037ab15a2"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="MessageLite.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="5b9db0bd004c9a00e4ef9b224a2fff34"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="LazyStringList.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="23889088e27f51654e7363a8a9600ee3"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="385"
+   name="GeneratedMessage.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-04-28T09:42:23.939285Z"
+   checksum="c0b797ab957d474c0a7c0e238f59c996"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="384"
+   name="RepeatedFieldBuilder.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-04-28T09:37:40.074472Z"
+   checksum="a08a44901a775658f8ac82c26d29b0ec"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="AbstractMessage.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="080084b772b030056250c70ae508b9bb"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="120"
+   name="BlockingService.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="4a03f7c6e0ee4bda1f46f87c3b6b7b8c"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="381"
+   name="CodedOutputStream.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-02-18T04:35:54.474998Z"
+   checksum="d86a99f7fc89cfd288231a1fa541d105"
+   last-author="jasonh@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="Internal.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="d99098df21ab1335010f07c6ccad7803"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="294"
+   name="RpcChannel.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-01-08T03:56:03.021022Z"
+   checksum="80a41269db8be89ce8001b5fab2d31ed"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="251"
+   name="UnknownFieldSet.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-12-18T02:11:36.748259Z"
+   checksum="7aa7d1666417ca56e365cd246ccf798e"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="349"
+   name="ServiceException.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="de083fb0f5bb4e973b072f351cf32ef8"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:32.000000Z"/>
+<entry
+   committed-rev="384"
+   name="UnmodifiableLazyStringList.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-04-28T09:37:40.074472Z"
+   checksum="f046834eba4d90fb493ddb53e453bc61"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="354"
+   name="GeneratedMessageLite.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-12-06T06:20:14.066958Z"
+   checksum="fd7c19da7db72a896693017f2387834d"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="163"
+   name="RpcUtil.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="25ee19f03ac22a00a670f324cb267725"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="310"
+   name="AbstractMessageLite.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-01-21T22:10:55.011070Z"
+   checksum="999c68650021e8fea376c3674a976838"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="120"
+   name="BlockingRpcChannel.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-04-25T02:53:47.422365Z"
+   checksum="21972e4d3eadbde71133f191dfcc4a96"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="294"
+   name="RpcController.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-01-08T03:56:03.021022Z"
+   checksum="44d21c039feedf7c387b756b2679f1fa"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="163"
+   name="DynamicMessage.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="a63dde7ca05b8602efd7047fea72b475"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="163"
+   name="ProtocolMessageEnum.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2009-07-29T01:13:20.075365Z"
+   checksum="1ba4f75f3298d7fbfe3bc00695b61b7c"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="349"
+   name="MessageOrBuilder.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="614c6ede0056ed9cebb8793d1cd74b98"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="384"
+   name="SingleFieldBuilder.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2011-04-28T09:37:40.074472Z"
+   checksum="aea9087da5867b8e265dfae3eeba8da0"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+<entry
+   committed-rev="349"
+   name="TextFormat.java"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-11-02T13:14:58.097196Z"
+   checksum="64953b6cec696d93e41e2064d6384a85"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+</wc-entries>

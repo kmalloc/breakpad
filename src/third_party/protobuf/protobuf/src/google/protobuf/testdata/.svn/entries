@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="98"
+   name=""
+   committed-date="2009-02-10T17:47:02.401952Z"
+   url="http://protobuf.googlecode.com/svn/trunk/src/google/protobuf/testdata"
+   last-author="kenton@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="2"
+   name="text_format_unittest_extensions_data.txt"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="75dacd9c09eaaf5062c70638f568af4c"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="2"
+   name="text_format_unittest_data.txt"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="89cd4224871c5c793aa62097b715385e"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="98"
+   name="golden_packed_fields_message"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2009-02-10T17:47:02.401952Z"
+   checksum="9c6fcd7a59e72c1f7ed325f833c0d7a7"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+<entry
+   committed-rev="2"
+   name="golden_message"
+   text-time="2014-08-07T09:38:35.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="81bbb4de4214f64171623c67ca048589"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:35.000000Z"/>
+</wc-entries>

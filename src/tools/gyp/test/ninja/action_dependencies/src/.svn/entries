@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1216"
+   name=""
+   committed-date="2012-02-21T02:12:01.224262Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ninja/action_dependencies/src"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1087"
+   name="action_dependencies.gyp"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-09T20:44:29.975065Z"
+   checksum="7aa0e4adaa1bb2d99db356f355c565d7"
+   last-author="piman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1087"
+   name="a.c"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-09T20:44:29.975065Z"
+   checksum="f3cc39a92fceb9611322022638817aac"
+   last-author="piman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1216"
+   name="b.c"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2012-02-21T02:12:01.224262Z"
+   checksum="9c45e0a5fd8e9572adb126ca898afb53"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1087"
+   name="c.c"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-09T20:44:29.975065Z"
+   checksum="244c510df59a58ee227d5e30c85bcb97"
+   last-author="piman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="emit.py"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="99b03d5472b522b446d39701b672e0ca"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1087"
+   name="a.h"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-09T20:44:29.975065Z"
+   checksum="192695aeabb38a94a0de39f3d159acf3"
+   last-author="piman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1087"
+   name="b.h"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-09T20:44:29.975065Z"
+   checksum="24148eaa071865a52276e63f63a5e405"
+   last-author="piman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1087"
+   name="c.h"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2011-11-09T20:44:29.975065Z"
+   checksum="1114a4663140448b5aa844e54c4a20b9"
+   last-author="piman@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+</wc-entries>

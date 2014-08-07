@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1102"
+   name=""
+   committed-date="2011-11-28T16:07:19.276060Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions/src/subdir3"
+   last-author="maruel@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="generate_main.py"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="59fee7c48ec25c09633400937ef9fd6c"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+<entry
+   committed-rev="787"
+   name="null_input.gyp"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2010-02-22T22:34:37.046530Z"
+   checksum="f4b2e8d209928b1824093b790710cc1d"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+</wc-entries>

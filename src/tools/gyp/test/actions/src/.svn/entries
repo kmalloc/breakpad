@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1613"
+   name=""
+   committed-date="2013-04-17T18:21:30.907928Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/actions/src"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="721"
+   name="action_missing_name.gyp"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="91bba93764aed526ccf72e8dade435ec"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   name="subdir1"
+   kind="dir"/>
+<entry
+   name="subdir2"
+   kind="dir"/>
+<entry
+   committed-rev="1102"
+   name="confirm-dep-files.py"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="1140b8721496931623e2f4df56dd8ad3"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:01.000000Z"/>
+<entry
+   name="subdir3"
+   kind="dir"/>
+<entry
+   committed-rev="795"
+   name="actions.gyp"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2010-03-05T21:06:36.047215Z"
+   checksum="fdf7766a45791bf74a4c56a305a1ea93"
+   last-author="jrg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+</wc-entries>

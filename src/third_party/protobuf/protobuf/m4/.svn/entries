@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="367"
+   name=""
+   committed-date="2011-01-13T06:44:11.231926Z"
+   url="http://protobuf.googlecode.com/svn/trunk/m4"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="367"
+   name="acx_pthread.m4"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2011-01-13T06:44:11.231926Z"
+   checksum="a400a915b3b2d2d8c7cf40c815ddc607"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:28.000000Z"/>
+<entry
+   committed-rev="284"
+   name="acx_check_suncc.m4"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2010-01-04T19:52:53.822889Z"
+   checksum="353b8f027263669bb2d6335f5828de58"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="356"
+   name="stl_hash.m4"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2010-12-07T06:23:55.529854Z"
+   checksum="e1d4dbf00eda137f0390a21e5c465e64"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+<entry
+   committed-rev="83"
+   name="ac_system_extensions.m4"
+   text-time="2014-08-07T09:38:29.000000Z"
+   committed-date="2008-12-04T20:34:50.257567Z"
+   checksum="c2bcb6609417df59d382283057bbddcd"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:29.000000Z"/>
+</wc-entries>

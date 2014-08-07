@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="299"
+   name=""
+   committed-date="2009-08-28T22:11:18.390408Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/xcode/gtest.xcodeproj"
+   last-author="preston.a.jackson"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   committed-rev="299"
+   name="project.pbxproj"
+   text-time="2014-08-07T09:38:49.000000Z"
+   committed-date="2009-08-28T22:11:18.390408Z"
+   checksum="e104b3864e760aeb21b807161c357ceb"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:38:49.000000Z"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1881"
+   name=""
+   committed-date="2014-03-21T14:52:18.340400Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ios/app-bundle"
+   last-author="sdefresne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="TestApp"
+   kind="dir"/>
+<entry
+   committed-rev="1881"
+   name="tool_main.cc"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2014-03-21T14:52:18.340400Z"
+   checksum="b82458d2cd69a13a82822e2ec07ab4d6"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1756"
+   name="test-device.gyp"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-10-15T17:32:22.347162Z"
+   checksum="5231b13f2e0a699f8939d49ec5a263d1"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1850"
+   name="test-archs.gyp"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2014-02-12T08:15:10.133697Z"
+   checksum="767c5169982bdbd90c47d2c947062895"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1778"
+   name="test.gyp"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-11-05T18:28:56.165467Z"
+   checksum="88b002ccc36eb9d727b5fe8755c2eb07"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1881"
+   name="test-crosscompile.gyp"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2014-03-21T14:52:18.340400Z"
+   checksum="75453f2f09e943bb11673b754fcd828e"
+   last-author="sdefresne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+</wc-entries>

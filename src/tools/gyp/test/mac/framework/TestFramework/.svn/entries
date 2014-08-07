@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1733"
+   name=""
+   committed-date="2013-09-16T22:33:56.871645Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/framework/TestFramework"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="958"
+   name="ObjCVectorInternal.h"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2011-07-18T22:04:39.653389Z"
+   checksum="726adc1e316eaf0fb83264173b3528ca"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="956"
+   name="TestFramework_Prefix.pch"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2011-07-18T21:13:37.409121Z"
+   checksum="61423ded46f1ced2b62a199d285bbe13"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="1733"
+   name="Info.plist"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2013-09-16T22:33:56.871645Z"
+   checksum="24ad3f44fdc2b00d430b0f1e20b0f189"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="958"
+   name="ObjCVector.h"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2011-07-18T22:04:39.653389Z"
+   checksum="9bc65fa9810dac04eff8d4124eb767e5"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   committed-rev="958"
+   name="ObjCVector.mm"
+   text-time="2014-08-07T09:39:08.000000Z"
+   committed-date="2011-07-18T22:04:39.653389Z"
+   checksum="3b586ac8594dee3fab669292d02fd946"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:08.000000Z"/>
+<entry
+   name="English.lproj"
+   kind="dir"/>
+</wc-entries>

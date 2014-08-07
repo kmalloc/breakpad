@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="410"
+   name=""
+   committed-date="2010-04-07T05:32:34.333862Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/include/gtest/internal"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   committed-rev="410"
+   name="gtest-string.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-04-07T05:32:34.333862Z"
+   checksum="22cdd50b8a9f37d4183152fd09d48f06"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="339"
+   name="gtest-param-util-generated.h.pump"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2009-11-13T02:54:23.790264Z"
+   checksum="aaf5d71a0701406fd76ee30b8c543de4"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="339"
+   name="gtest-param-util-generated.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2009-11-13T02:54:23.790264Z"
+   checksum="9d2a065fa65174e63ed2b02d584eca8f"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="371"
+   name="gtest-tuple.h.pump"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-02-03T02:27:02.986741Z"
+   checksum="5478a5d6b2107f1a737d34b692432d2c"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="371"
+   name="gtest-tuple.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-02-03T02:27:02.986741Z"
+   checksum="a33a418d0bb0b2639ddce9a351237b35"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="401"
+   name="gtest-param-util.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-23T15:58:37.391259Z"
+   checksum="4e317938bded7d106d5899cfd93c8c61"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="388"
+   name="gtest-linked_ptr.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-05T21:21:06.655139Z"
+   checksum="c11c7a35689bbcbb8e34e67e840bf108"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="399"
+   name="gtest-internal.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-22T21:23:51.570847Z"
+   checksum="b5c8b71bffeafaf47006fa90eb19f187"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="388"
+   name="gtest-death-test-internal.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-05T21:21:06.655139Z"
+   checksum="f038ac07fbb73bb14c5871718145d8a3"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:46.000000Z"/>
+<entry
+   committed-rev="401"
+   name="gtest-type-util.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-23T15:58:37.391259Z"
+   checksum="8575e073367408b27c5d3b8ece3d8aba"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="399"
+   name="gtest-filepath.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-22T21:23:51.570847Z"
+   checksum="d6be5fe32980b7a6f8297ccf24d2c2fb"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="401"
+   name="gtest-type-util.h.pump"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-23T15:58:37.391259Z"
+   checksum="a3f05a2d77af5ee9d0533eeb483e69f8"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+<entry
+   committed-rev="408"
+   name="gtest-port.h"
+   text-time="2014-08-07T09:38:47.000000Z"
+   committed-date="2010-03-26T20:23:06.527030Z"
+   checksum="a9c4168d117a18fab771f08826ca1026"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:38:47.000000Z"/>
+</wc-entries>

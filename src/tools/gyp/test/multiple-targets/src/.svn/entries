@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="721"
+   name=""
+   committed-date="2009-10-22T20:02:37.997393Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/multiple-targets/src"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="721"
+   name="multiple.gyp"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="fabe1062f56dece7136fb6783b691c91"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+<entry
+   committed-rev="619"
+   name="common.c"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2009-08-29T04:00:50.509096Z"
+   checksum="c631205efee52573feb33425e294e4ff"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+<entry
+   committed-rev="619"
+   name="prog1.c"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2009-08-29T04:00:50.509096Z"
+   checksum="7f66fd413fe16d9e045003a19c3a9b94"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+<entry
+   committed-rev="619"
+   name="prog2.c"
+   text-time="2014-08-07T09:40:02.000000Z"
+   committed-date="2009-08-29T04:00:50.509096Z"
+   checksum="bc4cae5073061d88bb2091db9e0b4f96"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:02.000000Z"/>
+</wc-entries>

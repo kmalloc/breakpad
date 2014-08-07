@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="721"
+   name=""
+   committed-date="2009-10-22T20:02:37.997393Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/subdirectory/src/subdir/subdir2"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="721"
+   name="prog3.gyp"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="d638f91a7a5eafe69e5da9bd5e48853b"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="599"
+   name="prog3.c"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2009-08-18T19:56:43.434001Z"
+   checksum="e26903be30d6882f00c862619c09e955"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+</wc-entries>

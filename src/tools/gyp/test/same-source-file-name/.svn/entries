@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1537"
+   name=""
+   committed-date="2012-11-28T12:02:52.233998Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/same-source-file-name"
+   last-author="jochen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1537"
+   name="gyptest-fail-shared.py"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="f914bf8ae1fe9ebd6414fb0a65cf30b7"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   committed-rev="1537"
+   name="gyptest-fail-static.py"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="aef4f1a2091f3b72defae8b9a6439bb0"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:57.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-default.py"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="d010614bdd6ce200004ef3aa1e38a5e5"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="1537"
+   name="gyptest-pass-executable.py"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2012-11-28T12:02:52.233998Z"
+   checksum="27b4a4e1cfccce113097ced10515f4c3"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="gyptest-all.py"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="4d4ed2e409b0fafc8511f52586ffce24"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+</wc-entries>

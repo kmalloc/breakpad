@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="863"
+   name=""
+   committed-date="2011-10-11T18:15:06.522465Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/third_party/protobuf"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:12.000000Z"
+   revision="1361"/>
+</wc-entries>

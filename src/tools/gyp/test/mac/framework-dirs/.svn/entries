@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1433"
+   name=""
+   committed-date="2012-07-23T17:23:13.906306Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/framework-dirs"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1433"
+   name="framework-dirs.gyp"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-07-23T17:23:13.906306Z"
+   checksum="7ccf4e22715a035677a13cca389da44f"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+<entry
+   committed-rev="1433"
+   name="calculate.c"
+   text-time="2014-08-07T09:39:10.000000Z"
+   committed-date="2012-07-23T17:23:13.906306Z"
+   checksum="af354c4b5a72856099c6fcd813fa0258"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:10.000000Z"/>
+</wc-entries>

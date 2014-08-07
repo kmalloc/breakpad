@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="95"
+   name=""
+   committed-date="2011-09-05T07:58:38.170089Z"
+   url="http://google-glog.googlecode.com/svn/trunk/src/glog"
+   last-author="shinichiro.hamaji@gmail.com"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   revision="97"/>
+<entry
+   committed-rev="95"
+   name="logging.h.in"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2011-09-05T07:58:38.170089Z"
+   checksum="536ad159c6712c6b5336a87db9159ae1"
+   last-author="shinichiro.hamaji@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="39"
+   name="log_severity.h"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2009-01-28T17:04:50.991785Z"
+   checksum="9c45f9cffb7ea5e6939c356b46ca6cbc"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="39"
+   name="stl_logging.h.in"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2009-01-28T17:04:50.991785Z"
+   checksum="2206e2b9266134ce4a5f63bc7cddf1a0"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="82"
+   name="vlog_is_on.h.in"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2010-05-28T03:32:50.465719Z"
+   checksum="86ac7c0fea1e7ee2a00978f6ef4ea1b1"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+<entry
+   committed-rev="56"
+   name="raw_logging.h.in"
+   text-time="2014-08-07T09:38:55.000000Z"
+   committed-date="2009-07-08T17:19:09.629548Z"
+   checksum="dd9cde3ea1c23651c81b8240a6d28298"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:55.000000Z"/>
+</wc-entries>

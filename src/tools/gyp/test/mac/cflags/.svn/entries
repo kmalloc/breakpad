@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1685"
+   name=""
+   committed-date="2013-07-30T21:27:08.063651Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/cflags"
+   last-author="jochen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1328"
+   name="mmfile.mm"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="62c776eacf56b4d43efa7509d5c1ecd6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="cfile.c"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="06435f053a05b86b972dc33170dd3eec"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="cxxfile.cxx"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="62c776eacf56b4d43efa7509d5c1ecd6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="cppfile.cpp"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="62c776eacf56b4d43efa7509d5c1ecd6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="ccfile_withcflags.cc"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="03847682ca3c27c415fed02443ae350b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="mfile.m"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="06435f053a05b86b972dc33170dd3eec"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="ccfile.cc"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="62c776eacf56b4d43efa7509d5c1ecd6"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="mmfile_withcflags.mm"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="03847682ca3c27c415fed02443ae350b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1685"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2013-07-30T21:27:08.063651Z"
+   checksum="c01b51cd833b0e261f6014a952d36058"
+   last-author="jochen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="cppfile_withcflags.cpp"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="03847682ca3c27c415fed02443ae350b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+<entry
+   committed-rev="1328"
+   name="cxxfile_withcflags.cxx"
+   text-time="2014-08-07T09:39:17.000000Z"
+   committed-date="2012-04-16T16:26:22.082797Z"
+   checksum="03847682ca3c27c415fed02443ae350b"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:17.000000Z"/>
+</wc-entries>

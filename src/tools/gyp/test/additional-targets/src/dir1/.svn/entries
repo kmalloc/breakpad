@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1102"
+   name=""
+   committed-date="2011-11-28T16:07:19.276060Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/additional-targets/src/dir1"
+   last-author="maruel@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1102"
+   name="emit.py"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="475572f0be6f34bc247409e88f0159c0"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:46.000000Z"/>
+<entry
+   committed-rev="720"
+   name="lib1.c"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2009-10-22T00:56:41.953782Z"
+   checksum="96847fefd84122a4d6fa8180a8a88f5c"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:46.000000Z"/>
+<entry
+   committed-rev="756"
+   name="actions.gyp"
+   text-time="2014-08-07T09:39:46.000000Z"
+   committed-date="2009-11-13T19:31:37.036523Z"
+   checksum="faa8fa1206e499e0194aba5441f8bcdd"
+   last-author="mmoss@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:46.000000Z"/>
+</wc-entries>

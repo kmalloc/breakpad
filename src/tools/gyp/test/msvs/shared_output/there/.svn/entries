@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1377"
+   name=""
+   committed-date="2012-05-11T20:34:38.720494Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/msvs/shared_output/there"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1377"
+   name="there.gyp"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2012-05-11T20:34:38.720494Z"
+   checksum="23623dede4ce871f6eaa1df857c12604"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+<entry
+   committed-rev="1377"
+   name="there.c"
+   text-time="2014-08-07T09:39:26.000000Z"
+   committed-date="2012-05-11T20:34:38.720494Z"
+   checksum="b3cff4e2d27d65fb56f164182fc722e2"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:26.000000Z"/>
+</wc-entries>

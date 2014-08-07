@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1886"
+   name=""
+   committed-date="2014-04-02T17:56:04.373243Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/android"
+   last-author="torne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1886"
+   name="hello.gyp"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2014-04-02T17:56:04.373243Z"
+   checksum="84693699ccb3afeefacba1b7d3e7abfc"
+   last-author="torne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1886"
+   name="hello.c"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2014-04-02T17:56:04.373243Z"
+   checksum="0f88dc83f776f6573f013e564020aa90"
+   last-author="torne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+<entry
+   committed-rev="1886"
+   name="gyptest-noalias.py"
+   text-time="2014-08-07T09:39:01.000000Z"
+   committed-date="2014-04-02T17:56:04.373243Z"
+   checksum="9816a7fcb51b73b1315689e57b4d8c26"
+   last-author="torne@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:01.000000Z"/>
+</wc-entries>

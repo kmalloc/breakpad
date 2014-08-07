@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1160"
+   name=""
+   committed-date="2012-01-14T01:13:04.516102Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/action-envvars"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="action"
+   kind="dir"/>
+</wc-entries>

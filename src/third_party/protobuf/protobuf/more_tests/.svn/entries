@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="303"
+   name=""
+   committed-date="2010-01-12T22:45:15.346467Z"
+   url="http://protobuf.googlecode.com/svn/trunk/more_tests"
+   last-author="kenton@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="303"
+   name="Makefile"
+   text-time="2014-08-07T09:38:33.000000Z"
+   committed-date="2010-01-12T22:45:15.346467Z"
+   checksum="02631ba9fb01f492d5b2ce513c1f2635"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:33.000000Z"/>
+</wc-entries>

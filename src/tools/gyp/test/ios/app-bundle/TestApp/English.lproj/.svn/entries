@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1778"
+   name=""
+   committed-date="2013-11-05T18:28:56.165467Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ios/app-bundle/TestApp/English.lproj"
+   last-author="justincohen@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1630"
+   name="InfoPlist.strings"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-05-09T00:10:52.178384Z"
+   checksum="bf108c43cece7b5a7fc3cb6428691191"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1630"
+   name="InfoPlist-error.strings"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-05-09T00:10:52.178384Z"
+   checksum="a4591bf977d68b50cb9ec9ea89e784ce"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1630"
+   name="MainMenu.xib"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-05-09T00:10:52.178384Z"
+   checksum="3cbe77efa2f7f4d3473cae2f50827688"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+<entry
+   committed-rev="1778"
+   name="Main_iPhone.storyboard"
+   text-time="2014-08-07T09:40:00.000000Z"
+   committed-date="2013-11-05T18:28:56.165467Z"
+   checksum="e6a504ff86f5d978fce4a22b7474fb7f"
+   last-author="justincohen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:40:00.000000Z"/>
+</wc-entries>

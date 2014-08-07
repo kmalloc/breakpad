@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="243"
+   name=""
+   committed-date="2009-11-03T18:21:54.758553Z"
+   url="http://protobuf.googlecode.com/svn/trunk/benchmarks"
+   last-author="kenton@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="243"
+   name="ProtoBench.java"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2009-11-03T18:21:54.758553Z"
+   checksum="de22de601c268aaee37c844d5aee612c"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="100"
+   name="google_size.proto"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2009-03-05T11:00:49.993714Z"
+   checksum="78c3d9ee7e65339059ed11a3a2485935"
+   last-author="jonathan.skeet"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="102"
+   name="google_message1.dat"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2009-03-05T23:16:14.564985Z"
+   checksum="e1cf338ca02920d8d5c77eb74ea4a585"
+   last-author="jonathan.skeet"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="100"
+   name="google_message2.dat"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2009-03-05T11:00:49.993714Z"
+   checksum="8a3307d444cbdc1486f3860ddd00b7a5"
+   last-author="jonathan.skeet"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="100"
+   name="readme.txt"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2009-03-05T11:00:49.993714Z"
+   checksum="e994988f4a7e8d74c2c88f68e404c305"
+   last-author="jonathan.skeet"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="100"
+   name="google_speed.proto"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2009-03-05T11:00:49.993714Z"
+   checksum="d6d7f77f1594c6598a7ac042033fc14f"
+   last-author="jonathan.skeet"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+</wc-entries>

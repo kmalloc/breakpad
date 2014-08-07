@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="721"
+   name=""
+   committed-date="2009-10-22T20:02:37.997393Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/compilable/src"
+   last-author="sgk@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="671"
+   name="lib1.cpp"
+   text-time="2014-08-07T09:39:55.000000Z"
+   committed-date="2009-09-29T22:36:34.213834Z"
+   checksum="fb519d7b08fdcfac0141ef366c1a51a4"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:55.000000Z"/>
+<entry
+   committed-rev="671"
+   name="program.cpp"
+   text-time="2014-08-07T09:39:55.000000Z"
+   committed-date="2009-09-29T22:36:34.213834Z"
+   checksum="df18843412b233e95563a3d68bd62cda"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:55.000000Z"/>
+<entry
+   committed-rev="721"
+   name="headers.gyp"
+   text-time="2014-08-07T09:39:55.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="1b81c5917329b66e5c7e3d4cb03e342e"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:55.000000Z"/>
+<entry
+   committed-rev="671"
+   name="lib1.hpp"
+   text-time="2014-08-07T09:39:55.000000Z"
+   committed-date="2009-09-29T22:36:34.213834Z"
+   checksum="c315e9af778c01f011283a97b01ef0e2"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:55.000000Z"/>
+</wc-entries>

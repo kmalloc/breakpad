@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1428"
+   name=""
+   committed-date="2012-07-04T14:20:02.871758Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/product"
+   last-author="steveblock@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="776"
+   name="hello.c"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2010-01-25T22:04:11.505897Z"
+   checksum="76c7654bb7ccbe4dd489397de6e1e6cf"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="1428"
+   name="gyptest-product.py"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2012-07-04T14:20:02.871758Z"
+   checksum="54b0ea2482247d1e8a5d5c7bb6811ed4"
+   last-author="steveblock@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="776"
+   name="product.gyp"
+   text-time="2014-08-07T09:39:59.000000Z"
+   committed-date="2010-01-25T22:04:11.505897Z"
+   checksum="edeac4e518476859bc4affdc1eda2110"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+</wc-entries>

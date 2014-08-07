@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="385"
+   name=""
+   committed-date="2010-03-02T23:40:01.770152Z"
+   url="http://googletest.googlecode.com/svn/tags/release-1.5.0/xcode"
+   last-author="preston.a.jackson"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="692"/>
+<entry
+   name="gtest.xcodeproj"
+   kind="dir"/>
+<entry
+   name="Samples"
+   kind="dir"/>
+<entry
+   name="Config"
+   kind="dir"/>
+<entry
+   name="Scripts"
+   kind="dir"/>
+<entry
+   name="Resources"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1102"
+   name=""
+   committed-date="2011-11-28T16:07:19.276060Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules-rebuild/src"
+   last-author="maruel@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="763"
+   name="main.c"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2009-11-23T23:21:46.558132Z"
+   checksum="cb4e3fe9c8a6f6edfcc968302ca81b1d"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="1102"
+   name="make-sources.py"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2011-11-28T16:07:19.276060Z"
+   checksum="1dcb75dafc09c75f85124acdf0ca176b"
+   last-author="maruel@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="892"
+   name="same_target.gyp"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2011-02-16T01:30:24.379097Z"
+   checksum="654bbf5d770bdacf7a478bfb56d75d5f"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="763"
+   name="prog1.in"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2009-11-23T23:21:46.558132Z"
+   checksum="af5b85988e4fe85188290d0dba192d97"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+<entry
+   committed-rev="763"
+   name="prog2.in"
+   text-time="2014-08-07T09:39:58.000000Z"
+   committed-date="2009-11-23T23:21:46.558132Z"
+   checksum="4802f74ac58f0899a047d8e8dccb92a5"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:58.000000Z"/>
+</wc-entries>

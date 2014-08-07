@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1521"
+   name=""
+   committed-date="2012-10-18T19:45:07.787151Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/ninja/s-needs-no-depfiles"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1521"
+   name="s-needs-no-depfiles.gyp"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2012-10-18T19:45:07.787151Z"
+   checksum="5859b931c49bee6397a6d489e0a1c362"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1521"
+   name="empty.s"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2012-10-18T19:45:07.787151Z"
+   checksum="f271e225645716b62f57d667cbc26867"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+<entry
+   committed-rev="1521"
+   name="gyptest-s-needs-no-depfiles.py"
+   text-time="2014-08-07T09:39:40.000000Z"
+   committed-date="2012-10-18T19:45:07.787151Z"
+   checksum="5b7c2ad48a6684e0f85ce3979f47bbc2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:40.000000Z"/>
+</wc-entries>

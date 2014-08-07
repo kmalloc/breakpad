@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1340"
+   name=""
+   committed-date="2012-04-27T07:21:17.504489Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/batch-file-action"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1340"
+   name="infile"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-27T07:21:17.504489Z"
+   checksum="ec9187a89c2f150e910b6db5f37521b9"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1340"
+   name="batch-file-action.gyp"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-27T07:21:17.504489Z"
+   checksum="d71927aa4af2b94ab9ace61a54e3cf06"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+<entry
+   committed-rev="1340"
+   name="somecmd.bat"
+   text-time="2014-08-07T09:39:32.000000Z"
+   committed-date="2012-04-27T07:21:17.504489Z"
+   checksum="71abe6ee18c9ebfa1d09c1ba4e7dafdc"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:32.000000Z"/>
+</wc-entries>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1105"
+   name=""
+   committed-date="2011-12-13T22:28:05.009346Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/relative/foo/a"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="c"
+   kind="dir"/>
+<entry
+   committed-rev="1105"
+   name="a.cc"
+   text-time="2014-08-07T09:39:56.000000Z"
+   committed-date="2011-12-13T22:28:05.009346Z"
+   checksum="76b0c23b2719d115c4b5c07b474c9b45"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:56.000000Z"/>
+<entry
+   committed-rev="1105"
+   name="a.gyp"
+   text-time="2014-08-07T09:39:56.000000Z"
+   committed-date="2011-12-13T22:28:05.009346Z"
+   checksum="f32799ba5f0549850c11faa365450fd5"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:56.000000Z"/>
+</wc-entries>

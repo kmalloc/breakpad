@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1886"
+   name=""
+   committed-date="2014-04-02T17:56:04.373243Z"
+   url="http://gyp.googlecode.com/svn/trunk/test"
+   last-author="torne@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   name="standalone-static-library"
+   kind="dir"/>
+<entry
+   name="android"
+   kind="dir"/>
+<entry
+   name="library_dirs"
+   kind="dir"/>
+<entry
+   name="dependencies"
+   kind="dir"/>
+<entry
+   name="dependency-copy"
+   kind="dir"/>
+<entry
+   name="actions-subdir"
+   kind="dir"/>
+<entry
+   name="compiler-override"
+   kind="dir"/>
+<entry
+   name="configurations"
+   kind="dir"/>
+<entry
+   name="builddir"
+   kind="dir"/>
+<entry
+   name="custom-generator"
+   kind="dir"/>
+<entry
+   name="external-cross-compile"
+   kind="dir"/>
+<entry
+   name="mac"
+   kind="dir"/>
+<entry
+   name="restat"
+   kind="dir"/>
+<entry
+   name="many-actions"
+   kind="dir"/>
+<entry
+   name="self-dependency"
+   kind="dir"/>
+<entry
+   name="toplevel-dir"
+   kind="dir"/>
+<entry
+   name="actions-bare"
+   kind="dir"/>
+<entry
+   name="variables"
+   kind="dir"/>
+<entry
+   name="no-output"
+   kind="dir"/>
+<entry
+   name="make"
+   kind="dir"/>
+<entry
+   name="cxxflags"
+   kind="dir"/>
+<entry
+   name="same-rule-output-file-name"
+   kind="dir"/>
+<entry
+   name="target"
+   kind="dir"/>
+<entry
+   name="same-target-name"
+   kind="dir"/>
+<entry
+   name="msvs"
+   kind="dir"/>
+<entry
+   name="actions-multiple"
+   kind="dir"/>
+<entry
+   name="rules"
+   kind="dir"/>
+<entry
+   name="no-cpp"
+   kind="dir"/>
+<entry
+   name="win"
+   kind="dir"/>
+<entry
+   name="actions-none"
+   kind="dir"/>
+<entry
+   name="same-target-name-different-directory"
+   kind="dir"/>
+<entry
+   name="linux"
+   kind="dir"/>
+<entry
+   name="ninja"
+   kind="dir"/>
+<entry
+   name="same-gyp-name"
+   kind="dir"/>
+<entry
+   name="include_dirs"
+   kind="dir"/>
+<entry
+   name="defines-escaping"
+   kind="dir"/>
+<entry
+   name="build-option"
+   kind="dir"/>
+<entry
+   name="small"
+   kind="dir"/>
+<entry
+   name="link-dependency"
+   kind="dir"/>
+<entry
+   name="gyp-defines"
+   kind="dir"/>
+<entry
+   name="hard_dependency"
+   kind="dir"/>
+<entry
+   name="make_global_settings"
+   kind="dir"/>
+<entry
+   name="subdirectory"
+   kind="dir"/>
+<entry
+   name="assembly"
+   kind="dir"/>
+<entry
+   name="additional-targets"
+   kind="dir"/>
+<entry
+   name="copies"
+   kind="dir"/>
+<entry
+   name="generator-output"
+   kind="dir"/>
+<entry
+   name="link-objects"
+   kind="dir"/>
+<entry
+   name="sibling"
+   kind="dir"/>
+<entry
+   name="escaping"
+   kind="dir"/>
+<entry
+   name="rules-variables"
+   kind="dir"/>
+<entry
+   name="library"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="rules-dirname"
+   kind="dir"/>
+<entry
+   name="compilable"
+   kind="dir"/>
+<entry
+   name="rename"
+   kind="dir"/>
+<entry
+   name="exclusion"
+   kind="dir"/>
+<entry
+   name="relative"
+   kind="dir"/>
+<entry
+   name="home_dot_gyp"
+   kind="dir"/>
+<entry
+   name="rules-rebuild"
+   kind="dir"/>
+<entry
+   name="same-source-file-name"
+   kind="dir"/>
+<entry
+   name="product"
+   kind="dir"/>
+<entry
+   name="prune_targets"
+   kind="dir"/>
+<entry
+   name="rules-use-built-dependencies"
+   kind="dir"/>
+<entry
+   name="module"
+   kind="dir"/>
+<entry
+   name="standalone"
+   kind="dir"/>
+<entry
+   name="ios"
+   kind="dir"/>
+<entry
+   name="sanitize-rule-names"
+   kind="dir"/>
+<entry
+   name="cflags"
+   kind="dir"/>
+<entry
+   name="actions"
+   kind="dir"/>
+<entry
+   name="multiple-targets"
+   kind="dir"/>
+<entry
+   name="hello"
+   kind="dir"/>
+<entry
+   name="intermediate_dir"
+   kind="dir"/>
+<entry
+   name="toolsets"
+   kind="dir"/>
+<entry
+   name="errors"
+   kind="dir"/>
+<entry
+   name="defines"
+   kind="dir"/>
+</wc-entries>

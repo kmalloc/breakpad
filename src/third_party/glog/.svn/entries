@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="97"
+   name=""
+   committed-date="2011-09-05T08:00:43.906076Z"
+   url="http://google-glog.googlecode.com/svn/trunk"
+   last-author="shinichiro.hamaji@gmail.com"
+   kind="dir"
+   uuid="eb4d4688-79bd-11dd-afb4-1d65580434c0"
+   prop-time="2014-08-07T09:38:58.000000Z"
+   revision="97"/>
+<entry
+   committed-rev="11"
+   name="mkinstalldirs"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-30T10:33:45.887022Z"
+   checksum="5b95d954f46f66d92fc7709818525427"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:53.000000Z"/>
+<entry
+   name="m4"
+   kind="dir"/>
+<entry
+   committed-rev="93"
+   name="configure"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2011-05-11T02:47:46.556773Z"
+   checksum="7d85c274d8da3ae55a8784c964ebe39b"
+   last-author="hlsyounes@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="93"
+   name="Makefile.in"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2011-05-11T02:47:46.556773Z"
+   checksum="d6754268d16f48b4addfd218bde8a481"
+   last-author="hlsyounes@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="2"
+   name="AUTHORS"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="ae14c502aa7ac0b2bfbf1e471b17d9a8"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="46"
+   name="libglog.pc.in"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2009-04-10T05:49:58.610451Z"
+   checksum="75ea32edb0d5b7f63df11ab79e63047d"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="35"
+   name="README.windows"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2009-01-23T19:01:22.155588Z"
+   checksum="bf5b377ad4932f124011b99e319dbb72"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:54.000000Z"/>
+<entry
+   committed-rev="11"
+   name="depcomp"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-30T10:33:45.887022Z"
+   checksum="534084afb552747d884a45353769fa29"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   committed-rev="89"
+   name="ChangeLog"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2010-06-15T06:30:24.013207Z"
+   checksum="47dce17e9396b16e34225b633f79ba44"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="2"
+   name="compile"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="d62ab7d10a79b295897b39e4b8565fd7"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   committed-rev="11"
+   name="config.guess"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-30T10:33:45.887022Z"
+   checksum="a6d968df0c07d16a351ea892a640474f"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   committed-rev="2"
+   name="README"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="851e3103fe039a1ee433c0221aabfdcc"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   committed-rev="33"
+   name="google-glog.sln"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2009-01-23T18:56:19.639069Z"
+   checksum="75fa0a56c5587bdff4ce2c3dd56a78f5"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   committed-rev="93"
+   name="ltmain.sh"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2011-05-11T02:47:46.556773Z"
+   checksum="0cfa0edd599b3ec14976d6306ea2ef18"
+   last-author="hlsyounes@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   committed-rev="11"
+   name="config.sub"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-30T10:33:45.887022Z"
+   checksum="00380e6b8910e0cd7ee98506ae1af0aa"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:56.000000Z"/>
+<entry
+   name="vsprojects"
+   kind="dir"/>
+<entry
+   committed-rev="93"
+   name="configure.ac"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2011-05-11T02:47:46.556773Z"
+   checksum="54943b5f9178f86341c939c78c06945f"
+   last-author="hlsyounes@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   committed-rev="54"
+   name="INSTALL"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2009-07-08T15:38:35.309879Z"
+   checksum="5c6ee3d482187b6b1c4ca286268532a6"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="45"
+   name="COPYING"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2009-04-09T07:49:44.693218Z"
+   checksum="dc9db360e0bbd4e46672f3fd91dd6c4b"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="93"
+   name="Makefile.am"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2011-05-11T02:47:46.556773Z"
+   checksum="0a77ad8035477fc084aadba0f7b9d056"
+   last-author="hlsyounes@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="11"
+   name="missing"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-30T10:33:45.887022Z"
+   checksum="c7645c248f924f07869059b76300fea9"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="2"
+   name="NEWS"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-07T05:43:05.016229Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   committed-rev="93"
+   name="aclocal.m4"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2011-05-11T02:47:46.556773Z"
+   checksum="75b388dd7a98e272039b60e6f154cb12"
+   last-author="hlsyounes@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:57.000000Z"/>
+<entry
+   name="packages"
+   kind="dir"/>
+<entry
+   committed-rev="11"
+   name="install-sh"
+   text-time="2014-08-07T09:38:58.000000Z"
+   committed-date="2008-10-30T10:33:45.887022Z"
+   checksum="5cc51dc6eb45a90231a4e31efbc3f220"
+   last-author="shinichiro.hamaji"
+   kind="file"
+   prop-time="2014-08-07T09:38:58.000000Z"/>
+</wc-entries>

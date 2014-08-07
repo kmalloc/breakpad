@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1721"
+   name=""
+   committed-date="2013-09-10T22:45:33.268090Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/make_global_settings/env-wrapper"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1721"
+   name="gyptest-wrapper.py"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="18a25a2191c88092b486a8a7eb050ccf"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+<entry
+   committed-rev="1721"
+   name="wrapper.gyp"
+   text-time="2014-08-07T09:39:45.000000Z"
+   committed-date="2013-09-10T22:45:33.268090Z"
+   checksum="64378467cfb97aaf16234af32028c196"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:45.000000Z"/>
+</wc-entries>

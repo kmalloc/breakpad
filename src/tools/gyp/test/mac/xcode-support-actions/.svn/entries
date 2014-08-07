@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1861"
+   name=""
+   committed-date="2014-03-04T22:55:23.451034Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/xcode-support-actions"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1861"
+   name="source.c"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2014-03-04T22:55:23.451034Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+<entry
+   committed-rev="1861"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:18.000000Z"
+   committed-date="2014-03-04T22:55:23.451034Z"
+   checksum="435fca56d1007ac24bdda2b7a54fd9bb"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:18.000000Z"/>
+</wc-entries>

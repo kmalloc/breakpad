@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1175"
+   name=""
+   committed-date="2012-01-24T21:06:54.173100Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/mac/postbuild-static-library"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1175"
+   name="empty.c"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-01-24T21:06:54.173100Z"
+   checksum="df820f4542f7af1026593d3dd62dba55"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1175"
+   name="postbuild-touch-file.sh"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-01-24T21:06:54.173100Z"
+   checksum="428ca8a51a9b4454b1c6bdbfaee2e9d2"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+<entry
+   committed-rev="1175"
+   name="test.gyp"
+   text-time="2014-08-07T09:39:14.000000Z"
+   committed-date="2012-01-24T21:06:54.173100Z"
+   checksum="68f1d848487234601c777089282c58bc"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:14.000000Z"/>
+</wc-entries>

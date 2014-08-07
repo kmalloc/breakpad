@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="396"
+   name=""
+   committed-date="2011-06-07T03:51:33.442171Z"
+   url="http://protobuf.googlecode.com/svn/trunk/examples"
+   last-author="liujisi@google.com"
+   kind="dir"
+   uuid="630680e5-0e50-0410-840e-4b1c322b438d"
+   revision="407"/>
+<entry
+   committed-rev="396"
+   name="AddPerson.java"
+   text-time="2014-08-07T09:38:42.000000Z"
+   committed-date="2011-06-07T03:51:33.442171Z"
+   checksum="695a684cadf85fb1cab5e42be7709e4b"
+   last-author="liujisi@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="2"
+   name="ListPeople.java"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="b940657ece0fb9fb387145d82ea467f4"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="2"
+   name="addressbook.proto"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="dfae09fb809c9dca627d38fbea9c1079"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="162"
+   name="add_person.cc"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2009-07-24T01:00:35.987392Z"
+   checksum="e110183e01074d0de23566d99655d499"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="162"
+   name="list_people.cc"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2009-07-24T01:00:35.987392Z"
+   checksum="d53c204875d2eb427e5695bf9677b617"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="2"
+   name="add_person.py"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2008-07-10T02:12:20.692967Z"
+   checksum="ea0267adf2f2d7f430aa19d8c37a6901"
+   last-author="temporal"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="65"
+   name="list_people.py"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2008-10-07T02:38:12.105627Z"
+   checksum="60836e821463b069fdcde2594ca4c8cf"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="139"
+   name="README.txt"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2009-05-06T20:41:30.128066Z"
+   checksum="4b0ef1589798b435669507476d1e464c"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+<entry
+   committed-rev="177"
+   name="Makefile"
+   text-time="2014-08-07T09:38:43.000000Z"
+   committed-date="2009-08-03T21:31:25.218603Z"
+   checksum="ca44698a98165e173d8247ec96239ce0"
+   last-author="kenton@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:42.000000Z"/>
+</wc-entries>

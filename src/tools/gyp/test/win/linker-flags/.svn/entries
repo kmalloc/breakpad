@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1832"
+   name=""
+   committed-date="2014-01-08T23:08:01.136542Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/linker-flags"
+   last-author="scottmg@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1805"
+   name="link-warning.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-04T16:47:43.795845Z"
+   checksum="453dc005d79e0c8c0d49f79b510f7eaf"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1412"
+   name="entrypointsymbol.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-06-07T18:57:06.730693Z"
+   checksum="89423e3c004d992b8a48da63ed9126f3"
+   last-author="grt@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1271"
+   name="opt-icf.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T22:15:31.755678Z"
+   checksum="7d759b4b849aa464252d0635d27e22c1"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1252"
+   name="additional-deps.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-23T21:59:43.666636Z"
+   checksum="f5173bd26dfc1183be149072528622bd"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1294"
+   name="deffile-multiple.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-30T20:42:46.304323Z"
+   checksum="6e0eff38faf511f466f7c6eda1126bd8"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1785"
+   name="target-machine.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-11-12T06:54:06.331763Z"
+   checksum="bc2b5ea9a638068d1156efc706817dc7"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1278"
+   name="library-directories-define.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T22:38:42.341737Z"
+   checksum="bcd563fdb4891d912073d6f4c5a42437"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1813"
+   name="unsupported-manifest.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-12T21:09:32.805355Z"
+   checksum="5c0b80120d7b63d6cdcc628d1ea6d52c"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1294"
+   name="deffile.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-30T20:42:46.304323Z"
+   checksum="6f4dc94a8238bee27d2fb38d3afac19c"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1788"
+   name="subsystem.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-11-17T22:45:46.236948Z"
+   checksum="3ff8ac0ce9123e9f6a812c9cc7a13817"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1807"
+   name="z.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-06T21:04:26.482994Z"
+   checksum="bd21c129661e57f7ccec16d24a383867"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1813"
+   name="manifest-in-comment.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-12T21:09:32.805355Z"
+   checksum="8a1090157dc735a052512e9c0bcadc52"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="additional-options.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="9d0992fcafef620fb9796d21c79aad0b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1412"
+   name="entrypointsymbol.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-06-07T18:57:06.730693Z"
+   checksum="d5c733ef4329b90500cd3e7c7b3b28ab"
+   last-author="grt@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="additional-deps.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="a1ceb2b8971a23007135078d94d038a5"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="opt-icf.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="e030019d661ac4ecbd715aa18f3f41ae"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="inline_test.h"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="89d0cd6c12b050dc55af5efa915b7a39"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1551"
+   name="tsaware.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-12-24T12:08:42.546185Z"
+   checksum="ab22bf37a9fd04623315dc68c70388af"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1584"
+   name="delay-load-dlls.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-02-25T22:29:21.122958Z"
+   checksum="b7e377320f042559921667cd9f46a465"
+   last-author="siggi@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1832"
+   name="program-database.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2014-01-08T23:08:01.136542Z"
+   checksum="d983a196c6e13667da1e4f17b111fa73"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1584"
+   name="no-default-libs.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-02-25T22:29:21.122958Z"
+   checksum="d7b50fa8ee49665b6c38f2c3356787e5"
+   last-author="siggi@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1437"
+   name="extra2.manifest"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-07-25T21:04:23.699059Z"
+   checksum="0257bacc670248101d3e0f027175875f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1270"
+   name="opt-ref.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T22:14:05.505202Z"
+   checksum="50a7ef2839cbbaaf06daa9871d2b35f5"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1584"
+   name="no-default-libs.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-02-25T22:29:21.122958Z"
+   checksum="7a8046f8497450837da5f5de1e22d648"
+   last-author="siggi@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="ltcg.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="637e62c58e91dede203844b12004c09f"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1280"
+   name="nxcompat.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-26T23:31:00.457624Z"
+   checksum="79514e3266ef6583e4f3ae5563c4ece8"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1437"
+   name="extra.manifest"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-07-25T21:04:23.699059Z"
+   checksum="50dc36e79dcd50b98adf39c93d724344"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1675"
+   name="enable-uac.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-07-15T20:42:42.898509Z"
+   checksum="6a788f67e64781a3894b9b9624e38222"
+   last-author="alexeypa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1294"
+   name="deffile.def"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2012-03-30T20:42:46.304323Z"
+   checksum="730fcfa86971a9eff1263c7b15653647"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1794"
+   name="base-address.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-11-20T15:34:03.850397Z"
+   checksum="a9af8c335897aec965ac6bade65759f2"
+   last-author="robertshield@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1822"
+   name="force-symbol-reference.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-18T20:06:03.805183Z"
+   checksum="7e4b9bfc6aa90bc3f3f12aa9fd5980c7"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1807"
+   name="y.cc"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-06T21:04:26.482994Z"
+   checksum="3beb2df4b9b14076b28afd1cf69f82c6"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1814"
+   name="generate-manifest.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-12T21:54:27.423137Z"
+   checksum="96d3402fc227692011006f9d80167b54"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1805"
+   name="warn-as-error.gyp"
+   text-time="2014-08-07T09:39:36.000000Z"
+   committed-date="2013-12-04T16:47:43.795845Z"
+   checksum="6899064ba7218676340a7b331bcabd8f"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1277"
+   name="incremental.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T22:31:06.670253Z"
+   checksum="fc986555ffabe98a03cfc60e64e81d1b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1270"
+   name="opt-ref.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T22:14:05.505202Z"
+   checksum="9a583d7bdbbb426eff0ab80e8b561b63"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1832"
+   name="pdb-output.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2014-01-08T23:08:01.136542Z"
+   checksum="951130485f3243ae73e7b0d4ea3b9424"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="pgo.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="9bbb663f4aa99fb662fbc5780437383a"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1252"
+   name="hello.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-23T21:59:43.666636Z"
+   checksum="d47ef033ad19f28314454b9e33928083"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   name="subdir"
+   kind="dir"/>
+<entry
+   committed-rev="1286"
+   name="library-adjust.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-29T21:12:06.809644Z"
+   checksum="8c248b9a236c2ce3b6a185b529d23f0e"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:35.000000Z"/>
+<entry
+   committed-rev="1807"
+   name="main-crt.c"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-06T21:04:26.482994Z"
+   checksum="4505d3c0c389f4f230972fbaed5e3c44"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1807"
+   name="x.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-06T21:04:26.482994Z"
+   checksum="e195a722046eb23b54f31fcae29513e1"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1526"
+   name="profile.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-10-29T22:03:42.164787Z"
+   checksum="80a5f041bca6fadd9eef48695f1dc94a"
+   last-author="noelallen@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1278"
+   name="library-directories-reference.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T22:38:42.341737Z"
+   checksum="a210e11ca76d6cc3f53139fb76b77a41"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1679"
+   name="mapfile.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-07-19T01:04:02.872281Z"
+   checksum="c22c89f6deb0d8423e060ac53acd0939"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="inline_test.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="1dd7154c8524368baf4196265d91f8ce"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="inline_test_main.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="ba9e57ee75bddcf59e201409303607c1"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1279"
+   name="fixed-base.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T23:02:42.357127Z"
+   checksum="f12a51166fbe70f2955acbc2ca92777b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1288"
+   name="nodefaultlib.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-30T02:15:40.378092Z"
+   checksum="f9cc2bd33cdf75374595a5927da1556a"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1679"
+   name="mapfile.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-07-19T01:04:02.872281Z"
+   checksum="f24651674bf92702312a05ff9f6ddc70"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1286"
+   name="library-adjust.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-29T21:12:06.809644Z"
+   checksum="f5173bd26dfc1183be149072528622bd"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   name="a"
+   kind="dir"/>
+<entry
+   name="b"
+   kind="dir"/>
+<entry
+   committed-rev="1659"
+   name="deffile.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-07-06T00:26:12.978331Z"
+   checksum="343ed33477c54f854bf7b9631e46122b"
+   last-author="sbaig1@bloomberg.net"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1288"
+   name="nodefaultlib.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-30T02:15:40.378092Z"
+   checksum="6102ffc596c3b1521e70e23f710ac4a4"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1314"
+   name="outputfile.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-04-06T22:26:36.746843Z"
+   checksum="c0c6eaffdae3e2e35dc9c34ad20aac51"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1263"
+   name="delay-load.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-25T04:30:04.901350Z"
+   checksum="b97417dcd56fe8069ae04be1df015046"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="aslr.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T23:58:02.982403Z"
+   checksum="b3d531b97507585a62334f8a9afad908"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1820"
+   name="link-ordering.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-17T05:14:06.514729Z"
+   checksum="e56b1a8b2c4e819e0667858d3ec0870b"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1803"
+   name="update_pgd.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-12-03T16:11:56.443789Z"
+   checksum="c127a0201226a3aada90a8c65744952c"
+   last-author="yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1554"
+   name="large-address-aware.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-12-25T07:49:33.215205Z"
+   checksum="a8dc06399258fdb3b0dafff3505dd420"
+   last-author="Yukawa@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1260"
+   name="subsystem-windows.cc"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-24T20:28:16.446059Z"
+   checksum="9392a549ea90c3af3b41351763da28a2"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="library-directories.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-04-05T18:42:37.859723Z"
+   checksum="867b71d3769c5c8f106c03faca757960"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1274"
+   name="debug-info.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2012-03-26T22:27:04.966392Z"
+   checksum="5079d2fddb5197177a193e8761123396"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+<entry
+   committed-rev="1655"
+   name="embed-manifest.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2013-06-26T18:03:45.554294Z"
+   checksum="757b294ac9b45fe2336af140811b924d"
+   last-author="scottmg@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:36.000000Z"/>
+</wc-entries>

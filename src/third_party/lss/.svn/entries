@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="31"
+   name=""
+   committed-date="2014-08-01T02:22:56.119713Z"
+   url="http://linux-syscall-support.googlecode.com/svn/trunk/lss"
+   last-author="thestig@chromium.org"
+   kind="dir"
+   uuid="829466d3-f3f5-3ae4-62ad-de35cf9bba21"
+   revision="31"/>
+<entry
+   committed-rev="31"
+   name="linux_syscall_support.h"
+   text-time="2014-08-07T09:38:52.000000Z"
+   committed-date="2014-08-01T02:22:56.119713Z"
+   checksum="f4b4eeb90a81d62554ff2ddf4ec5d82d"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:52.000000Z"/>
+</wc-entries>

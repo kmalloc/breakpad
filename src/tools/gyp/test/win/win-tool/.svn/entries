@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1875"
+   name=""
+   committed-date="2014-03-16T21:42:05.254885Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/win/win-tool"
+   last-author="dimator@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1875"
+   name="copies_readonly_files.gyp"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2014-03-16T21:42:05.254885Z"
+   checksum="0255849b43762ea32f106b501300ef5e"
+   last-author="dimator@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+<entry
+   committed-rev="1875"
+   name="gyptest-win-tool-handles-readonly-files.py"
+   text-time="2014-08-07T09:39:37.000000Z"
+   committed-date="2014-03-16T21:42:05.254885Z"
+   checksum="c116eaa8f99c204d622ea23f636d25c3"
+   last-author="dimator@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:37.000000Z"/>
+</wc-entries>

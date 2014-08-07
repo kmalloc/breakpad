@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="868"
+   name=""
+   committed-date="2010-12-14T01:31:39.900019Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/make/noload"
+   last-author="bradnelson@google.com"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="856"
+   name="main.c"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-11-01T17:32:04.718535Z"
+   checksum="b3c7bb2e826f2b65a003517dceb783d4"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="856"
+   name="all.gyp"
+   text-time="2014-08-07T09:39:23.000000Z"
+   committed-date="2010-11-01T17:32:04.718535Z"
+   checksum="c3f91ff6664a53fe111e35952d12583e"
+   last-author="tony@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:23.000000Z"/>
+</wc-entries>

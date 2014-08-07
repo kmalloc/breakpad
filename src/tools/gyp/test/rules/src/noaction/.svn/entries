@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1410"
+   name=""
+   committed-date="2012-05-31T23:07:56.535880Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules/src/noaction"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="1410"
+   name="file1.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2012-05-31T23:07:56.535880Z"
+   checksum="73e97a6d5fdf3a548f30c1bb96511941"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="1410"
+   name="no_action_with_rules_fails.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2012-05-31T23:07:56.535880Z"
+   checksum="6c3e48d2a80d8bc49c704d6326a960e3"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1410"
+   name=""
+   committed-date="2012-05-31T23:07:56.535880Z"
+   url="http://gyp.googlecode.com/svn/trunk/test/rules/src/subdir2"
+   last-author="thakis@chromium.org"
+   kind="dir"
+   uuid="78cadc50-ecff-11dd-a971-7dbc132099af"
+   revision="1886"/>
+<entry
+   committed-rev="622"
+   name="file1.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2009-08-31T20:29:35.223648Z"
+   checksum="73e97a6d5fdf3a548f30c1bb96511941"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="622"
+   name="file2.in"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2009-08-31T20:29:35.223648Z"
+   checksum="19f9b8fb0f08ebe09e59f6236bd9a985"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="1410"
+   name="no_action.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2012-05-31T23:07:56.535880Z"
+   checksum="10fde48b40928f430f58064134be0107"
+   last-author="thakis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="842"
+   name="no_inputs.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2010-09-03T01:28:05.044100Z"
+   checksum="d0c07e0225d8bdee8f5ccdfbc7955871"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="867"
+   name="never_used.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2010-12-14T01:02:25.838318Z"
+   checksum="5a0085ae728991983356bd02262bd896"
+   last-author="bradnelson@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+<entry
+   committed-rev="721"
+   name="none.gyp"
+   text-time="2014-08-07T09:39:28.000000Z"
+   committed-date="2009-10-22T20:02:37.997393Z"
+   checksum="ab442d2f26f50564487efc9e1049d616"
+   last-author="sgk@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:39:28.000000Z"/>
+</wc-entries>
