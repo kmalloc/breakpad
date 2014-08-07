@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1308"
+   name=""
+   committed-date="2014-04-10T17:37:20.783607Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/windows/crash_generation"
+   last-author="ivan.penkov@gmail.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:26.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1103"
+   name="crash_generation_client.h"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2013-01-22T17:20:42.694277Z"
+   checksum="063847ef7fe1fc2051153b7d6b4e9d57"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1186"
+   name="client_info.h"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2013-05-20T18:55:54.731161Z"
+   checksum="a97ed3caf1c71dbe5d6e718ae8842f54"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1289"
+   name="crash_generation_server.cc"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2014-03-19T19:12:56.293606Z"
+   checksum="5208ca75d7a0bf2742666cdf06c3fc78"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1274"
+   name="crash_generation_server.h"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2014-01-17T22:39:11.906290Z"
+   checksum="d6e91102f75fe6dc40213e6da9f0f51e"
+   last-author="cdn@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1308"
+   name="crash_generation.gyp"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2014-04-10T17:37:20.783607Z"
+   checksum="1d98c9397f9fa6b7b10e58b75c4e534c"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="872"
+   name="ReadMe.txt"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2011-10-20T13:18:59.233305Z"
+   checksum="2fb637a96a83c119cbd9cdcce43d265d"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1274"
+   name="minidump_generator.cc"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2014-01-17T22:39:11.906290Z"
+   checksum="ab3da8e5c05290d6ed2bb5e6660c97e6"
+   last-author="cdn@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1186"
+   name="client_info.cc"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2013-05-20T18:55:54.731161Z"
+   checksum="37d0facdbfa954cb3090c07e7756ad22"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1157"
+   name="crash_generation_client.cc"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2013-04-23T00:47:53.819073Z"
+   checksum="dd9de35ee38bd4ad5d56e476f13d9ee1"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+<entry
+   committed-rev="1274"
+   name="minidump_generator.h"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2014-01-17T22:39:11.906290Z"
+   checksum="567bc3b33e4bbb2372117bf29ea333e6"
+   last-author="cdn@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:26.000000Z"/>
+</wc-entries>

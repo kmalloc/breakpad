@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1358"
+   name=""
+   committed-date="2014-07-24T15:22:51.817106Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/mac/crash_report"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1200"
+   name="on_demand_symbol_supplier.h"
+   text-time="2014-08-07T09:37:56.000000Z"
+   committed-date="2013-07-11T01:36:06.986282Z"
+   checksum="463788e294a5e9dee9cf5014723f4f64"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:37:56.000000Z"/>
+<entry
+   committed-rev="1176"
+   name="crash_report.mm"
+   text-time="2014-08-07T09:37:56.000000Z"
+   committed-date="2013-05-08T20:24:03.081111Z"
+   checksum="5be566a8f97d9aece2ed7752a23eb449"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:56.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="on_demand_symbol_supplier.mm"
+   text-time="2014-08-07T09:37:56.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="5b15aee46d357614be2d473fc1c1aaa7"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:56.000000Z"/>
+<entry
+   name="crash_report.xcodeproj"
+   kind="dir"/>
+</wc-entries>

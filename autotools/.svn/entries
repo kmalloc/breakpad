@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1252"
+   name=""
+   committed-date="2013-12-10T17:53:50.277888Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/autotools"
+   last-author="ted.mielczarek@gmail.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1252"
+   name="depcomp"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-12-10T17:53:50.277888Z"
+   checksum="f4aafb270c2f983f35b365aad5fe8870"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="1236"
+   name="compile"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-11-23T01:45:20.307775Z"
+   checksum="0c8b042f99995c11aeb81bccc23c4c05"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="1236"
+   name="test-driver"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-11-23T01:45:20.307775Z"
+   checksum="0ba88052a1dc5202649375d827e9f1f7"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="1252"
+   name="missing"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-12-10T17:53:50.277888Z"
+   checksum="ba67d589a17b479cb3f568cd7b52b0c3"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="1252"
+   name="config.guess"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-12-10T17:53:50.277888Z"
+   checksum="559bc9e2fca45761389ce2f3140cec0c"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="506"
+   name="ltmain.sh"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2010-02-02T17:39:51.162402Z"
+   checksum="24c5a7257e005788462902687eece712"
+   last-author="jimblandy"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="1252"
+   name="config.sub"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-12-10T17:53:50.277888Z"
+   checksum="70b9398b6d452ecbd18efa25d7d68c29"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+<entry
+   committed-rev="1252"
+   name="install-sh"
+   text-time="2014-08-07T09:38:27.000000Z"
+   committed-date="2013-12-10T17:53:50.277888Z"
+   checksum="6e5fe73723cd40a28adc5b7b5650c8d1"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:27.000000Z"/>
+</wc-entries>

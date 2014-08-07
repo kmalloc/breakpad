@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1309"
+   name=""
+   committed-date="2014-04-10T17:54:52.614968Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/windows/converter"
+   last-author="ivan.penkov@gmail.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1309"
+   name="ms_symbol_server_converter.gyp"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="7eb3bed5441fad20781f406811dfe378"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="ms_symbol_server_converter.vcproj"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="3ead8e0ad095752be30eb8a60bd39bdb"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="ms_symbol_server_converter.cc"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="1e27879a5c70d95ee8a207dd471aa09d"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="ms_symbol_server_converter.h"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="5c6621209c837c81fea94067dd24f0a4"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+</wc-entries>

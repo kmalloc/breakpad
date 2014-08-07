@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1230"
+   name=""
+   committed-date="2013-11-05T16:53:55.918646Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/mac/sender"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   name="ja.lproj"
+   kind="dir"/>
+<entry
+   committed-rev="323"
+   name="ReporterIcon.graffle"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2009-04-06T00:25:29.628667Z"
+   checksum="5bc88dbe9e0769b17cb86f7383533aa8"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   committed-rev="856"
+   name="crash_report_sender.h"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2011-10-11T14:40:57.162812Z"
+   checksum="ab38c5109a76760cb445d5686c2d3b89"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   committed-rev="982"
+   name="uploader.mm"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2012-07-09T12:38:15.976145Z"
+   checksum="b55b646da1a2261f496e8098af2f04de"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   committed-rev="1230"
+   name="crash_report_sender.m"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2013-11-05T16:53:55.918646Z"
+   checksum="f8b20b0e3e998a09aab05adefe0c16f5"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   committed-rev="323"
+   name="crash_report_sender.icns"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2009-04-06T00:25:29.628667Z"
+   checksum="4ba266fe3ec1e27df4f079ce3f501abc"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   committed-rev="609"
+   name="Breakpad.xib"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2010-06-23T20:06:13.016907Z"
+   checksum="e3262e14333f2f637f2f5ab270f7334f"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   name="es.lproj"
+   kind="dir"/>
+<entry
+   name="fr.lproj"
+   kind="dir"/>
+<entry
+   name="nl.lproj"
+   kind="dir"/>
+<entry
+   name="it.lproj"
+   kind="dir"/>
+<entry
+   name="no.lproj"
+   kind="dir"/>
+<entry
+   committed-rev="885"
+   name="uploader.h"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2011-11-16T17:04:28.460422Z"
+   checksum="56c5a5486a1e4a7705379326894b1ddf"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:18.000000Z"/>
+<entry
+   name="sl.lproj"
+   kind="dir"/>
+<entry
+   committed-rev="360"
+   name="goArrow.png"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2009-07-21T00:10:57.128418Z"
+   checksum="0301b6f19f16d975be707702696dc767"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:19.000000Z"/>
+<entry
+   name="da.lproj"
+   kind="dir"/>
+<entry
+   name="tr.lproj"
+   kind="dir"/>
+<entry
+   name="de.lproj"
+   kind="dir"/>
+<entry
+   name="sv.lproj"
+   kind="dir"/>
+<entry
+   name="English.lproj"
+   kind="dir"/>
+<entry
+   committed-rev="330"
+   name="crash_report_sender-Info.plist"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2009-04-22T03:10:03.618783Z"
+   checksum="88018cb4d89e620dad9fbefcf0413003"
+   last-author="stuartmorgan"
+   kind="file"
+   prop-time="2014-08-07T09:38:20.000000Z"/>
+</wc-entries>

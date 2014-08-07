@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1045"
+   name=""
+   committed-date="2012-09-21T07:55:17.461998Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/common/mac/testing"
+   last-author="qsr@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1045"
+   name="GTMSenTestCase.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2012-09-21T07:55:17.461998Z"
+   checksum="2cf44ca8c20e8e844f3956feef823a73"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1045"
+   name="GTMSenTestCase.m"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2012-09-21T07:55:17.461998Z"
+   checksum="e310071a34f4084d34fccde0f70e18f7"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+</wc-entries>

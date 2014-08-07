@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1216"
+   name=""
+   committed-date="2013-09-25T13:47:44.353462Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/android/sample_app"
+   last-author="digit@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   name="jni"
+   kind="dir"/>
+<entry
+   committed-rev="983"
+   name="README"
+   text-time="2014-08-07T09:37:44.000000Z"
+   committed-date="2012-07-09T19:02:17.526714Z"
+   checksum="8d52265f5f77809eba658479cc24c9b3"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:44.000000Z"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1319"
+   name=""
+   committed-date="2014-04-23T17:27:01.715890Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/windows/dump_syms"
+   last-author="wfh@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1167"
+   name="dump_syms.vcproj"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="6a45d67462b424a29ba56807c3492702"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:57.000000Z"/>
+<entry
+   committed-rev="1290"
+   name="dump_syms_unittest.cc"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-03-24T12:12:17.217477Z"
+   checksum="f6eb8ec05adb61b087afb5365ef1559c"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:57.000000Z"/>
+<entry
+   committed-rev="255"
+   name="dump_syms.cc"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="8940fe9d1f4c2d543e5865d8b81de472"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:37:57.000000Z"/>
+<entry
+   name="testdata"
+   kind="dir"/>
+<entry
+   committed-rev="255"
+   name="run_regtest.sh"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="146e9c59892c2588c52b430c5cd932c1"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+<entry
+   committed-rev="1308"
+   name="dump_syms.gyp"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-04-10T17:37:20.783607Z"
+   checksum="98fdac405e4a5d5696d805db0be1544a"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+</wc-entries>

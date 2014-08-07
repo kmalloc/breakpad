@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="353"
+   name=""
+   committed-date="2009-06-25T21:36:39.257595Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/linux/data"
+   last-author="nealsid"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="353"
+   name="linux-gate-amd.sym"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2009-06-25T21:36:39.257595Z"
+   checksum="2a8d796b5afc0b78e173ba5a725aa8f5"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="353"
+   name="linux-gate-intel.sym"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2009-06-25T21:36:39.257595Z"
+   checksum="e387a7457a7b531cfcb01a05a426bb07"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+</wc-entries>

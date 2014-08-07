@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1358"
+   name=""
+   committed-date="2014-07-24T15:22:51.817106Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/build"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1358"
+   name="common.gypi"
+   text-time="2014-08-07T09:37:45.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="58c21e64030c53251402170e683fcb06"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:45.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="filename_rules.gypi"
+   text-time="2014-08-07T09:37:45.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="cfd1e84981e91957ed817be23ac6a5e8"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:45.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="testing.gypi"
+   text-time="2014-08-07T09:37:45.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="9464c76b4521b861ce7dbacae930336e"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:45.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="all.gyp"
+   text-time="2014-08-07T09:37:45.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="22812fb2c615d735e66f8c64bdfeb346"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:45.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="gyp_breakpad"
+   text-time="2014-08-07T09:37:45.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="e82b8f372c63fdacd316fa276b60b9bf"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:45.000000Z"/>
+</wc-entries>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1319"
+   name=""
+   committed-date="2014-04-23T17:27:01.715890Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/windows/dump_syms/testdata"
+   last-author="wfh@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1167"
+   name="omap_reorder_funcs.pdb"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="2a0e30c5c2bfa8fbf20b6729e5afbe10"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:58.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="dump_syms_regtest.cc"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="2eb0a605df0f7febc5c699130aee45de"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:58.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="dump_syms_regtest.pdb"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="63047a469ddd456ec1844dda7df9be3f"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:58.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="omap_reorder_funcs.sym"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="6f995c590ded4b2539bcdf43ee38f1bf"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:58.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="dump_syms_regtest.sym"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="e8b6c51994665089f5f0b67998d312ec"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:58.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="omap_stretched_filled.pdb"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="a993bf8578367e0b32841ab299414276"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:59.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="omap_stretched.pdb"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="24551aa3c8910347053c52a5d93ac18d"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:59.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="omap_stretched_filled.sym"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="03e54d9f61c7ec9f87a29c1336c1d5f1"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:59.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="omap_stretched.sym"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="ee8a7dd412ef1c14bda4a97b2e81869d"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:59.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="omap_reorder_bbs.pdb"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="99ee103e685a26c89e30caa80241786d"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:59.000000Z"/>
+<entry
+   committed-rev="1290"
+   name="dump_syms_regtest64.pdb"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2014-03-24T12:12:17.217477Z"
+   checksum="7fce7ed87f949a0d11476906c4e0fdd3"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:00.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="omap_reorder_bbs.sym"
+   text-time="2014-08-07T09:38:00.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="b55ff56d51772171e795aedcd6f38df7"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:00.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="dump_syms_regtest64.sym"
+   text-time="2014-08-07T09:38:01.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="d212613472a00fd1403570971b69c8bc"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:00.000000Z"/>
+</wc-entries>

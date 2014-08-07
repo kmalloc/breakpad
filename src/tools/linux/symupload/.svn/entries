@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1228"
+   name=""
+   committed-date="2013-10-29T23:28:16.081299Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/linux/symupload"
+   last-author="mattdr.breakpad@gmail.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:37:55.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1228"
+   name="sym_upload.cc"
+   text-time="2014-08-07T09:37:55.000000Z"
+   committed-date="2013-10-29T23:28:16.081299Z"
+   checksum="c34fe3b1687ece01ea9bdd03364ac135"
+   last-author="mattdr.breakpad@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:37:55.000000Z"/>
+<entry
+   committed-rev="1158"
+   name="minidump_upload.cc"
+   text-time="2014-08-07T09:37:55.000000Z"
+   committed-date="2013-04-23T21:04:31.400814Z"
+   checksum="f7d339020976e6bfe1addf7f572ab6a1"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:37:55.000000Z"/>
+</wc-entries>

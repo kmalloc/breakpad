@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1338"
+   name=""
+   committed-date="2014-06-06T16:20:15.213134Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/mac/handler"
+   last-author="qsr@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1338"
+   name="exception_handler.cc"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-06-06T16:20:15.213134Z"
+   checksum="4aee2272fd5c726fa24e0bae53e61e9b"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:22.000000Z"/>
+<entry
+   committed-rev="1329"
+   name="breakpad_nlist_64.cc"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-05-12T19:42:34.544126Z"
+   checksum="7cb7c9150045b00cd0d3bbf2d2cca372"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="746"
+   name="breakpad_nlist_64.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2010-12-15T21:55:56.915695Z"
+   checksum="d7f0bf1020fe093fca0e3339adb3dde3"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:22.000000Z"/>
+<entry
+   committed-rev="1235"
+   name="exception_handler.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2013-11-21T17:44:57.975588Z"
+   checksum="c881c82ad9276aba6fdb3e8494a6e7c7"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:22.000000Z"/>
+<entry
+   committed-rev="286"
+   name="obj-cTestCases-Info.plist"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2008-10-08T23:56:02.913819Z"
+   checksum="4649f0bc599d5b5972cccd1ad61260c6"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:22.000000Z"/>
+<entry
+   committed-rev="263"
+   name="minidump_tests32-Info.plist"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2008-04-25T00:37:19.670863Z"
+   checksum="9b68da38f7e0b8e65e59568f8a548a53"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:22.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="dynamic_images.cc"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-02-18T22:52:02.390356Z"
+   checksum="4a069d015bbdf4362d1ccd04170218ea"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:22.000000Z"/>
+<entry
+   name="testcases"
+   kind="dir"/>
+<entry
+   committed-rev="1293"
+   name="dynamic_images.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-04-01T18:20:36.942440Z"
+   checksum="95d14b1b9faf7918b00b12c73910c9a2"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="263"
+   name="minidump_tests64-Info.plist"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2008-04-25T00:37:19.670863Z"
+   checksum="01d7389729ad3715d2134f854f00960a"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="1293"
+   name="ucontext_compat.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-04-01T18:20:36.942440Z"
+   checksum="52125aa779b192d2ec33594351155a2a"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="1235"
+   name="mach_vm_compat.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2013-11-21T17:44:57.975588Z"
+   checksum="079f1284118c520dbb854ebf07fd33fe"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="627"
+   name="protected_memory_allocator.cc"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2010-07-19T20:43:49.019784Z"
+   checksum="935f02d105434a544c91a5ef50c3db9b"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="627"
+   name="protected_memory_allocator.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2010-07-19T20:43:49.019784Z"
+   checksum="668d9432f2f6a44b80190bb94496a98b"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="1286"
+   name="minidump_generator.cc"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-02-28T10:21:20.729799Z"
+   checksum="1b117aab535e84274841a97d402d4e48"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   name="minidump_test.xcodeproj"
+   kind="dir"/>
+<entry
+   committed-rev="1293"
+   name="minidump_generator.h"
+   text-time="2014-08-07T09:38:23.000000Z"
+   committed-date="2014-04-01T18:20:36.942440Z"
+   checksum="5b2669c20fd80c6bab9f4b25f903f874"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+</wc-entries>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1322"
+   name=""
+   committed-date="2014-04-29T09:45:46.453202Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/common/mac"
+   last-author="rmcilroy@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="627"
+   name="BreakpadDebug.xcconfig"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2010-07-19T20:43:49.019784Z"
+   checksum="9c67c843541be0272f0878b12d0507ca"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1286"
+   name="file_id.cc"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-02-28T10:21:20.729799Z"
+   checksum="83b66a06fc667aa44565539c4512c8a0"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1284"
+   name="macho_walker.cc"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-02-26T18:59:48.952702Z"
+   checksum="571429be1b9b8acc1dd4cc298d570982"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1061"
+   name="file_id.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2012-10-04T13:26:47.606412Z"
+   checksum="a6c4dc27bbf112fb13e99455dcfb95d1"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="589"
+   name="byteswap.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2010-05-05T17:36:16.208745Z"
+   checksum="88398f39671ea65117d709e4ddacc814"
+   last-author="jimblandy"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1096"
+   name="string_utilities.cc"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2013-01-17T15:53:56.233124Z"
+   checksum="08d94667b2ac86d7f91f9237a3b2c1eb"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="255"
+   name="string_utilities.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="39a7015852e76a1ec2cb268e3ca3c58e"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1286"
+   name="macho_id.cc"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2014-02-28T10:21:20.729799Z"
+   checksum="c738565f426191403f5c3cc0d8c27217"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1322"
+   name="dump_syms.mm"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2014-04-29T09:45:46.453202Z"
+   checksum="194a03f0181424b5407003fbde40fdfe"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1061"
+   name="macho_id.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-10-04T13:26:47.606412Z"
+   checksum="f2802b0e9526e113feeaa31a798fbe63"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="MachIPC.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="cb06389397351d486e3aeedbba658582"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1222"
+   name="arch_utilities.cc"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2013-10-15T10:24:21.404906Z"
+   checksum="29614dbc5c2f3e44bc0cd03a9cd65f98"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1222"
+   name="macho_reader.cc"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2013-10-15T10:24:21.404906Z"
+   checksum="291ceb68839811a1cc3be5b751fe7bf2"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="610"
+   name="macho_reader.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2010-06-25T16:56:16.784276Z"
+   checksum="4187fac9b845f46fbf7ea9e43b0af3c9"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="921"
+   name="bootstrap_compat.cc"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-02-21T21:24:43.190577Z"
+   checksum="7b29dbf564b43538bba6dc93ca9822a3"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1175"
+   name="dump_syms.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2013-05-08T17:41:12.190047Z"
+   checksum="114f9065c17d89e85d9d21123ac9fffe"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="646"
+   name="scoped_task_suspend-inl.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2010-08-13T20:18:58.199784Z"
+   checksum="93134661a884de3e3ac54f06e5319e0c"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="589"
+   name="macho_utilities.cc"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2010-05-05T17:36:16.208745Z"
+   checksum="f66ad0e4db6f3c12584cf0d65c84cce3"
+   last-author="jimblandy"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1283"
+   name="GTMDefines.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2014-02-26T16:14:04.270628Z"
+   checksum="0962b1a5b6843140d448bc99a1e7cf41"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="854"
+   name="HTTPMultipartUpload.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2011-10-10T14:43:03.832945Z"
+   checksum="aaa8cf08ff216fcbc6a92f2113aa75b5"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1045"
+   name="GTMLogger.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-09-21T07:55:17.461998Z"
+   checksum="1502c4a1a4a52c7b2330b442e058e9f7"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   name="testing"
+   kind="dir"/>
+<entry
+   committed-rev="965"
+   name="HTTPMultipartUpload.m"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-05-15T15:41:08.672990Z"
+   checksum="18f2667064a12c8ea2ece940174d8e51"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1283"
+   name="GTMLogger.m"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2014-02-26T16:14:04.270628Z"
+   checksum="61f81fe2f61660fe4fdf8f6d2005b998"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1061"
+   name="macho_walker.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-10-04T13:26:47.606412Z"
+   checksum="6fdbc8fcdfb982070d4e7d09a530ff19"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="627"
+   name="macho_reader_unittest.cc"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2010-07-19T20:43:49.019784Z"
+   checksum="eb99e21c8389469df2b7230f41511ef9"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1057"
+   name="arch_utilities.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-10-03T16:20:53.057148Z"
+   checksum="1d38c596d306302c86b5db31503f81be"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="921"
+   name="bootstrap_compat.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-02-21T21:24:43.190577Z"
+   checksum="8c9d96fab7616c93944c0a55cb417fe2"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1015"
+   name="macho_utilities.h"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-08-20T13:42:09.944617Z"
+   checksum="1db4ebd284b1ff9f61235b2c180b6444"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="922"
+   name="Breakpad.xcconfig"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-02-21T21:33:09.298945Z"
+   checksum="7b3a1be9214094b6e8f2e48675ca864e"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1161"
+   name="BreakpadRelease.xcconfig"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2013-04-24T18:15:48.786592Z"
+   checksum="ebfa55779383a7f67ea60882938cdfd0"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="921"
+   name="MachIPC.mm"
+   text-time="2014-08-07T09:38:07.000000Z"
+   committed-date="2012-02-21T21:24:43.190577Z"
+   checksum="bf520cb0081aa277ac096b18e1130b22"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+</wc-entries>

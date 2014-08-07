@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1319"
+   name=""
+   committed-date="2014-04-23T17:27:01.715890Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/common/windows"
+   last-author="wfh@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1167"
+   name="omap_unittest.cc"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="e6504cc06ecfe24a20cc4dd0bd5ad91d"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="dia_util.h"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="b19ee4b1f78a96fac5161773528f9383"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="omap.cc"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="581f60e24c6bef9c50b7306fd97b61f3"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="omap.h"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="f57eed15b85258a6eed480fac4808704"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="string_utils-inl.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="3d6dbbc774512e99cc0837338433ccde"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1308"
+   name="common_windows.gyp"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2014-04-10T17:37:20.783607Z"
+   checksum="6930e439ffd549ee1b5c25ac8ca22dd5"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="255"
+   name="guid_string.cc"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="d5702ee9dc9112d7132c8f83187b55ab"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="guid_string.h"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="7a38846d65cf5563c8225bc78a2a75dd"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1189"
+   name="http_upload.cc"
+   text-time="2014-08-07T09:38:05.000000Z"
+   committed-date="2013-06-04T16:51:01.239078Z"
+   checksum="268732c092653996d8ed65798fbab6d1"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="http_upload.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="1ea68cf378e2d42426b36ea4709f6b0d"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="710"
+   name="string_utils.cc"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2010-10-05T19:39:23.798533Z"
+   checksum="d6f4cae114f359e2e33f9e8132d22ccc"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1319"
+   name="pdb_source_line_writer.cc"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-04-23T17:27:01.715890Z"
+   checksum="d920aed437b211dd4b13d19196916e48"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1167"
+   name="dia_util.cc"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2013-05-01T18:18:46.743355Z"
+   checksum="60524b09da734ee0187d8b1dba41ff6c"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="pdb_source_line_writer.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="4e8b8a4d34b8bee84da8b48cf463576d"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1309"
+   name="omap_internal.h"
+   text-time="2014-08-07T09:38:06.000000Z"
+   committed-date="2014-04-10T17:54:52.614968Z"
+   checksum="676a591ac3f31d44a3855fec4f6390b4"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+</wc-entries>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1326"
+   name=""
+   committed-date="2014-05-06T19:52:55.815671Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/linux/crash_generation"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:15.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1324"
+   name="crash_generation_client.h"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2014-05-05T20:36:06.988485Z"
+   checksum="5ce1979c0ed89e9d6919c5b1fa0a59cb"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="1055"
+   name="client_info.h"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2012-10-02T10:46:31.083046Z"
+   checksum="0ee8f63c13a712d780e0ffe6ae38ae6c"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="1239"
+   name="crash_generation_server.cc"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2013-12-03T14:12:08.593590Z"
+   checksum="2fea6dc104487a79a34d9bf8883a1f5e"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="974"
+   name="crash_generation_server.h"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="4fe28dc11d00c6799d06f8c93182a128"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="1326"
+   name="crash_generation_client.cc"
+   text-time="2014-08-07T09:38:15.000000Z"
+   committed-date="2014-05-06T19:52:55.815671Z"
+   checksum="bc3b302d006c8dc07c27b698564ca830"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+</wc-entries>

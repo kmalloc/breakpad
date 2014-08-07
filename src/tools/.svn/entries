@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1360"
+   name=""
+   committed-date="2014-07-31T19:11:29.839428Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:03.000000Z"
+   revision="1361"/>
+<entry
+   name="linux"
+   kind="dir"/>
+<entry
+   name="mac"
+   kind="dir"/>
+<entry
+   name="python"
+   kind="dir"/>
+<entry
+   name="windows"
+   kind="dir"/>
+<entry
+   name="solaris"
+   kind="dir"/>
+<entry
+   committed-rev="1358"
+   name="tools.gyp"
+   text-time="2014-08-07T09:38:03.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="101907db94610fa49f66100ddcfe13fe"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:02.000000Z"/>
+</wc-entries>

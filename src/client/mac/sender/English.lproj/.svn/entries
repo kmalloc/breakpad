@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="475"
+   name=""
+   committed-date="2010-01-01T00:21:18.772086Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/mac/sender/English.lproj"
+   last-author="stuart.morgan"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="330"
+   name="InfoPlist.strings"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2009-04-22T03:10:03.618783Z"
+   checksum="46d3a0c4010997414fe6fd3ea08174e1"
+   last-author="stuartmorgan"
+   kind="file"
+   prop-time="2014-08-07T09:38:20.000000Z"/>
+<entry
+   committed-rev="475"
+   name="Localizable.strings"
+   text-time="2014-08-07T09:38:20.000000Z"
+   committed-date="2010-01-01T00:21:18.772086Z"
+   checksum="adcaa3a7f16a355048dd21484c6eeaeb"
+   last-author="stuart.morgan"
+   kind="file"
+   prop-time="2014-08-07T09:38:20.000000Z"/>
+</wc-entries>

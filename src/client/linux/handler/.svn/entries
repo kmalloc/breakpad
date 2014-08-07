@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1343"
+   name=""
+   committed-date="2014-07-02T10:27:39.516529Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/linux/handler"
+   last-author="rmcilroy@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:16.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1334"
+   name="exception_handler.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-05-28T18:01:22.762959Z"
+   checksum="cf73b4d74ec4dd2e03aa7e2dcb364969"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="1343"
+   name="exception_handler.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-07-02T10:27:39.516529Z"
+   checksum="0280ab48b4aefbabf6bbbe1c71487296"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:15.000000Z"/>
+<entry
+   committed-rev="1114"
+   name="minidump_descriptor.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-02-14T14:03:54.631421Z"
+   checksum="121e39667dee22d3a39a8f6717409fa1"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1114"
+   name="minidump_descriptor.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-02-14T14:03:54.631421Z"
+   checksum="e23f84d8484e2a8fc96b64017eb931e8"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1342"
+   name="exception_handler_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-07-01T17:50:05.001090Z"
+   checksum="27f921b298d41b62519d132fb7ed48af"
+   last-author="ivanpe@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+</wc-entries>

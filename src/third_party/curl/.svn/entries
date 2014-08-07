@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1301"
+   name=""
+   committed-date="2014-04-02T23:12:40.367347Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/third_party/curl"
+   last-author="rmcilroy@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="732"
+   name="stdcheaders.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="af51ec33580cfc28f1232e1c9dbdf3b6"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="typecheck-gcc.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="9bac2be854e3137609ef1c4dbd957386"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="multi.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="97ecf2fc15f24e6714c0971deb421109"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="mprintf.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="485336f0cfaa886b34c9fa4ccf853f68"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="curlrules.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="a0f5e28d9f4ae8004fcef9e58b495f90"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="easy.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="f6eca2cc41f58d4e422bd0bdd5ffcce5"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="curlver.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="66d630e33f158687f381193ce7fda774"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="932"
+   name="COPYING"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2012-03-09T16:15:20.357083Z"
+   checksum="49975302782d24b80d205ec689f3f25f"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="types.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="e88c020b90f40480b8138550bf6439fa"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="732"
+   name="curl.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2010-11-17T18:45:20.416136Z"
+   checksum="8bbd3ed10fe504a3c316c41ab19f8ee5"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+<entry
+   committed-rev="1301"
+   name="curlbuild.h"
+   text-time="2014-08-07T09:38:12.000000Z"
+   committed-date="2014-04-02T23:12:40.367347Z"
+   checksum="a148c8ece7756cbfb21e889bbd707d2a"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:12.000000Z"/>
+</wc-entries>

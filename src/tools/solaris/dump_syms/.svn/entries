@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="887"
+   name=""
+   committed-date="2011-11-18T21:40:27.807178Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/solaris/dump_syms"
+   last-author="ted.mielczarek"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="255"
+   name="dump_syms.cc"
+   text-time="2014-08-07T09:38:02.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="c7e20efc2782582d73e6780f362e3448"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:02.000000Z"/>
+<entry
+   name="testdata"
+   kind="dir"/>
+<entry
+   committed-rev="255"
+   name="run_regtest.sh"
+   text-time="2014-08-07T09:38:02.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="e51c2e9d578d47e11b28b9df085e71c0"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:02.000000Z"/>
+<entry
+   committed-rev="887"
+   name="Makefile"
+   text-time="2014-08-07T09:38:02.000000Z"
+   committed-date="2011-11-18T21:40:27.807178Z"
+   checksum="3e11bb8cf06f207f1c386144462aedfc"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:02.000000Z"/>
+</wc-entries>

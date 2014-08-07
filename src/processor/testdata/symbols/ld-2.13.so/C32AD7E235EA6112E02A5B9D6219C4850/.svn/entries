@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1227"
+   name=""
+   committed-date="2013-10-29T20:16:46.343166Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/processor/testdata/symbols/ld-2.13.so/C32AD7E235EA6112E02A5B9D6219C4850"
+   last-author="mattdr.breakpad@gmail.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1227"
+   name="ld-2.13.so.sym"
+   text-time="2014-08-07T09:37:47.000000Z"
+   committed-date="2013-10-29T20:16:46.343166Z"
+   checksum="dd81d0adc62cb6b23195c17f8218c6eb"
+   last-author="mattdr.breakpad@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:37:47.000000Z"/>
+</wc-entries>

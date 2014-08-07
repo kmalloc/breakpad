@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1361"
+   name=""
+   committed-date="2014-08-01T02:32:17.241633Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/third_party"
+   last-author="thestig@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:14.000000Z"
+   revision="1361"/>
+<entry
+   name="linux"
+   kind="dir"/>
+<entry
+   name="protobuf"
+   kind="dir"/>
+<entry
+   name="curl"
+   kind="dir"/>
+<entry
+   name="libdisasm"
+   kind="dir"/>
+</wc-entries>

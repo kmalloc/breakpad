@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1348"
+   name=""
+   committed-date="2014-07-11T18:48:41.763731Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/windows/tests/crash_generation_app"
+   last-author="ted.mielczarek@gmail.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1348"
+   name="crash_generation_app.cc"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2014-07-11T18:48:41.763731Z"
+   checksum="7a31c78be78b882106e92a145a7a62cf"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="838"
+   name="crash_generation_app.h"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2011-09-27T21:32:40.569057Z"
+   checksum="ce836ffaa09f7580aeb24e51ca3d2f54"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="244"
+   name="small.ico"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2008-03-08T00:02:40.654354Z"
+   checksum="a1ed0c69ab3bdf217a91e7aa6d06df79"
+   last-author="doshimun@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="244"
+   name="crash_generation_app.ico"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2008-03-08T00:02:40.654354Z"
+   checksum="a1ed0c69ab3bdf217a91e7aa6d06df79"
+   last-author="doshimun@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="1308"
+   name="crash_generation_app.gyp"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2014-04-10T17:37:20.783607Z"
+   checksum="b5d9d952d690487f96ab26d1a94baeb7"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="838"
+   name="abstract_class.cc"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2011-09-27T21:32:40.569057Z"
+   checksum="90b241344ccdf05b6713dc14c6d9b352"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="838"
+   name="resource.h"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2011-09-27T21:32:40.569057Z"
+   checksum="91e7f72cd6fdbec1e99a26bd3e78566d"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="255"
+   name="crash_generation_app.rc"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="5aef1a93715fab86d08294cce57591ca"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="838"
+   name="abstract_class.h"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2011-09-27T21:32:40.569057Z"
+   checksum="f12682b649dcba871917ef09ddef0d53"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+</wc-entries>

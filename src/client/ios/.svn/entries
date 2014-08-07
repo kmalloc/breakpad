@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1344"
+   name=""
+   committed-date="2014-07-07T08:13:23.955673Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/ios"
+   last-author="qsr@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1280"
+   name="Breakpad.h"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2014-02-18T21:34:43.099442Z"
+   checksum="0d231e1009cc3d2f32efe9d8e768c58d"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="889"
+   name="Breakpad_Prefix.pch"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2011-11-23T16:14:35.727243Z"
+   checksum="f3867d4b2a7425d4814a7305e021f946"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="1344"
+   name="Breakpad.mm"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2014-07-07T08:13:23.955673Z"
+   checksum="e677aafcd6fd2956a76a28e243ea2bac"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   committed-rev="1271"
+   name="BreakpadController.h"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2014-01-13T10:40:07.700613Z"
+   checksum="a71fddc0598ae8ceedd96bacf6b990f5"
+   last-author="blundell@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:23.000000Z"/>
+<entry
+   name="Breakpad.xcodeproj"
+   kind="dir"/>
+<entry
+   committed-rev="1288"
+   name="BreakpadController.mm"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2014-03-19T18:58:36.208568Z"
+   checksum="9829112d296fdbcffac47517fbedf486"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:24.000000Z"/>
+<entry
+   name="handler"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1355"
+   name=""
+   committed-date="2014-07-22T11:34:11.993284Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/linux/minidump_writer"
+   last-author="rmcilroy@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:16.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="978"
+   name="minidump_writer_unittest_utils.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-07-02T22:55:57.930773Z"
+   checksum="095b78bb468e4910e2e428b4c5ae24bd"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="978"
+   name="minidump_writer_unittest_utils.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-07-02T22:55:57.930773Z"
+   checksum="09f78ff0a77c69ab77e1edfe59fcf09b"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1240"
+   name="cpu_set_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-12-03T19:01:17.175681Z"
+   checksum="d8057094d86b4c82cee51b06fefc1972"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="cpu_set.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-04-24T10:06:14.345796Z"
+   checksum="d58792dfdf817bcb84fcd7fd9e5cef38"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1240"
+   name="proc_cpuinfo_reader_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-12-03T19:01:17.175681Z"
+   checksum="9b502b553b924b0f56f8e2366da12a30"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1305"
+   name="linux_ptrace_dumper_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-04-08T17:36:11.724674Z"
+   checksum="71bc34054dafb0b092fea25c427223ea"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1240"
+   name="line_reader_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-12-03T19:01:17.175681Z"
+   checksum="4f3123a5c80861fd2fb68ce7bdc064e4"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1305"
+   name="linux_dumper_unittest_helper.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-04-08T17:36:11.724674Z"
+   checksum="bfd0e2fe16375fc6cfb9011150b18193"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1301"
+   name="linux_ptrace_dumper.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-04-02T23:12:40.367347Z"
+   checksum="43abd117c5f319bcba18c0c071787546"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="proc_cpuinfo_reader.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2013-04-24T10:06:14.345796Z"
+   checksum="478fb0fe106beebcb59479f7fbeddc26"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="905"
+   name="linux_ptrace_dumper.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-01-19T07:14:51.755217Z"
+   checksum="b387236555a52b18c03bd5b481901e9f"
+   last-author="benchan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="linux_dumper.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="d877ee51f554e31521e063192de414e4"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1002"
+   name="line_reader.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-08-03T15:01:52.242713Z"
+   checksum="bbb6a4736dbe3f0f26ad6ea72eab9056"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="linux_dumper.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="c1b1b960fb3e55a1ea827f9e3a688dd6"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1305"
+   name="minidump_writer_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-04-08T17:36:11.724674Z"
+   checksum="3213176d114cbb306d9132a06d16909a"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="minidump_writer.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="6fc6164e50d119478eaf2951319f79b9"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1302"
+   name="minidump_writer.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-04-03T13:15:37.490735Z"
+   checksum="9bbbc85af19e2ac8b40acf34d7322092"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1318"
+   name="linux_core_dumper_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-04-23T10:20:00.952615Z"
+   checksum="2715eea4387e1cc8b3c1a3720ca34b52"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="linux_core_dumper.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="ec30c6e26ddce93e0caf24cb2a5c4ebd"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="974"
+   name="directory_reader_unittest.cc"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="2288c04a28c9aad69d4810df2dab808f"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="905"
+   name="linux_core_dumper.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-01-19T07:14:51.755217Z"
+   checksum="369c5c2b866c8244c1991a79a669ffd2"
+   last-author="benchan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+<entry
+   committed-rev="1002"
+   name="directory_reader.h"
+   text-time="2014-08-07T09:38:16.000000Z"
+   committed-date="2012-08-03T15:01:52.242713Z"
+   checksum="cb6dfe239b97471f2d95a6ea36832c07"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:16.000000Z"/>
+</wc-entries>

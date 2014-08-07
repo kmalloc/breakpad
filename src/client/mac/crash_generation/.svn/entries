@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1269"
+   name=""
+   committed-date="2014-01-10T19:53:33.514964Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/mac/crash_generation"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="646"
+   name="crash_generation_client.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2010-08-13T20:18:58.199784Z"
+   checksum="97568a9a2c4e82661ec6be389353ca64"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="651"
+   name="client_info.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2010-08-16T16:48:59.548291Z"
+   checksum="b9cf59ffef12fe58ff6e2c25dc5674ea"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="322"
+   name="InspectorMain.mm"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2009-04-01T03:18:49.181300Z"
+   checksum="a8cb938ce08f1eb29f3b461639a1f637"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="1269"
+   name="crash_generation_server.cc"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2014-01-10T19:53:33.514964Z"
+   checksum="58df3087c1d8eea92da50ffcb53aa25f"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="990"
+   name="crash_generation_server.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2012-07-20T12:24:25.564074Z"
+   checksum="0c65d5a74ffbafa79ffb28eb5070fd14"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="1154"
+   name="ConfigFile.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2013-04-18T20:17:29.543438Z"
+   checksum="e9edd00d88c35e63b3807a61b950ef85"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="1257"
+   name="Inspector.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2013-12-12T19:58:00.786556Z"
+   checksum="f2c79d84131620582a68627e658d80f5"
+   last-author="altse@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="1257"
+   name="ConfigFile.mm"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2013-12-12T19:58:00.786556Z"
+   checksum="e5274215e835f04b0ad0d5c1581615e0"
+   last-author="altse@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="747"
+   name="crash_generation_client.cc"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2010-12-16T22:52:38.605437Z"
+   checksum="0f3205b27a53c4f0c334edb507bafdb8"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="1257"
+   name="Inspector.mm"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2013-12-12T19:58:00.786556Z"
+   checksum="b6ab9cbec812c9f9b8f4955749c21682"
+   last-author="altse@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+</wc-entries>

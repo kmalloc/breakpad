@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1315"
+   name=""
+   committed-date="2014-04-16T16:03:57.950000Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/windows/symupload"
+   last-author="wfh@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1168"
+   name="symupload.vcproj"
+   text-time="2014-08-07T09:38:02.000000Z"
+   committed-date="2013-05-01T19:02:32.008945Z"
+   checksum="874ead55b9d15f5c93d5450ca57e8c80"
+   last-author="chrisha@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+<entry
+   committed-rev="1315"
+   name="symupload.cc"
+   text-time="2014-08-07T09:38:02.000000Z"
+   committed-date="2014-04-16T16:03:57.950000Z"
+   checksum="dd653d329d3a1cf0ac16fa1a8f60e2bf"
+   last-author="wfh@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+<entry
+   committed-rev="1308"
+   name="symupload.gyp"
+   text-time="2014-08-07T09:38:02.000000Z"
+   committed-date="2014-04-10T17:37:20.783607Z"
+   checksum="b7f5d9dbeed131f14291f95ddf7a9252"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:01.000000Z"/>
+</wc-entries>

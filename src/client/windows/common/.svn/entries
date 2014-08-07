@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="999"
+   name=""
+   committed-date="2012-07-25T15:34:00.702218Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/windows/common"
+   last-author="mark@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:25.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="999"
+   name="ipc_protocol.h"
+   text-time="2014-08-07T09:38:25.000000Z"
+   committed-date="2012-07-25T15:34:00.702218Z"
+   checksum="c1587358cefa337cdedb3481af6755c9"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+<entry
+   committed-rev="972"
+   name="auto_critical_section.h"
+   text-time="2014-08-07T09:38:26.000000Z"
+   committed-date="2012-06-19T23:42:18.167454Z"
+   checksum="8d1933a971f027a9626a998c0c13912d"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:25.000000Z"/>
+</wc-entries>

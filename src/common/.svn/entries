@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1359"
+   name=""
+   committed-date="2014-07-25T18:18:59.754108Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/common"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:10.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1322"
+   name="dwarf_cfi_to_module.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2014-04-29T09:45:46.453202Z"
+   checksum="78db208334da444f47c197213fc0422b"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:04.000000Z"/>
+<entry
+   name="android"
+   kind="dir"/>
+<entry
+   committed-rev="1121"
+   name="stabs_reader_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="d868115045e9f4cac5c886c5f050f3e5"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1322"
+   name="dwarf_cfi_to_module.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2014-04-29T09:45:46.453202Z"
+   checksum="8fe3da30c7643a2372805cca910d60b4"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="974"
+   name="stabs_reader.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="3b2aa1840946325e9977eaceefd66af4"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1124"
+   name="symbol_data.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T15:32:53.843009Z"
+   checksum="3662f76660c0154155c46157687b613c"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1163"
+   name="dwarf_cu_to_module_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-04-24T21:18:44.962388Z"
+   checksum="8562c08edef38cec39999edd96427b61"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="974"
+   name="byte_cursor.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="a2c1aba464fa2eaa281d848e1e4dfcd8"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="common.gyp"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2014-07-24T15:22:51.817106Z"
+   checksum="285723569e209d8d172d9d0a01100172"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1265"
+   name="scoped_ptr.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-12-18T19:49:55.662467Z"
+   checksum="bb3f9023789890daeeaed0e1e0cf9c9c"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   committed-rev="1219"
+   name="simple_string_dictionary.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-10-01T21:32:16.487160Z"
+   checksum="ccb7ceb1736fb982734d6df9bf29091c"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:05.000000Z"/>
+<entry
+   name="windows"
+   kind="dir"/>
+<entry
+   committed-rev="1188"
+   name="memory_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-05-23T18:47:49.229007Z"
+   checksum="ed59a88d4c21c021b4f298411e5a91f9"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1266"
+   name="basictypes.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-12-18T19:52:36.253789Z"
+   checksum="b2731adeecc70f89835e20220880135b"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   committed-rev="1225"
+   name="string_conversion.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-10-28T23:39:43.126831Z"
+   checksum="658b0997ca7fb1c32e7e32fac8bc6fbd"
+   last-author="jessicag.feedback"
+   kind="file"
+   prop-time="2014-08-07T09:38:06.000000Z"/>
+<entry
+   name="mac"
+   kind="dir"/>
+<entry
+   committed-rev="1121"
+   name="string_conversion.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="ddd18db78575bc798d053a78f3e8d16d"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="test_assembler.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="c4a6e6acb24cc61e7bf55ba74b77b600"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   name="tests"
+   kind="dir"/>
+<entry
+   committed-rev="1106"
+   name="dwarf_line_to_module.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-01-23T18:01:28.604438Z"
+   checksum="5d9c45fe80fe4cbc4046c978b24753c8"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="778"
+   name="stabs_to_module_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2011-03-04T16:08:39.895399Z"
+   checksum="60a66fabdd4dd8e21ca2848992a3d759"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="878"
+   name="language.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2011-10-22T16:57:10.779846Z"
+   checksum="20faebb1abdb742a2e17fede8c7eb84c"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="memory_range_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="61acc902e6410fbc1291bf519293534d"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="1106"
+   name="dwarf_line_to_module.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-01-23T18:01:28.604438Z"
+   checksum="cff64ca327a2dfb0d57515f4c86fab9a"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="1124"
+   name="module_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T15:32:53.843009Z"
+   checksum="5cf5910d53fdd06c17239f1578a7a905"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="1282"
+   name="md5.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2014-02-24T21:35:40.435391Z"
+   checksum="0f6625811dd1339e4f57264038590710"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="978"
+   name="language.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-07-02T22:55:57.930773Z"
+   checksum="cc57f7770bc9183dc5767b8d68d09250"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="md5.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2014-02-18T22:52:02.390356Z"
+   checksum="c09ea9cefc4a40729c7b3169f05b0472"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:07.000000Z"/>
+<entry
+   name="solaris"
+   kind="dir"/>
+<entry
+   committed-rev="1354"
+   name="unordered.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2014-07-21T18:27:43.001923Z"
+   checksum="a8c2193e3974a199d74d43431f29144f"
+   last-author="ivanpe@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="988"
+   name="dwarf_cfi_to_module_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-07-18T18:13:29.947335Z"
+   checksum="daa76c1d4d2ec7c13cf742d4a3c64062"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1245"
+   name="convert_UTF.c"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-12-05T23:16:03.343234Z"
+   checksum="16ce4ea0ab9105f316c2297fa8010250"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="974"
+   name="byte_cursor_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="6b403ae2c5f729d4824153234b2b585d"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="974"
+   name="stabs_reader.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="f0cfcc18f98eb71b773253e967f421ba"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1245"
+   name="convert_UTF.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-12-05T23:16:03.343234Z"
+   checksum="856e6c6595034b3cf91cc4eb6cb37e38"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1354"
+   name="dwarf_cu_to_module.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2014-07-21T18:27:43.001923Z"
+   checksum="72456923f7a4cb68e395be6ace5b277d"
+   last-author="ivanpe@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1219"
+   name="simple_string_dictionary_unittest.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-10-01T21:32:16.487160Z"
+   checksum="513820c3bd7a911129262c66c32ff935"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1164"
+   name="dwarf_cu_to_module.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-04-24T21:40:27.414314Z"
+   checksum="c135a0914168c2a2921c70da8c66fbf5"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1161"
+   name="simple_string_dictionary.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-04-24T18:15:48.786592Z"
+   checksum="a188337f20ed5a66a07646ad8b42a57f"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1356"
+   name="memory.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2014-07-22T14:24:21.430752Z"
+   checksum="d69bc1e95fb7d99cca56fc8944767c8a"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   name="linux"
+   kind="dir"/>
+<entry
+   committed-rev="1121"
+   name="test_assembler_unittest.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="83ae520ec23e4c9bb5de1eafb068ec98"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="test_assembler.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="532e3c24377df2deeea42b0488d07c3f"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   name="dwarf"
+   kind="dir"/>
+<entry
+   committed-rev="1106"
+   name="dwarf_line_to_module_unittest.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-01-23T18:01:28.604438Z"
+   checksum="af84d9bab54d4614c927298b9bcfce10"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+<entry
+   committed-rev="974"
+   name="stabs_to_module.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="4876c036325b198c026303f95e6be48b"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+<entry
+   name="testdata"
+   kind="dir"/>
+<entry
+   committed-rev="1359"
+   name="module.cc"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2014-07-25T18:18:59.754108Z"
+   checksum="9bd6922812ae7116353668c517801777"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+<entry
+   committed-rev="974"
+   name="stabs_to_module.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="f842f779f7f92928e7fd5a8bd0956439"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="memory_range.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="c5a8dc825b47ca289a3a887e967d9558"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+<entry
+   committed-rev="1359"
+   name="module.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2014-07-25T18:18:59.754108Z"
+   checksum="e722e3cd2c2bb4fdade6d9046c4e17b0"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+<entry
+   committed-rev="974"
+   name="using_std_string.h"
+   text-time="2014-08-07T09:38:11.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="0d924e6713461468104907fcf2770e52"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:10.000000Z"/>
+</wc-entries>

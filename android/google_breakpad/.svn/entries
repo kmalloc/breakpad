@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1216"
+   name=""
+   committed-date="2013-09-25T13:47:44.353462Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/android/google_breakpad"
+   last-author="digit@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1216"
+   name="Android.mk"
+   text-time="2014-08-07T09:37:44.000000Z"
+   committed-date="2013-09-25T13:47:44.353462Z"
+   checksum="92fbc720681f082f1a9617d0e284b50b"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:44.000000Z"/>
+</wc-entries>

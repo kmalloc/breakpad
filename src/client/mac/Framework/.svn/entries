@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1282"
+   name=""
+   committed-date="2014-02-24T21:35:40.435391Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/mac/Framework"
+   last-author="dmaclach"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="928"
+   name="Breakpad.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2012-03-02T08:27:20.729273Z"
+   checksum="fb97cbd5a411bb57f971aecaec8ddd74"
+   last-author="qsr@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="322"
+   name="Breakpad_Prefix.pch"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2009-04-01T03:18:49.181300Z"
+   checksum="1f6cd59389e135b0e92058cdbc3feb03"
+   last-author="nealsid"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="1282"
+   name="Breakpad.mm"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2014-02-24T21:35:40.435391Z"
+   checksum="099a0f38305ea01c81c0c87841de6906"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="977"
+   name="OnDemandServer.h"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2012-07-02T15:34:15.865544Z"
+   checksum="733e7d3eed6e7175b639fd1da1c4de7a"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="993"
+   name="OnDemandServer.mm"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2012-07-23T19:09:25.672314Z"
+   checksum="780502dd39eb8ecbdb4db73386e9b451"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   committed-rev="325"
+   name="Info.plist"
+   text-time="2014-08-07T09:38:21.000000Z"
+   committed-date="2009-04-06T20:17:09.836760Z"
+   checksum="7e0fc0ae74eafbf2c0bd5eb50100898a"
+   last-author="stuart.morgan"
+   kind="file"
+   prop-time="2014-08-07T09:38:21.000000Z"/>
+<entry
+   name="English.lproj"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1360"
+   name=""
+   committed-date="2014-07-31T19:11:29.839428Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/mac/upload_system_symbols"
+   last-author="rsesek@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1360"
+   name="arch_constants.h"
+   text-time="2014-08-07T09:37:55.000000Z"
+   committed-date="2014-07-31T19:11:29.839428Z"
+   checksum="f2536d4fbbea8b4f071d32df5647dffc"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:55.000000Z"/>
+<entry
+   committed-rev="1360"
+   name="arch_reader.go"
+   text-time="2014-08-07T09:37:55.000000Z"
+   committed-date="2014-07-31T19:11:29.839428Z"
+   checksum="f69b363cacff657054d87081a0cc036f"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:55.000000Z"/>
+<entry
+   committed-rev="1360"
+   name="upload_system_symbols.go"
+   text-time="2014-08-07T09:37:55.000000Z"
+   committed-date="2014-07-31T19:11:29.839428Z"
+   checksum="2f8f3e1b163a59ce978f6927d8ef8810"
+   last-author="rsesek@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:55.000000Z"/>
+</wc-entries>

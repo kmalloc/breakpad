@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1281"
+   name=""
+   committed-date="2014-02-18T22:52:02.390356Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/client/ios/handler"
+   last-author="dmaclach"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   revision="1361"/>
+<entry
+   committed-rev="1235"
+   name="ios_exception_minidump_generator.h"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2013-11-21T17:44:57.975588Z"
+   checksum="053d97da3434429c4edbe9cefe769054"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:24.000000Z"/>
+<entry
+   committed-rev="1281"
+   name="ios_exception_minidump_generator.mm"
+   text-time="2014-08-07T09:38:24.000000Z"
+   committed-date="2014-02-18T22:52:02.390356Z"
+   checksum="3e08a085f7afc39f2e9b6176e1f2f58d"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:24.000000Z"/>
+</wc-entries>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1212"
+   name=""
+   committed-date="2013-09-11T11:37:04.401499Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/common/dwarf"
+   last-author="gordana.cmiljanovic@imgtec.com"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:09.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1121"
+   name="cfi_assembler.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="17dd40302398ecaf2da272522b2d4aca"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="912"
+   name="dwarf2enums.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-02-01T15:01:54.134022Z"
+   checksum="dca091e6ab31eeb5c04c91b5dfca1fb9"
+   last-author="jimblandy"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="cfi_assembler.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="91888604b21301834e230114f67716e5"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1176"
+   name="functioninfo.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-05-08T20:24:03.081111Z"
+   checksum="2a4275658e70bca4a5aa031608c857d4"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1091"
+   name="functioninfo.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-12-12T04:02:58.454586Z"
+   checksum="8b2d7025f97583adfa747abb1d8b13c7"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1091"
+   name="dwarf2diehandler_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-12-12T04:02:58.454586Z"
+   checksum="8c912a91c60c240eb6dc1ed5028551e5"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1091"
+   name="dwarf2diehandler.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-12-12T04:02:58.454586Z"
+   checksum="f6d1987ed211c8517a2f42a337a8ff0c"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="920"
+   name="types.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-02-15T16:26:32.465572Z"
+   checksum="985e4473005a800ddd48e33afdbd0e91"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1091"
+   name="dwarf2diehandler.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-12-12T04:02:58.454586Z"
+   checksum="263d194cae49c75a59da79d2d2d9fed4"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="619"
+   name="bytereader-inl.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2010-06-25T16:57:07.266446Z"
+   checksum="d66adffc093fb0996f85cbc1788b1e08"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1212"
+   name="dwarf2reader.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-09-11T11:37:04.401499Z"
+   checksum="48e68edfdb1be66ca2d43aa7e0f610ef"
+   last-author="gordana.cmiljanovic@imgtec.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1091"
+   name="dwarf2reader.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-12-12T04:02:58.454586Z"
+   checksum="659c7641798326ba4e6a6ba7a7d363aa"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="627"
+   name="line_state_machine.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2010-07-19T20:43:49.019784Z"
+   checksum="9666ed74cc88b8d55f5f5d12b96ab5b7"
+   last-author="dmaclach"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="dwarf2reader_test_common.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="84caca51b859f1949c9d1ae7eee12763"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="974"
+   name="bytereader_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="c17e48e60eddb82431754204635297eb"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="665"
+   name="bytereader.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2010-08-25T00:54:26.846081Z"
+   checksum="f55ae1c8311e38fe6181f4499ed9a543"
+   last-author="jimblandy"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="665"
+   name="bytereader.h"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2010-08-25T00:54:26.846081Z"
+   checksum="ad1e12ff041a46a1192b160abc71e7c5"
+   last-author="jimblandy"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="dwarf2reader_die_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="1d60f3b4bab8a4de6e52efa9b843c299"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="dwarf2reader_cfi_unittest.cc"
+   text-time="2014-08-07T09:38:10.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="91a83585940300fbeb6732040890e6a3"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:09.000000Z"/>
+</wc-entries>

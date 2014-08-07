@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1355"
+   name=""
+   committed-date="2014-07-22T11:34:11.993284Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/common/linux"
+   last-author="rmcilroy@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:38:08.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1355"
+   name="file_id.cc"
+   text-time="2014-08-07T09:38:08.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="c8ddd7b77901421c376ae955cb0cc36c"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1337"
+   name="libcurl_wrapper.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-06-04T08:54:07.889564Z"
+   checksum="5d008027a9921685b5a9aae9db9eb96d"
+   last-author="pbos@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1295"
+   name="file_id.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-04-01T20:18:53.645159Z"
+   checksum="fb976d74343a248473f5ca662185973b"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="memory_mapped_file.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="fe7310f01aaf22b2e01595823a8060ec"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="memory_mapped_file.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="a81dfd53d90bfaf73216861ee208f9cc"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="elf_core_dump_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="bd83b3780032da0cbdec36f368583996"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1322"
+   name="dump_symbols.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-04-29T09:45:46.453202Z"
+   checksum="ff48cf870948a866b9b12c12b47e8586"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1323"
+   name="google_crashdump_uploader.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-05-01T23:31:44.146189Z"
+   checksum="1d52fa9e615464f5ade34ccba690a933"
+   last-author="mmandlis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   name="tests"
+   kind="dir"/>
+<entry
+   committed-rev="1320"
+   name="crc32.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-04-23T20:52:28.985378Z"
+   checksum="82b7bb87a3f1ea8e485105a85268f7ef"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1323"
+   name="google_crashdump_uploader.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-05-01T23:31:44.146189Z"
+   checksum="66bca71e511ae0fae5513a05fcb3202f"
+   last-author="mmandlis@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1163"
+   name="dump_symbols.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-24T21:18:44.962388Z"
+   checksum="8c533129d013968c1f625f348c3ff41f"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="linux_libc_support_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-24T10:06:14.345796Z"
+   checksum="7824986cc0ca3215c562baa890971d5e"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="974"
+   name="elf_symbols_to_module_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="97d261ad993e2fede0c7c517c96103fd"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="linux_libc_support.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-24T10:06:14.345796Z"
+   checksum="6acde06f2b709865e00c2f0c405c847f"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1146"
+   name="elf_gnu_compat.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-10T03:33:09.613924Z"
+   checksum="00fa3ff23cc0537d4e30c5462923494e"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1083"
+   name="safe_readlink_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-11-21T01:33:08.477911Z"
+   checksum="8221d2ad36536a2c0af564e23e716a77"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1349"
+   name="elfutils.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-07-17T18:34:18.938406Z"
+   checksum="c3ce941063a21c71d2b654e76602e197"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1349"
+   name="elfutils.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-07-17T18:34:18.938406Z"
+   checksum="987f5de11619807cebac1c2ba5000389"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1259"
+   name="file_id_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-12-13T16:49:11.952322Z"
+   checksum="a01912bb3647c5b0f6657c4ac1396f00"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1146"
+   name="synth_elf.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-10T03:33:09.613924Z"
+   checksum="78904dd8c485e3b0a84fbbbb6ebadbc4"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1355"
+   name="memory_mapped_file_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-07-22T11:34:11.993284Z"
+   checksum="f5090351589858e81f7aaae400bdc0af"
+   last-author="rmcilroy@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1142"
+   name="synth_elf.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-04T16:24:44.664921Z"
+   checksum="1a1311a57688d3be952f007b3ab7b9a3"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1337"
+   name="libcurl_wrapper.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-06-04T08:54:07.889564Z"
+   checksum="102d1f53aa3b2ac9a2a89fc8544a6355"
+   last-author="pbos@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="995"
+   name="ignore_ret.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-07-24T00:15:53.894982Z"
+   checksum="9c741e73324ce3313966c174fafeeecb"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="900"
+   name="elf_core_dump.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-01-07T02:25:22.738852Z"
+   checksum="7590ad8168a4049a087cf18a17d2ffac"
+   last-author="benchan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1017"
+   name="elf_core_dump.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-08-21T14:34:48.245996Z"
+   checksum="df78c11166d433e91df88f6b9a535a46"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1121"
+   name="guid_creator.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-03-06T14:04:42.553263Z"
+   checksum="a9561af3a212f26cd38a5fd50eb6354c"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="987"
+   name="elfutils-inl.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-07-18T17:55:08.977014Z"
+   checksum="7811f029b7238f3aa654b738ac5742c7"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="255"
+   name="guid_creator.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2008-04-07T21:50:57.722300Z"
+   checksum="7c447c60bea14311de6bbef3fd5ff619"
+   last-author="mmentovai"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1163"
+   name="dump_symbols_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-24T21:18:44.962388Z"
+   checksum="74e501066dca87e89ecb4794eaeea670"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="974"
+   name="google_crashdump_uploader_test.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="79a6cb5d29bca939055b16e28d297aed"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1320"
+   name="crc32.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-04-23T20:52:28.985378Z"
+   checksum="b79719288797dccca02195e2eff04ba3"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1277"
+   name="http_upload.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2014-01-29T20:34:07.969643Z"
+   checksum="c9a34a84bcf38ad66dba7ff7a013f95d"
+   last-author="mattdr.breakpad@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1239"
+   name="eintr_wrapper.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-12-03T14:12:08.593590Z"
+   checksum="ddde0809848e474b257409681f7b7753"
+   last-author="mark@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="974"
+   name="http_upload.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2012-06-28T22:46:01.423053Z"
+   checksum="c41c55034f091ec30f92c217413e5190"
+   last-author="ivan.penkov@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="793"
+   name="elf_symbols_to_module.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2011-07-06T17:05:49.121433Z"
+   checksum="564e4ccc43e830d6a2ee42a69a545847"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1160"
+   name="linux_libc_support.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-24T10:06:14.345796Z"
+   checksum="e7039268bbadaf8c75baa60c6ed0dafd"
+   last-author="digit@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="793"
+   name="elf_symbols_to_module.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2011-07-06T17:05:49.121433Z"
+   checksum="9c01e4cd8bb6e6534abb4b4ed4368f1d"
+   last-author="ted.mielczarek"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="896"
+   name="safe_readlink.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2011-12-21T17:51:40.185395Z"
+   checksum="0304eeb256050b6457d7f72010467aa1"
+   last-author="benchan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="896"
+   name="safe_readlink.h"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2011-12-21T17:51:40.185395Z"
+   checksum="a3091b702a8ad648c86f1d1ee65aef5d"
+   last-author="benchan@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+<entry
+   committed-rev="1142"
+   name="synth_elf_unittest.cc"
+   text-time="2014-08-07T09:38:09.000000Z"
+   committed-date="2013-04-04T16:24:44.664921Z"
+   checksum="5a2d9dc9df78ca03f44ef0cc3839b35d"
+   last-author="ted.mielczarek@gmail.com"
+   kind="file"
+   prop-time="2014-08-07T09:38:08.000000Z"/>
+</wc-entries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1163"
+   name=""
+   committed-date="2013-04-24T21:18:44.962388Z"
+   url="http://google-breakpad.googlecode.com/svn/trunk/src/tools/linux/dump_syms"
+   last-author="thestig@chromium.org"
+   kind="dir"
+   uuid="4c0a9323-5329-0410-9bdc-e9ce6186880e"
+   prop-time="2014-08-07T09:37:54.000000Z"
+   revision="1361"/>
+<entry
+   committed-rev="1163"
+   name="dump_syms.cc"
+   text-time="2014-08-07T09:37:54.000000Z"
+   committed-date="2013-04-24T21:18:44.962388Z"
+   checksum="29006d1dd96a6722dcf84c54dd0d9538"
+   last-author="thestig@chromium.org"
+   kind="file"
+   prop-time="2014-08-07T09:37:54.000000Z"/>
+</wc-entries>
