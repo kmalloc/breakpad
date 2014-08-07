@@ -93,7 +93,7 @@ class ByteReader {
   // In other words, we break VALUE into groups of seven bits, put
   // them in little-endian order, and then write them as eight-bit
   // bytes with the high bit on all but the last.
-  uint64 ReadUnsignedLEB128(const char* buffer, size_t* len) const;
+  static inline uint64 ReadUnsignedLEB128(const char* buffer, size_t* len);
 
   // Read a signed LEB128 number from BUFFER and return it as an
   // signed 64 bit integer. Set LEN to the number of bytes read.
@@ -112,7 +112,7 @@ class ByteReader {
   // In other words, we break VALUE into groups of seven bits, put
   // them in little-endian order, and then write them as eight-bit
   // bytes with the high bit on all but the last.
-  int64 ReadSignedLEB128(const char* buffer, size_t* len) const;
+  static inline int64 ReadSignedLEB128(const char* buffer, size_t* len);
 
   // Indicate that addresses on this architecture are SIZE bytes long. SIZE
   // must be either 4 or 8. (DWARF allows addresses to be any number of

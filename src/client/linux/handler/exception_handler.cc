@@ -380,6 +380,26 @@ int ExceptionHandler::ThreadEntry(void *arg) {
   // we're allowed to use ptrace
   thread_arg->handler->WaitForContinueSignal();
 
+
+  /*
+   *  we may inherit signal handler from parent that handles SIGCHLD, 
+   *  which should be ignored in our case.
+   *  because process will call wait() for SIGCHLD after calling 
+   *  sys_ptrace(ptrace_attach...)
+   *  handler for SIGCHLD will make wait() hang forever.
+   *
+   */
+  struct sigaction childsig_handler;
+  if(sigaction(SIGCHLD,NULL,&childsig_handler) == 0 && 
+     childsig_handler.sa_handler != SIG_IGN)
+  {
+     my_memset(&childsig_handler,0,sizeof(childsig_handler));
+	 sigemptyset(&childsig_handler.sa_mask);
+	 childsig_handler.sa_handler = SIG_IGN;
+	 childsig_handler.sa_flags   = 0;
+	 sigaction(SIGCHLD,&childsig_handler,NULL);
+  }
+
   return thread_arg->handler->DoDump(thread_arg->pid, thread_arg->context,
                                      thread_arg->context_size) == false;
 }

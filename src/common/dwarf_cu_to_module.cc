@@ -45,11 +45,13 @@
 #include <inttypes.h>
 #include <stdio.h>
 
+#include <sstream>
 #include <algorithm>
 #include <utility>
 
+#include "common/dwarf/bytereader-inl.h"
+#include "common/dwarf/bytereader.h"
 #include "common/dwarf_line_to_module.h"
-#include "common/unordered.h"
 
 namespace google_breakpad {
 
@@ -57,6 +59,7 @@ using std::map;
 using std::pair;
 using std::sort;
 using std::vector;
+using std::ostringstream;
 
 // Data provided by a DWARF specification DIE.
 //
@@ -117,7 +120,8 @@ struct DwarfCUToModule::FilePrivate {
   // so this set will actually hold yet another copy of the string (although
   // everything will still work). To improve memory consumption portably,
   // we will probably need to use pointers to strings held in this set.
-  unordered_set<string> common_strings;
+  // unordered_set<string> common_strings;
+  set<string> common_strings;
 
   // A map from offsets of DIEs within the .debug_info section to
   // Specifications describing those DIEs. Specification references can
@@ -165,6 +169,333 @@ bool DwarfCUToModule::FileContext::IsUnhandledInterCUReference(
   return offset < compilation_unit_start;
 }
 
+class VarTypePool;
+class BaseVarType
+{
+    public:
+        BaseVarType(VarTypePool* pool, const string& name, uint64 sz)
+            :typePool_(pool), name_(name), sz_(sz)
+        {
+        }
+        virtual ~BaseVarType() {}
+
+        virtual const string& GetTypeName() const { return name_; }
+        virtual size_t GetTypeSize() const { return sz_; }
+        virtual int64 GetVarPosition() const { return -1; }
+
+    private:
+        BaseVarType(const BaseVarType&);
+        BaseVarType& operator=(const BaseVarType&);
+
+    protected:
+
+        mutable string name_;
+        mutable uint64 sz_;
+        VarTypePool* typePool_;
+};
+
+class VarTypePool
+{
+    public:
+
+        VarTypePool() {}
+
+        ~VarTypePool()
+        {
+            map<int64, BaseVarType*>::iterator it = key2type_.begin();
+            while (it != key2type_.end())
+            {
+                delete it->second;
+                ++it;
+            }
+        }
+
+        void AddVarType(int64 key, BaseVarType* type) { key2type_[key] = type; }
+
+        BaseVarType* GetVarType(int64 key) const
+        {
+            map<int64, BaseVarType*>::const_iterator it = key2type_.find(key);
+            if (it == key2type_.end()) return NULL;
+
+            return it->second;
+        }
+
+    private:
+
+        VarTypePool(const VarTypePool&);
+        VarTypePool& operator=(const VarTypePool&);
+
+    private:
+
+        map<int64, BaseVarType*> key2type_;
+};
+
+class StructVarType: public BaseVarType
+{
+    public:
+        StructVarType(VarTypePool* pool, const string& name, uint64 sz)
+            :BaseVarType(pool, name, sz)
+        {
+        }
+
+        const vector<int64>& GetMembers() const { return mem_; }
+        void AddMemberType(int64 memRef) { mem_.push_back(memRef); }
+        void SetMemberType(const vector<int64>& mem) { mem_ = mem; }
+
+    private:
+
+        vector<int64> mem_;
+};
+
+class StructMemVarType: public BaseVarType
+{
+    public:
+        StructMemVarType(VarTypePool* pool, const string& varName, int64 typeRef, int64 offset)
+            :BaseVarType(pool, "", 0), varName_(varName), typeRef_(typeRef), offset_(offset)
+        {
+        }
+
+        const string& GetTypeName() const
+        {
+            if (!name_.empty()) return name_;
+
+            BaseVarType* base = typePool_->GetVarType(typeRef_);
+            assert(base);
+
+            name_ = base->GetTypeName();
+
+            return name_;
+        }
+
+        size_t GetTypeSize() const
+        {
+            if (sz_ > 0) return sz_;
+
+            BaseVarType* base = typePool_->GetVarType(typeRef_);
+            assert(base);
+
+            sz_ = base->GetTypeSize();
+            return sz_;
+        }
+
+        const string& GetMemName() const { return varName_; }
+        int64 GetMemberOffset() const { return offset_; }
+
+    private:
+
+        // member name,eg the 'aa' in 'int aa;'
+        string varName_;
+        // member type, eg the 'int' in 'int aa;'
+        int64 typeRef_;
+        // offset of the member in the class/struct
+        int64 offset_;
+};
+
+class PointerVarType: public BaseVarType
+{
+    public:
+        PointerVarType(VarTypePool* pool, int64 baseRef, uint64 sz)
+            :BaseVarType(pool, "", sz), baseTypeRef_(baseRef)
+        {
+        }
+
+        const string& GetTypeName() const
+        {
+            if (!name_.empty()) return name_;
+
+            if (baseTypeRef_ == -1)
+            {
+                name_ = "@anonymous@";
+            }
+            else
+            {
+                BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+                assert(base);
+                name_ = base->GetTypeName() + "*";
+            }
+
+            return name_;
+        }
+
+    private:
+
+        int64 baseTypeRef_;
+};
+
+class Pointer2MemberVarType: public BaseVarType
+{
+    public:
+        Pointer2MemberVarType(VarTypePool* pool, const string& name, int64 baseRef, int64 classRef, uint64 sz)
+            :BaseVarType(pool, name, sz), baseTypeRef_(baseRef), classTypeRef_(classRef)
+        {
+        }
+
+        const string& GetTypeName() const
+        {
+            // return format: int className::* var
+            if (!fullName_.empty()) return fullName_;
+
+            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+            assert(base);
+            fullName_ = base->GetTypeName();
+
+            if (classTypeRef_ == -1)
+            {
+                fullName_ += " @anonymous@::* ";
+            }
+            else
+            {
+                base = typePool_->GetVarType(classTypeRef_);
+                assert(base);
+                fullName_ += string(" ") + base->GetTypeName() + "::* ";
+            }
+
+            fullName_ += name_;
+            return fullName_;
+        }
+
+    private:
+
+        mutable string fullName_;
+        int64 baseTypeRef_;
+        int64 classTypeRef_;
+};
+
+class ReferenceVarType: public BaseVarType
+{
+    public:
+        ReferenceVarType(VarTypePool* pool, int64 baseType, uint64 sz)
+            :BaseVarType(pool, "", sz), baseTypeRef_(baseType)
+        {
+        }
+
+        const string& GetTypeName() const
+        {
+            if (!name_.empty()) return name_;
+
+            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+            assert(base);
+
+            name_ = base->GetTypeName() + "&";
+
+            return name_;
+        }
+
+    private:
+
+        int64 baseTypeRef_;
+};
+
+class ModifierVarType: public BaseVarType
+{
+    public:
+        ModifierVarType(VarTypePool* pool, int64 baseRef, const string& modifier)
+            :BaseVarType(pool, "", 0), baseTypeRef_(baseRef)
+        {
+        }
+
+        const string& GetTypeName() const
+        {
+            if (!name_.empty()) return name_;
+
+            if (baseTypeRef_ != -1)
+            {
+                BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+                assert(base);
+
+                name_ = base->GetTypeName();
+            }
+            else
+            {
+                name_ = "@anonymous@";
+            }
+
+            if (!modifier_.empty()) name_ = modifier_ + " " + name_;
+
+            return name_;
+        }
+
+        size_t GetTypeSize() const
+        {
+            if (sz_ > 0) return sz_;
+
+            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+            assert(base);
+
+            sz_ = base->GetTypeSize();
+            return sz_;
+        }
+
+    private:
+
+        string modifier_;
+        int64 baseTypeRef_;
+};
+
+class TypedefVarType: public BaseVarType
+{
+    public:
+        TypedefVarType(VarTypePool* pool, int64 baseRef, const string& name)
+            :BaseVarType(pool, name, 0), baseTypeRef_(baseRef)
+        {
+        }
+
+        size_t GetTypeSize() const
+        {
+            if (sz_ > 0) return sz_;
+
+            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+            assert(base);
+
+            sz_ = base->GetTypeSize();
+            return sz_;
+        }
+
+    private:
+
+        int64 baseTypeRef_;
+};
+
+class ArrayVarType: public BaseVarType
+{
+    public:
+        ArrayVarType(VarTypePool* pool, int64 baseRef, uint64 arrItemSz)
+            :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), arrItemNum_(arrItemSz)
+        {
+        }
+
+        const string& GetTypeName() const
+        {
+            if (!name_.empty()) return name_;
+
+            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+            assert(base);
+
+            ostringstream oss;
+            oss << base->GetTypeName() << "[" << arrItemNum_ << "]";
+
+            name_ = oss.str();
+            return name_;
+        }
+
+        size_t GetTypeSize() const
+        {
+            if (sz_ > 0) return sz_;
+
+            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+            assert(base);
+
+            sz_ = base->GetTypeSize() * arrItemNum_;
+
+            return sz_;
+        }
+
+    private:
+
+        int64 baseTypeRef_;
+        uint64 arrItemNum_;
+};
+
 // Information global to the particular compilation unit we're
 // parsing. This is for data shared across the CU's entire DIE tree,
 // and parameters from the code invoking the CU parser.
@@ -181,6 +512,7 @@ struct DwarfCUToModule::CUContext {
     }
   };
 
+
   // The DWARF-bearing file into which this CU was incorporated.
   FileContext *file_context;
 
@@ -196,6 +528,7 @@ struct DwarfCUToModule::CUContext {
   //
   // Destroying this destroys all the functions this vector points to.
   vector<Module::Function *> functions;
+  VarTypePool typePools;
 };
 
 // Information about the context of a particular DIE. This is for
@@ -336,7 +669,7 @@ void DwarfCUToModule::GenericDIEHandler::ProcessAttributeReference(
 }
 
 string DwarfCUToModule::GenericDIEHandler::AddStringToPool(const string &str) {
-  pair<unordered_set<string>::iterator, bool> result =
+  pair<set<string>::iterator, bool> result =
     cu_context_->file_context->file_private_->common_strings.insert(str);
   return *result.first;
 }
@@ -418,14 +751,35 @@ string DwarfCUToModule::GenericDIEHandler::ComputeQualifiedName() {
                                                   *unqualified_name);
 }
 
+class DwarfCUToModule::LexicalBlockHandler: public GenericDIEHandler {
+    public:
+        LexicalBlockHandler(CUContext *cu_context, DIEContext *parent_context, uint64 offset)
+            : GenericDIEHandler(cu_context, parent_context, offset)
+            , low_pc_(0), high_pc_(0)
+        {
+            offset += 3;
+        }
+
+        DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
+
+        bool EndAttributes()
+        {
+            return true;
+        }
+
+    private:
+        uint64 low_pc_, high_pc_; // DW_AT_low_pc, DW_AT_high_pc
+};
+
 // A handler class for DW_TAG_subprogram DIEs.
 class DwarfCUToModule::FuncHandler: public GenericDIEHandler {
- public:
+    public:
   FuncHandler(CUContext *cu_context, DIEContext *parent_context,
               uint64 offset)
       : GenericDIEHandler(cu_context, parent_context, offset),
         low_pc_(0), high_pc_(0), high_pc_form_(dwarf2reader::DW_FORM_addr),
         abstract_origin_(NULL), inline_(false) { }
+
   void ProcessAttributeUnsigned(enum DwarfAttribute attr,
                                 enum DwarfForm form,
                                 uint64 data);
@@ -436,8 +790,15 @@ class DwarfCUToModule::FuncHandler: public GenericDIEHandler {
                                  enum DwarfForm form,
                                  uint64 data);
 
+  DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
+
   bool EndAttributes();
   void Finish();
+
+  void AddFormalParam(const Module::FuncArgument& arg)
+  {
+      params_.push_back(arg);
+  }
 
  private:
   // The fully-qualified name, as derived from name_attribute_,
@@ -447,7 +808,401 @@ class DwarfCUToModule::FuncHandler: public GenericDIEHandler {
   DwarfForm high_pc_form_; // DW_AT_high_pc can be length or address.
   const AbstractOrigin* abstract_origin_;
   bool inline_;
+
+  vector<Module::FuncArgument> params_;
 };
+
+// DW_TAG_formal_parameter
+class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
+  public:
+    FormalParamerHandler(CUContext* cu_context, DIEContext* parent_context,
+            uint64 offset, FuncHandler* funcHandler)
+      :GenericDIEHandler(cu_context, parent_context, offset)
+      ,func_(funcHandler), hasValue_(false), offset_(-1), typeRef_(-1)
+    {
+    }
+
+    virtual void ProcessAttributeBuffer(enum DwarfAttribute attr,
+            enum DwarfForm form,
+            const char* data,
+            uint64 len);
+    virtual void ProcessAttributeReference(enum DwarfAttribute attr,
+            enum DwarfForm form,
+            uint64 data);
+    virtual void ProcessAttributeString(enum DwarfAttribute attr,
+            enum DwarfForm form,
+            const string& data);
+
+    void Finish();
+
+  private:
+
+    FuncHandler* func_;
+
+    bool hasValue_;
+
+    // argument location offset.
+    int64 offset_;
+    // name of the argument
+    string name_;
+    // get from DW_TAG_formal_parameter
+    int64 typeRef_;
+};
+
+void DwarfCUToModule::FormalParamerHandler::ProcessAttributeString(
+        enum DwarfAttribute attr,
+        enum DwarfForm form,
+        const string &data) {
+    switch (attr) {
+        case dwarf2reader::DW_AT_name:
+            {
+                name_ = AddStringToPool(data);
+                break;
+            }
+        default: break;
+    }
+}
+
+void DwarfCUToModule::FormalParamerHandler::ProcessAttributeReference(
+        enum DwarfAttribute attr,
+        enum DwarfForm form,
+        uint64 data)
+{
+    switch (attr)
+    {
+        case dwarf2reader::DW_AT_type:
+            typeRef_ = data;
+            break;
+        default: break;
+    }
+}
+
+void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        const char* data,
+        uint64 len)
+{
+    switch (attr)
+    {
+        case dwarf2reader::DW_AT_location:
+            {
+                // TODO, currently only support the simplest location expression: DW_OP_fbreg
+                unsigned char op = *data;
+                if (op != dwarf2reader::DW_OP_fbreg) break;
+
+                size_t sz;
+                hasValue_ = true;
+                offset_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
+                break;
+            }
+    }
+}
+
+void DwarfCUToModule::FormalParamerHandler::Finish()
+{
+    // for now, just ignore formal parameter for subroutine
+    if (typeRef_ == -1 || func_ == NULL) return;
+
+    Module::FuncArgument arg = {offset_, name_, {typeRef_}};
+
+    func_->AddFormalParam(arg);
+}
+
+// DW_TAG_base_type, DW_TAG_string_type DW_TAG_array_type
+// DW_TAG_structure_type DW_TAG_class_type DW_TAG_union_type
+class DwarfCUToModule::DwarfTypeHandler: public GenericDIEHandler {
+    public:
+        DwarfTypeHandler(CUContext *cu_context, DIEContext* parent_context, uint64 offset, DwarfTag tag)
+            :GenericDIEHandler(cu_context, parent_context, offset)
+            ,tag_(tag), typeKey_(offset), typeRef_(-1), hasValue_(false)
+        {
+        }
+
+        DIEHandler* FindChildHandler(uint64 offset, enum DwarfTag tag);
+        virtual void ProcessAttributeUnsigned(enum DwarfAttribute attr,
+                enum DwarfForm form,
+                uint64 data);
+        virtual void ProcessAttributeString(enum DwarfAttribute attr,
+                enum DwarfForm form,
+                const string& data);
+        virtual void ProcessAttributeReference(enum DwarfAttribute attr,
+                enum DwarfForm form,
+                uint64 data);
+
+        bool EndAttributes() { return true; }
+        void Finish();
+
+        void AddMemTypeRef(int64 ref) { members_.push_back(ref); }
+
+        void SetType(int64 type) { typeRef_ = type; }
+        void SetTypeSize(uint64 sz) { size_ = sz; }
+
+    protected:
+
+        DwarfTag tag_;
+        string name_;
+
+        // DIE offset
+        int64 typeKey_;
+        int64 typeRef_;
+        uint64 size_;
+
+        bool hasValue_;
+        // in case of struct/class/union
+        vector<int64> members_;
+};
+
+// for class/struct, pointer, reference, array tag
+class DwarfCUToModule::DwarfSubTypeHandler: public DwarfTypeHandler {
+    public:
+        DwarfSubTypeHandler(CUContext *cu_context, DIEContext* parent_context,
+                uint64 offset, DwarfTypeHandler* hostType, DwarfTag tag)
+            :DwarfTypeHandler(cu_context, parent_context, offset, tag), tag_(tag), host_(hostType), memOffset_(-1)
+        {
+        }
+
+        void ProcessAttributeBuffer(enum DwarfAttribute attr,
+                enum DwarfForm form,
+                const char* data,
+                uint64 len);
+
+        void Finish();
+
+    private:
+
+        // array or struct
+        DwarfTag tag_;
+        DwarfTypeHandler* host_;
+
+        // in case of member sub type
+        int64 memOffset_;
+
+};
+
+// A handler for DIEs that contain functions and contribute a
+// component to their names: namespaces, classes, etc.
+class DwarfCUToModule::NamedScopeHandler: public DwarfTypeHandler {
+ public:
+  NamedScopeHandler(CUContext *cu_context, DIEContext *parent_context,
+                    uint64 offset, DwarfTag tag)
+      : DwarfTypeHandler(cu_context, parent_context, offset, tag) { }
+  bool EndAttributes();
+  DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
+
+ private:
+  DIEContext child_context_; // A context for our children.
+};
+
+bool DwarfCUToModule::NamedScopeHandler::EndAttributes() {
+  child_context_.name = ComputeQualifiedName();
+  return true;
+}
+
+dwarf2reader::DIEHandler *DwarfCUToModule::NamedScopeHandler::FindChildHandler(
+    uint64 offset,
+    enum DwarfTag tag) {
+  switch (tag) {
+    case dwarf2reader::DW_TAG_subprogram:
+      return new FuncHandler(cu_context_, &child_context_, offset);
+    case dwarf2reader::DW_TAG_namespace:
+    case dwarf2reader::DW_TAG_class_type:
+    case dwarf2reader::DW_TAG_structure_type:
+    case dwarf2reader::DW_TAG_union_type:
+      return new NamedScopeHandler(cu_context_, &child_context_, offset, tag);
+    default:
+      return DwarfTypeHandler::FindChildHandler(offset, tag);
+  }
+}
+
+dwarf2reader::DIEHandler* DwarfCUToModule::DwarfTypeHandler::FindChildHandler(uint64 offset, enum DwarfTag tag)
+{
+    switch (tag)
+    {
+        case dwarf2reader::DW_TAG_member:
+        case dwarf2reader::DW_TAG_subrange_type:
+            return new DwarfCUToModule::DwarfSubTypeHandler(cu_context_, NULL, offset, this, tag);
+        // if current DIE is a struct/class/union, it may contain typedef definition.
+        case dwarf2reader::DW_TAG_typedef:
+        case dwarf2reader::DW_TAG_subroutine_type:
+        case dwarf2reader::DW_TAG_enumeration_type:
+            return new DwarfTypeHandler(cu_context_, NULL, offset, tag);
+        case dwarf2reader::DW_TAG_formal_parameter:
+            return new FormalParamerHandler(cu_context_, NULL, offset, NULL);
+        default:
+            return NULL;
+    }
+}
+
+void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeUnsigned(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        uint64 data) {
+    switch (attr)
+    {
+        case dwarf2reader::DW_AT_byte_size:
+            size_ = data;
+            break;
+        default:
+            break;
+    }
+}
+
+void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeString(
+        enum DwarfAttribute attr,
+        enum DwarfForm form,
+        const string &data) {
+    switch (attr) {
+        case dwarf2reader::DW_AT_name:
+            {
+                name_ = AddStringToPool(data);
+                break;
+            }
+        default: break;
+    }
+}
+
+void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeReference(
+        enum DwarfAttribute attr,
+        enum DwarfForm form,
+        uint64 data)
+{
+    switch (attr)
+    {
+        case dwarf2reader::DW_AT_type:
+            hasValue_ = true;
+            typeRef_ = data;
+            break;
+        case dwarf2reader::DW_AT_containing_type:
+            members_.push_back(data);
+            break;
+        default: break;
+    }
+}
+
+void DwarfCUToModule::DwarfTypeHandler::Finish()
+{
+    BaseVarType* type = NULL;
+    switch (tag_)
+    {
+        case dwarf2reader::DW_TAG_enumeration_type:
+        case dwarf2reader::DW_TAG_base_type:
+            {
+                type = new BaseVarType(&cu_context_->typePools, name_, size_);
+            }
+            break;
+        case dwarf2reader::DW_TAG_structure_type:
+        case dwarf2reader::DW_TAG_class_type:
+        case dwarf2reader::DW_TAG_union_type:
+            {
+                StructVarType* stype;
+                type = stype = new StructVarType(&cu_context_->typePools, name_, size_);
+                stype->SetMemberType(members_);
+            }
+            break;
+        case dwarf2reader::DW_TAG_array_type:
+            {
+                type = new ArrayVarType(&cu_context_->typePools, typeRef_, size_);
+            }
+            break;
+        // case DW_TAG_string_type:
+        case dwarf2reader::DW_TAG_pointer_type:
+            {
+                type = new PointerVarType(&cu_context_->typePools, typeRef_, size_);
+            }
+            break;
+        case dwarf2reader::DW_TAG_ptr_to_member_type:
+            {
+                int64 classRef = -1;
+                if (members_.size() == 1) classRef = members_[0];
+
+                type = new Pointer2MemberVarType(&cu_context_->typePools, name_, typeRef_, classRef, size_);
+            }
+            break;
+        case dwarf2reader::DW_TAG_reference_type:
+            {
+                type = new ReferenceVarType(&cu_context_->typePools, typeRef_, size_);
+            }
+            break;
+        case dwarf2reader::DW_TAG_const_type:
+            {
+                type = new ModifierVarType(&cu_context_->typePools, typeRef_, "");
+            }
+            break;
+        case dwarf2reader::DW_TAG_volatile_type:
+            {
+                type = new ModifierVarType(&cu_context_->typePools, typeRef_, "volatile");
+            }
+            break;
+        case dwarf2reader::DW_TAG_typedef:
+            {
+                type = new TypedefVarType(&cu_context_->typePools, typeRef_, name_);
+            }
+            break;
+        case dwarf2reader::DW_TAG_subroutine_type:
+            {
+                type = new BaseVarType(&cu_context_->typePools, "@subroutine@", 0);
+            }
+            break;
+        default:
+            break;
+    }
+
+    if (type) cu_context_->typePools.AddVarType(typeKey_, type);
+}
+
+void DwarfCUToModule::DwarfSubTypeHandler::ProcessAttributeBuffer(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        const char* data,
+        uint64 len)
+{
+    if (attr == dwarf2reader::DW_AT_data_member_location)
+    {
+        int op = *data;
+        if (op != dwarf2reader::DW_OP_plus_uconst) return;
+
+        size_t sz;
+        hasValue_ = true;
+        memOffset_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
+    }
+}
+
+void DwarfCUToModule::DwarfSubTypeHandler::Finish()
+{
+    if (!host_) return;
+
+    // only array and class/struct/union have children
+    if (tag_ == dwarf2reader::DW_TAG_member)
+    {
+        host_->AddMemTypeRef(typeKey_);
+
+        BaseVarType* type = new StructMemVarType(&cu_context_->typePools, name_, typeRef_, memOffset_);
+        cu_context_->typePools.AddVarType(typeKey_, type);
+    }
+    else if (tag_ == dwarf2reader::DW_TAG_subrange_type)
+    {
+        host_->SetType(typeRef_);
+        host_->SetTypeSize(size_ + 1); // number of items in the array.
+    }
+    else
+    {
+        assert(0);
+    }
+}
+
+dwarf2reader::DIEHandler* DwarfCUToModule::FuncHandler::FindChildHandler(uint64 offset, enum DwarfTag tag)
+{
+    switch (tag) {
+        case dwarf2reader::DW_TAG_formal_parameter:
+            return new FormalParamerHandler(cu_context_, parent_context_, offset, this);
+        // case dwarf2reader::DW_TAG_template_value_param:
+        // case dwarf2reader::DW_TAG_template_type_param:
+        case dwarf2reader::DW_TAG_typedef:
+            return new DwarfTypeHandler(cu_context_, parent_context_, offset, tag);
+        case dwarf2reader::DW_TAG_lexical_block:
+            return new LexicalBlockHandler(cu_context_, parent_context_, offset);
+        default:
+            return NULL;
+    }
+}
 
 void DwarfCUToModule::FuncHandler::ProcessAttributeUnsigned(
     enum DwarfAttribute attr,
@@ -542,6 +1297,7 @@ void DwarfCUToModule::FuncHandler::Finish() {
     func->address = low_pc_;
     func->size = high_pc_ - low_pc_;
     func->parameter_size = 0;
+    func->params = params_;
     if (func->address) {
        // If the function address is zero this is a sign that this function
        // description is just empty debug data and should just be discarded.
@@ -553,44 +1309,39 @@ void DwarfCUToModule::FuncHandler::Finish() {
   }
 }
 
-// A handler for DIEs that contain functions and contribute a
-// component to their names: namespaces, classes, etc.
-class DwarfCUToModule::NamedScopeHandler: public GenericDIEHandler {
- public:
-  NamedScopeHandler(CUContext *cu_context, DIEContext *parent_context,
-                    uint64 offset)
-      : GenericDIEHandler(cu_context, parent_context, offset) { }
-  bool EndAttributes();
-  DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
-
- private:
-  DIEContext child_context_; // A context for our children.
-};
-
-bool DwarfCUToModule::NamedScopeHandler::EndAttributes() {
-  child_context_.name = ComputeQualifiedName();
-  return true;
-}
-
-dwarf2reader::DIEHandler *DwarfCUToModule::NamedScopeHandler::FindChildHandler(
-    uint64 offset,
-    enum DwarfTag tag) {
-  switch (tag) {
-    case dwarf2reader::DW_TAG_subprogram:
-      return new FuncHandler(cu_context_, &child_context_, offset);
-    case dwarf2reader::DW_TAG_namespace:
-    case dwarf2reader::DW_TAG_class_type:
-    case dwarf2reader::DW_TAG_structure_type:
-    case dwarf2reader::DW_TAG_union_type:
-      return new NamedScopeHandler(cu_context_, &child_context_, offset);
-    default:
-      return NULL;
-  }
+dwarf2reader::DIEHandler* DwarfCUToModule::LexicalBlockHandler::FindChildHandler(uint64 offset, enum DwarfTag tag)
+{
+    switch (tag)
+    {
+        case dwarf2reader::DW_TAG_lexical_block:
+            return new LexicalBlockHandler(cu_context_, parent_context_, offset);
+        case dwarf2reader::DW_TAG_subprogram:
+            return new FuncHandler(cu_context_, parent_context_, offset);
+        case dwarf2reader::DW_TAG_namespace:
+        case dwarf2reader::DW_TAG_class_type:
+        case dwarf2reader::DW_TAG_structure_type:
+        case dwarf2reader::DW_TAG_union_type:
+            return new NamedScopeHandler(cu_context_, parent_context_, offset, tag);
+        case dwarf2reader::DW_TAG_array_type:
+        case dwarf2reader::DW_TAG_base_type:
+        case dwarf2reader::DW_TAG_string_type:
+        case dwarf2reader::DW_TAG_pointer_type:
+        case dwarf2reader::DW_TAG_ptr_to_member_type:
+        case dwarf2reader::DW_TAG_reference_type:
+        case dwarf2reader::DW_TAG_const_type:
+        case dwarf2reader::DW_TAG_volatile_type:
+        case dwarf2reader::DW_TAG_typedef:
+        case dwarf2reader::DW_TAG_subroutine_type:
+        case dwarf2reader::DW_TAG_enumeration_type:
+            return new DwarfTypeHandler(cu_context_, parent_context_, offset, tag);
+        default:
+            return NULL;
+    }
 }
 
 void DwarfCUToModule::WarningReporter::CUHeading() {
-  if (printed_cu_header_)
-    return;
+    if (printed_cu_header_)
+        return;
   fprintf(stderr, "%s: in compilation unit '%s' (offset 0x%llx):\n",
           filename_.c_str(), cu_name_.c_str(), cu_offset_);
   printed_cu_header_ = true;
@@ -733,14 +1484,27 @@ dwarf2reader::DIEHandler *DwarfCUToModule::FindChildHandler(
     uint64 offset,
     enum DwarfTag tag) {
   switch (tag) {
+    case dwarf2reader::DW_TAG_lexical_block:
+      return new LexicalBlockHandler(cu_context_.get(), child_context_.get(), offset);
     case dwarf2reader::DW_TAG_subprogram:
       return new FuncHandler(cu_context_.get(), child_context_.get(), offset);
     case dwarf2reader::DW_TAG_namespace:
     case dwarf2reader::DW_TAG_class_type:
     case dwarf2reader::DW_TAG_structure_type:
     case dwarf2reader::DW_TAG_union_type:
-      return new NamedScopeHandler(cu_context_.get(), child_context_.get(),
-                                   offset);
+      return new NamedScopeHandler(cu_context_.get(), child_context_.get(), offset, tag);
+    case dwarf2reader::DW_TAG_array_type:
+    case dwarf2reader::DW_TAG_base_type:
+    case dwarf2reader::DW_TAG_string_type:
+    case dwarf2reader::DW_TAG_pointer_type:
+    case dwarf2reader::DW_TAG_ptr_to_member_type:
+    case dwarf2reader::DW_TAG_reference_type:
+    case dwarf2reader::DW_TAG_const_type:
+    case dwarf2reader::DW_TAG_volatile_type:
+    case dwarf2reader::DW_TAG_typedef:
+    case dwarf2reader::DW_TAG_subroutine_type:
+    case dwarf2reader::DW_TAG_enumeration_type:
+      return new DwarfTypeHandler(cu_context_.get(), child_context_.get(), offset, tag);
     default:
       return NULL;
   }
@@ -1006,6 +1770,25 @@ void DwarfCUToModule::AssignLinesToFunctions() {
   }
 }
 
+void DwarfCUToModule::ResolveFunctionParamType()
+{
+    VarTypePool& pool = cu_context_->typePools;
+    vector<Module::Function*>& func = cu_context_->functions;
+
+    for (int i = 0; i < func.size(); ++i)
+    {
+        vector<Module::FuncArgument>& params = func[i]->params;
+        for (int j = 0; j < params.size(); ++j)
+        {
+           int64 type = params[j].type.typeId;
+           BaseVarType* t = pool.GetVarType(type);
+           assert(t);
+           params[j].type.typeName = t->GetTypeName();
+           params[j].type.typeSize = t->GetTypeSize();
+        }
+    }
+}
+
 void DwarfCUToModule::Finish() {
   // Assembly language files have no function data, and that gives us
   // no place to store our line numbers (even though the GNU toolchain
@@ -1019,6 +1802,7 @@ void DwarfCUToModule::Finish() {
   if (has_source_line_info_)
     ReadSourceLines(source_line_offset_);
 
+  ResolveFunctionParamType();
   vector<Module::Function *> *functions = &cu_context_->functions;
 
   // Dole out lines to the appropriate functions.

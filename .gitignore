@@ -36,6 +36,24 @@
 *.o
 *.a
 *.diff
+*.swp
+cscope.*
+*/**/*.swp
+*/**/*.deps
+*/**/*.dirstamp
+*/**/cscope.*
+tags
+filenametags
+Makefile
+config.log
+config.status
+src/config.h
+src/client/linux/linux_dumper_unittest_helper
+src/processor/minidump_dump
+src/processor/minidump_stackwalk
+src/stamp-h1
+src/tools/linux/*
+
 
 # Ignore compiled Python files.
 *.pyc

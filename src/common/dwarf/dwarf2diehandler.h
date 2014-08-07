@@ -178,6 +178,7 @@ namespace dwarf2reader {
 //     - recurse, with the new handler and the child die
 // - Finish()
 // - destruction
+
 class DIEHandler {
  public:
   DIEHandler() { }
@@ -279,6 +280,7 @@ class RootDIEHandler: public DIEHandler {
   //
   // The default definition elects to visit the root DIE.
   virtual bool StartRootDIE(uint64 offset, enum DwarfTag tag) { return true; }
+
 };
 
 class DIEDispatcher: public Dwarf2Handler {

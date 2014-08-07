@@ -89,8 +89,7 @@ inline uint64 ByteReader::ReadEightBytes(const char* signed_buffer) const {
 // information, plus one bit saying whether the number continues or
 // not.
 
-inline uint64 ByteReader::ReadUnsignedLEB128(const char* buffer,
-                                             size_t* len) const {
+inline uint64 ByteReader::ReadUnsignedLEB128(const char* buffer, size_t* len) {
   uint64 result = 0;
   size_t num_read = 0;
   unsigned int shift = 0;
@@ -114,8 +113,7 @@ inline uint64 ByteReader::ReadUnsignedLEB128(const char* buffer,
 // Read a signed LEB128 number.  These are like regular LEB128
 // numbers, except the last byte may have a sign bit set.
 
-inline int64 ByteReader::ReadSignedLEB128(const char* buffer,
-                                          size_t* len) const {
+inline int64 ByteReader::ReadSignedLEB128(const char* buffer, size_t* len) {
   int64 result = 0;
   unsigned int shift = 0;
   size_t num_read = 0;

@@ -64,6 +64,12 @@ using dwarf2reader::DwarfTag;
 // of parsing to populate a google_breakpad::Module with source file,
 // function, and source line information.
 class DwarfCUToModule: public dwarf2reader::RootDIEHandler {
+  class LexicalBlockHandler;
+  class FuncHandler;
+  class GenericDIEHandler;
+  class FormalParamerHandler;
+  class DwarfTypeHandler;
+  class DwarfSubTypeHandler;
   struct FilePrivate;
  public:
   // Information global to the DWARF-bearing file we are processing,
@@ -94,6 +100,8 @@ class DwarfCUToModule: public dwarf2reader::RootDIEHandler {
 
    private:
     friend class DwarfCUToModule;
+    friend class DwarfCUToModule::FuncHandler;
+    friend class DwarfCUToModule::GenericDIEHandler;
 
     // Clears all the Specifications if HANDLE_INTER_CU_REFS_ is false.
     void ClearSpecifications();
@@ -254,14 +262,14 @@ class DwarfCUToModule: public dwarf2reader::RootDIEHandler {
                             uint8 dwarf_version);
   bool StartRootDIE(uint64 offset, enum DwarfTag tag);
 
+  void ResolveFunctionParamType();
+
  private:
   // Used internally by the handler. Full definitions are in
   // dwarf_cu_to_module.cc.
   struct CUContext;
   struct DIEContext;
   struct Specification;
-  class GenericDIEHandler;
-  class FuncHandler;
   class NamedScopeHandler;
 
   // A map from section offsets to specifications.

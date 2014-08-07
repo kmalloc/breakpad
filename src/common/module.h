@@ -83,16 +83,38 @@ class Module {
     int source_id;
   };
 
+  typedef long long int64;
+
+  struct ArgumentType
+  {
+      int64 typeId;
+
+      string typeName;
+      size_t typeSize;
+  };
+
+  struct FuncArgument
+  {
+      // offset to frame base
+      int64 offset;
+
+      // name of the arguement
+      string name;
+
+      // type identification.
+      ArgumentType type;
+  };
+
   // A function.
   struct Function {
-    // For sorting by address.  (Not style-guide compliant, but it's
-    // stupid not to put this in the struct.)
-    static bool CompareByAddress(const Function *x, const Function *y) {
-      return x->address < y->address;
-    }
+      // For sorting by address.  (Not style-guide compliant, but it's
+      // stupid not to put this in the struct.)
+      static bool CompareByAddress(const Function *x, const Function *y) {
+          return x->address < y->address;
+      }
 
-    // The function's name.
-    string name;
+      // The function's name.
+      string name;
 
     // The start address and length of the function's code.
     Address address, size;
@@ -103,6 +125,9 @@ class Module {
     // Source lines belonging to this function, sorted by increasing
     // address.
     vector<Line> lines;
+
+    // parameters for the function.
+    vector<FuncArgument> params;
   };
 
   // A source line.
