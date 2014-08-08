@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="407"
+   name=""
+   committed-date="2012-05-31T20:40:56.745274Z"
+   url="http://googlemock.googlecode.com/svn/trunk/scripts"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="407"
+   name="gmock_doctor.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2012-05-31T20:40:56.745274Z"
+   checksum="5728ff8d867c0d5cf9954c778ba7c25e"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   name="generator"
+   kind="dir"/>
+<entry
+   committed-rev="325"
+   name="gmock-config.in"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2010-09-27T22:10:44.358980Z"
+   checksum="0ccbb55212bf6093eda8948f4b40853a"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="96"
+   name="upload_gmock.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2009-02-13T07:46:38.898733Z"
+   checksum="a2083cd1505ce3f6dbc2bfb708eb3dbd"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="96"
+   name="upload.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2009-02-13T07:46:38.898733Z"
+   checksum="f92904342be5677b10a8010e33fdebb7"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="320"
+   name="fuse_gmock_files.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2010-09-14T05:38:21.183134Z"
+   checksum="bf12b0f3382ee01a339d9544703d6f9f"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+</wc-entries>

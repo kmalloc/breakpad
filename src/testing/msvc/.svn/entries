@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="357"
+   name=""
+   committed-date="2011-02-12T01:56:45.406394Z"
+   url="http://googlemock.googlecode.com/svn/trunk/msvc"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   name="2010"
+   kind="dir"/>
+<entry
+   name="2005"
+   kind="dir"/>
+</wc-entries>

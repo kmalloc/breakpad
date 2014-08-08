@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="244"
+   name=""
+   committed-date="2009-04-25T04:42:30.206482Z"
+   url="http://googletest.googlecode.com/svn/trunk/m4"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="244"
+   name="acx_pthread.m4"
+   text-time="2014-08-07T09:40:12.000000Z"
+   committed-date="2009-04-25T04:42:30.206482Z"
+   checksum="bc44b96a832f4b425b90f8fddf2d0eee"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:12.000000Z"/>
+<entry
+   committed-rev="155"
+   name="gtest.m4"
+   text-time="2014-08-07T09:40:12.000000Z"
+   committed-date="2008-12-10T18:27:39.212593Z"
+   checksum="648a195098e5d9cb43f46498e51e9535"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:12.000000Z"/>
+</wc-entries>

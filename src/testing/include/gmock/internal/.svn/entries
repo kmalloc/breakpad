@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="408"
+   name=""
+   committed-date="2012-08-14T15:38:49.271965Z"
+   url="http://googlemock.googlecode.com/svn/trunk/include/gmock/internal"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   committed-rev="391"
+   name="gmock-port.h"
+   text-time="2014-08-07T09:40:08.000000Z"
+   committed-date="2011-05-20T00:42:22.729562Z"
+   checksum="77777ba976e26fff7df4d4fdd502d334"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:08.000000Z"/>
+<entry
+   committed-rev="405"
+   name="gmock-generated-internal-utils.h"
+   text-time="2014-08-07T09:40:08.000000Z"
+   committed-date="2012-04-10T16:02:11.349581Z"
+   checksum="d33ab4939c0130c299396c8d25766ff7"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:08.000000Z"/>
+<entry
+   committed-rev="405"
+   name="gmock-generated-internal-utils.h.pump"
+   text-time="2014-08-07T09:40:08.000000Z"
+   committed-date="2012-04-10T16:02:11.349581Z"
+   checksum="e243df0cf08f7dd275e6e89b607dd672"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:08.000000Z"/>
+<entry
+   committed-rev="408"
+   name="gmock-internal-utils.h"
+   text-time="2014-08-07T09:40:08.000000Z"
+   committed-date="2012-08-14T15:38:49.271965Z"
+   checksum="7e7c6b3a22dcd1f58c598b31368aaa9f"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:08.000000Z"/>
+</wc-entries>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="393"
+   name=""
+   committed-date="2011-05-20T21:44:14.008514Z"
+   url="http://googlemock.googlecode.com/svn/trunk/scripts/generator/cpp"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   prop-time="2014-08-07T09:40:09.000000Z"
+   revision="408"/>
+<entry
+   committed-rev="34"
+   name="tokenize.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2008-12-10T05:08:54.966765Z"
+   checksum="5ca1789d4421fced5e43b73b31330e82"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="34"
+   name="__init__.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2008-12-10T05:08:54.966765Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="34"
+   name="utils.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2008-12-10T05:08:54.966765Z"
+   checksum="6c404d53d0f6d12d8f90d3ba52568846"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="393"
+   name="gmock_class_test.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-05-20T21:44:14.008514Z"
+   checksum="fa69d996a3cce856d0b542749085d178"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="393"
+   name="gmock_class.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-05-20T21:44:14.008514Z"
+   checksum="4cbb9904d4962468078ad7ed5a096adb"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="354"
+   name="ast.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-02-01T00:00:03.098380Z"
+   checksum="c8c7986c0e1975ddc6c76d241216f4fc"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="150"
+   name="keywords.py"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2009-05-07T21:20:57.279976Z"
+   checksum="6db112743581aa8d060ca7dc7e937546"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+</wc-entries>

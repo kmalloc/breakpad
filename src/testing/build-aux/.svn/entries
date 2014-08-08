@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="34"
+   name=""
+   committed-date="2008-12-10T05:08:54.966765Z"
+   url="http://googlemock.googlecode.com/svn/trunk/build-aux"
+   last-author="shiqian"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   committed-rev="34"
+   name=".keep"
+   text-time="2014-08-07T09:40:10.000000Z"
+   committed-date="2008-12-10T05:08:54.966765Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:10.000000Z"/>
+</wc-entries>

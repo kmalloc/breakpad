@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="615"
+   name=""
+   committed-date="2012-05-31T20:37:13.296583Z"
+   url="http://googletest.googlecode.com/svn/trunk"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="cmake"
+   kind="dir"/>
+<entry
+   name="m4"
+   kind="dir"/>
+<entry
+   committed-rev="593"
+   name="LICENSE"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-09-09T07:02:56.054434Z"
+   checksum="cbbd27594afd089daa160d3a16dd515a"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="scripts"
+   kind="dir"/>
+<entry
+   name="build-aux"
+   kind="dir"/>
+<entry
+   committed-rev="570"
+   name="CONTRIBUTORS"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-04-14T07:37:13.166838Z"
+   checksum="15c89d1c05f9a7338b751cb2ccd170ad"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:14.000000Z"/>
+<entry
+   committed-rev="589"
+   name="README"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-08-22T21:30:01.358681Z"
+   checksum="7ea30f82c53df3f3f5098753fd0971d1"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:14.000000Z"/>
+<entry
+   name="xcode"
+   kind="dir"/>
+<entry
+   committed-rev="593"
+   name="configure.ac"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-09-09T07:02:56.054434Z"
+   checksum="c03a0468dae8f5f5d9446b2d428d8373"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   name="samples"
+   kind="dir"/>
+<entry
+   name="msvc"
+   kind="dir"/>
+<entry
+   committed-rev="570"
+   name="CHANGES"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-04-14T07:37:13.166838Z"
+   checksum="8e110bb7ccfaf64645bd101a2575e541"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   name="codegear"
+   kind="dir"/>
+<entry
+   committed-rev="580"
+   name="Makefile.am"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-04-21T21:48:51.409251Z"
+   checksum="e067654d29a54400de3f72a22ef94439"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   name="make"
+   kind="dir"/>
+<entry
+   committed-rev="584"
+   name="CMakeLists.txt"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2011-06-13T19:00:37.178174Z"
+   checksum="f1c66077dd40d7720f0799945e272c86"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:17.000000Z"/>
+</wc-entries>

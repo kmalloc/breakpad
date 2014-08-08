@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="613"
+   name=""
+   committed-date="2012-04-02T17:41:03.168648Z"
+   url="http://googletest.googlecode.com/svn/trunk/cmake"
+   last-author="jgm@google.com"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="613"
+   name="internal_utils.cmake"
+   text-time="2014-08-07T09:40:12.000000Z"
+   committed-date="2012-04-02T17:41:03.168648Z"
+   checksum="957b657735ee2d50ae6623a6cd86b3bd"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:12.000000Z"/>
+</wc-entries>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="290"
+   name=""
+   committed-date="2010-04-22T23:37:47.741322Z"
+   url="http://googlemock.googlecode.com/svn/trunk/scripts/test"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+</wc-entries>

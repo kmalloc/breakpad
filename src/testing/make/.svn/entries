@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="284"
+   name=""
+   committed-date="2010-04-14T16:26:57.182225Z"
+   url="http://googlemock.googlecode.com/svn/trunk/make"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   committed-rev="284"
+   name="Makefile"
+   text-time="2014-08-07T09:40:10.000000Z"
+   committed-date="2010-04-14T16:26:57.182225Z"
+   checksum="37a4a782546d8fd478bdd753d0948e6a"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:10.000000Z"/>
+</wc-entries>

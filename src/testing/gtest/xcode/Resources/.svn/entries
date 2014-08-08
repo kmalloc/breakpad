@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2008-07-25T00:54:56.924595Z"
+   url="http://googletest.googlecode.com/svn/trunk/xcode/Resources"
+   last-author="shiqian"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="67"
+   name="Info.plist"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2008-07-25T00:54:56.924595Z"
+   checksum="d9190daba2c8883429d696ef67690d5a"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+</wc-entries>

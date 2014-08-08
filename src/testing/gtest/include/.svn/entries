@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="614"
+   name=""
+   committed-date="2012-05-02T18:09:59.650495Z"
+   url="http://googletest.googlecode.com/svn/trunk/include"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   name="gtest"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="614"
+   name=""
+   committed-date="2012-05-02T18:09:59.650495Z"
+   url="http://googletest.googlecode.com/svn/trunk/include/gtest/internal"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="607"
+   name="gtest-string.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="ba48459f43561604375959291341cee6"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="596"
+   name="gtest-param-util-generated.h.pump"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-09-26T17:52:19.210779Z"
+   checksum="31cad645d3bf165a5a2975b4c75445d0"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="596"
+   name="gtest-param-util-generated.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-09-26T17:52:19.210779Z"
+   checksum="92e5999744684cfa277a4adcdc8df749"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest-tuple.h.pump"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="2bde903b7ce6e610b699d57f3a75972a"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest-tuple.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="acef14e3a3b12c0b6f4570e22ded799f"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="569"
+   name="gtest-param-util.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-04-12T20:36:11.208749Z"
+   checksum="b5a760b9a8c0279efb7b19d2321cbef0"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="604"
+   name="gtest-linked_ptr.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-10-24T21:13:56.779761Z"
+   checksum="00d829466257ab4abb8e5885a1323984"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="584"
+   name="gtest-internal.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-06-13T19:00:37.178174Z"
+   checksum="85e09beff628ef0072f67dddfd5dac96"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="612"
+   name="gtest-death-test-internal.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2012-03-09T17:12:39.960248Z"
+   checksum="738c4c74e5ba80ea7ec9badceaeb4501"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest-type-util.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="45b8fe01a96cfc707fe69029425746e8"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="482"
+   name="gtest-filepath.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2010-09-14T05:35:59.978590Z"
+   checksum="2a06d9f821f339f8ae9c960b0eae971c"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest-type-util.h.pump"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="c835908f53f67f8ceeab018b62b3732b"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="614"
+   name="gtest-port.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2012-05-02T18:09:59.650495Z"
+   checksum="04c72b3c81a44713e412089a94b0fd5b"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+</wc-entries>

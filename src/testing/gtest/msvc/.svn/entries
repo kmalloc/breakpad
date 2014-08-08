@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="481"
+   name=""
+   committed-date="2010-09-08T05:57:37.404452Z"
+   url="http://googletest.googlecode.com/svn/trunk/msvc"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="309"
+   name="gtest-md.sln"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-09-16T21:38:13.289778Z"
+   checksum="7454973fa65c4ed18117bb6b2c3a4252"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="302"
+   name="gtest.sln"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-09-11T05:41:41.369182Z"
+   checksum="75f2665efc1a3004d35f31b37f422923"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="309"
+   name="gtest_unittest-md.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-09-16T21:38:13.289778Z"
+   checksum="19b0221ee1767fd3794dc4386464402b"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="481"
+   name="gtest-md.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2010-09-08T05:57:37.404452Z"
+   checksum="84f12e7e5a0d757e43eecc9e390aef63"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="304"
+   name="gtest_unittest.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-09-11T06:02:00.269339Z"
+   checksum="57c3f54b1b215909574aeebb596877ce"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="481"
+   name="gtest.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2010-09-08T05:57:37.404452Z"
+   checksum="80a0f974763a9f9e5cab5fe39bb4c89a"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="309"
+   name="gtest_prod_test-md.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-09-16T21:38:13.289778Z"
+   checksum="c96d306ad7f93608d9a8a6da9043105b"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="481"
+   name="gtest_main-md.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2010-09-08T05:57:37.404452Z"
+   checksum="d3a1808080f09daa72468f66440d4aec"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="304"
+   name="gtest_prod_test.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-09-11T06:02:00.269339Z"
+   checksum="e62f51293414ce9f73912b6c5b4ef241"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="481"
+   name="gtest_main.vcproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2010-09-08T05:57:37.404452Z"
+   checksum="300f60b5bd0d53890260f9cfead7c6ed"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="482"
+   name=""
+   committed-date="2010-09-14T05:35:59.978590Z"
+   url="http://googletest.googlecode.com/svn/trunk/xcode/Samples"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   name="FrameworkSample"
+   kind="dir"/>
+</wc-entries>

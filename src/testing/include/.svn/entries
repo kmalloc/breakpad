@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="408"
+   name=""
+   committed-date="2012-08-14T15:38:49.271965Z"
+   url="http://googlemock.googlecode.com/svn/trunk/include"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   name="gmock"
+   kind="dir"/>
+</wc-entries>

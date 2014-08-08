@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="385"
+   name=""
+   committed-date="2010-03-02T23:40:01.770152Z"
+   url="http://googletest.googlecode.com/svn/trunk/xcode/Samples/FrameworkSample/WidgetFramework.xcodeproj"
+   last-author="preston.a.jackson"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="385"
+   name="project.pbxproj"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2010-03-02T23:40:01.770152Z"
+   checksum="bc48a645e069e70d82d1f573e6090e01"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="410"
+   name=""
+   committed-date="2010-04-07T05:32:34.333862Z"
+   url="http://googletest.googlecode.com/svn/trunk/codegear"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="245"
+   name="gtest_all.cc"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-04-28T00:28:09.373832Z"
+   checksum="3a722dbb16fc4a2303c333d961c8feb7"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="410"
+   name="gtest_unittest.cbproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2010-04-07T05:32:34.333862Z"
+   checksum="06d5637ca09950b59e046594a25489ef"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="245"
+   name="gtest.cbproj"
+   text-time="2014-08-07T09:40:16.000000Z"
+   committed-date="2009-04-28T00:28:09.373832Z"
+   checksum="80d4a93b1c9e3e276ef7a5057a0b6d6d"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="245"
+   name="gtest_link.cc"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2009-04-28T00:28:09.373832Z"
+   checksum="242e6665c233931cb724ba1a3beabac1"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="245"
+   name="gtest_main.cbproj"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2009-04-28T00:28:09.373832Z"
+   checksum="79898cd1df5f89e6275d7b81640e91d0"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+<entry
+   committed-rev="410"
+   name="gtest.groupproj"
+   text-time="2014-08-07T09:40:17.000000Z"
+   committed-date="2010-04-07T05:32:34.333862Z"
+   checksum="78b5cd7faeb6b6031d251d273a45b27c"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="357"
+   name=""
+   committed-date="2011-02-12T01:56:45.406394Z"
+   url="http://googlemock.googlecode.com/svn/trunk/msvc/2010"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="8415998a-534a-0410-bf83-d39667b30386"
+   revision="408"/>
+<entry
+   committed-rev="357"
+   name="gmock_config.props"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-02-12T01:56:45.406394Z"
+   checksum="ceafd9e1db32d817e95a3afedb006e5c"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="357"
+   name="gmock_test.vcxproj"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-02-12T01:56:45.406394Z"
+   checksum="01fe5eaf82171451b478ee6527752c5a"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="357"
+   name="gmock.vcxproj"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-02-12T01:56:45.406394Z"
+   checksum="2cffbe62c9dcd33da3287d80b54a42b4"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="357"
+   name="gmock.sln"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-02-12T01:56:45.406394Z"
+   checksum="f688dc356841cfb6077cadf42a0d05fe"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+<entry
+   committed-rev="357"
+   name="gmock_main.vcxproj"
+   text-time="2014-08-07T09:40:09.000000Z"
+   committed-date="2011-02-12T01:56:45.406394Z"
+   checksum="4b072a0dcb32930318f9891dd2d3c84d"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:09.000000Z"/>
+</wc-entries>

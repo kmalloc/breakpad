@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="614"
+   name=""
+   committed-date="2012-05-02T18:09:59.650495Z"
+   url="http://googletest.googlecode.com/svn/trunk/include/gtest"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="40"
+   name="gtest_prod.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2008-07-03T22:38:12.607339Z"
+   checksum="9add6805e0ac9407f947f6e90e4736d3"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="584"
+   name="gtest-printers.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-06-13T19:00:37.178174Z"
+   checksum="cc903f462473fac95f2131013ecad58b"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest-spi.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="42b8a4933cc3b0805bc116b45d976214"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="612"
+   name="gtest-param-test.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2012-03-09T17:12:39.960248Z"
+   checksum="84fb2de2f0dc1058a55d648c6bb4eda1"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="612"
+   name="gtest-param-test.h.pump"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2012-03-09T17:12:39.960248Z"
+   checksum="8225a773f0f6700e88067f4c4e2c5c4e"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest_pred_impl.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="cac9fdabeebd2e98a9a0f50918296796"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   name="internal"
+   kind="dir"/>
+<entry
+   committed-rev="612"
+   name="gtest.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2012-03-09T17:12:39.960248Z"
+   checksum="9bda99648cff0175a4a70c498571ebb1"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="612"
+   name="gtest-death-test.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2012-03-09T17:12:39.960248Z"
+   checksum="6b6374bb9f51cc5d2c6e9a9d6535b051"
+   last-author="jgm@google.com"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="544"
+   name="gtest-typed-test.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-02-22T22:08:59.193689Z"
+   checksum="238c2d8def2ea8e16a0a61babbc0c0da"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="607"
+   name="gtest-test-part.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-11-04T17:56:23.825011Z"
+   checksum="cf1c1bbe39c9658f3800f38d942013ad"
+   last-author="vladlosev"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+<entry
+   committed-rev="544"
+   name="gtest-message.h"
+   text-time="2014-08-07T09:40:13.000000Z"
+   committed-date="2011-02-22T22:08:59.193689Z"
+   checksum="00a18462616ae62be7f81c1588c95a9f"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:13.000000Z"/>
+</wc-entries>

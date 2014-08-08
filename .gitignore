@@ -42,6 +42,7 @@ cscope.*
 */**/*.deps
 */**/*.dirstamp
 */**/cscope.*
+*/**/*_unittest
 tags
 filenametags
 Makefile

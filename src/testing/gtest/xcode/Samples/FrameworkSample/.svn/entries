@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="482"
+   name=""
+   committed-date="2010-09-14T05:35:59.978590Z"
+   url="http://googletest.googlecode.com/svn/trunk/xcode/Samples/FrameworkSample"
+   last-author="zhanyong.wan"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   committed-rev="385"
+   name="runtests.sh"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2010-03-02T23:40:01.770152Z"
+   checksum="8a2b9e3614ea932e5c8844ce0eaeccf2"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+<entry
+   committed-rev="80"
+   name="Info.plist"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2008-08-20T17:43:12.187717Z"
+   checksum="2b71b619cd6d208cdc69530df187c16f"
+   last-author="shiqian"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+<entry
+   committed-rev="482"
+   name="widget_test.cc"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2010-09-14T05:35:59.978590Z"
+   checksum="67f6ff3fe2ee0e91a02eb6dd5c682d2e"
+   last-author="zhanyong.wan"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+<entry
+   committed-rev="385"
+   name="widget.cc"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2010-03-02T23:40:01.770152Z"
+   checksum="41fae5b647fdc2cd6d6f0cb690218f04"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+<entry
+   committed-rev="385"
+   name="widget.h"
+   text-time="2014-08-07T09:40:15.000000Z"
+   committed-date="2010-03-02T23:40:01.770152Z"
+   checksum="fc32b4c6ad03dcc990336a7f61035240"
+   last-author="preston.a.jackson"
+   kind="file"
+   prop-time="2014-08-07T09:40:15.000000Z"/>
+<entry
+   name="WidgetFramework.xcodeproj"
+   kind="dir"/>
+</wc-entries>

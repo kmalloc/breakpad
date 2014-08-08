@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="593"
+   name=""
+   committed-date="2011-09-09T07:02:56.054434Z"
+   url="http://googletest.googlecode.com/svn/trunk/xcode"
+   last-author="vladlosev"
+   kind="dir"
+   uuid="861a406c-534a-0410-8894-cb66d6ee9925"
+   revision="615"/>
+<entry
+   name="gtest.xcodeproj"
+   kind="dir"/>
+<entry
+   name="Samples"
+   kind="dir"/>
+<entry
+   name="Config"
+   kind="dir"/>
+<entry
+   name="Scripts"
+   kind="dir"/>
+<entry
+   name="Resources"
+   kind="dir"/>
+</wc-entries>
