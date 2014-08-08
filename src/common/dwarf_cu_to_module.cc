@@ -179,9 +179,16 @@ class BaseVarType
         }
         virtual ~BaseVarType() {}
 
-        virtual const string& GetTypeName() const { return name_; }
-        virtual size_t GetTypeSize() const { return sz_; }
-        virtual int64 GetVarPosition() const { return -1; }
+        virtual const string& GetTypeName() const
+        {
+            if (name_.empty()) name_ = anonymousName_;
+
+            return name_;
+        }
+
+        virtual uint64 GetTypeSize() const { return sz_; }
+
+        static const char* anonymousName_;
 
     private:
         BaseVarType(const BaseVarType&);
@@ -193,6 +200,8 @@ class BaseVarType
         mutable uint64 sz_;
         VarTypePool* typePool_;
 };
+
+const char* BaseVarType::anonymousName_ = "@anon@";
 
 class VarTypePool
 {
@@ -238,13 +247,13 @@ class StructVarType: public BaseVarType
         {
         }
 
-        const vector<int64>& GetMembers() const { return mem_; }
+        const vector<uint64>& GetMembers() const { return mem_; }
         void AddMemberType(int64 memRef) { mem_.push_back(memRef); }
-        void SetMemberType(const vector<int64>& mem) { mem_ = mem; }
+        void SetMemberType(const vector<uint64>& mem) { mem_ = mem; }
 
     private:
 
-        vector<int64> mem_;
+        vector<uint64> mem_;
 };
 
 class StructMemVarType: public BaseVarType
@@ -263,11 +272,10 @@ class StructMemVarType: public BaseVarType
             assert(base);
 
             name_ = base->GetTypeName();
-
             return name_;
         }
 
-        size_t GetTypeSize() const
+        uint64 GetTypeSize() const
         {
             if (sz_ > 0) return sz_;
 
@@ -305,12 +313,13 @@ class PointerVarType: public BaseVarType
 
             if (baseTypeRef_ == -1)
             {
-                name_ = "@anonymous@";
+                name_ = anonymousName_;
             }
             else
             {
                 BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
                 assert(base);
+
                 name_ = base->GetTypeName() + "*";
             }
 
@@ -341,7 +350,7 @@ class Pointer2MemberVarType: public BaseVarType
 
             if (classTypeRef_ == -1)
             {
-                fullName_ += " @anonymous@::* ";
+                fullName_ += string(" ") + anonymousName_ + "::* ";
             }
             else
             {
@@ -349,6 +358,8 @@ class Pointer2MemberVarType: public BaseVarType
                 assert(base);
                 fullName_ += string(" ") + base->GetTypeName() + "::* ";
             }
+
+            if (name_.empty()) name_ = anonymousName_;
 
             fullName_ += name_;
             return fullName_;
@@ -405,17 +416,15 @@ class ModifierVarType: public BaseVarType
 
                 name_ = base->GetTypeName();
             }
-            else
-            {
-                name_ = "@anonymous@";
-            }
+
+            if (name_.empty()) name_ = anonymousName_;
 
             if (!modifier_.empty()) name_ = modifier_ + " " + name_;
 
             return name_;
         }
 
-        size_t GetTypeSize() const
+        uint64 GetTypeSize() const
         {
             if (sz_ > 0) return sz_;
 
@@ -435,12 +444,12 @@ class ModifierVarType: public BaseVarType
 class TypedefVarType: public BaseVarType
 {
     public:
-        TypedefVarType(VarTypePool* pool, int64 baseRef, const string& name)
+        TypedefVarType(VarTypePool* pool, uint64 baseRef, const string& name)
             :BaseVarType(pool, name, 0), baseTypeRef_(baseRef)
         {
         }
 
-        size_t GetTypeSize() const
+        uint64 GetTypeSize() const
         {
             if (sz_ > 0) return sz_;
 
@@ -453,13 +462,13 @@ class TypedefVarType: public BaseVarType
 
     private:
 
-        int64 baseTypeRef_;
+        uint64 baseTypeRef_;
 };
 
 class ArrayVarType: public BaseVarType
 {
     public:
-        ArrayVarType(VarTypePool* pool, int64 baseRef, uint64 arrItemSz)
+        ArrayVarType(VarTypePool* pool, uint64 baseRef, uint64 arrItemSz)
             :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), arrItemNum_(arrItemSz)
         {
         }
@@ -478,7 +487,7 @@ class ArrayVarType: public BaseVarType
             return name_;
         }
 
-        size_t GetTypeSize() const
+        uint64 GetTypeSize() const
         {
             if (sz_ > 0) return sz_;
 
@@ -492,7 +501,7 @@ class ArrayVarType: public BaseVarType
 
     private:
 
-        int64 baseTypeRef_;
+        uint64 baseTypeRef_;
         uint64 arrItemNum_;
 };
 
@@ -818,7 +827,7 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
     FormalParamerHandler(CUContext* cu_context, DIEContext* parent_context,
             uint64 offset, FuncHandler* funcHandler)
       :GenericDIEHandler(cu_context, parent_context, offset)
-      ,func_(funcHandler), hasValue_(false), offset_(-1), typeRef_(-1)
+      ,func_(funcHandler), hasValue_(false), offset_(-1), typeRef_(0)
     {
     }
 
@@ -846,7 +855,7 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
     // name of the argument
     string name_;
     // get from DW_TAG_formal_parameter
-    int64 typeRef_;
+    uint64 typeRef_;
 };
 
 void DwarfCUToModule::FormalParamerHandler::ProcessAttributeString(
@@ -914,7 +923,7 @@ class DwarfCUToModule::DwarfTypeHandler: public GenericDIEHandler {
     public:
         DwarfTypeHandler(CUContext *cu_context, DIEContext* parent_context, uint64 offset, DwarfTag tag)
             :GenericDIEHandler(cu_context, parent_context, offset)
-            ,tag_(tag), typeKey_(offset), typeRef_(-1), hasValue_(false)
+            ,tag_(tag), typeKey_(offset), typeRef_(0), hasValue_(false)
         {
         }
 
@@ -932,9 +941,9 @@ class DwarfCUToModule::DwarfTypeHandler: public GenericDIEHandler {
         bool EndAttributes() { return true; }
         void Finish();
 
-        void AddMemTypeRef(int64 ref) { members_.push_back(ref); }
+        void AddMemTypeRef(uint64 ref) { members_.push_back(ref); }
 
-        void SetType(int64 type) { typeRef_ = type; }
+        void SetType(uint64 type) { typeRef_ = type; }
         void SetTypeSize(uint64 sz) { size_ = sz; }
 
     protected:
@@ -943,13 +952,13 @@ class DwarfCUToModule::DwarfTypeHandler: public GenericDIEHandler {
         string name_;
 
         // DIE offset
-        int64 typeKey_;
-        int64 typeRef_;
+        uint64 typeKey_;
+        uint64 typeRef_;
         uint64 size_;
 
         bool hasValue_;
         // in case of struct/class/union
-        vector<int64> members_;
+        vector<uint64> members_;
 };
 
 // for class/struct, pointer, reference, array tag

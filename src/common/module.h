@@ -84,10 +84,11 @@ class Module {
   };
 
   typedef long long int64;
+  typedef unsigned long long uint64;
 
   struct ArgumentType
   {
-      int64 typeId;
+      uint64 typeId;
 
       string typeName;
       size_t typeSize;

@@ -324,9 +324,11 @@ BasicSourceLineResolver::Module::ParseFunction(char *function_line) {
   uint64_t size;
   long stack_param_size;
   char *name;
+  vector<FuncParam> params;
+
   if (SymbolParseHelper::ParseFunction(function_line, &address, &size,
-                                       &stack_param_size, &name)) {
-    return new Function(name, address, size, stack_param_size);
+                                       &stack_param_size, &name, params)) {
+    return new Function(name, address, size, stack_param_size, params);
   }
   return NULL;
 }
@@ -490,13 +492,17 @@ bool SymbolParseHelper::ParseFile(char *file_line, long *index,
 // static
 bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
                                       uint64_t *size, long *stack_param_size,
-                                      char **name) {
+                                      char **name, vector<FuncParam>& params) {
   // FUNC <address> <size> <stack_param_size> <name>
   assert(strncmp(function_line, "FUNC ", 5) == 0);
   function_line += 5;  // skip prefix
 
+  vector<char*> segments;
+  Tokenize(function_line, "#", 3, &segments);
+  if (segments.empty()) return false;
+
   vector<char*> tokens;
-  if (!Tokenize(function_line, kWhitespace, 4, &tokens)) {
+  if (!Tokenize(segments[0], kWhitespace, 4, &tokens)) {
     return false;
   }
 
@@ -519,18 +525,44 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
   }
   *name = tokens[3];
 
+  if (segments.size() == 3)
+  {
+      vector<char*> argsArray;
+      size_t num_params = strtoul(segments[1], &after_number, 16);
+      if (!after_number || *after_number) return false;
+
+      if (!Tokenize(segments[2], "#", num_params, &argsArray)) return false;
+
+      params.reserve(num_params);
+
+      for (int i = 0; i < num_params; ++i)
+      {
+          vector<char*> args;
+          if (!Tokenize(argsArray[i], ",", 4, &args)) return false;
+
+          FuncParam& p = params[i];
+          p.typeName = args[0];
+          p.typeSize = strtoull(args[1], &after_number, 16);
+          if (!after_number || *after_number) p.typeSize = 0;
+
+          p.paramName = args[2];
+          p.offset = strtoll(args[3], &after_number, 16);
+          if (!after_number || *after_number) p.offset = -1;
+      }
+  }
+
   return true;
 }
 
 // static
 bool SymbolParseHelper::ParseLine(char *line_line, uint64_t *address,
-                                  uint64_t *size, long *line_number,
-                                  long *source_file) {
-  // <address> <size> <line number> <source file id>
-  vector<char*> tokens;
-  if (!Tokenize(line_line, kWhitespace, 4, &tokens)) {
-    return false;
-  }
+        uint64_t *size, long *line_number,
+        long *source_file) {
+    // <address> <size> <line number> <source file id>
+    vector<char*> tokens;
+    if (!Tokenize(line_line, kWhitespace, 4, &tokens)) {
+        return false;
+    }
 
   char *after_number;
   *address  = strtoull(tokens[0], &after_number, 16);

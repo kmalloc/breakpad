@@ -234,7 +234,10 @@ bool Module::Write(std::ostream &stream, SymbolData symbol_data) {
              << func->parameter_size << " "
              << func->name;
 
-      if (!func->params.empty()) stream << "#";
+      if (!func->params.empty())
+      {
+          stream << "#" << func->params.size() <<"#";
+      }
 
       for (int ai = 0; ai < func->params.size(); ++ai)
       {

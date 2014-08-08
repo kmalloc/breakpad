@@ -57,6 +57,13 @@ using std::set;
 // at run-time.
 class ModuleFactory;
 
+struct FuncParam {
+    string typeName;
+    unsigned long long typeSize;
+    string paramName;
+    long long offset;
+};
+
 class SourceLineResolverBase : public SourceLineResolverInterface {
  public:
   // Read the symbol_data from a file with given file_name.

@@ -39,6 +39,7 @@
 #define GOOGLE_BREAKPAD_PROCESSOR_BASIC_SOURCE_LINE_RESOLVER_H__
 
 #include <map>
+#include <vector>
 #include <string>
 
 #include "common/using_std_string.h"
@@ -47,6 +48,7 @@
 namespace google_breakpad {
 
 using std::map;
+using std::vector;
 
 class BasicSourceLineResolver : public SourceLineResolverBase {
  public:
@@ -104,7 +106,8 @@ class SymbolParseHelper {
                             uint64_t *address,       // out
                             uint64_t *size,          // out
                             long *stack_param_size,  // out
-                            char **name);            // out
+                            char **name,            // out
+                            vector<FuncParam>& args);
 
   // Parses a |line| declaration.  Returns true on success.
   // Format:  <address> <size> <line number> <source file id>

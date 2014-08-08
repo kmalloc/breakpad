@@ -31,6 +31,7 @@
 
 #include <string>
 #include <vector>
+#include <sstream>
 
 #include "common/using_std_string.h"
 

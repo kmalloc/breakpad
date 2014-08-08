@@ -30,10 +30,13 @@
 #include <stdio.h>
 
 #include <string>
+#include <vector>
 
 #include "breakpad_googletest_includes.h"
 #include "common/scoped_ptr.h"
 #include "common/using_std_string.h"
+#include "processor/source_line_resolver_base_types.h"
+#include "google_breakpad/processor/source_line_resolver_base.h"
 #include "google_breakpad/processor/basic_source_line_resolver.h"
 #include "google_breakpad/processor/code_module.h"
 #include "google_breakpad/processor/stack_frame.h"
@@ -54,6 +57,7 @@ using google_breakpad::WindowsFrameInfo;
 using google_breakpad::linked_ptr;
 using google_breakpad::scoped_ptr;
 using google_breakpad::SymbolParseHelper;
+using google_breakpad::FuncParam;
 
 class TestCodeModule : public CodeModule {
  public:
@@ -455,30 +459,52 @@ TEST(SymbolParseHelper, ParseFunctionValid) {
   long stack_param_size;
   char *name;
 
-  char kTestLine[] = "FUNC 1 2 3 function name";
+  std::vector<FuncParam> params;
+
+  char kTestLine[] = "FUNC 1 2 3 function name#2#int,4,a,6#char,1,c,9#";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine, &address, &size,
-                                               &stack_param_size, &name));
+                                               &stack_param_size, &name, params));
   EXPECT_EQ(1ULL, address);
   EXPECT_EQ(2ULL, size);
   EXPECT_EQ(3, stack_param_size);
   EXPECT_EQ("function name", string(name));
+  EXPECT_EQ(2ULL, params.size());
+  EXPECT_EQ("int", params[0].typeName);
+  EXPECT_EQ(4ULL, params[0].typeSize);
+  EXPECT_EQ("a", params[0].paramName);
+  EXPECT_EQ(6, params[0].offset);
+  EXPECT_EQ("char", params[1].typeName);
+  EXPECT_EQ(1ULL, params[1].typeSize);
+  EXPECT_EQ("c", params[1].paramName);
+  EXPECT_EQ(9, params[1].offset);
 
   // Test hex address, size, and param size.
-  char kTestLine1[] = "FUNC a1 a2 a3 function name";
+  params.clear();
+  char kTestLine1[] = "FUNC a1 a2 a3 function name#2#int,b4,a,6c#char,1a,c,9c#";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine1, &address, &size,
-                                               &stack_param_size, &name));
+                                               &stack_param_size, &name, params));
   EXPECT_EQ(0xa1ULL, address);
   EXPECT_EQ(0xa2ULL, size);
   EXPECT_EQ(0xa3, stack_param_size);
   EXPECT_EQ("function name", string(name));
+  EXPECT_EQ("int", params[0].typeName);
+  EXPECT_EQ(0xb4ULL, params[0].typeSize);
+  EXPECT_EQ("a", params[0].paramName);
+  EXPECT_EQ(0x6c, params[0].offset);
+  EXPECT_EQ("char", params[1].typeName);
+  EXPECT_EQ(0x1aULL, params[1].typeSize);
+  EXPECT_EQ("c", params[1].paramName);
+  EXPECT_EQ(0x9c, params[1].offset);
 
+  params.clear();
   char kTestLine2[] = "FUNC 0 0 0 function name";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine2, &address, &size,
-                                               &stack_param_size, &name));
+                                               &stack_param_size, &name, params));
   EXPECT_EQ(0ULL, address);
   EXPECT_EQ(0ULL, size);
   EXPECT_EQ(0, stack_param_size);
   EXPECT_EQ("function name", string(name));
+  EXPECT_EQ(0ULL, params.size());
 }
 
 // Test parsing of invalid FUNC lines.  The format is:
@@ -490,37 +516,46 @@ TEST(SymbolParseHelper, ParseFunctionInvalid) {
   char *name;
 
   // Test missing function name.
+  std::vector<FuncParam> params;
   char kTestLine[] = "FUNC 1 2 3 ";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Test bad address.
   char kTestLine1[] = "FUNC 1z 2 3 function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine1, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Test large address.
   char kTestLine2[] = "FUNC 123123123123123123123123123 2 3 function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine2, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Test bad size.
   char kTestLine3[] = "FUNC 1 z2 3 function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine3, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Test large size.
   char kTestLine4[] = "FUNC 1 231231231231231231231231232 3 function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine4, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Test bad param size.
   char kTestLine5[] = "FUNC 1 2 3z function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine5, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Test large param size.
   char kTestLine6[] = "FUNC 1 2 312312312312312312312312323 function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine6, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
   // Negative param size.
   char kTestLine7[] = "FUNC 1 2 -5 function name";
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine7, &address, &size,
-                                                &stack_param_size, &name));
+                                                &stack_param_size, &name, params));
+
+  char kTestLine8[] = "FUNC 1 2 3 function name#3#int,4,a,6#char,1,c,9#";
+  ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine8, &address, &size,
+                                                &stack_param_size, &name, params));
+
+  char kTestLine9[] = "FUNC 1 2 3 function name#2#int,4,6#char,1,c,9#";
+  ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine9, &address, &size,
+                                                &stack_param_size, &name, params));
 }
 
 // Test parsing of valid lines.  The format is:
