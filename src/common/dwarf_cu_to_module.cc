@@ -311,7 +311,7 @@ class PointerVarType: public BaseVarType
         {
             if (!name_.empty()) return name_;
 
-            if (baseTypeRef_ == -1)
+            if (baseTypeRef_ <= 0)
             {
                 name_ = anonymousName_;
             }
@@ -348,7 +348,7 @@ class Pointer2MemberVarType: public BaseVarType
             assert(base);
             fullName_ = base->GetTypeName();
 
-            if (classTypeRef_ == -1)
+            if (classTypeRef_ <= 0)
             {
                 fullName_ += string(" ") + anonymousName_ + "::* ";
             }
@@ -409,7 +409,7 @@ class ModifierVarType: public BaseVarType
         {
             if (!name_.empty()) return name_;
 
-            if (baseTypeRef_ != -1)
+            if (baseTypeRef_ > 0)
             {
                 BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
                 assert(base);
@@ -910,7 +910,7 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
 void DwarfCUToModule::FormalParamerHandler::Finish()
 {
     // for now, just ignore formal parameter for subroutine
-    if (typeRef_ == -1 || func_ == NULL) return;
+    if (typeRef_ == 0 || func_ == NULL) return;
 
     Module::FuncArgument arg = {offset_, name_, {typeRef_}};
 

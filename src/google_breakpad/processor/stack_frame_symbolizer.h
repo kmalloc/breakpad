@@ -50,6 +50,7 @@ class SourceLineResolverInterface;
 struct StackFrame;
 struct SystemInfo;
 struct WindowsFrameInfo;
+class MemoryRegion;
 
 class StackFrameSymbolizer {
  public:
@@ -77,7 +78,8 @@ class StackFrameSymbolizer {
   // "frame" must not be NULL.
   virtual SymbolizerResult FillSourceLineInfo(const CodeModules* modules,
                                               const SystemInfo* system_info,
-                                              StackFrame* stack_frame);
+                                              StackFrame* stack_frame,
+                                              MemoryRegion* memory);
 
   virtual WindowsFrameInfo* FindWindowsFrameInfo(const StackFrame* frame);
 

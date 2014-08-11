@@ -133,9 +133,9 @@ bool Stackwalker::Walk(
     // context frame (above) or a caller frame (below).
 
     // Resolve the module information, if a module map was provided.
-    StackFrameSymbolizer::SymbolizerResult symbolizer_result =
-        frame_symbolizer_->FillSourceLineInfo(modules_, system_info_,
-                                             frame.get());
+      StackFrameSymbolizer::SymbolizerResult symbolizer_result =
+          frame_symbolizer_->FillSourceLineInfo(modules_, system_info_,
+                  frame.get(), memory_);
     switch (symbolizer_result) {
       case StackFrameSymbolizer::kInterrupt:
         BPLOG(INFO) << "Stack walk is interrupted.";
@@ -269,7 +269,7 @@ bool Stackwalker::InstructionAddressSeemsValid(uint64_t address) {
   StackFrame frame;
   frame.instruction = address;
   StackFrameSymbolizer::SymbolizerResult symbolizer_result =
-      frame_symbolizer_->FillSourceLineInfo(modules_, system_info_, &frame);
+      frame_symbolizer_->FillSourceLineInfo(modules_, system_info_, &frame, memory_);
 
   if (!frame.module) {
     // not inside any loaded module

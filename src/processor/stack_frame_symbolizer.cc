@@ -43,6 +43,7 @@
 #include "google_breakpad/processor/stack_frame.h"
 #include "google_breakpad/processor/symbol_supplier.h"
 #include "google_breakpad/processor/system_info.h"
+#include "google_breakpad/processor/memory_region.h"
 #include "processor/linked_ptr.h"
 #include "processor/logging.h"
 
@@ -56,7 +57,7 @@ StackFrameSymbolizer::StackFrameSymbolizer(
 StackFrameSymbolizer::SymbolizerResult StackFrameSymbolizer::FillSourceLineInfo(
     const CodeModules* modules,
     const SystemInfo* system_info,
-    StackFrame* frame) {
+    StackFrame* frame, MemoryRegion* memory) {
   assert(frame);
 
   if (!modules) return kError;
@@ -73,7 +74,7 @@ StackFrameSymbolizer::SymbolizerResult StackFrameSymbolizer::FillSourceLineInfo(
 
   // If module is already loaded, go ahead to fill source line info and return.
   if (resolver_->HasModule(frame->module)) {
-    resolver_->FillSourceLineInfo(frame);
+    resolver_->FillSourceLineInfo(memory, frame);
     return resolver_->IsModuleCorrupt(frame->module) ?
         kWarningCorruptSymbols : kNoError;
   }
@@ -101,7 +102,7 @@ StackFrameSymbolizer::SymbolizerResult StackFrameSymbolizer::FillSourceLineInfo(
       }
 
       if (load_success) {
-        resolver_->FillSourceLineInfo(frame);
+        resolver_->FillSourceLineInfo(memory, frame);
         return resolver_->IsModuleCorrupt(frame->module) ?
             kWarningCorruptSymbols : kNoError;
       } else {

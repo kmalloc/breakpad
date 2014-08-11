@@ -56,6 +56,7 @@ using std::set;
 // ModuleFactory is a simple factory interface for creating a Module instance
 // at run-time.
 class ModuleFactory;
+class MemoryRegion;
 
 struct FuncParam {
     string typeName;
@@ -91,7 +92,7 @@ class SourceLineResolverBase : public SourceLineResolverInterface {
   virtual void UnloadModule(const CodeModule *module);
   virtual bool HasModule(const CodeModule *module);
   virtual bool IsModuleCorrupt(const CodeModule *module);
-  virtual void FillSourceLineInfo(StackFrame *frame);
+  virtual void FillSourceLineInfo(MemoryRegion* memory, StackFrame *frame);
   virtual WindowsFrameInfo *FindWindowsFrameInfo(const StackFrame *frame);
   virtual CFIFrameInfo *FindCFIFrameInfo(const StackFrame *frame);
 

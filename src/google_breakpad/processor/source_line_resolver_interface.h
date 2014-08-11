@@ -39,6 +39,7 @@
 #include "common/using_std_string.h"
 #include "google_breakpad/common/breakpad_types.h"
 #include "google_breakpad/processor/code_module.h"
+#include "google_breakpad/processor/memory_region.h"
 
 namespace google_breakpad {
 
@@ -92,7 +93,7 @@ class SourceLineResolverInterface {
   // Fills in the function_base, function_name, source_file_name,
   // and source_line fields of the StackFrame.  The instruction and
   // module_name fields must already be filled in.
-  virtual void FillSourceLineInfo(StackFrame *frame) = 0;
+  virtual void FillSourceLineInfo(MemoryRegion*, StackFrame *frame) = 0;
 
   // If Windows stack walking information is available covering
   // FRAME's instruction address, return a WindowsFrameInfo structure

@@ -65,7 +65,7 @@ BasicSourceLineResolver::Function : public SourceLineResolverBase::Function {
                                           function_address,
                                           code_size,
                                           set_parameter_size),
-                                         lines()
+                                         lines(), params(args)
     {
     }
 
@@ -95,7 +95,7 @@ class BasicSourceLineResolver::Module : public SourceLineResolverBase::Module {
 
   // Looks up the given relative address, and fills the StackFrame struct
   // with the result.
-  virtual void LookupAddress(StackFrame *frame) const;
+  virtual void LookupAddress(MemoryRegion* memory, StackFrame *frame) const;
 
   // If Windows stack walking information is available covering ADDRESS,
   // return a WindowsFrameInfo structure describing it. If the information

@@ -42,9 +42,10 @@
 #include <map>
 #include <utility>
 #include <vector>
+#include <sstream>
 
-#include "google_breakpad/processor/basic_source_line_resolver.h"
 #include "processor/basic_source_line_resolver_types.h"
+#include "google_breakpad/processor/basic_source_line_resolver.h"
 #include "processor/module_factory.h"
 
 #include "processor/tokenize.h"
@@ -52,6 +53,7 @@
 using std::map;
 using std::vector;
 using std::make_pair;
+using std::ostringstream;
 
 namespace google_breakpad {
 
@@ -187,7 +189,46 @@ bool BasicSourceLineResolver::Module::LoadMapFromMemory(
   return true;
 }
 
-void BasicSourceLineResolver::Module::LookupAddress(StackFrame *frame) const {
+static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
+        MemoryRegion* memory, vector<StackFrame::ParamInfo>& info)
+{
+    info.clear();
+    info.reserve(params.size());
+
+    uint64_t base = frame->GetFrameBase();
+    assert(base > 0);
+
+    for (size_t i = 0; i < params.size(); ++i)
+    {
+        StackFrame::ParamInfo param;
+
+        param.typeName = params[i].typeName;
+        param.typeSize = params[i].typeSize;
+        param.paramName = params[i].paramName;
+        if (params[i].typeSize > 0)
+        {
+            uint64_t addr = base + params[i].offset;
+
+            uint8_t value;
+            memory->GetMemoryAtAddress(addr, &value);
+
+            ostringstream oss;
+            oss << "0x" << std::hex << (unsigned int)value;
+
+            for (int j = 1; j < params[i].typeSize; ++j)
+            {
+                memory->GetMemoryAtAddress(addr + j, &value);
+                oss << " 0x" << (unsigned int)value;
+            }
+
+            param.value = oss.str();
+        }
+
+        info.push_back(param);
+    }
+}
+
+void BasicSourceLineResolver::Module::LookupAddress(MemoryRegion* memory, StackFrame *frame) const {
   MemAddr address = frame->instruction - frame->module->base_address();
 
   // First, look for a FUNC record that covers address. Use
@@ -206,6 +247,8 @@ void BasicSourceLineResolver::Module::LookupAddress(StackFrame *frame) const {
       address >= function_base && address - function_base < function_size) {
     frame->function_name = func->name;
     frame->function_base = frame->module->base_address() + function_base;
+
+    ReadFuncParams(frame, func->params, memory, frame->params);
 
     linked_ptr<Line> line;
     MemAddr line_base;
@@ -540,14 +583,16 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
           vector<char*> args;
           if (!Tokenize(argsArray[i], ",", 4, &args)) return false;
 
-          FuncParam& p = params[i];
+          FuncParam p;
           p.typeName = args[0];
           p.typeSize = strtoull(args[1], &after_number, 16);
           if (!after_number || *after_number) p.typeSize = 0;
 
           p.paramName = args[2];
-          p.offset = strtoll(args[3], &after_number, 16);
+          p.offset = strtoull(args[3], &after_number, 16);
           if (!after_number || *after_number) p.offset = -1;
+
+          params.push_back(p);
       }
   }
 

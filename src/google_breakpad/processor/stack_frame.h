@@ -31,6 +31,7 @@
 #define GOOGLE_BREAKPAD_PROCESSOR_STACK_FRAME_H__
 
 #include <string>
+#include <vector>
 
 #include "common/using_std_string.h"
 #include "google_breakpad/common/breakpad_types.h"
@@ -52,6 +53,13 @@ struct StackFrame {
     FRAME_TRUST_CFI,       // Derived from call frame info
     FRAME_TRUST_PREWALKED, // Explicitly provided by some external stack walker.
     FRAME_TRUST_CONTEXT    // Given as instruction pointer in a context
+  };
+
+  struct ParamInfo {
+      string typeName;
+      string paramName;
+      long long typeSize;
+      string value;
   };
 
   StackFrame()
@@ -89,6 +97,8 @@ struct StackFrame {
   // Return the actual return address, as saved on the stack or in a
   // register. See the comments for 'instruction', below, for details.
   virtual uint64_t ReturnAddress() const { return instruction; }
+
+  virtual uint64_t GetFrameBase() const { return -1; }
 
   // The program counter location as an absolute virtual address.
   //
@@ -137,6 +147,8 @@ struct StackFrame {
   // Amount of trust the stack walker has in the instruction pointer
   // of this frame.
   FrameTrust trust;
+
+  std::vector<ParamInfo> params;
 };
 
 }  // namespace google_breakpad

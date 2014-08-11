@@ -61,7 +61,7 @@ bool FastSourceLineResolver::ShouldDeleteMemoryBufferAfterLoadModule() {
   return false;
 }
 
-void FastSourceLineResolver::Module::LookupAddress(StackFrame *frame) const {
+void FastSourceLineResolver::Module::LookupAddress(MemoryRegion*, StackFrame *frame) const {
   MemAddr address = frame->instruction - frame->module->base_address();
 
   // First, look for a FUNC record that covers address. Use

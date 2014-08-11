@@ -46,6 +46,7 @@
 #include "google_breakpad/common/breakpad_types.h"
 #include "google_breakpad/processor/source_line_resolver_base.h"
 #include "google_breakpad/processor/stack_frame.h"
+#include "google_breakpad/processor/memory_region.h"
 #include "processor/cfi_frame_info.h"
 #include "processor/windows_frame_info.h"
 
@@ -133,7 +134,7 @@ class SourceLineResolverBase::Module {
 
   // Looks up the given relative address, and fills the StackFrame struct
   // with the result.
-  virtual void LookupAddress(StackFrame *frame) const = 0;
+  virtual void LookupAddress(MemoryRegion* memory, StackFrame *frame) const = 0;
 
   // If Windows stack walking information is available covering ADDRESS,
   // return a WindowsFrameInfo structure describing it. If the information

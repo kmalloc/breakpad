@@ -80,6 +80,10 @@ struct StackFrameX86 : public StackFrame {
   // Overriden to return the return address as saved on the stack.
   virtual uint64_t ReturnAddress() const;
 
+  // TODO, should calculate frame base by dwarf op code.
+  // current implementation is hard-coded, may not be 100% correct when the function calling convention is changed.
+  virtual uint64_t GetFrameBase() const { return context.ebp + 2 * sizeof(void*); }
+
   // Register state.  This is only fully valid for the topmost frame in a
   // stack.  In other frames, the values of nonvolatile registers may be
   // present, given sufficient debugging information.  Refer to
@@ -178,6 +182,10 @@ struct StackFrameAMD64 : public StackFrame {
 
   // Overriden to return the return address as saved on the stack.
   virtual uint64_t ReturnAddress() const;
+
+  // TODO, should calculate frame base by dwarf op code.
+  // current implementation is hard-coded, may not be 100% correct when the function calling convention is changed.
+  virtual uint64_t GetFrameBase() const { return context.rbp + 2 * sizeof(void*); }
 
   // Register state. This is only fully valid for the topmost frame in a
   // stack. In other frames, which registers are present depends on what
