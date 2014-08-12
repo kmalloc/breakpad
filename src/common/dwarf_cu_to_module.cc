@@ -987,8 +987,9 @@ void DwarfCUToModule::FormalParamerHandler::Finish()
     // for now, just ignore formal parameter for subroutine
     if (typeRef_ == 0 || func_ == NULL) return;
 
-    Module::FuncArgument arg = {offset_, name_, {typeRef_}};
+    if (name_.empty()) name_ = BaseVarType::anonymousName_;
 
+    Module::FuncArgument arg = {offset_, name_, {typeRef_}};
     func_->AddFormalParam(arg);
 }
 

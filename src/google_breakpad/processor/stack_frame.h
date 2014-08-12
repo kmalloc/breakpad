@@ -98,7 +98,7 @@ struct StackFrame {
   // register. See the comments for 'instruction', below, for details.
   virtual uint64_t ReturnAddress() const { return instruction; }
 
-  virtual uint64_t GetFrameBase() const { return -1; }
+  virtual uint64_t GetFrameBase() const { return 0; }
 
   // The program counter location as an absolute virtual address.
   //

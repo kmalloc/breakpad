@@ -180,11 +180,16 @@ bool BasicSourceLineResolver::Module::LoadMapFromMemory(
         }
       }
     }
+    /*
     if (num_errors > kMaxErrorsBeforeBailing) {
       break;
     }
+    */
     buffer = strtok_r(NULL, "\r\n", &save_ptr);
   }
+
+  BPLOG(ERROR) << "total errors in parsing symbole files: " << num_errors;
+
   is_corrupt_ = num_errors > 0;
   return true;
 }
@@ -196,7 +201,11 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
     info.reserve(params.size());
 
     uint64_t base = frame->GetFrameBase();
-    assert(base > 0);
+    if (base == 0)
+    {
+        BPLOG(ERROR) << "unexpected stack frame type, or invalid stack pointer.";
+        return;
+    }
 
     for (size_t i = 0; i < params.size(); ++i)
     {
@@ -572,16 +581,20 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
   {
       vector<char*> argsArray;
       size_t num_params = strtoul(segments[1], &after_number, 16);
-      if (!after_number || *after_number) return false;
+      if (!after_number || *after_number) return true;
 
-      if (!Tokenize(segments[2], "#", num_params, &argsArray)) return false;
+      if (!Tokenize(segments[2], "#", num_params, &argsArray)) return true;
 
       params.reserve(num_params);
 
       for (int i = 0; i < num_params; ++i)
       {
           vector<char*> args;
-          if (!Tokenize(argsArray[i], ",", 4, &args)) return false;
+          if (!Tokenize(argsArray[i], ",", 4, &args))
+          {
+              params.clear();
+              return true;
+          }
 
           FuncParam p;
           p.typeName = args[0];
