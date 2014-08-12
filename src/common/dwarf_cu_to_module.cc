@@ -269,9 +269,18 @@ class StructMemVarType: public BaseVarType
             if (!name_.empty()) return name_;
 
             BaseVarType* base = typePool_->GetVarType(typeRef_);
-            assert(base);
 
-            name_ = base->GetTypeName();
+            if (!base)
+            {
+                // assert(base);
+                fprintf(stderr, "reference type for member variable 0x%x is not existed\n", typeRef_);
+                name_ = anonymousName_;
+            }
+            else
+            {
+                name_ = base->GetTypeName();
+            }
+
             return name_;
         }
 
@@ -280,7 +289,13 @@ class StructMemVarType: public BaseVarType
             if (sz_ > 0) return sz_;
 
             BaseVarType* base = typePool_->GetVarType(typeRef_);
-            assert(base);
+
+            if (!base)
+            {
+                fprintf(stderr, "reference type for member variable 0x%x is not existed\n", typeRef_);
+                return 0;
+                // assert(base);
+            }
 
             sz_ = base->GetTypeSize();
             return sz_;
@@ -318,9 +333,17 @@ class PointerVarType: public BaseVarType
             else
             {
                 BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-                assert(base);
 
-                name_ = base->GetTypeName() + "*";
+                if (!base)
+                {
+                    fprintf(stderr, "type for pointer 0x%x is not existed\n", baseTypeRef_);
+                    name_ = string(anonymousName_) + "*";
+                    // assert(base);
+                }
+                else
+                {
+                    name_ = base->GetTypeName() + "*";
+                }
             }
 
             return name_;
@@ -345,8 +368,16 @@ class Pointer2MemberVarType: public BaseVarType
             if (!fullName_.empty()) return fullName_;
 
             BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            assert(base);
-            fullName_ = base->GetTypeName();
+
+            if (!base)
+            {
+                fprintf(stderr, "type 0x%x for pointer to member is not existed\n", baseTypeRef_);
+                fullName_ = anonymousName_;
+            }
+            else
+            {
+                fullName_ = base->GetTypeName();
+            }
 
             if (classTypeRef_ <= 0)
             {
@@ -355,8 +386,15 @@ class Pointer2MemberVarType: public BaseVarType
             else
             {
                 base = typePool_->GetVarType(classTypeRef_);
-                assert(base);
-                fullName_ += string(" ") + base->GetTypeName() + "::* ";
+                if (!base)
+                {
+                    fprintf(stderr, "class type 0x%x for pointer to member is not existed\n", classTypeRef_);
+                    fullName_ += string(" ") + anonymousName_ + "::* ";
+                }
+                else
+                {
+                    fullName_ += string(" ") + base->GetTypeName() + "::* ";
+                }
             }
 
             if (name_.empty()) name_ = anonymousName_;
@@ -385,9 +423,16 @@ class ReferenceVarType: public BaseVarType
             if (!name_.empty()) return name_;
 
             BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            assert(base);
 
-            name_ = base->GetTypeName() + "&";
+            if (!base)
+            {
+                fprintf(stderr, "type 0x%x for reference variable is not existed\n", baseTypeRef_);
+                name_ = string(anonymousName_) + "&";
+            }
+            else
+            {
+                name_ = base->GetTypeName() + "&";
+            }
 
             return name_;
         }
@@ -412,9 +457,14 @@ class ModifierVarType: public BaseVarType
             if (baseTypeRef_ > 0)
             {
                 BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-                assert(base);
-
-                name_ = base->GetTypeName();
+                if (!base)
+                {
+                    fprintf(stderr, "type 0x%x for %s variable is not existed\n", baseTypeRef_, modifier_.c_str());
+                }
+                else
+                {
+                    name_ = base->GetTypeName();
+                }
             }
 
             if (name_.empty()) name_ = anonymousName_;
@@ -429,9 +479,15 @@ class ModifierVarType: public BaseVarType
             if (sz_ > 0) return sz_;
 
             BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            assert(base);
+            if (!base)
+            {
+                fprintf(stderr, "type 0x%x for %s variable is not existed\n", baseTypeRef_, modifier_.c_str());
+            }
+            else
+            {
+                sz_ = base->GetTypeSize();
+            }
 
-            sz_ = base->GetTypeSize();
             return sz_;
         }
 
@@ -454,9 +510,15 @@ class TypedefVarType: public BaseVarType
             if (sz_ > 0) return sz_;
 
             BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            assert(base);
+            if (!base)
+            {
+                fprintf(stderr, "type 0x%x for typedef is not existed\n", baseTypeRef_);
+            }
+            else
+            {
+                sz_ = base->GetTypeSize();
+            }
 
-            sz_ = base->GetTypeSize();
             return sz_;
         }
 
@@ -477,11 +539,21 @@ class ArrayVarType: public BaseVarType
         {
             if (!name_.empty()) return name_;
 
+            string baseName;
             BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            assert(base);
+
+            if (!base)
+            {
+                fprintf(stderr, "type 0x%x for array is not existed\n", baseTypeRef_);
+                baseName = anonymousName_;
+            }
+            else
+            {
+                baseName = base->GetTypeName();
+            }
 
             ostringstream oss;
-            oss << base->GetTypeName() << "[" << arrItemNum_ << "]";
+            oss << baseName << "[" << arrItemNum_ << "]";
 
             name_ = oss.str();
             return name_;
@@ -492,10 +564,13 @@ class ArrayVarType: public BaseVarType
             if (sz_ > 0) return sz_;
 
             BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            assert(base);
+            if (!base)
+            {
+                fprintf(stderr, "type 0x%x for array is not existed\n", baseTypeRef_);
+                return 0;
+            }
 
             sz_ = base->GetTypeSize() * arrItemNum_;
-
             return sz_;
         }
 
@@ -1193,7 +1268,7 @@ void DwarfCUToModule::DwarfSubTypeHandler::Finish()
     }
     else
     {
-        assert(0);
+        fprintf(stderr, "unrecognized subtype:%x\n", tag_);
     }
 }
 
@@ -1791,7 +1866,11 @@ void DwarfCUToModule::ResolveFunctionParamType()
         {
            int64 type = params[j].type.typeId;
            BaseVarType* t = pool.GetVarType(type);
-           assert(t);
+           if (!t)
+           {
+               fprintf(stderr, "param 0x%x for function %s is not existed\n", type, func[i]->name.c_str());
+               continue;
+           }
            params[j].type.typeName = t->GetTypeName();
            params[j].type.typeSize = t->GetTypeSize();
         }
