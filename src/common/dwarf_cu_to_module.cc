@@ -401,7 +401,7 @@ class ModifierVarType: public BaseVarType
 {
     public:
         ModifierVarType(VarTypePool* pool, int64 baseRef, const string& modifier)
-            :BaseVarType(pool, "", 0), baseTypeRef_(baseRef)
+            :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), modifier_(modifier)
         {
         }
 
@@ -419,7 +419,7 @@ class ModifierVarType: public BaseVarType
 
             if (name_.empty()) name_ = anonymousName_;
 
-            if (!modifier_.empty()) name_ = modifier_ + " " + name_;
+            if (!modifier_.empty()) name_ = name_ + " " + modifier_;
 
             return name_;
         }
@@ -1133,7 +1133,7 @@ void DwarfCUToModule::DwarfTypeHandler::Finish()
             break;
         case dwarf2reader::DW_TAG_const_type:
             {
-                type = new ModifierVarType(&cu_context_->typePools, typeRef_, "");
+                type = new ModifierVarType(&cu_context_->typePools, typeRef_, "const");
             }
             break;
         case dwarf2reader::DW_TAG_volatile_type:

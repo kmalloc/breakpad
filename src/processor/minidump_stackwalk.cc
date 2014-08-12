@@ -164,13 +164,14 @@ static void PrintStack(const CallStack *stack, const string &cpu) {
 
         if (!frame->params.empty())
         {
-            printf(" Args:%s(0x%x) %s:[%s]", frame->params[0].typeName.c_str(), frame->params[0].typeSize,
+            printf("\n    Arguments:");
+            printf("\n    %s(0x%x) %s:[%s]", frame->params[0].typeName.c_str(), frame->params[0].typeSize,
                     frame->params[0].paramName.c_str(), frame->params[0].value.c_str());
         }
 
         for (int i = 1; i < frame->params.size(); ++i)
         {
-            printf(", %s(0x%x) %s:[%s]", frame->params[i].typeName.c_str(), frame->params[i].typeSize,
+            printf("\n    %s(0x%x) %s:[%s]", frame->params[i].typeName.c_str(), frame->params[i].typeSize,
                     frame->params[i].paramName.c_str(), frame->params[i].value.c_str());
         }
 
@@ -181,7 +182,7 @@ static void PrintStack(const CallStack *stack, const string &cpu) {
     } else {
       printf("0x%" PRIx64, instruction_address);
     }
-    printf("\n ");
+    printf("\n    Registers:\n ");
 
     int sequence = 0;
     if (cpu == "x86") {
