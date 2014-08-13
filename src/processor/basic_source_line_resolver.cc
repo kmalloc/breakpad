@@ -285,8 +285,9 @@ void BasicSourceLineResolver::Module::LookupAddress(MemoryRegion* memory, StackF
   MemAddr function_size;
   MemAddr public_address;
   if (functions_.RetrieveNearestRange(address, &func,
-                                      &function_base, &function_size) &&
-      address >= function_base && address - function_base < function_size) {
+              &function_base, &function_size) && address >= function_base
+              && address - function_base < function_size) {
+
     frame->function_name = func->name;
     frame->function_base = frame->module->base_address() + function_base;
 

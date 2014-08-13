@@ -50,20 +50,21 @@ bool Tokenize(char *line,
   tokens->clear();
   tokens->reserve(max_tokens);
 
-  int remaining = max_tokens;
+  int remaining = max_tokens - 1;
 
   // Split tokens on the separator character.
   // strip them out before exhausting max_tokens.
   char *save_ptr;
-  char *token = strtok_r(line, separators, &save_ptr);
-  while (token && --remaining > 0) {
-    tokens->push_back(token);
-    if (remaining > 1)
-      token = strtok_r(NULL, separators, &save_ptr);
+  char *token = NULL;
+
+  while (remaining > 0 && (token = strtok_r(line, separators, &save_ptr))) {
+      --remaining;
+      line = NULL;
+      tokens->push_back(token);
   }
 
   // If there's anything left, just add it as a single token.
-  if (remaining == 0 && (token = strtok_r(NULL, "\r\n", &save_ptr))) {
+  if (remaining == 0 && (token = strtok_r(line, "\r\n", &save_ptr))) {
     tokens->push_back(token);
   }
 
