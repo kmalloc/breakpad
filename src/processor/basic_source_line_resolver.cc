@@ -180,15 +180,14 @@ bool BasicSourceLineResolver::Module::LoadMapFromMemory(
         }
       }
     }
-    /*
     if (num_errors > kMaxErrorsBeforeBailing) {
+      BPLOG(ERROR) << "Parsing symbol file stopped for there are too many error occurs.";
       break;
     }
-    */
     buffer = strtok_r(NULL, "\r\n", &save_ptr);
   }
 
-  BPLOG(ERROR) << "total errors in parsing symbole files: " << num_errors;
+  BPLOG(ERROR) << "total errors in parsing symbol files: " << num_errors;
 
   is_corrupt_ = num_errors > 0;
   return true;
@@ -214,25 +213,59 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
         param.typeName = params[i].typeName;
         param.typeSize = params[i].typeSize;
         param.paramName = params[i].paramName;
-        if (params[i].typeSize > 0)
+
+        if (param.typeSize <= 0)
         {
-            uint64_t addr = base + params[i].offset;
-
-            uint8_t value;
-            memory->GetMemoryAtAddress(addr, &value);
-
-            ostringstream oss;
-            oss << "0x" << std::hex << (unsigned int)value;
-
-            for (int j = 1; j < params[i].typeSize; ++j)
-            {
-                memory->GetMemoryAtAddress(addr + j, &value);
-                oss << " 0x" << (unsigned int)value;
-            }
-
-            param.value = oss.str();
+            info.push_back(param);
+            continue;
         }
 
+        ostringstream oss;
+        uint64_t addr = base + params[i].offset;
+        if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
+        {
+            uint64_t value = 0;
+            memory->GetMemoryAtAddress(addr, &value);
+
+            if (param.typeName.find("*") != string::npos
+                    || param.typeName.find("&") != string::npos)
+            {
+                oss << std::hex << (void*)value;
+            }
+            else if (param.typeName.find("float") != string::npos)
+            {
+                oss << *(float*)&value;
+            }
+            else if (param.typeName.find("double") != string::npos)
+            {
+                oss << *(double*)&value;
+            }
+            else
+            {
+                int bitsz = ((sizeof(uint64_t) - param.typeSize) << 3);
+                uint64_t mask = ~0;
+
+                mask <<= bitsz;
+                mask >>= bitsz;
+
+                oss << "0x" << std::hex << (value & mask);
+            }
+
+            oss << ", ";
+        }
+
+        uint8_t value;
+        memory->GetMemoryAtAddress(addr, &value);
+
+        oss << "hex:" << std::hex << (unsigned int)value;
+
+        for (int j = 1; j < param.typeSize; ++j)
+        {
+            memory->GetMemoryAtAddress(addr + j, &value);
+            oss << " " << (unsigned int)value;
+        }
+
+        param.value = oss.str();
         info.push_back(param);
     }
 }
