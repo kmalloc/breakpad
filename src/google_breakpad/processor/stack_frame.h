@@ -56,10 +56,10 @@ struct StackFrame {
   };
 
   struct ParamInfo {
-      string typeName;
-      string paramName;
-      long long typeSize;
-      string value;
+    string typeName;
+    string paramName;
+    long long typeSize;
+    string value;
   };
 
   StackFrame()

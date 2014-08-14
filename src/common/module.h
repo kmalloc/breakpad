@@ -88,34 +88,34 @@ class Module {
 
   struct ArgumentType
   {
-      uint64 typeId;
+    uint64 typeId;
 
-      string typeName;
-      size_t typeSize;
+    string typeName;
+    size_t typeSize;
   };
 
   struct FuncArgument
   {
-      // offset to frame base
-      int64 offset;
+    // offset to frame base
+    int64 offset;
 
-      // name of the arguement
-      string name;
+    // name of the arguement
+    string name;
 
-      // type identification.
-      ArgumentType type;
+    // type identification.
+    ArgumentType type;
   };
 
   // A function.
   struct Function {
-      // For sorting by address.  (Not style-guide compliant, but it's
-      // stupid not to put this in the struct.)
-      static bool CompareByAddress(const Function *x, const Function *y) {
-          return x->address < y->address;
-      }
+    // For sorting by address.  (Not style-guide compliant, but it's
+    // stupid not to put this in the struct.)
+    static bool CompareByAddress(const Function *x, const Function *y) {
+        return x->address < y->address;
+    }
 
-      // The function's name.
-      string name;
+    // The function's name.
+    string name;
 
     // The start address and length of the function's code.
     Address address, size;

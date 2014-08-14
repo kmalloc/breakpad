@@ -236,55 +236,55 @@ bool Module::Write(std::ostream &stream, SymbolData symbol_data) {
 
       if (!func->params.empty())
       {
-          stream << "#" << func->params.size();
+        stream << "#" << func->params.size();
       }
 
       for (int ai = 0; ai < func->params.size(); ++ai)
       {
-          stream << "#"
-                 << func->params[ai].type.typeName << ","
-                 << func->params[ai].type.typeSize << ","
-                 << func->params[ai].name          << ","
-                 << func->params[ai].offset;
+        stream << "#"
+               << func->params[ai].type.typeName << ","
+               << func->params[ai].type.typeSize << ","
+               << func->params[ai].name          << ","
+               << func->params[ai].offset;
       }
 
       stream << dec << endl;
 
       if (!stream.good())
-          return ReportError();
+        return ReportError();
 
       for (vector<Line>::iterator line_it = func->lines.begin();
-              line_it != func->lines.end(); ++line_it) {
-          stream << hex
-              << (line_it->address - load_address_) << " "
-              << line_it->size << " "
-              << dec
-              << line_it->number << " "
-              << line_it->file->source_id << endl;
-          if (!stream.good())
-              return ReportError();
+            line_it != func->lines.end(); ++line_it) {
+        stream << hex
+               << (line_it->address - load_address_) << " "
+               << line_it->size << " "
+               << dec
+               << line_it->number << " "
+               << line_it->file->source_id << endl;
+        if (!stream.good())
+          return ReportError();
       }
     }
 
     // Write out 'PUBLIC' records.
     for (ExternSet::const_iterator extern_it = externs_.begin();
-            extern_it != externs_.end(); ++extern_it) {
-        Extern *ext = *extern_it;
-        stream << "PUBLIC " << hex
-            << (ext->address - load_address_) << " 0 "
-            << ext->name << dec << endl;
+          extern_it != externs_.end(); ++extern_it) {
+      Extern *ext = *extern_it;
+      stream << "PUBLIC " << hex
+             << (ext->address - load_address_) << " 0 "
+             << ext->name << dec << endl;
     }
   }
 
   if (symbol_data != NO_CFI) {
-      // Write out 'STACK CFI INIT' and 'STACK CFI' records.
-      vector<StackFrameEntry *>::const_iterator frame_it;
-      for (frame_it = stack_frame_entries_.begin();
-              frame_it != stack_frame_entries_.end(); ++frame_it) {
-          StackFrameEntry *entry = *frame_it;
-          stream << "STACK CFI INIT " << hex
-              << (entry->address - load_address_) << " "
-             << entry->size << " " << dec;
+    // Write out 'STACK CFI INIT' and 'STACK CFI' records.
+    vector<StackFrameEntry *>::const_iterator frame_it;
+    for (frame_it = stack_frame_entries_.begin();
+            frame_it != stack_frame_entries_.end(); ++frame_it) {
+        StackFrameEntry *entry = *frame_it;
+        stream << "STACK CFI INIT " << hex
+               << (entry->address - load_address_) << " "
+               << entry->size << " " << dec;
       if (!stream.good()
           || !WriteRuleMap(entry->initial_rules, stream))
         return ReportError();

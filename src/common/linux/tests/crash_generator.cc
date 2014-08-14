@@ -42,6 +42,7 @@
 #include <unistd.h>
 
 #include <string>
+#include <sstream>
 
 #if defined(__ANDROID__)
 #include "common/android/testing/pthread_fixes.h"
@@ -112,8 +113,21 @@ bool CrashGenerator::HasDefaultCorePattern() const {
          buffer_size == 5 && memcmp(buffer, "core", 4) == 0;
 }
 
-string CrashGenerator::GetCoreFilePath() const {
-  return temp_dir_.path() + "/core";
+string CrashGenerator::GetCoreFilePath(pid_t pid) const {
+  char buffer[8];
+  ssize_t buffer_size = sizeof(buffer);
+  bool use_pid = (ReadFile("/proc/sys/kernel/core_uses_pid", buffer, &buffer_size) &&
+    buffer_size == 2 && memcmp(buffer, "1", 1) == 1);
+
+  string ret = temp_dir_.path() + "/core";
+
+  if (use_pid)
+  {
+    std::ostringstream oss;
+    oss << ret << "." << std::dec << pid;
+    ret = oss.str();
+  }
+  return ret;
 }
 
 string CrashGenerator::GetDirectoryOfProcFilesCopy() const {

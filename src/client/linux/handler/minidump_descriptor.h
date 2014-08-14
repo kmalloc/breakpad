@@ -62,7 +62,7 @@ class MinidumpDescriptor {
     assert(fd != -1);
   }
 
-  explicit MinidumpDescriptor(const MinidumpDescriptor& descriptor);
+  MinidumpDescriptor(const MinidumpDescriptor& descriptor);
   MinidumpDescriptor& operator=(const MinidumpDescriptor& descriptor);
 
   bool IsFD() const { return fd_ != -1; }

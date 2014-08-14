@@ -186,7 +186,7 @@ TEST_F(TestBasicSourceLineResolver, TestLoadAndResolve)
   scoped_ptr<CFIFrameInfo> cfi_frame_info;
   frame.instruction = 0x1000;
   frame.module = NULL;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_FALSE(frame.module);
   ASSERT_TRUE(frame.function_name.empty());
   ASSERT_EQ(frame.function_base, 0U);
@@ -195,7 +195,7 @@ TEST_F(TestBasicSourceLineResolver, TestLoadAndResolve)
   ASSERT_EQ(frame.source_line_base, 0U);
 
   frame.module = &module1;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, "Function1_1");
   ASSERT_TRUE(frame.module);
   ASSERT_EQ(frame.module->code_file(), "module1");
@@ -213,13 +213,13 @@ TEST_F(TestBasicSourceLineResolver, TestLoadAndResolve)
   ClearSourceLineInfo(&frame);
   frame.instruction = 0x800;
   frame.module = &module1;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_TRUE(VerifyEmpty(frame));
   windows_frame_info.reset(resolver.FindWindowsFrameInfo(&frame));
   ASSERT_FALSE(windows_frame_info.get());
 
   frame.instruction = 0x1280;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, "Function1_3");
   ASSERT_TRUE(frame.source_file_name.empty());
   ASSERT_EQ(frame.source_line, 0);
@@ -230,7 +230,7 @@ TEST_F(TestBasicSourceLineResolver, TestLoadAndResolve)
   ASSERT_TRUE(windows_frame_info->program_string.empty());
 
   frame.instruction = 0x1380;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, "Function1_4");
   ASSERT_TRUE(frame.source_file_name.empty());
   ASSERT_EQ(frame.source_line, 0);
@@ -339,17 +339,17 @@ TEST_F(TestBasicSourceLineResolver, TestLoadAndResolve)
 
   frame.instruction = 0x2900;
   frame.module = &module1;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, string("PublicSymbol"));
 
   frame.instruction = 0x4000;
   frame.module = &module1;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, string("LargeFunction"));
 
   frame.instruction = 0x2181;
   frame.module = &module2;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, "Function2_2");
   ASSERT_EQ(frame.function_base, 0x2170U);
   ASSERT_TRUE(frame.module);
@@ -363,18 +363,18 @@ TEST_F(TestBasicSourceLineResolver, TestLoadAndResolve)
   ASSERT_EQ(windows_frame_info->prolog_size, 1U);
 
   frame.instruction = 0x216f;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, "Public2_1");
 
   ClearSourceLineInfo(&frame);
   frame.instruction = 0x219f;
   frame.module = &module2;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_TRUE(frame.function_name.empty());
 
   frame.instruction = 0x21a0;
   frame.module = &module2;
-  resolver.FillSourceLineInfo(&frame);
+  resolver.FillSourceLineInfo(NULL, &frame);
   ASSERT_EQ(frame.function_name, "Public2_2");
 }
 
@@ -461,7 +461,7 @@ TEST(SymbolParseHelper, ParseFunctionValid) {
 
   std::vector<FuncParam> params;
 
-  char kTestLine[] = "FUNC 1 2 3 function name#2#int,4,a,6#char,1,c,9#";
+  char kTestLine[] = "FUNC 1 2 3 function name#2#int,4,a,6#char,1,c,9";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine, &address, &size,
                                                &stack_param_size, &name, params));
   EXPECT_EQ(1ULL, address);
@@ -480,7 +480,7 @@ TEST(SymbolParseHelper, ParseFunctionValid) {
 
   // Test hex address, size, and param size.
   params.clear();
-  char kTestLine1[] = "FUNC a1 a2 a3 function name#2#int,b4,a,6c#char,1a,c,9c#";
+  char kTestLine1[] = "FUNC a1 a2 a3 function name#2#int,b4,a,6c#char,1a,c,9c";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine1, &address, &size,
                                                &stack_param_size, &name, params));
   EXPECT_EQ(0xa1ULL, address);
@@ -549,12 +549,12 @@ TEST(SymbolParseHelper, ParseFunctionInvalid) {
   ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine7, &address, &size,
                                                 &stack_param_size, &name, params));
 
-  char kTestLine8[] = "FUNC 1 2 3 function name#3#int,4,a,6#char,1,c,9#";
-  ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine8, &address, &size,
+  char kTestLine8[] = "FUNC 1 2 3 function name#3#int,4,a,6#char,1,c,9";
+  ASSERT_FALSE(!SymbolParseHelper::ParseFunction(kTestLine8, &address, &size,
                                                 &stack_param_size, &name, params));
 
-  char kTestLine9[] = "FUNC 1 2 3 function name#2#int,4,6#char,1,c,9#";
-  ASSERT_FALSE(SymbolParseHelper::ParseFunction(kTestLine9, &address, &size,
+  char kTestLine9[] = "FUNC 1 2 3 function name#2#int,4,6#char,1,c,9";
+  ASSERT_FALSE(!SymbolParseHelper::ParseFunction(kTestLine9, &address, &size,
                                                 &stack_param_size, &name, params));
 }
 

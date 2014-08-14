@@ -65,7 +65,7 @@ BasicSourceLineResolver::Function : public SourceLineResolverBase::Function {
                                           function_address,
                                           code_size,
                                           set_parameter_size),
-                                         lines(), params(args)
+                                          lines(), params(args)
     {
     }
 

@@ -194,80 +194,82 @@ bool BasicSourceLineResolver::Module::LoadMapFromMemory(
 }
 
 static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
-        MemoryRegion* memory, vector<StackFrame::ParamInfo>& info)
+    MemoryRegion* memory, vector<StackFrame::ParamInfo>& info)
 {
-    info.clear();
-    info.reserve(params.size());
+  if (!memory) return;
 
-    uint64_t base = frame->GetFrameBase();
-    if (base == 0)
+  info.clear();
+  info.reserve(params.size());
+
+  uint64_t base = frame->GetFrameBase();
+  if (base == 0)
+  {
+    BPLOG(ERROR) << "unexpected stack frame type, or invalid stack pointer.";
+    return;
+  }
+
+  for (size_t i = 0; i < params.size(); ++i)
+  {
+    StackFrame::ParamInfo param;
+
+    param.typeName = params[i].typeName;
+    param.typeSize = params[i].typeSize;
+    param.paramName = params[i].paramName;
+
+    if (param.typeSize <= 0)
     {
-        BPLOG(ERROR) << "unexpected stack frame type, or invalid stack pointer.";
-        return;
+      info.push_back(param);
+      continue;
     }
 
-    for (size_t i = 0; i < params.size(); ++i)
+    ostringstream oss;
+    uint64_t addr = base + params[i].offset;
+    if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
     {
-        StackFrame::ParamInfo param;
+      uint64_t value = 0;
+      memory->GetMemoryAtAddress(addr, &value);
 
-        param.typeName = params[i].typeName;
-        param.typeSize = params[i].typeSize;
-        param.paramName = params[i].paramName;
+      if (param.typeName.find("*") != string::npos
+          || param.typeName.find("&") != string::npos)
+      {
+        oss << std::hex << (void*)value;
+      }
+      else if (param.typeName.find("float") != string::npos)
+      {
+        oss << *(float*)&value;
+      }
+      else if (param.typeName.find("double") != string::npos)
+      {
+        oss << *(double*)&value;
+      }
+      else
+      {
+        int bitsz = ((sizeof(uint64_t) - param.typeSize) << 3);
+        uint64_t mask = ~0;
 
-        if (param.typeSize <= 0)
-        {
-            info.push_back(param);
-            continue;
-        }
+        mask <<= bitsz;
+        mask >>= bitsz;
 
-        ostringstream oss;
-        uint64_t addr = base + params[i].offset;
-        if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
-        {
-            uint64_t value = 0;
-            memory->GetMemoryAtAddress(addr, &value);
+        oss << "0x" << std::hex << (value & mask);
+      }
 
-            if (param.typeName.find("*") != string::npos
-                    || param.typeName.find("&") != string::npos)
-            {
-                oss << std::hex << (void*)value;
-            }
-            else if (param.typeName.find("float") != string::npos)
-            {
-                oss << *(float*)&value;
-            }
-            else if (param.typeName.find("double") != string::npos)
-            {
-                oss << *(double*)&value;
-            }
-            else
-            {
-                int bitsz = ((sizeof(uint64_t) - param.typeSize) << 3);
-                uint64_t mask = ~0;
-
-                mask <<= bitsz;
-                mask >>= bitsz;
-
-                oss << "0x" << std::hex << (value & mask);
-            }
-
-            oss << ", ";
-        }
-
-        uint8_t value;
-        memory->GetMemoryAtAddress(addr, &value);
-
-        oss << "hex:" << std::hex << (unsigned int)value;
-
-        for (int j = 1; j < param.typeSize; ++j)
-        {
-            memory->GetMemoryAtAddress(addr + j, &value);
-            oss << " " << (unsigned int)value;
-        }
-
-        param.value = oss.str();
-        info.push_back(param);
+      oss << ", ";
     }
+
+    uint8_t value;
+    memory->GetMemoryAtAddress(addr, &value);
+
+    oss << "hex:" << std::hex << (unsigned int)value;
+
+    for (int j = 1; j < param.typeSize; ++j)
+    {
+      memory->GetMemoryAtAddress(addr + j, &value);
+      oss << " " << (unsigned int)value;
+    }
+
+    param.value = oss.str();
+    info.push_back(param);
+  }
 }
 
 void BasicSourceLineResolver::Module::LookupAddress(MemoryRegion* memory, StackFrame *frame) const {
@@ -613,34 +615,34 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
 
   if (segments.size() == 3)
   {
-      vector<char*> argsArray;
-      size_t num_params = strtoul(segments[1], &after_number, 16);
-      if (!after_number || *after_number) return true;
+    vector<char*> argsArray;
+    size_t num_params = strtoul(segments[1], &after_number, 16);
+    if (!after_number || *after_number) return true;
 
-      if (!Tokenize(segments[2], "#", num_params, &argsArray)) return true;
+    if (!Tokenize(segments[2], "#", num_params, &argsArray)) return true;
 
-      params.reserve(num_params);
+    params.reserve(num_params);
 
-      for (int i = 0; i < num_params; ++i)
+    for (int i = 0; i < num_params; ++i)
+    {
+      vector<char*> args;
+      if (!Tokenize(argsArray[i], ",", 4, &args))
       {
-          vector<char*> args;
-          if (!Tokenize(argsArray[i], ",", 4, &args))
-          {
-              params.clear();
-              return true;
-          }
-
-          FuncParam p;
-          p.typeName = args[0];
-          p.typeSize = strtoull(args[1], &after_number, 16);
-          if (!after_number || *after_number) p.typeSize = 0;
-
-          p.paramName = args[2];
-          p.offset = strtoull(args[3], &after_number, 16);
-          if (!after_number || *after_number) p.offset = -1;
-
-          params.push_back(p);
+        params.clear();
+        return true;
       }
+
+      FuncParam p;
+      p.typeName = args[0];
+      p.typeSize = strtoull(args[1], &after_number, 16);
+      if (!after_number || *after_number) p.typeSize = 0;
+
+      p.paramName = args[2];
+      p.offset = strtoull(args[3], &after_number, 16);
+      if (!after_number || *after_number) p.offset = -1;
+
+      params.push_back(p);
+    }
   }
 
   return true;
@@ -648,13 +650,13 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
 
 // static
 bool SymbolParseHelper::ParseLine(char *line_line, uint64_t *address,
-        uint64_t *size, long *line_number,
-        long *source_file) {
-    // <address> <size> <line number> <source file id>
-    vector<char*> tokens;
-    if (!Tokenize(line_line, kWhitespace, 4, &tokens)) {
-        return false;
-    }
+                                  uint64_t *size, long *line_number,
+                                  long *source_file) {
+  // <address> <size> <line number> <source file id>
+  vector<char*> tokens;
+  if (!Tokenize(line_line, kWhitespace, 4, &tokens)) {
+      return false;
+  }
 
   char *after_number;
   *address  = strtoull(tokens[0], &after_number, 16);

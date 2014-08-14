@@ -164,15 +164,15 @@ static void PrintStack(const CallStack *stack, const string &cpu) {
 
         if (!frame->params.empty())
         {
-            printf("\n    Arguments:");
-            printf("\n    %s(0x%x) %s:[%s]", frame->params[0].typeName.c_str(), frame->params[0].typeSize,
-                    frame->params[0].paramName.c_str(), frame->params[0].value.c_str());
+          printf("\n    Arguments:");
+          printf("\n    %s(0x%x) %s:[%s]", frame->params[0].typeName.c_str(), frame->params[0].typeSize,
+                  frame->params[0].paramName.c_str(), frame->params[0].value.c_str());
         }
 
         for (int i = 1; i < frame->params.size(); ++i)
         {
-            printf("\n    %s(0x%x) %s:[%s]", frame->params[i].typeName.c_str(), frame->params[i].typeSize,
-                    frame->params[i].paramName.c_str(), frame->params[i].value.c_str());
+          printf("\n    %s(0x%x) %s:[%s]", frame->params[i].typeName.c_str(), frame->params[i].typeSize,
+                  frame->params[i].paramName.c_str(), frame->params[i].value.c_str());
         }
 
       } else {

@@ -43,6 +43,13 @@ cscope.*
 */**/*.dirstamp
 */**/cscope.*
 */**/*_unittest
+*/**/*_unittest_shlib
+*/**/*_unittest.log
+*/**/*_unittest.trs
+*/**/*_test.log
+*/**/*_test.trs
+*/**/*_unittest.shlib
+test-suite.log
 tags
 filenametags
 Makefile

@@ -172,270 +172,270 @@ bool DwarfCUToModule::FileContext::IsUnhandledInterCUReference(
 class VarTypePool;
 class BaseVarType
 {
-    public:
-        BaseVarType(VarTypePool* pool, const string& name, uint64 sz)
-            :typePool_(pool), name_(name), sz_(sz)
-        {
-        }
-        virtual ~BaseVarType() {}
+  public:
+    BaseVarType(VarTypePool* pool, const string& name, uint64 sz)
+      :typePool_(pool), name_(name), sz_(sz)
+    {
+    }
+    virtual ~BaseVarType() {}
 
-        virtual const string& GetTypeName() const
-        {
-            if (name_.empty()) name_ = anonymousName_;
+    virtual const string& GetTypeName() const
+    {
+      if (name_.empty()) name_ = anonymousName_;
 
-            return name_;
-        }
+      return name_;
+    }
 
-        virtual uint64 GetTypeSize() const { return sz_; }
+    virtual uint64 GetTypeSize() const { return sz_; }
 
-        static const char* anonymousName_;
+    static const char* anonymousName_;
 
-    private:
-        BaseVarType(const BaseVarType&);
-        BaseVarType& operator=(const BaseVarType&);
+  private:
+    BaseVarType(const BaseVarType&);
+    BaseVarType& operator=(const BaseVarType&);
 
-    protected:
+  protected:
 
-        mutable string name_;
-        mutable uint64 sz_;
-        VarTypePool* typePool_;
+    mutable string name_;
+    mutable uint64 sz_;
+    VarTypePool* typePool_;
 };
 
 const char* BaseVarType::anonymousName_ = "@anon@";
 
 class VarTypePool
 {
-    public:
+  public:
 
-        VarTypePool() {}
+    VarTypePool() {}
 
-        ~VarTypePool()
-        {
-            map<int64, BaseVarType*>::iterator it = key2type_.begin();
-            while (it != key2type_.end())
-            {
-                delete it->second;
-                ++it;
-            }
-        }
+    ~VarTypePool()
+    {
+      map<int64, BaseVarType*>::iterator it = key2type_.begin();
+      while (it != key2type_.end())
+      {
+        delete it->second;
+        ++it;
+      }
+    }
 
-        void AddVarType(int64 key, BaseVarType* type) { key2type_[key] = type; }
+    void AddVarType(int64 key, BaseVarType* type) { key2type_[key] = type; }
 
-        BaseVarType* GetVarType(int64 key) const
-        {
-            map<int64, BaseVarType*>::const_iterator it = key2type_.find(key);
-            if (it == key2type_.end()) return NULL;
+    BaseVarType* GetVarType(int64 key) const
+    {
+      map<int64, BaseVarType*>::const_iterator it = key2type_.find(key);
+      if (it == key2type_.end()) return NULL;
 
-            return it->second;
-        }
+      return it->second;
+    }
 
-    private:
+  private:
 
-        VarTypePool(const VarTypePool&);
-        VarTypePool& operator=(const VarTypePool&);
+    VarTypePool(const VarTypePool&);
+    VarTypePool& operator=(const VarTypePool&);
 
-    private:
+  private:
 
-        map<int64, BaseVarType*> key2type_;
+    map<int64, BaseVarType*> key2type_;
 };
 
 class StructVarType: public BaseVarType
 {
-    public:
-        StructVarType(VarTypePool* pool, const string& name, uint64 sz)
-            :BaseVarType(pool, name, sz)
-        {
-        }
+  public:
+    StructVarType(VarTypePool* pool, const string& name, uint64 sz)
+      :BaseVarType(pool, name, sz)
+    {
+    }
 
-        const vector<uint64>& GetMembers() const { return mem_; }
-        void AddMemberType(int64 memRef) { mem_.push_back(memRef); }
-        void SetMemberType(const vector<uint64>& mem) { mem_ = mem; }
+    const vector<uint64>& GetMembers() const { return mem_; }
+    void AddMemberType(int64 memRef) { mem_.push_back(memRef); }
+    void SetMemberType(const vector<uint64>& mem) { mem_ = mem; }
 
-    private:
+  private:
 
-        vector<uint64> mem_;
+    vector<uint64> mem_;
 };
 
 class StructMemVarType: public BaseVarType
 {
-    public:
-        StructMemVarType(VarTypePool* pool, const string& varName, int64 typeRef, int64 offset)
-            :BaseVarType(pool, "", 0), varName_(varName), typeRef_(typeRef), offset_(offset)
-        {
-        }
+  public:
+    StructMemVarType(VarTypePool* pool, const string& varName, int64 typeRef, int64 offset)
+      :BaseVarType(pool, "", 0), varName_(varName), typeRef_(typeRef), offset_(offset)
+    {
+    }
 
-        const string& GetTypeName() const
-        {
-            if (!name_.empty()) return name_;
+    const string& GetTypeName() const
+    {
+      if (!name_.empty()) return name_;
 
-            BaseVarType* base = typePool_->GetVarType(typeRef_);
+      BaseVarType* base = typePool_->GetVarType(typeRef_);
 
-            if (!base)
-            {
-                // assert(base);
-                fprintf(stderr, "reference type for member variable 0x%x is not existed\n", typeRef_);
-                name_ = anonymousName_;
-            }
-            else
-            {
-                name_ = base->GetTypeName();
-            }
+      if (!base)
+      {
+        // assert(base);
+        fprintf(stderr, "reference type for member variable 0x%x is not existed\n", typeRef_);
+        name_ = anonymousName_;
+      }
+      else
+      {
+        name_ = base->GetTypeName();
+      }
 
-            return name_;
-        }
+      return name_;
+    }
 
-        uint64 GetTypeSize() const
-        {
-            if (sz_ > 0) return sz_;
+    uint64 GetTypeSize() const
+    {
+      if (sz_ > 0) return sz_;
 
-            BaseVarType* base = typePool_->GetVarType(typeRef_);
+      BaseVarType* base = typePool_->GetVarType(typeRef_);
 
-            if (!base)
-            {
-                fprintf(stderr, "reference type for member variable 0x%x is not existed\n", typeRef_);
-                return 0;
-                // assert(base);
-            }
+      if (!base)
+      {
+        fprintf(stderr, "reference type for member variable 0x%x is not existed\n", typeRef_);
+        return 0;
+        // assert(base);
+      }
 
-            sz_ = base->GetTypeSize();
-            return sz_;
-        }
+      sz_ = base->GetTypeSize();
+      return sz_;
+    }
 
-        const string& GetMemName() const { return varName_; }
-        int64 GetMemberOffset() const { return offset_; }
+    const string& GetMemName() const { return varName_; }
+    int64 GetMemberOffset() const { return offset_; }
 
-    private:
+  private:
 
-        // member name,eg the 'aa' in 'int aa;'
-        string varName_;
-        // member type, eg the 'int' in 'int aa;'
-        int64 typeRef_;
-        // offset of the member in the class/struct
-        int64 offset_;
+    // member name,eg the 'aa' in 'int aa;'
+    string varName_;
+    // member type, eg the 'int' in 'int aa;'
+    int64 typeRef_;
+    // offset of the member in the class/struct
+    int64 offset_;
 };
 
 class PointerVarType: public BaseVarType
 {
-    public:
-        PointerVarType(VarTypePool* pool, int64 baseRef, uint64 sz)
-            :BaseVarType(pool, "", sz), baseTypeRef_(baseRef)
+  public:
+    PointerVarType(VarTypePool* pool, int64 baseRef, uint64 sz)
+      :BaseVarType(pool, "", sz), baseTypeRef_(baseRef)
+    {
+    }
+
+    const string& GetTypeName() const
+    {
+      if (!name_.empty()) return name_;
+
+      if (baseTypeRef_ <= 0)
+      {
+        name_ = anonymousName_;
+      }
+      else
+      {
+        BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+
+        if (!base)
         {
+          fprintf(stderr, "type for pointer 0x%x is not existed\n", baseTypeRef_);
+          name_ = string(anonymousName_) + "*";
+          // assert(base);
         }
-
-        const string& GetTypeName() const
+        else
         {
-            if (!name_.empty()) return name_;
-
-            if (baseTypeRef_ <= 0)
-            {
-                name_ = anonymousName_;
-            }
-            else
-            {
-                BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-
-                if (!base)
-                {
-                    fprintf(stderr, "type for pointer 0x%x is not existed\n", baseTypeRef_);
-                    name_ = string(anonymousName_) + "*";
-                    // assert(base);
-                }
-                else
-                {
-                    name_ = base->GetTypeName() + "*";
-                }
-            }
-
-            return name_;
+          name_ = base->GetTypeName() + "*";
         }
+      }
 
-    private:
+      return name_;
+    }
 
-        int64 baseTypeRef_;
+  private:
+
+    int64 baseTypeRef_;
 };
 
 class Pointer2MemberVarType: public BaseVarType
 {
-    public:
-        Pointer2MemberVarType(VarTypePool* pool, const string& name, int64 baseRef, int64 classRef, uint64 sz)
-            :BaseVarType(pool, name, sz), baseTypeRef_(baseRef), classTypeRef_(classRef)
+  public:
+    Pointer2MemberVarType(VarTypePool* pool, const string& name, int64 baseRef, int64 classRef, uint64 sz)
+      :BaseVarType(pool, name, sz), baseTypeRef_(baseRef), classTypeRef_(classRef)
+    {
+    }
+
+    const string& GetTypeName() const
+    {
+      // return format: int className::* var
+      if (!fullName_.empty()) return fullName_;
+
+      BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+
+      if (!base)
+      {
+        fprintf(stderr, "type 0x%x for pointer to member is not existed\n", baseTypeRef_);
+        fullName_ = anonymousName_;
+      }
+      else
+      {
+        fullName_ = base->GetTypeName();
+      }
+
+      if (classTypeRef_ <= 0)
+      {
+        fullName_ += string(" ") + anonymousName_ + "::* ";
+      }
+      else
+      {
+        base = typePool_->GetVarType(classTypeRef_);
+        if (!base)
         {
+          fprintf(stderr, "class type 0x%x for pointer to member is not existed\n", classTypeRef_);
+          fullName_ += string(" ") + anonymousName_ + "::* ";
         }
-
-        const string& GetTypeName() const
+        else
         {
-            // return format: int className::* var
-            if (!fullName_.empty()) return fullName_;
-
-            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-
-            if (!base)
-            {
-                fprintf(stderr, "type 0x%x for pointer to member is not existed\n", baseTypeRef_);
-                fullName_ = anonymousName_;
-            }
-            else
-            {
-                fullName_ = base->GetTypeName();
-            }
-
-            if (classTypeRef_ <= 0)
-            {
-                fullName_ += string(" ") + anonymousName_ + "::* ";
-            }
-            else
-            {
-                base = typePool_->GetVarType(classTypeRef_);
-                if (!base)
-                {
-                    fprintf(stderr, "class type 0x%x for pointer to member is not existed\n", classTypeRef_);
-                    fullName_ += string(" ") + anonymousName_ + "::* ";
-                }
-                else
-                {
-                    fullName_ += string(" ") + base->GetTypeName() + "::* ";
-                }
-            }
-
-            if (name_.empty()) name_ = anonymousName_;
-
-            fullName_ += name_;
-            return fullName_;
+          fullName_ += string(" ") + base->GetTypeName() + "::* ";
         }
+      }
 
-    private:
+      if (name_.empty()) name_ = anonymousName_;
 
-        mutable string fullName_;
-        int64 baseTypeRef_;
-        int64 classTypeRef_;
+      fullName_ += name_;
+      return fullName_;
+    }
+
+  private:
+
+    mutable string fullName_;
+    int64 baseTypeRef_;
+    int64 classTypeRef_;
 };
 
 class ReferenceVarType: public BaseVarType
 {
-    public:
-        ReferenceVarType(VarTypePool* pool, int64 baseType, uint64 sz)
-            :BaseVarType(pool, "", sz), baseTypeRef_(baseType)
-        {
-        }
+  public:
+    ReferenceVarType(VarTypePool* pool, int64 baseType, uint64 sz)
+      :BaseVarType(pool, "", sz), baseTypeRef_(baseType)
+    {
+    }
 
-        const string& GetTypeName() const
-        {
-            if (!name_.empty()) return name_;
+    const string& GetTypeName() const
+    {
+      if (!name_.empty()) return name_;
 
-            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+      BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
 
-            if (!base)
-            {
-                fprintf(stderr, "type 0x%x for reference variable is not existed\n", baseTypeRef_);
-                name_ = string(anonymousName_) + "&";
-            }
-            else
-            {
-                name_ = base->GetTypeName() + "&";
-            }
+      if (!base)
+      {
+        fprintf(stderr, "type 0x%x for reference variable is not existed\n", baseTypeRef_);
+        name_ = string(anonymousName_) + "&";
+      }
+      else
+      {
+        name_ = base->GetTypeName() + "&";
+      }
 
-            return name_;
-        }
+      return name_;
+    }
 
     private:
 
@@ -444,140 +444,140 @@ class ReferenceVarType: public BaseVarType
 
 class ModifierVarType: public BaseVarType
 {
-    public:
-        ModifierVarType(VarTypePool* pool, int64 baseRef, const string& modifier)
-            :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), modifier_(modifier)
+  public:
+    ModifierVarType(VarTypePool* pool, int64 baseRef, const string& modifier)
+      :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), modifier_(modifier)
+    {
+    }
+
+    const string& GetTypeName() const
+    {
+      if (!name_.empty()) return name_;
+
+      if (baseTypeRef_ > 0)
+      {
+        BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+        if (!base)
         {
+          fprintf(stderr, "type 0x%x for %s variable is not existed\n", baseTypeRef_, modifier_.c_str());
         }
-
-        const string& GetTypeName() const
+        else
         {
-            if (!name_.empty()) return name_;
-
-            if (baseTypeRef_ > 0)
-            {
-                BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-                if (!base)
-                {
-                    fprintf(stderr, "type 0x%x for %s variable is not existed\n", baseTypeRef_, modifier_.c_str());
-                }
-                else
-                {
-                    name_ = base->GetTypeName();
-                }
-            }
-
-            if (name_.empty()) name_ = anonymousName_;
-
-            if (!modifier_.empty()) name_ = name_ + " " + modifier_;
-
-            return name_;
+          name_ = base->GetTypeName();
         }
+      }
 
-        uint64 GetTypeSize() const
-        {
-            if (sz_ > 0) return sz_;
+      if (name_.empty()) name_ = anonymousName_;
 
-            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            if (!base)
-            {
-                fprintf(stderr, "type 0x%x for %s variable is not existed\n", baseTypeRef_, modifier_.c_str());
-            }
-            else
-            {
-                sz_ = base->GetTypeSize();
-            }
+      if (!modifier_.empty()) name_ = name_ + " " + modifier_;
 
-            return sz_;
-        }
+      return name_;
+    }
 
-    private:
+    uint64 GetTypeSize() const
+    {
+      if (sz_ > 0) return sz_;
 
-        string modifier_;
-        int64 baseTypeRef_;
+      BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+      if (!base)
+      {
+        fprintf(stderr, "type 0x%x for %s variable is not existed\n", baseTypeRef_, modifier_.c_str());
+      }
+      else
+      {
+        sz_ = base->GetTypeSize();
+      }
+
+      return sz_;
+    }
+
+  private:
+
+    string modifier_;
+    int64 baseTypeRef_;
 };
 
 class TypedefVarType: public BaseVarType
 {
-    public:
-        TypedefVarType(VarTypePool* pool, uint64 baseRef, const string& name)
-            :BaseVarType(pool, name, 0), baseTypeRef_(baseRef)
-        {
-        }
+  public:
+    TypedefVarType(VarTypePool* pool, uint64 baseRef, const string& name)
+      :BaseVarType(pool, name, 0), baseTypeRef_(baseRef)
+    {
+    }
 
-        uint64 GetTypeSize() const
-        {
-            if (sz_ > 0) return sz_;
+    uint64 GetTypeSize() const
+    {
+      if (sz_ > 0) return sz_;
 
-            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            if (!base)
-            {
-                fprintf(stderr, "type 0x%x for typedef is not existed\n", baseTypeRef_);
-            }
-            else
-            {
-                sz_ = base->GetTypeSize();
-            }
+      BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+      if (!base)
+      {
+        fprintf(stderr, "type 0x%x for typedef is not existed\n", baseTypeRef_);
+      }
+      else
+      {
+        sz_ = base->GetTypeSize();
+      }
 
-            return sz_;
-        }
+      return sz_;
+    }
 
-    private:
+  private:
 
-        uint64 baseTypeRef_;
+    uint64 baseTypeRef_;
 };
 
 class ArrayVarType: public BaseVarType
 {
-    public:
-        ArrayVarType(VarTypePool* pool, uint64 baseRef, uint64 arrItemSz)
-            :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), arrItemNum_(arrItemSz)
-        {
-        }
+  public:
+    ArrayVarType(VarTypePool* pool, uint64 baseRef, uint64 arrItemSz)
+      :BaseVarType(pool, "", 0), baseTypeRef_(baseRef), arrItemNum_(arrItemSz)
+    {
+    }
 
-        const string& GetTypeName() const
-        {
-            if (!name_.empty()) return name_;
+    const string& GetTypeName() const
+    {
+      if (!name_.empty()) return name_;
 
-            string baseName;
-            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+      string baseName;
+      BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
 
-            if (!base)
-            {
-                fprintf(stderr, "type 0x%x for array is not existed\n", baseTypeRef_);
-                baseName = anonymousName_;
-            }
-            else
-            {
-                baseName = base->GetTypeName();
-            }
+      if (!base)
+      {
+        fprintf(stderr, "type 0x%x for array is not existed\n", baseTypeRef_);
+        baseName = anonymousName_;
+      }
+      else
+      {
+        baseName = base->GetTypeName();
+      }
 
-            ostringstream oss;
-            oss << baseName << "[" << arrItemNum_ << "]";
+      ostringstream oss;
+      oss << baseName << "[" << arrItemNum_ << "]";
 
-            name_ = oss.str();
-            return name_;
-        }
+      name_ = oss.str();
+      return name_;
+    }
 
-        uint64 GetTypeSize() const
-        {
-            if (sz_ > 0) return sz_;
+    uint64 GetTypeSize() const
+    {
+      if (sz_ > 0) return sz_;
 
-            BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
-            if (!base)
-            {
-                fprintf(stderr, "type 0x%x for array is not existed\n", baseTypeRef_);
-                return 0;
-            }
+      BaseVarType* base = typePool_->GetVarType(baseTypeRef_);
+      if (!base)
+      {
+        fprintf(stderr, "type 0x%x for array is not existed\n", baseTypeRef_);
+        return 0;
+      }
 
-            sz_ = base->GetTypeSize() * arrItemNum_;
-            return sz_;
-        }
+      sz_ = base->GetTypeSize() * arrItemNum_;
+      return sz_;
+    }
 
-    private:
+  private:
 
-        uint64 baseTypeRef_;
-        uint64 arrItemNum_;
+    uint64 baseTypeRef_;
+    uint64 arrItemNum_;
 };
 
 // Information global to the particular compilation unit we're
@@ -836,23 +836,23 @@ string DwarfCUToModule::GenericDIEHandler::ComputeQualifiedName() {
 }
 
 class DwarfCUToModule::LexicalBlockHandler: public GenericDIEHandler {
-    public:
-        LexicalBlockHandler(CUContext *cu_context, DIEContext *parent_context, uint64 offset)
-            : GenericDIEHandler(cu_context, parent_context, offset)
-            , low_pc_(0), high_pc_(0)
-        {
-            offset += 3;
-        }
+  public:
+    LexicalBlockHandler(CUContext *cu_context, DIEContext *parent_context, uint64 offset)
+      : GenericDIEHandler(cu_context, parent_context, offset)
+        , low_pc_(0), high_pc_(0)
+    {
+      offset += 3;
+    }
 
-        DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
+    DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
 
-        bool EndAttributes()
-        {
-            return true;
-        }
+    bool EndAttributes()
+    {
+      return true;
+    }
 
-    private:
-        uint64 low_pc_, high_pc_; // DW_AT_low_pc, DW_AT_high_pc
+  private:
+    uint64 low_pc_, high_pc_; // DW_AT_low_pc, DW_AT_high_pc
 };
 
 // A handler class for DW_TAG_subprogram DIEs.
@@ -900,22 +900,22 @@ class DwarfCUToModule::FuncHandler: public GenericDIEHandler {
 class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
   public:
     FormalParamerHandler(CUContext* cu_context, DIEContext* parent_context,
-            uint64 offset, FuncHandler* funcHandler)
+        uint64 offset, FuncHandler* funcHandler)
       :GenericDIEHandler(cu_context, parent_context, offset)
-      ,func_(funcHandler), hasValue_(false), offset_(-1), typeRef_(0)
+       ,func_(funcHandler), hasValue_(false), offset_(-1), typeRef_(0)
     {
     }
 
     virtual void ProcessAttributeBuffer(enum DwarfAttribute attr,
-            enum DwarfForm form,
-            const char* data,
-            uint64 len);
+        enum DwarfForm form,
+        const char* data,
+        uint64 len);
     virtual void ProcessAttributeReference(enum DwarfAttribute attr,
-            enum DwarfForm form,
-            uint64 data);
+        enum DwarfForm form,
+        uint64 data);
     virtual void ProcessAttributeString(enum DwarfAttribute attr,
-            enum DwarfForm form,
-            const string& data);
+        enum DwarfForm form,
+        const string& data);
 
     void Finish();
 
@@ -934,148 +934,147 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
 };
 
 void DwarfCUToModule::FormalParamerHandler::ProcessAttributeString(
-        enum DwarfAttribute attr,
-        enum DwarfForm form,
-        const string &data) {
-    switch (attr) {
-        case dwarf2reader::DW_AT_name:
-            {
-                name_ = AddStringToPool(data);
-                break;
-            }
-        default: break;
-    }
+    enum DwarfAttribute attr,
+    enum DwarfForm form,
+    const string &data) {
+  switch (attr) {
+    case dwarf2reader::DW_AT_name:
+      {
+        name_ = AddStringToPool(data);
+        break;
+      }
+    default: break;
+  }
 }
 
 void DwarfCUToModule::FormalParamerHandler::ProcessAttributeReference(
-        enum DwarfAttribute attr,
-        enum DwarfForm form,
-        uint64 data)
+    enum DwarfAttribute attr,
+    enum DwarfForm form,
+    uint64 data)
 {
-    switch (attr)
-    {
-        case dwarf2reader::DW_AT_type:
-            typeRef_ = data;
-            break;
-        default: break;
-    }
+  switch (attr)
+  {
+    case dwarf2reader::DW_AT_type:
+      typeRef_ = data;
+      break;
+    default: break;
+  }
 }
 
 void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAttribute attr,
-        enum DwarfForm form,
-        const char* data,
-        uint64 len)
+    enum DwarfForm form,
+    const char* data,
+    uint64 len)
 {
-    switch (attr)
-    {
-        case dwarf2reader::DW_AT_location:
-            {
-                // TODO, currently only support the simplest location expression: DW_OP_fbreg
-                unsigned char op = *data;
-                if (op != dwarf2reader::DW_OP_fbreg) break;
+  switch (attr)
+  {
+    case dwarf2reader::DW_AT_location:
+      {
+        // TODO, currently only support the simplest location expression: DW_OP_fbreg
+        unsigned char op = *data;
+        if (op != dwarf2reader::DW_OP_fbreg) break;
 
-                size_t sz;
-                hasValue_ = true;
-                offset_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
-                break;
-            }
-    }
+        size_t sz;
+        hasValue_ = true;
+        offset_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
+        break;
+      }
+  }
 }
 
 void DwarfCUToModule::FormalParamerHandler::Finish()
 {
-    // for now, just ignore formal parameter for subroutine
-    if (typeRef_ == 0 || func_ == NULL) return;
+  // for now, just ignore formal parameter for subroutine
+  if (typeRef_ == 0 || func_ == NULL) return;
 
-    if (name_.empty()) name_ = BaseVarType::anonymousName_;
+  if (name_.empty()) name_ = BaseVarType::anonymousName_;
 
-    Module::FuncArgument arg = {offset_, name_, {typeRef_}};
-    func_->AddFormalParam(arg);
+  Module::FuncArgument arg = {offset_, name_, {typeRef_}};
+  func_->AddFormalParam(arg);
 }
 
 // DW_TAG_base_type, DW_TAG_string_type DW_TAG_array_type
 // DW_TAG_structure_type DW_TAG_class_type DW_TAG_union_type
 class DwarfCUToModule::DwarfTypeHandler: public GenericDIEHandler {
-    public:
-        DwarfTypeHandler(CUContext *cu_context, DIEContext* parent_context, uint64 offset, DwarfTag tag)
-            :GenericDIEHandler(cu_context, parent_context, offset)
-            ,tag_(tag), typeKey_(offset), typeRef_(0), hasValue_(false)
-        {
-        }
+  public:
+    DwarfTypeHandler(CUContext *cu_context, DIEContext* parent_context, uint64 offset, DwarfTag tag)
+      :GenericDIEHandler(cu_context, parent_context, offset)
+       ,tag_(tag), typeKey_(offset), typeRef_(0), hasValue_(false)
+  {
+  }
 
-        DIEHandler* FindChildHandler(uint64 offset, enum DwarfTag tag);
-        virtual void ProcessAttributeUnsigned(enum DwarfAttribute attr,
-                enum DwarfForm form,
-                uint64 data);
-        virtual void ProcessAttributeString(enum DwarfAttribute attr,
-                enum DwarfForm form,
-                const string& data);
-        virtual void ProcessAttributeReference(enum DwarfAttribute attr,
-                enum DwarfForm form,
-                uint64 data);
+    DIEHandler* FindChildHandler(uint64 offset, enum DwarfTag tag);
+    virtual void ProcessAttributeUnsigned(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        uint64 data);
+    virtual void ProcessAttributeString(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        const string& data);
+    virtual void ProcessAttributeReference(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        uint64 data);
 
-        bool EndAttributes() { return true; }
-        void Finish();
+    bool EndAttributes() { return true; }
+    void Finish();
 
-        void AddMemTypeRef(uint64 ref) { members_.push_back(ref); }
+    void AddMemTypeRef(uint64 ref) { members_.push_back(ref); }
 
-        void SetType(uint64 type) { typeRef_ = type; }
-        void SetTypeSize(uint64 sz) { size_ = sz; }
+    void SetType(uint64 type) { typeRef_ = type; }
+    void SetTypeSize(uint64 sz) { size_ = sz; }
 
-    protected:
+  protected:
 
-        DwarfTag tag_;
-        string name_;
+    DwarfTag tag_;
+    string name_;
 
-        // DIE offset
-        uint64 typeKey_;
-        uint64 typeRef_;
-        uint64 size_;
+    // DIE offset
+    uint64 typeKey_;
+    uint64 typeRef_;
+    uint64 size_;
 
-        bool hasValue_;
-        // in case of struct/class/union
-        vector<uint64> members_;
+    bool hasValue_;
+    // in case of struct/class/union
+    vector<uint64> members_;
 };
 
 // for class/struct, pointer, reference, array tag
 class DwarfCUToModule::DwarfSubTypeHandler: public DwarfTypeHandler {
-    public:
-        DwarfSubTypeHandler(CUContext *cu_context, DIEContext* parent_context,
-                uint64 offset, DwarfTypeHandler* hostType, DwarfTag tag)
-            :DwarfTypeHandler(cu_context, parent_context, offset, tag), tag_(tag), host_(hostType), memOffset_(-1)
-        {
-        }
+  public:
+    DwarfSubTypeHandler(CUContext *cu_context, DIEContext* parent_context,
+        uint64 offset, DwarfTypeHandler* hostType, DwarfTag tag)
+      :DwarfTypeHandler(cu_context, parent_context, offset, tag), tag_(tag), host_(hostType), memOffset_(-1)
+    {
+    }
 
-        void ProcessAttributeBuffer(enum DwarfAttribute attr,
-                enum DwarfForm form,
-                const char* data,
-                uint64 len);
+    void ProcessAttributeBuffer(enum DwarfAttribute attr,
+        enum DwarfForm form,
+        const char* data,
+        uint64 len);
 
-        void Finish();
+    void Finish();
 
-    private:
+  private:
 
-        // array or struct
-        DwarfTag tag_;
-        DwarfTypeHandler* host_;
+    // array or struct
+    DwarfTag tag_;
+    DwarfTypeHandler* host_;
 
-        // in case of member sub type
-        int64 memOffset_;
-
+    // in case of member sub type
+    int64 memOffset_;
 };
 
 // A handler for DIEs that contain functions and contribute a
 // component to their names: namespaces, classes, etc.
 class DwarfCUToModule::NamedScopeHandler: public DwarfTypeHandler {
- public:
-  NamedScopeHandler(CUContext *cu_context, DIEContext *parent_context,
-                    uint64 offset, DwarfTag tag)
+  public:
+    NamedScopeHandler(CUContext *cu_context, DIEContext *parent_context,
+        uint64 offset, DwarfTag tag)
       : DwarfTypeHandler(cu_context, parent_context, offset, tag) { }
-  bool EndAttributes();
-  DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
+    bool EndAttributes();
+    DIEHandler *FindChildHandler(uint64 offset, enum DwarfTag tag);
 
- private:
-  DIEContext child_context_; // A context for our children.
+  private:
+    DIEContext child_context_; // A context for our children.
 };
 
 bool DwarfCUToModule::NamedScopeHandler::EndAttributes() {
@@ -1101,192 +1100,192 @@ dwarf2reader::DIEHandler *DwarfCUToModule::NamedScopeHandler::FindChildHandler(
 
 dwarf2reader::DIEHandler* DwarfCUToModule::DwarfTypeHandler::FindChildHandler(uint64 offset, enum DwarfTag tag)
 {
-    switch (tag)
-    {
-        case dwarf2reader::DW_TAG_member:
-        case dwarf2reader::DW_TAG_subrange_type:
-            return new DwarfCUToModule::DwarfSubTypeHandler(cu_context_, NULL, offset, this, tag);
-        // if current DIE is a struct/class/union, it may contain typedef definition.
-        case dwarf2reader::DW_TAG_typedef:
-        case dwarf2reader::DW_TAG_subroutine_type:
-        case dwarf2reader::DW_TAG_enumeration_type:
-            return new DwarfTypeHandler(cu_context_, NULL, offset, tag);
-        case dwarf2reader::DW_TAG_formal_parameter:
-            return new FormalParamerHandler(cu_context_, NULL, offset, NULL);
-        default:
-            return NULL;
-    }
+  switch (tag)
+  {
+    case dwarf2reader::DW_TAG_member:
+    case dwarf2reader::DW_TAG_subrange_type:
+      return new DwarfCUToModule::DwarfSubTypeHandler(cu_context_, NULL, offset, this, tag);
+      // if current DIE is a struct/class/union, it may contain typedef definition.
+    case dwarf2reader::DW_TAG_typedef:
+    case dwarf2reader::DW_TAG_subroutine_type:
+    case dwarf2reader::DW_TAG_enumeration_type:
+      return new DwarfTypeHandler(cu_context_, NULL, offset, tag);
+    case dwarf2reader::DW_TAG_formal_parameter:
+      return new FormalParamerHandler(cu_context_, NULL, offset, NULL);
+    default:
+      return NULL;
+  }
 }
 
 void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeUnsigned(enum DwarfAttribute attr,
-        enum DwarfForm form,
-        uint64 data) {
-    switch (attr)
-    {
-        case dwarf2reader::DW_AT_byte_size:
-            size_ = data;
-            break;
-        default:
-            break;
-    }
+    enum DwarfForm form,
+    uint64 data) {
+  switch (attr)
+  {
+    case dwarf2reader::DW_AT_byte_size:
+      size_ = data;
+      break;
+    default:
+      break;
+  }
 }
 
 void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeString(
-        enum DwarfAttribute attr,
-        enum DwarfForm form,
-        const string &data) {
-    switch (attr) {
-        case dwarf2reader::DW_AT_name:
-            {
-                name_ = AddStringToPool(data);
-                break;
-            }
-        default: break;
-    }
+    enum DwarfAttribute attr,
+    enum DwarfForm form,
+    const string &data) {
+  switch (attr) {
+    case dwarf2reader::DW_AT_name:
+      {
+        name_ = AddStringToPool(data);
+        break;
+      }
+    default: break;
+  }
 }
 
 void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeReference(
-        enum DwarfAttribute attr,
-        enum DwarfForm form,
-        uint64 data)
+    enum DwarfAttribute attr,
+    enum DwarfForm form,
+    uint64 data)
 {
-    switch (attr)
-    {
-        case dwarf2reader::DW_AT_type:
-            hasValue_ = true;
-            typeRef_ = data;
-            break;
-        case dwarf2reader::DW_AT_containing_type:
-            members_.push_back(data);
-            break;
-        default: break;
-    }
+  switch (attr)
+  {
+    case dwarf2reader::DW_AT_type:
+      hasValue_ = true;
+      typeRef_ = data;
+      break;
+    case dwarf2reader::DW_AT_containing_type:
+      members_.push_back(data);
+      break;
+    default: break;
+  }
 }
 
 void DwarfCUToModule::DwarfTypeHandler::Finish()
 {
-    BaseVarType* type = NULL;
-    switch (tag_)
-    {
-        case dwarf2reader::DW_TAG_enumeration_type:
-        case dwarf2reader::DW_TAG_base_type:
-            {
-                type = new BaseVarType(&cu_context_->typePools, name_, size_);
-            }
-            break;
-        case dwarf2reader::DW_TAG_structure_type:
-        case dwarf2reader::DW_TAG_class_type:
-        case dwarf2reader::DW_TAG_union_type:
-            {
-                StructVarType* stype;
-                type = stype = new StructVarType(&cu_context_->typePools, name_, size_);
-                stype->SetMemberType(members_);
-            }
-            break;
-        case dwarf2reader::DW_TAG_array_type:
-            {
-                type = new ArrayVarType(&cu_context_->typePools, typeRef_, size_);
-            }
-            break;
-        // case DW_TAG_string_type:
-        case dwarf2reader::DW_TAG_pointer_type:
-            {
-                type = new PointerVarType(&cu_context_->typePools, typeRef_, size_);
-            }
-            break;
-        case dwarf2reader::DW_TAG_ptr_to_member_type:
-            {
-                int64 classRef = -1;
-                if (members_.size() == 1) classRef = members_[0];
+  BaseVarType* type = NULL;
+  switch (tag_)
+  {
+    case dwarf2reader::DW_TAG_enumeration_type:
+    case dwarf2reader::DW_TAG_base_type:
+      {
+        type = new BaseVarType(&cu_context_->typePools, name_, size_);
+      }
+      break;
+    case dwarf2reader::DW_TAG_structure_type:
+    case dwarf2reader::DW_TAG_class_type:
+    case dwarf2reader::DW_TAG_union_type:
+      {
+        StructVarType* stype;
+        type = stype = new StructVarType(&cu_context_->typePools, name_, size_);
+        stype->SetMemberType(members_);
+      }
+      break;
+    case dwarf2reader::DW_TAG_array_type:
+      {
+        type = new ArrayVarType(&cu_context_->typePools, typeRef_, size_);
+      }
+      break;
+      // case DW_TAG_string_type:
+    case dwarf2reader::DW_TAG_pointer_type:
+      {
+        type = new PointerVarType(&cu_context_->typePools, typeRef_, size_);
+      }
+      break;
+    case dwarf2reader::DW_TAG_ptr_to_member_type:
+      {
+        int64 classRef = -1;
+        if (members_.size() == 1) classRef = members_[0];
 
-                type = new Pointer2MemberVarType(&cu_context_->typePools, name_, typeRef_, classRef, size_);
-            }
-            break;
-        case dwarf2reader::DW_TAG_reference_type:
-            {
-                type = new ReferenceVarType(&cu_context_->typePools, typeRef_, size_);
-            }
-            break;
-        case dwarf2reader::DW_TAG_const_type:
-            {
-                type = new ModifierVarType(&cu_context_->typePools, typeRef_, "const");
-            }
-            break;
-        case dwarf2reader::DW_TAG_volatile_type:
-            {
-                type = new ModifierVarType(&cu_context_->typePools, typeRef_, "volatile");
-            }
-            break;
-        case dwarf2reader::DW_TAG_typedef:
-            {
-                type = new TypedefVarType(&cu_context_->typePools, typeRef_, name_);
-            }
-            break;
-        case dwarf2reader::DW_TAG_subroutine_type:
-            {
-                type = new BaseVarType(&cu_context_->typePools, "@subroutine@", 0);
-            }
-            break;
-        default:
-            break;
-    }
+        type = new Pointer2MemberVarType(&cu_context_->typePools, name_, typeRef_, classRef, size_);
+      }
+      break;
+    case dwarf2reader::DW_TAG_reference_type:
+      {
+        type = new ReferenceVarType(&cu_context_->typePools, typeRef_, size_);
+      }
+      break;
+    case dwarf2reader::DW_TAG_const_type:
+      {
+        type = new ModifierVarType(&cu_context_->typePools, typeRef_, "const");
+      }
+      break;
+    case dwarf2reader::DW_TAG_volatile_type:
+      {
+        type = new ModifierVarType(&cu_context_->typePools, typeRef_, "volatile");
+      }
+      break;
+    case dwarf2reader::DW_TAG_typedef:
+      {
+        type = new TypedefVarType(&cu_context_->typePools, typeRef_, name_);
+      }
+      break;
+    case dwarf2reader::DW_TAG_subroutine_type:
+      {
+        type = new BaseVarType(&cu_context_->typePools, "@subroutine@", 0);
+      }
+      break;
+    default:
+      break;
+  }
 
-    if (type) cu_context_->typePools.AddVarType(typeKey_, type);
+  if (type) cu_context_->typePools.AddVarType(typeKey_, type);
 }
 
 void DwarfCUToModule::DwarfSubTypeHandler::ProcessAttributeBuffer(enum DwarfAttribute attr,
-        enum DwarfForm form,
-        const char* data,
-        uint64 len)
+    enum DwarfForm form,
+    const char* data,
+    uint64 len)
 {
-    if (attr == dwarf2reader::DW_AT_data_member_location)
-    {
-        int op = *data;
-        if (op != dwarf2reader::DW_OP_plus_uconst) return;
+  if (attr == dwarf2reader::DW_AT_data_member_location)
+  {
+    int op = *data;
+    if (op != dwarf2reader::DW_OP_plus_uconst) return;
 
-        size_t sz;
-        hasValue_ = true;
-        memOffset_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
-    }
+    size_t sz;
+    hasValue_ = true;
+    memOffset_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
+  }
 }
 
 void DwarfCUToModule::DwarfSubTypeHandler::Finish()
 {
-    if (!host_) return;
+  if (!host_) return;
 
-    // only array and class/struct/union have children
-    if (tag_ == dwarf2reader::DW_TAG_member)
-    {
-        host_->AddMemTypeRef(typeKey_);
+  // only array and class/struct/union have children
+  if (tag_ == dwarf2reader::DW_TAG_member)
+  {
+    host_->AddMemTypeRef(typeKey_);
 
-        BaseVarType* type = new StructMemVarType(&cu_context_->typePools, name_, typeRef_, memOffset_);
-        cu_context_->typePools.AddVarType(typeKey_, type);
-    }
-    else if (tag_ == dwarf2reader::DW_TAG_subrange_type)
-    {
-        host_->SetType(typeRef_);
-        host_->SetTypeSize(size_ + 1); // number of items in the array.
-    }
-    else
-    {
-        fprintf(stderr, "unrecognized subtype:%x\n", tag_);
-    }
+    BaseVarType* type = new StructMemVarType(&cu_context_->typePools, name_, typeRef_, memOffset_);
+    cu_context_->typePools.AddVarType(typeKey_, type);
+  }
+  else if (tag_ == dwarf2reader::DW_TAG_subrange_type)
+  {
+    host_->SetType(typeRef_);
+    host_->SetTypeSize(size_ + 1); // number of items in the array.
+  }
+  else
+  {
+    fprintf(stderr, "unrecognized subtype:%x\n", tag_);
+  }
 }
 
 dwarf2reader::DIEHandler* DwarfCUToModule::FuncHandler::FindChildHandler(uint64 offset, enum DwarfTag tag)
 {
-    switch (tag) {
-        case dwarf2reader::DW_TAG_formal_parameter:
-            return new FormalParamerHandler(cu_context_, parent_context_, offset, this);
-        // case dwarf2reader::DW_TAG_template_value_param:
-        // case dwarf2reader::DW_TAG_template_type_param:
-        case dwarf2reader::DW_TAG_typedef:
-            return new DwarfTypeHandler(cu_context_, parent_context_, offset, tag);
-        case dwarf2reader::DW_TAG_lexical_block:
-            return new LexicalBlockHandler(cu_context_, parent_context_, offset);
-        default:
-            return NULL;
-    }
+  switch (tag) {
+    case dwarf2reader::DW_TAG_formal_parameter:
+      return new FormalParamerHandler(cu_context_, parent_context_, offset, this);
+      // case dwarf2reader::DW_TAG_template_value_param:
+      // case dwarf2reader::DW_TAG_template_type_param:
+    case dwarf2reader::DW_TAG_typedef:
+      return new DwarfTypeHandler(cu_context_, parent_context_, offset, tag);
+    case dwarf2reader::DW_TAG_lexical_block:
+      return new LexicalBlockHandler(cu_context_, parent_context_, offset);
+    default:
+      return NULL;
+  }
 }
 
 void DwarfCUToModule::FuncHandler::ProcessAttributeUnsigned(
@@ -1396,32 +1395,32 @@ void DwarfCUToModule::FuncHandler::Finish() {
 
 dwarf2reader::DIEHandler* DwarfCUToModule::LexicalBlockHandler::FindChildHandler(uint64 offset, enum DwarfTag tag)
 {
-    switch (tag)
-    {
-        case dwarf2reader::DW_TAG_lexical_block:
-            return new LexicalBlockHandler(cu_context_, parent_context_, offset);
-        case dwarf2reader::DW_TAG_subprogram:
-            return new FuncHandler(cu_context_, parent_context_, offset);
-        case dwarf2reader::DW_TAG_namespace:
-        case dwarf2reader::DW_TAG_class_type:
-        case dwarf2reader::DW_TAG_structure_type:
-        case dwarf2reader::DW_TAG_union_type:
-            return new NamedScopeHandler(cu_context_, parent_context_, offset, tag);
-        case dwarf2reader::DW_TAG_array_type:
-        case dwarf2reader::DW_TAG_base_type:
-        case dwarf2reader::DW_TAG_string_type:
-        case dwarf2reader::DW_TAG_pointer_type:
-        case dwarf2reader::DW_TAG_ptr_to_member_type:
-        case dwarf2reader::DW_TAG_reference_type:
-        case dwarf2reader::DW_TAG_const_type:
-        case dwarf2reader::DW_TAG_volatile_type:
-        case dwarf2reader::DW_TAG_typedef:
-        case dwarf2reader::DW_TAG_subroutine_type:
-        case dwarf2reader::DW_TAG_enumeration_type:
-            return new DwarfTypeHandler(cu_context_, parent_context_, offset, tag);
-        default:
-            return NULL;
-    }
+  switch (tag)
+  {
+    case dwarf2reader::DW_TAG_lexical_block:
+      return new LexicalBlockHandler(cu_context_, parent_context_, offset);
+    case dwarf2reader::DW_TAG_subprogram:
+      return new FuncHandler(cu_context_, parent_context_, offset);
+    case dwarf2reader::DW_TAG_namespace:
+    case dwarf2reader::DW_TAG_class_type:
+    case dwarf2reader::DW_TAG_structure_type:
+    case dwarf2reader::DW_TAG_union_type:
+      return new NamedScopeHandler(cu_context_, parent_context_, offset, tag);
+    case dwarf2reader::DW_TAG_array_type:
+    case dwarf2reader::DW_TAG_base_type:
+    case dwarf2reader::DW_TAG_string_type:
+    case dwarf2reader::DW_TAG_pointer_type:
+    case dwarf2reader::DW_TAG_ptr_to_member_type:
+    case dwarf2reader::DW_TAG_reference_type:
+    case dwarf2reader::DW_TAG_const_type:
+    case dwarf2reader::DW_TAG_volatile_type:
+    case dwarf2reader::DW_TAG_typedef:
+    case dwarf2reader::DW_TAG_subroutine_type:
+    case dwarf2reader::DW_TAG_enumeration_type:
+      return new DwarfTypeHandler(cu_context_, parent_context_, offset, tag);
+    default:
+      return NULL;
+  }
 }
 
 void DwarfCUToModule::WarningReporter::CUHeading() {
@@ -1857,25 +1856,25 @@ void DwarfCUToModule::AssignLinesToFunctions() {
 
 void DwarfCUToModule::ResolveFunctionParamType()
 {
-    VarTypePool& pool = cu_context_->typePools;
-    vector<Module::Function*>& func = cu_context_->functions;
+  VarTypePool& pool = cu_context_->typePools;
+  vector<Module::Function*>& func = cu_context_->functions;
 
-    for (int i = 0; i < func.size(); ++i)
+  for (int i = 0; i < func.size(); ++i)
+  {
+    vector<Module::FuncArgument>& params = func[i]->params;
+    for (int j = 0; j < params.size(); ++j)
     {
-        vector<Module::FuncArgument>& params = func[i]->params;
-        for (int j = 0; j < params.size(); ++j)
-        {
-           int64 type = params[j].type.typeId;
-           BaseVarType* t = pool.GetVarType(type);
-           if (!t)
-           {
-               fprintf(stderr, "param 0x%x for function %s is not existed\n", type, func[i]->name.c_str());
-               continue;
-           }
-           params[j].type.typeName = t->GetTypeName();
-           params[j].type.typeSize = t->GetTypeSize();
-        }
+      int64 type = params[j].type.typeId;
+      BaseVarType* t = pool.GetVarType(type);
+      if (!t)
+      {
+        fprintf(stderr, "param 0x%x for function %s is not existed\n", type, func[i]->name.c_str());
+        continue;
+      }
+      params[j].type.typeName = t->GetTypeName();
+      params[j].type.typeSize = t->GetTypeSize();
     }
+  }
 }
 
 void DwarfCUToModule::Finish() {

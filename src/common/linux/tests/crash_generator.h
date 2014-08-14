@@ -60,7 +60,7 @@ class CrashGenerator {
   bool HasDefaultCorePattern() const;
 
   // Returns the expected path of the core dump file.
-  string GetCoreFilePath() const;
+  string GetCoreFilePath(pid_t pid) const;
 
   // Returns the directory of a copy of proc files of the child process.
   string GetDirectoryOfProcFilesCopy() const;

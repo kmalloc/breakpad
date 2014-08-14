@@ -58,9 +58,9 @@ bool Tokenize(char *line,
   char *token = NULL;
 
   while (remaining > 0 && (token = strtok_r(line, separators, &save_ptr))) {
-      --remaining;
-      line = NULL;
-      tokens->push_back(token);
+    --remaining;
+    line = NULL;
+    tokens->push_back(token);
   }
 
   // If there's anything left, just add it as a single token.

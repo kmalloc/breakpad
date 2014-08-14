@@ -394,10 +394,10 @@ TEST(ExceptionHandlerTest, RedeliveryOnBadSignalHandlerFlag) {
     // Then re-install the current one with 'signal', this loses the
     // SA_SIGINFO flag associated with the Breakpad handler.
     sighandler_t old_handler = signal(SIGSEGV, SIG_DFL);
-    ASSERT_NE(reinterpret_cast<void*>(old_handler),
-              reinterpret_cast<void*>(SIG_ERR));
-    ASSERT_NE(reinterpret_cast<void*>(signal(SIGSEGV, old_handler)),
-              reinterpret_cast<void*>(SIG_ERR));
+    ASSERT_NE((void*)(old_handler),
+              (void*)(SIG_ERR));
+    ASSERT_NE((void*)(signal(SIGSEGV, old_handler)),
+              (void*)(SIG_ERR));
 
     // Crash with the exception handler in scope.
     DoNullPointerDereference();
@@ -520,7 +520,7 @@ TEST(ExceptionHandlerTest, InstructionPointerMemory) {
     // Now execute the instructions, which should crash.
     typedef void (*void_function)(void);
     void_function memory_function =
-        reinterpret_cast<void_function>(memory + kOffset);
+        (void_function)(memory + kOffset);
     memory_function();
   }
   close(fds[1]);
@@ -612,7 +612,7 @@ TEST(ExceptionHandlerTest, InstructionPointerMemoryMinBound) {
     // Now execute the instructions, which should crash.
     typedef void (*void_function)(void);
     void_function memory_function =
-        reinterpret_cast<void_function>(memory + kOffset);
+        (void_function)(memory + kOffset);
     memory_function();
   }
   close(fds[1]);
@@ -703,7 +703,7 @@ TEST(ExceptionHandlerTest, InstructionPointerMemoryMaxBound) {
     // Now execute the instructions, which should crash.
     typedef void (*void_function)(void);
     void_function memory_function =
-        reinterpret_cast<void_function>(memory + kOffset);
+        (void_function)(memory + kOffset);
     memory_function();
   }
   close(fds[1]);

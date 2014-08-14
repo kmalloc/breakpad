@@ -59,10 +59,10 @@ class ModuleFactory;
 class MemoryRegion;
 
 struct FuncParam {
-    string typeName;
-    unsigned long long typeSize;
-    string paramName;
-    long long offset;
+  string typeName;
+  unsigned long long typeSize;
+  string paramName;
+  long long offset;
 };
 
 class SourceLineResolverBase : public SourceLineResolverInterface {

@@ -126,8 +126,8 @@ TEST_F(LinuxPtraceDumperChildTest, FindMappings) {
   LinuxPtraceDumper dumper(getppid());
   ASSERT_TRUE(dumper.Init());
 
-  ASSERT_TRUE(dumper.FindMapping(reinterpret_cast<void*>(getpid)));
-  ASSERT_TRUE(dumper.FindMapping(reinterpret_cast<void*>(printf)));
+  ASSERT_TRUE(dumper.FindMapping((void*)(getpid)));
+  ASSERT_TRUE(dumper.FindMapping((void*)(printf)));
   ASSERT_FALSE(dumper.FindMapping(NULL));
 }
 

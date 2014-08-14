@@ -138,8 +138,9 @@ TEST(ElfCoreDumpTest, ValidCoreFile) {
   const unsigned kNumOfThreads = 3;
   const unsigned kCrashThread = 1;
   const int kCrashSignal = SIGABRT;
+  pid_t child_pid;
   ASSERT_TRUE(crash_generator.CreateChildCrash(kNumOfThreads, kCrashThread,
-                                               kCrashSignal, NULL));
+                                               kCrashSignal, &child_pid));
   pid_t expected_crash_thread_id = crash_generator.GetThreadId(kCrashThread);
   set<pid_t> expected_thread_ids;
   for (unsigned i = 0; i < kNumOfThreads; ++i) {
@@ -148,7 +149,7 @@ TEST(ElfCoreDumpTest, ValidCoreFile) {
 
 #if defined(__ANDROID__)
   struct stat st;
-  if (stat(crash_generator.GetCoreFilePath().c_str(), &st) != 0) {
+  if (stat(crash_generator.GetCoreFilePath(child_pid).c_str(), &st) != 0) {
     fprintf(stderr, "ElfCoreDumpTest.ValidCoreFile test is skipped "
             "due to no core file being generated");
     return;
@@ -157,7 +158,7 @@ TEST(ElfCoreDumpTest, ValidCoreFile) {
 
   MemoryMappedFile mapped_core_file;
   ASSERT_TRUE(
-      mapped_core_file.Map(crash_generator.GetCoreFilePath().c_str(), 0));
+      mapped_core_file.Map(crash_generator.GetCoreFilePath(child_pid).c_str(), 0));
 
   ElfCoreDump core;
   core.SetContent(mapped_core_file.content());

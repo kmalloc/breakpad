@@ -77,7 +77,7 @@ TEST(LinuxCoreDumperTest, VerifyDumpWithMultipleThreads) {
   ASSERT_TRUE(crash_generator.CreateChildCrash(kNumOfThreads, kCrashThread,
                                                kCrashSignal, &child_pid));
 
-  const string core_file = crash_generator.GetCoreFilePath();
+  const string core_file = crash_generator.GetCoreFilePath(child_pid);
   const string procfs_path = crash_generator.GetDirectoryOfProcFilesCopy();
 
 #if defined(__ANDROID__)
