@@ -617,6 +617,7 @@ bool ExceptionHandler::WriteMinidump() {
   sys_prctl(PR_SET_DUMPABLE, 1, 0, 0, 0);
 
   CrashContext context;
+  my_memset(&context.context, 0, sizeof(context.context));
   int getcontext_result = getcontext(&context.context);
   if (getcontext_result)
     return false;
@@ -645,8 +646,10 @@ bool ExceptionHandler::WriteMinidump() {
 
 #if !defined(__ARM_EABI__) && !defined(__aarch64__) && !defined(__mips__)
   // FPU state is not part of ARM EABI ucontext_t.
-  memcpy(&context.float_state, context.context.uc_mcontext.fpregs,
-         sizeof(context.float_state));
+  if (context.context.uc_mcontext.fpregs) {
+    memcpy(&context.float_state, context.context.uc_mcontext.fpregs,
+        sizeof(context.float_state));
+  }
 #endif
   context.tid = sys_gettid();
 

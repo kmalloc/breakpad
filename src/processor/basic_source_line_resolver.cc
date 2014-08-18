@@ -227,7 +227,7 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
     if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
     {
       uint64_t value = 0;
-      memory->GetMemoryAtAddress(addr, &value);
+      if (!memory->GetMemoryAtAddress(addr, &value)) return;
 
       if (param.typeName.find("*") != string::npos
           || param.typeName.find("&") != string::npos)
