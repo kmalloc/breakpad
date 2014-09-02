@@ -654,7 +654,7 @@ bool ExceptionHandler::WriteMinidump() {
   context.tid = sys_gettid();
 
   // Add an exception stream to the minidump for better reporting.
-  memset(&context.siginfo, 0, sizeof(context.siginfo));
+  my_memset(&context.siginfo, 0, sizeof(context.siginfo));
   context.siginfo.si_signo = MD_EXCEPTION_CODE_LIN_DUMP_REQUESTED;
 #if defined(__i386__)
   context.siginfo.si_addr =
