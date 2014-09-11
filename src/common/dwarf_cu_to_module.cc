@@ -972,7 +972,11 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
       {
         // TODO, currently only support the simplest location expression: DW_OP_fbreg
         unsigned char op = *data;
-        if (op != dwarf2reader::DW_OP_fbreg) break;
+        if (op != dwarf2reader::DW_OP_fbreg)
+        {
+          fprintf(stderr, "formal parameter handler: unrecognized location expression:%x\n", op);
+          break;
+        }
 
         size_t sz;
         hasValue_ = true;
