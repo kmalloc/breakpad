@@ -245,7 +245,21 @@ bool Module::Write(std::ostream &stream, SymbolData symbol_data) {
                << func->params[ai].type.typeName << ","
                << func->params[ai].type.typeSize << ","
                << func->params[ai].name          << ","
-               << func->params[ai].offset;
+               << func->params[ai].locType;
+
+        if (func->params[ai].locType == ALT_FBREG)
+        {
+            stream << ":" << func->params[ai].locValue1;
+        }
+        else if (func->params[ai].locType == ALT_REGN)
+        {
+            stream << ":" << func->params[ai].locValue1;
+        }
+        else if (func->params[ai].locType == ALT_BREGN)
+        {
+            stream << ":" << func->params[ai].locValue1 << ":"
+                   << func->params[ai].locValue2;
+        }
       }
 
       stream << dec << endl;

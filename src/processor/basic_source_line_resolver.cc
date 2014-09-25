@@ -205,7 +205,6 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
   if (base == 0)
   {
     BPLOG(ERROR) << "unexpected stack frame type, or invalid stack pointer.";
-    return;
   }
 
   for (size_t i = 0; i < params.size(); ++i)
@@ -223,12 +222,27 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
     }
 
     ostringstream oss;
-    uint64_t addr = base + params[i].offset;
+    uint64_t addr = 0;
+    uint64_t value = 0;
+
+    if (params[i].locType == ALT_FBREG)
+    {
+        addr = base + params[i].locValue1;
+        if (!memory->GetMemoryAtAddress(addr, &value)) return;
+    }
+    else if (params[i].locType == ALT_REGN)
+    {
+        value = frame->GetRegValue(params[i].locValue1);
+    }
+    else if (params[i].locType == ALT_BREGN)
+    {
+        addr = frame->GetRegValue(params[i].locValue1) + frame->GetRegValue(params[i].locValue2);
+        if (!memory->GetMemoryAtAddress(addr, &value)) return;
+    }
+
+    bool show_simple_type = false;
     if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
     {
-      uint64_t value = 0;
-      if (!memory->GetMemoryAtAddress(addr, &value)) return;
-
       if (param.typeName.find("*") != string::npos
           || param.typeName.find("&") != string::npos)
       {
@@ -253,18 +267,22 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
         oss << "0x" << std::hex << (value & mask);
       }
 
-      oss << ", ";
+      show_simple_type = true;
     }
 
-    uint8_t value;
-    memory->GetMemoryAtAddress(addr, &value);
-
-    oss << "hex:" << std::hex << (unsigned int)value;
-
-    for (int j = 1; j < param.typeSize; ++j)
+    if (addr)
     {
-      memory->GetMemoryAtAddress(addr + j, &value);
-      oss << " " << (unsigned int)value;
+      uint8_t byte_value;
+      memory->GetMemoryAtAddress(addr, &byte_value);
+
+      if (show_simple_type) oss << ", ";
+
+      oss << "hex:" << std::hex << (unsigned int)byte_value;
+      for (int j = 1; j < param.typeSize; ++j)
+      {
+        memory->GetMemoryAtAddress(addr + j, &byte_value);
+        oss << " " << (unsigned int)byte_value;
+      }
     }
 
     param.value = oss.str();
@@ -638,8 +656,26 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
       if (!after_number || *after_number) p.typeSize = 0;
 
       p.paramName = args[2];
-      p.offset = strtoull(args[3], &after_number, 16);
-      if (!after_number || *after_number) p.offset = -1;
+
+      vector<char*> locs;
+      Tokenize(args[3], ":", 3, &locs);
+      if (locs.size() < 2)
+      {
+          params.clear();
+          return true;
+      }
+
+      p.locType = strtoull(locs[0], &after_number, 16);
+      if (!after_number || *after_number) p.locType = -1;
+
+      p.locValue1 = strtoull(locs[1], &after_number, 16);
+      if (!after_number || *after_number) p.locValue1 = -1;
+
+      if (locs.size() > 2)
+      {
+          p.locValue2 = strtoull(locs[2], &after_number, 16);
+          if (!after_number || *after_number) p.locValue2 = -1;
+      }
 
       params.push_back(p);
     }

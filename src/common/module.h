@@ -94,10 +94,24 @@ class Module {
     size_t typeSize;
   };
 
+  // location type:
+  // 0 --> frame base location, DW_OP_fbreg
+  // 1 --> register location, DW_OP_regn
+  // 2 --> register location, DW_OP_bregn
+  enum ArgLocType
+  {
+      ALT_INVALID,
+      ALT_FBREG,
+      ALT_REGN,
+      ALT_BREGN
+  };
+
   struct FuncArgument
   {
-    // offset to frame base
-    int64 offset;
+    ArgLocType locType;
+
+    int64 locValue1;
+    int64 locValue2;
 
     // name of the arguement
     string name;
