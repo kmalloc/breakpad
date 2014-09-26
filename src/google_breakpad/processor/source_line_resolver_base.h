@@ -66,14 +66,17 @@ enum ArgLocType {
     ALT_INVALID,
     ALT_FBREG,
     ALT_REGN,
-    ALT_BREGN
+    ALT_BREGN,
+    ALT_DEREF,
 };
 
 struct FuncParam {
   string typeName;
   unsigned long long typeSize;
   string paramName;
-  long long locType;
+
+  bool deref;
+  ArgLocType locType;
   long long locValue1;
   long long locValue2;
 };

@@ -902,7 +902,7 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
     FormalParamerHandler(CUContext* cu_context, DIEContext* parent_context,
         uint64 offset, FuncHandler* funcHandler)
       :GenericDIEHandler(cu_context, parent_context, offset)
-       ,func_(funcHandler), hasValue_(false), locType_(Module::ALT_INVALID), typeRef_(0)
+       ,func_(funcHandler), hasValue_(false), typeRef_(0)
     {
     }
 
@@ -925,10 +925,7 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
 
     bool hasValue_;
 
-    // argument location offset.
-    Module::ArgLocType locType_;
-    int64 locValue1_;
-    int64 locValue2_;
+    vector<Module::LocExp> locExp_;
     // name of the argument
     string name_;
     // get from DW_TAG_formal_parameter
@@ -974,31 +971,44 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
       {
         // TODO, currently only support the 3 types of location expression:
         // DW_OP_fbreg, DW_OP_regn, DW_OP_bregn
-        unsigned char op = *data;
+        size_t read_len = 0;
 
-        if (op == dwarf2reader::DW_OP_fbreg)
+        while (read_len < len)
         {
-            locType_ = Module::ALT_FBREG;
-            size_t sz;
-            locValue1_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
-        }
-        else if (op >= dwarf2reader::DW_OP_reg0 && op <= dwarf2reader::DW_OP_reg31)
-        {
-            locType_ = Module::ALT_REGN;
-            locValue1_ = op - dwarf2reader::DW_OP_reg0;
-        }
-        else if (op >= dwarf2reader::DW_OP_breg0 && op <= dwarf2reader::DW_OP_breg31)
-        {
-            locType_ = Module::ALT_BREGN;
-            locValue1_ = op - dwarf2reader::DW_OP_breg0;
+          ++read_len;
+          size_t sz = 0;
+          unsigned char op = *data++;
+          Module::LocExp loc;
 
-            size_t sz;
-            locValue2_ = dwarf2reader::ByteReader::ReadSignedLEB128(data + 1, &sz);
-        }
-        else
-        {
-          fprintf(stderr, "formal parameter handler: unrecognized location expression:%x\n", op);
-          break;
+          if (op == dwarf2reader::DW_OP_fbreg)
+          {
+            loc.locType = Module::ALT_FBREG;
+            loc.locValue1 = dwarf2reader::ByteReader::ReadSignedLEB128(data, &sz);
+          }
+          else if (op >= dwarf2reader::DW_OP_reg0 && op <= dwarf2reader::DW_OP_reg31)
+          {
+            loc.locType = Module::ALT_REGN;
+            loc.locValue1 = op - dwarf2reader::DW_OP_reg0;
+          }
+          else if (op >= dwarf2reader::DW_OP_breg0 && op <= dwarf2reader::DW_OP_breg31)
+          {
+            loc.locType = Module::ALT_BREGN;
+            loc.locValue1 = op - dwarf2reader::DW_OP_breg0;
+            loc.locValue2 = dwarf2reader::ByteReader::ReadSignedLEB128(data, &sz);
+          }
+          else if (op == dwarf2reader::DW_OP_deref)
+          {
+            loc.locType = Module::ALT_DEREF;
+          }
+          else
+          {
+            fprintf(stderr, "formal parameter handler: unrecognized location expression:%x\n", op);
+            break;
+          }
+
+          data += sz;
+          read_len += sz;
+          locExp_.push_back(loc);
         }
 
         hasValue_ = true;
@@ -1010,11 +1020,11 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
 void DwarfCUToModule::FormalParamerHandler::Finish()
 {
   // for now, just ignore formal parameter for subroutine
-  if (typeRef_ == 0 || func_ == NULL || locType_ == Module::ALT_INVALID) return;
+  if (typeRef_ == 0 || func_ == NULL || locExp_.empty()) return;
 
   if (name_.empty()) name_ = BaseVarType::anonymousName_;
 
-  Module::FuncArgument arg = {locType_, locValue1_, locValue2_, name_, {typeRef_}};
+  Module::FuncArgument arg = {locExp_, name_, {typeRef_}};
   func_->AddFormalParam(arg);
 }
 

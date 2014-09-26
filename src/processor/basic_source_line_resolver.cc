@@ -196,7 +196,7 @@ bool BasicSourceLineResolver::Module::LoadMapFromMemory(
 static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
     MemoryRegion* memory, vector<StackFrame::ParamInfo>& info)
 {
-  if (!memory) return;
+  if (!memory || params.empty()) return;
 
   info.clear();
   info.reserve(params.size());
@@ -245,8 +245,13 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
 
         if (!memory->GetMemoryAtAddress(addr, &value)) return;
 
-        addr = value;
         oss2 << ":" << params[i].locValue1 << ":" << params[i].locValue2;
+    }
+
+    if (params[i].deref)
+    {
+        addr = value;
+        if (!memory->GetMemoryAtAddress(addr, &value)) return;
     }
 
     param.locInfo = oss2.str();
@@ -606,6 +611,68 @@ bool SymbolParseHelper::ParseFile(char *file_line, long *index,
   return true;
 }
 
+bool SymbolParseHelper::ParseFuncParam(vector<char*>& pv, vector<FuncParam>& params)
+{
+  char *after_number;
+  size_t num_params = pv.size();
+  params.reserve(num_params);
+
+  for (int i = 0; i < num_params; ++i)
+  {
+    vector<char*> args;
+    if (!Tokenize(pv[i], ",", 4, &args))
+    {
+      params.clear();
+      return false;
+    }
+
+    FuncParam p;
+    p.typeName = args[0];
+    p.typeSize = strtoull(args[1], &after_number, 16);
+    if (!after_number || *after_number) p.typeSize = 0;
+
+    p.paramName = args[2];
+
+    // currently, only support at most 2 loc expression.
+    // And if we have 2 loc expression, the second expression must be DW_OP_deref
+
+    vector<char*> loc_exp;
+    Tokenize(args[3], "$", 2, &loc_exp);
+    if (loc_exp.empty()) return false;
+
+    vector<char*> locs;
+    Tokenize(loc_exp[0], ":", 3, &locs);
+    if (locs.size() < 2)
+    {
+        params.clear();
+        return true;
+    }
+
+    p.deref = false;
+    p.locType = static_cast<ArgLocType>(strtoul(locs[0], &after_number, 16));
+    if (!after_number || *after_number) p.locType = ALT_INVALID;
+
+    p.locValue1 = strtoull(locs[1], &after_number, 16);
+    if (!after_number || *after_number) p.locValue1 = -1;
+
+    if (locs.size() > 2)
+    {
+        p.locValue2 = strtoull(locs[2], &after_number, 16);
+        if (!after_number || *after_number) p.locValue2 = -1;
+    }
+
+    if (loc_exp.size() == 2)
+    {
+        ArgLocType t = static_cast<ArgLocType>(strtoul(loc_exp[1], &after_number, 16));
+        assert(t == ALT_DEREF);
+
+        p.deref = true;
+    }
+
+    params.push_back(p);
+  }
+}
+
 // static
 bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
                                       uint64_t *size, long *stack_param_size,
@@ -650,46 +717,7 @@ bool SymbolParseHelper::ParseFunction(char *function_line, uint64_t *address,
 
     if (!Tokenize(segments[2], "#", num_params, &argsArray)) return true;
 
-    params.reserve(num_params);
-
-    for (int i = 0; i < num_params; ++i)
-    {
-      vector<char*> args;
-      if (!Tokenize(argsArray[i], ",", 4, &args))
-      {
-        params.clear();
-        return true;
-      }
-
-      FuncParam p;
-      p.typeName = args[0];
-      p.typeSize = strtoull(args[1], &after_number, 16);
-      if (!after_number || *after_number) p.typeSize = 0;
-
-      p.paramName = args[2];
-
-      vector<char*> locs;
-      Tokenize(args[3], ":", 3, &locs);
-      if (locs.size() < 2)
-      {
-          params.clear();
-          return true;
-      }
-
-      p.locType = strtoull(locs[0], &after_number, 16);
-      if (!after_number || *after_number) p.locType = -1;
-
-      p.locValue1 = strtoull(locs[1], &after_number, 16);
-      if (!after_number || *after_number) p.locValue1 = -1;
-
-      if (locs.size() > 2)
-      {
-          p.locValue2 = strtoull(locs[2], &after_number, 16);
-          if (!after_number || *after_number) p.locValue2 = -1;
-      }
-
-      params.push_back(p);
-    }
+    ParseFuncParam(argsArray, params);
   }
 
   return true;

@@ -103,15 +103,20 @@ class Module {
       ALT_INVALID,
       ALT_FBREG,
       ALT_REGN,
-      ALT_BREGN
+      ALT_BREGN,
+      ALT_DEREF,
+  };
+
+  struct LocExp
+  {
+      int64 locValue1;
+      int64 locValue2;
+      ArgLocType locType;
   };
 
   struct FuncArgument
   {
-    ArgLocType locType;
-
-    int64 locValue1;
-    int64 locValue2;
+    vector<LocExp> loc;
 
     // name of the arguement
     string name;

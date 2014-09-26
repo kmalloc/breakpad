@@ -204,6 +204,26 @@ bool Module::WriteRuleMap(const RuleMap &rule_map, std::ostream &stream) {
   return stream.good();
 }
 
+static inline void OutputParam(std::ostream& stream, const Module::LocExp& le)
+{
+  stream << le.locType;
+  if (le.locType == Module::ALT_FBREG)
+  {
+      stream << ":" << le.locValue1;
+  }
+  else if (le.locType == Module::ALT_REGN)
+  {
+      stream << ":" << le.locValue1;
+  }
+  else if (le.locType == Module::ALT_BREGN)
+  {
+      stream << ":" << le.locValue1 << ":" << le.locValue2;
+  }
+  else if (le.locType == Module::ALT_DEREF)
+  {
+  }
+}
+
 bool Module::Write(std::ostream &stream, SymbolData symbol_data) {
   stream << "MODULE " << os_ << " " << architecture_ << " "
          << id_ << " " << name_ << endl;
@@ -241,24 +261,17 @@ bool Module::Write(std::ostream &stream, SymbolData symbol_data) {
 
       for (int ai = 0; ai < func->params.size(); ++ai)
       {
+        const FuncArgument& fa = func->params[ai];
         stream << "#"
-               << func->params[ai].type.typeName << ","
-               << func->params[ai].type.typeSize << ","
-               << func->params[ai].name          << ","
-               << func->params[ai].locType;
+               << fa.type.typeName << ","
+               << fa.type.typeSize << ","
+               << fa.name          << ",";
 
-        if (func->params[ai].locType == ALT_FBREG)
+        OutputParam(stream, fa.loc[0]);
+        for (int li = 1; li < fa.loc.size(); ++li)
         {
-            stream << ":" << func->params[ai].locValue1;
-        }
-        else if (func->params[ai].locType == ALT_REGN)
-        {
-            stream << ":" << func->params[ai].locValue1;
-        }
-        else if (func->params[ai].locType == ALT_BREGN)
-        {
-            stream << ":" << func->params[ai].locValue1 << ":"
-                   << func->params[ai].locValue2;
+          stream << "$";
+          OutputParam(stream, fa.loc[li]);
         }
       }
 
