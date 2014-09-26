@@ -225,20 +225,31 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
     uint64_t addr = 0;
     uint64_t value = 0;
 
+    ostringstream oss2;
+    oss2 << params[i].locType;
+
     if (params[i].locType == ALT_FBREG)
     {
-        addr = base + params[i].locValue1;
+        addr = (long long)base + params[i].locValue1;
         if (!memory->GetMemoryAtAddress(addr, &value)) return;
     }
     else if (params[i].locType == ALT_REGN)
     {
         value = frame->GetRegValue(params[i].locValue1);
+        oss2 << ":" << params[i].locValue1;
     }
     else if (params[i].locType == ALT_BREGN)
     {
-        addr = frame->GetRegValue(params[i].locValue1) + frame->GetRegValue(params[i].locValue2);
+        addr = (long long)frame->GetRegValue(params[i].locValue1)
+            + (long long)params[i].locValue2;
+
         if (!memory->GetMemoryAtAddress(addr, &value)) return;
+
+        addr = value;
+        oss2 << ":" << params[i].locValue1 << ":" << params[i].locValue2;
     }
+
+    param.locInfo = oss2.str();
 
     bool show_simple_type = false;
     if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
