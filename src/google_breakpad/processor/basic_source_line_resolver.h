@@ -96,6 +96,8 @@ class SymbolParseHelper {
                         long *index,       // out
                         char **filename);  // out
 
+  static bool ParseFuncParam(vector<char*>& pv, vector<FuncParam>& params);
+
   // Parses a |function_line| declaration.  Returns true on success.
   // Format:  FUNC <address> <size> <stack_param_size> <name>.
   // Notice, that this method modifies the input |function_line| which is why it

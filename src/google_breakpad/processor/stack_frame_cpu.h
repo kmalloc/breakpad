@@ -187,6 +187,46 @@ struct StackFrameAMD64 : public StackFrame {
   // current implementation is hard-coded, may not be 100% correct when the function calling convention is changed.
   virtual uint64_t GetFrameBase() const { return context.rbp + 2 * sizeof(void*); }
 
+  virtual uint64_t GetRegValue(int reg) const
+  {
+      if (reg == 0 && context_validity & CONTEXT_VALID_RAX)
+          return context.rax;
+      if (reg == 1 && context_validity & CONTEXT_VALID_RDX)
+          return context.rdx;
+      if (reg == 2 && context_validity & CONTEXT_VALID_RCX)
+          return context.rcx;
+      if (reg == 3 && context_validity & CONTEXT_VALID_RBX)
+          return context.rbx;
+      if (reg == 4 && context_validity & CONTEXT_VALID_RSI)
+          return context.rsi;
+      if (reg == 5 && context_validity & CONTEXT_VALID_RDI)
+          return context.rdi;
+      if (reg == 6 && context_validity & CONTEXT_VALID_RBP)
+          return context.rbp;
+      if (reg == 7 && context_validity & CONTEXT_VALID_RSP)
+          return context.rsp;
+      if (reg == 8 && context_validity & CONTEXT_VALID_R8)
+          return context.r8;
+      if (reg == 9 && context_validity & CONTEXT_VALID_R9)
+          return context.r9;
+      if (reg == 10 && context_validity & CONTEXT_VALID_R10)
+          return context.r10;
+      if (reg == 11 && context_validity & CONTEXT_VALID_R11)
+          return context.r11;
+      if (reg == 12 && context_validity & CONTEXT_VALID_R12)
+          return context.r12;
+      if (reg == 13 && context_validity & CONTEXT_VALID_R13)
+          return context.r13;
+      if (reg == 14 && context_validity & CONTEXT_VALID_R14)
+          return context.r14;
+      if (reg == 15 && context_validity & CONTEXT_VALID_R15)
+          return context.r15;
+      if (reg == 16 && context_validity & CONTEXT_VALID_RIP)
+          return context.rip;
+
+      return 0;
+  }
+
   // Register state. This is only fully valid for the topmost frame in a
   // stack. In other frames, which registers are present depends on what
   // debugging information we had available. Refer to context_validity.
