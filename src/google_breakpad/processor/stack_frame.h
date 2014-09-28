@@ -60,7 +60,6 @@ struct StackFrame {
     string paramName;
     long long typeSize;
     string value;
-    string locInfo;
   };
 
   StackFrame()

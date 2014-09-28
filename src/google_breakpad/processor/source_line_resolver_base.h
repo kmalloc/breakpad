@@ -44,6 +44,7 @@
 #include <map>
 #include <set>
 #include <string>
+#include <vector>
 
 #include "google_breakpad/processor/source_line_resolver_interface.h"
 
@@ -51,6 +52,7 @@ namespace google_breakpad {
 
 using std::map;
 using std::set;
+using std::vector;
 
 // Forward declaration.
 // ModuleFactory is a simple factory interface for creating a Module instance
@@ -58,16 +60,11 @@ using std::set;
 class ModuleFactory;
 class MemoryRegion;
 
-// location type:
-// 0 --> frame base location, DW_OP_fbreg
-// 1 --> register location, DW_OP_regn
-// 2 --> register location, DW_OP_bregn
-enum ArgLocType {
-    ALT_INVALID,
-    ALT_FBREG,
-    ALT_REGN,
-    ALT_BREGN,
-    ALT_DEREF,
+struct ArgLocInfo
+{
+  unsigned short op;
+  uint64_t locValue1;
+  uint64_t locValue2;
 };
 
 struct FuncParam {
@@ -75,10 +72,7 @@ struct FuncParam {
   unsigned long long typeSize;
   string paramName;
 
-  bool deref;
-  ArgLocType locType;
-  long long locValue1;
-  long long locValue2;
+  vector<ArgLocInfo> locs;
 };
 
 class SourceLineResolverBase : public SourceLineResolverInterface {

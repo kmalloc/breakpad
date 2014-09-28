@@ -902,7 +902,7 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
     FormalParamerHandler(CUContext* cu_context, DIEContext* parent_context,
         uint64 offset, FuncHandler* funcHandler)
       :GenericDIEHandler(cu_context, parent_context, offset)
-       ,func_(funcHandler), hasValue_(false), typeRef_(0)
+       ,func_(funcHandler), typeRef_(0)
     {
     }
 
@@ -922,8 +922,6 @@ class DwarfCUToModule::FormalParamerHandler: public GenericDIEHandler {
   private:
 
     FuncHandler* func_;
-
-    bool hasValue_;
 
     vector<Module::LocExp> locExp_;
     // name of the argument
@@ -969,8 +967,6 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
   {
     case dwarf2reader::DW_AT_location:
       {
-        // TODO, currently only support the 3 types of location expression:
-        // DW_OP_fbreg, DW_OP_regn, DW_OP_bregn
         size_t read_len = 0;
 
         while (read_len < len)
@@ -982,23 +978,90 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
 
           if (op == dwarf2reader::DW_OP_fbreg)
           {
-            loc.locType = Module::ALT_FBREG;
+            loc.locType = Module::ALT_ONE;
             loc.locValue1 = dwarf2reader::ByteReader::ReadSignedLEB128(data, &sz);
           }
-          else if (op >= dwarf2reader::DW_OP_reg0 && op <= dwarf2reader::DW_OP_reg31)
+          else if (op == dwarf2reader::DW_OP_regX)
           {
-            loc.locType = Module::ALT_REGN;
-            loc.locValue1 = op - dwarf2reader::DW_OP_reg0;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = dwarf2reader::ByteReader::ReadUnsignedLEB128(data, &sz);
+          }
+          else if (op == dwarf2reader::DW_OP_bregX)
+          {
+            size_t sz2 = 0;
+            loc.locType = Module::ALT_TWO;
+            loc.locValue1 = dwarf2reader::ByteReader::ReadUnsignedLEB128(data, &sz);
+            loc.locValue2 = dwarf2reader::ByteReader::ReadSignedLEB128(data, &sz2);
+
+            sz += sz2;
           }
           else if (op >= dwarf2reader::DW_OP_breg0 && op <= dwarf2reader::DW_OP_breg31)
           {
-            loc.locType = Module::ALT_BREGN;
-            loc.locValue1 = op - dwarf2reader::DW_OP_breg0;
-            loc.locValue2 = dwarf2reader::ByteReader::ReadSignedLEB128(data, &sz);
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = dwarf2reader::ByteReader::ReadSignedLEB128(data, &sz);
           }
-          else if (op == dwarf2reader::DW_OP_deref)
+          else if (op == dwarf2reader::DW_OP_addr)
           {
-            loc.locType = Module::ALT_DEREF;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = *(reinterpret_cast<const uintptr_t*>(data));
+            sz = sizeof(uintptr_t);
+          }
+          else if (op == dwarf2reader::DW_OP_const1u || op == dwarf2reader::DW_OP_const1s)
+          {
+            sz = 1;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = *data;
+          }
+          else if (op == dwarf2reader::DW_OP_const2u || op == dwarf2reader::DW_OP_const2s)
+          {
+            sz = 2;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = *reinterpret_cast<const unsigned short*>(data);
+          }
+          else if (op == dwarf2reader::DW_OP_const4u || op == dwarf2reader::DW_OP_const4s)
+          {
+            sz = 4;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = *reinterpret_cast<const unsigned int*>(data);
+          }
+          else if (op == dwarf2reader::DW_OP_const8u || op == dwarf2reader::DW_OP_const8s)
+          {
+            sz = 8;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = *reinterpret_cast<const unsigned long long*>(data);
+          }
+          else if (op == dwarf2reader::DW_OP_dup || op == dwarf2reader::DW_OP_drop ||
+            op == dwarf2reader::DW_OP_over || op == dwarf2reader::DW_OP_swap ||
+            op == dwarf2reader::DW_OP_rot || op == dwarf2reader::DW_OP_deref ||
+            op == dwarf2reader::DW_OP_xderef || op == dwarf2reader::DW_OP_push_object_address ||
+            op == dwarf2reader::DW_OP_form_tls_address ||
+            op == dwarf2reader::DW_OP_call_frame_cfa ||
+            (op >= dwarf2reader::DW_OP_abs && op <= dwarf2reader::DW_OP_plus) ||
+            (op >= dwarf2reader::DW_OP_shl && op <= dwarf2reader::DW_OP_xor) ||
+            (op >= dwarf2reader::DW_OP_eq && op <= dwarf2reader::DW_OP_ne) ||
+            (op >= dwarf2reader::DW_OP_reg0 && op <= dwarf2reader::DW_OP_reg31) ||
+            (op >= dwarf2reader::DW_OP_lit0 && op <= dwarf2reader::DW_OP_lit31) ||
+            op == dwarf2reader::DW_OP_nop)
+          {
+            loc.locType = Module::ALT_NON;
+          }
+          else if (op == dwarf2reader::DW_OP_pick || op == dwarf2reader::DW_OP_deref_size ||
+              op == dwarf2reader::DW_OP_xderef_size)
+          {
+            sz = 1;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = *data;
+          }
+          else if (op == dwarf2reader::DW_OP_plus_uconst)
+          {
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = dwarf2reader::ByteReader::ReadUnsignedLEB128(data, &sz);
+          }
+          else if (op == dwarf2reader::DW_OP_skip || op == dwarf2reader::DW_OP_bra)
+          {
+            sz = 2;
+            loc.locType = Module::ALT_ONE;
+            loc.locValue1 = (uint64)(int64)(*reinterpret_cast<const short*>(data));
           }
           else
           {
@@ -1006,12 +1069,12 @@ void DwarfCUToModule::FormalParamerHandler::ProcessAttributeBuffer(enum DwarfAtt
             break;
           }
 
+          loc.op = op;
           data += sz;
           read_len += sz;
           locExp_.push_back(loc);
         }
 
-        hasValue_ = true;
         break;
       }
   }

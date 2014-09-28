@@ -100,18 +100,18 @@ class Module {
   // 2 --> register location, DW_OP_bregn
   enum ArgLocType
   {
+      ALT_NON,
+      ALT_ONE,
+      ALT_TWO,
       ALT_INVALID,
-      ALT_FBREG,
-      ALT_REGN,
-      ALT_BREGN,
-      ALT_DEREF,
   };
 
   struct LocExp
   {
-      int64 locValue1;
-      int64 locValue2;
       ArgLocType locType;
+      unsigned char op;
+      uint64 locValue1;
+      uint64 locValue2;
   };
 
   struct FuncArgument
