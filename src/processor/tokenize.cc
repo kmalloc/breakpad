@@ -48,7 +48,6 @@ bool Tokenize(char *line,
 	      int max_tokens,
 	      vector<char*> *tokens) {
   tokens->clear();
-  tokens->reserve(max_tokens);
 
   int remaining = max_tokens - 1;
 

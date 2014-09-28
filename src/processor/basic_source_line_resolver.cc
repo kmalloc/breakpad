@@ -44,6 +44,7 @@
 #include <vector>
 #include <sstream>
 
+#include "common/dwarf/dwarf2enums.h"
 #include "processor/basic_source_line_resolver_types.h"
 #include "google_breakpad/processor/basic_source_line_resolver.h"
 #include "processor/module_factory.h"
@@ -193,6 +194,138 @@ bool BasicSourceLineResolver::Module::LoadMapFromMemory(
   return true;
 }
 
+static inline uint64_t EvaluateDwarfExpression(StackFrame* frame, MemoryRegion* memory,
+        const vector<ArgLocInfo>& loc)
+{
+  vector<uint64_t> s;
+  using namespace dwarf2reader;
+  uint64_t base = frame->GetFrameBase();
+
+  if (base == 0)
+  {
+    BPLOG(ERROR) << "unexpected stack frame type, or invalid stack pointer.";
+  }
+
+  uint64_t val;
+  for (size_t i = 0; i < loc.size(); ++i)
+  {
+      const ArgLocInfo& ai = loc[i];
+      const unsigned char op = ai.op;
+
+      if (op >= DW_OP_reg0 && op <= DW_OP_reg31)
+      {
+        int index = op - DW_OP_reg0;
+        val = frame->GetRegValue(index);
+      }
+      else if (op == DW_OP_fbreg)
+      {
+        val = (long long)base + (long long)ai.locValue1;
+      }
+      else if (op == DW_OP_addr)
+      {
+        val = ai.locValue1;
+      }
+      else if (op == DW_OP_regX)
+      {
+        val = frame->GetRegValue(ai.locValue1);
+      }
+      else if (op >= DW_OP_breg0 && op <= DW_OP_breg31)
+      {
+        int index = op - DW_OP_breg0;
+        val = (long long)frame->GetRegValue(index) + (long long)ai.locValue1;
+      }
+      else if (op == DW_OP_deref)
+      {
+        if (s.empty()) return 0;
+
+        uint64_t addr = s.back();
+        s.pop_back();
+        if (!memory->GetMemoryAtAddress(addr, &val)) return 0;
+      }
+      else if (op >= DW_OP_lit0 && op <= DW_OP_lit31)
+      {
+        val = op - DW_OP_lit0;
+      }
+      else if (op == DW_OP_const1u || op == DW_OP_const2u ||
+              op == DW_OP_const4u || op == DW_OP_const8u)
+      {
+        val = ai.locValue1;
+      }
+      else if (op == DW_OP_const1s)
+      {
+        char c = (ai.locValue1 & 0xff);
+        val = (uint64_t)c;
+      }
+      else if (op == DW_OP_const2s)
+      {
+        short c = (ai.locValue1 & 0xffff);
+        val = (uint64_t)c;
+      }
+      else if (op == DW_OP_const4s)
+      {
+        int c = (ai.locValue1 & 0xffffffff);
+        val = (uint64_t)c;
+      }
+      else if (op == DW_OP_const8s)
+      {
+        val = ai.locValue1;
+      }
+      else if (op == DW_OP_dup)
+      {
+        if (s.empty()) return 0;
+
+        s.push_back(s.back());
+      }
+      else if (op == DW_OP_drop)
+      {
+        if (s.empty()) return 0;
+
+        s.pop_back();
+      }
+      else if (op == DW_OP_pick)
+      {
+        if (s.empty()) return 0;
+
+        size_t index = s.size() - 1;
+        if (index < ai.locValue1) return 0;
+
+        index = index - ai.locValue1;
+        s.push_back(s[index]);
+      }
+      else if (op == DW_OP_over)
+      {
+        if (s.size() < 2) return 0;
+
+        s.push_back(s[s.size() - 2]);
+      }
+      else if (op == DW_OP_swap)
+      {
+        if (s.size() < 2) return 0;
+
+        std::swap(s[s.size() - 1], s[s.size() - 2]);
+      }
+      else if (op == DW_OP_rot)
+      {
+        if (s.size() < 3) return 0;
+
+        std::swap(s[s.size() - 1], s[s.size() - 3]);
+        std::swap(s[s.size() - 1], s[s.size() - 2]);
+      }
+      else if (op == DW_OP_deref_size || op == DW_OP_xderef
+              || op == DW_OP_xderef_size)
+      {
+          // TODO
+          return 0;
+      }
+
+      s.push_back(val);
+  }
+
+  if (!s.empty()) return s.back();
+
+  return 0;
+}
+
 static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
     MemoryRegion* memory, vector<StackFrame::ParamInfo>& info)
 {
@@ -200,12 +333,6 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
 
   info.clear();
   info.reserve(params.size());
-
-  uint64_t base = frame->GetFrameBase();
-  if (base == 0)
-  {
-    BPLOG(ERROR) << "unexpected stack frame type, or invalid stack pointer.";
-  }
 
   for (size_t i = 0; i < params.size(); ++i)
   {
@@ -221,41 +348,19 @@ static void ReadFuncParams(StackFrame* frame, const vector<FuncParam>& params,
       continue;
     }
 
+    uint64_t value;
+    uint64_t addr = EvaluateDwarfExpression(frame, memory, params[i].locs);
+    if (!addr)
+    {
+        BPLOG(ERROR) << "invalid location expression for func:"
+            << frame->function_name << ", param:" << param.paramName
+            << "(" << param.typeName << ")";
+        continue;
+    }
+
+    if (!memory->GetMemoryAtAddress(addr, &value)) return;
+
     ostringstream oss;
-    uint64_t addr = 0;
-    uint64_t value = 0;
-
-    ostringstream oss2;
-    oss2 << params[i].locType;
-
-    if (params[i].locType == ALT_FBREG)
-    {
-        addr = (long long)base + params[i].locValue1;
-        if (!memory->GetMemoryAtAddress(addr, &value)) return;
-    }
-    else if (params[i].locType == ALT_REGN)
-    {
-        value = frame->GetRegValue(params[i].locValue1);
-        oss2 << ":" << params[i].locValue1;
-    }
-    else if (params[i].locType == ALT_BREGN)
-    {
-        addr = (long long)frame->GetRegValue(params[i].locValue1)
-            + (long long)params[i].locValue2;
-
-        if (!memory->GetMemoryAtAddress(addr, &value)) return;
-
-        oss2 << ":" << params[i].locValue1 << ":" << params[i].locValue2;
-    }
-
-    if (params[i].deref)
-    {
-        addr = value;
-        if (!memory->GetMemoryAtAddress(addr, &value)) return;
-    }
-
-    param.locInfo = oss2.str();
-
     bool show_simple_type = false;
     if (param.typeSize % 2 == 0 && param.typeSize <= sizeof(uint64_t))
     {
@@ -633,40 +738,43 @@ bool SymbolParseHelper::ParseFuncParam(vector<char*>& pv, vector<FuncParam>& par
 
     p.paramName = args[2];
 
-    // currently, only support at most 2 loc expression.
-    // And if we have 2 loc expression, the second expression must be DW_OP_deref
-
     vector<char*> loc_exp;
-    Tokenize(args[3], "$", 2, &loc_exp);
+    loc_exp.reserve(32);
+    Tokenize(args[3], "$", std::numeric_limits<int>::max(), &loc_exp);
     if (loc_exp.empty()) return false;
 
-    vector<char*> locs;
-    Tokenize(loc_exp[0], ":", 3, &locs);
-    if (locs.size() < 2)
+    for (size_t j = 0; j < loc_exp.size(); ++j)
     {
-        params.clear();
-        return true;
-    }
+        vector<char*> locs;
+        Tokenize(loc_exp[j], ":", 4, &locs);
+        if (locs.empty())
+        {
+            params.clear();
+            return false;
+        }
 
-    p.deref = false;
-    p.locType = static_cast<ArgLocType>(strtoul(locs[0], &after_number, 16));
-    if (!after_number || *after_number) p.locType = ALT_INVALID;
+        ArgLocInfo ai;
 
-    p.locValue1 = strtoull(locs[1], &after_number, 16);
-    if (!after_number || *after_number) p.locValue1 = -1;
+        ai.op = strtoul(locs[0], &after_number, 16);
+        if (!after_number || *after_number)
+        {
+          params.clear();
+          return false;
+        }
 
-    if (locs.size() > 2)
-    {
-        p.locValue2 = strtoull(locs[2], &after_number, 16);
-        if (!after_number || *after_number) p.locValue2 = -1;
-    }
+        if (locs.size() > 1)
+        {
+            ai.locValue1 = strtoull(locs[1], &after_number, 16);
+            if (!after_number || *after_number) ai.locValue1 = 0;
+        }
 
-    if (loc_exp.size() == 2)
-    {
-        ArgLocType t = static_cast<ArgLocType>(strtoul(loc_exp[1], &after_number, 16));
-        assert(t == ALT_DEREF);
+        if (locs.size() > 2)
+        {
+            ai.locValue2 = strtoull(locs[2], &after_number, 16);
+            if (!after_number || *after_number) ai.locValue2 = 0;
+        }
 
-        p.deref = true;
+        p.locs.push_back(ai);
     }
 
     params.push_back(p);

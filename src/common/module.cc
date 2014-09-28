@@ -206,21 +206,14 @@ bool Module::WriteRuleMap(const RuleMap &rule_map, std::ostream &stream) {
 
 static inline void OutputParam(std::ostream& stream, const Module::LocExp& le)
 {
-  stream << le.locType;
-  if (le.locType == Module::ALT_FBREG)
+  stream << static_cast<unsigned short>(le.op);
+  if (le.locType == Module::ALT_ONE)
   {
       stream << ":" << le.locValue1;
   }
-  else if (le.locType == Module::ALT_REGN)
-  {
-      stream << ":" << le.locValue1;
-  }
-  else if (le.locType == Module::ALT_BREGN)
+  else if (le.locType == Module::ALT_TWO)
   {
       stream << ":" << le.locValue1 << ":" << le.locValue2;
-  }
-  else if (le.locType == Module::ALT_DEREF)
-  {
   }
 }
 
