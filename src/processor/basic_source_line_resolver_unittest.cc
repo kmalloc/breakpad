@@ -461,7 +461,7 @@ TEST(SymbolParseHelper, ParseFunctionValid) {
 
   std::vector<FuncParam> params;
 
-  char kTestLine[] = "FUNC 1 2 3 function name#2#int,4,a,6#char,1,c,9";
+  char kTestLine[] = "FUNC 1 2 3 function name#2#int,4,a,6:2$4:3:1$2#char,1,c,9:2:3";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine, &address, &size,
                                                &stack_param_size, &name, params));
   EXPECT_EQ(1ULL, address);
@@ -472,15 +472,23 @@ TEST(SymbolParseHelper, ParseFunctionValid) {
   EXPECT_EQ("int", params[0].typeName);
   EXPECT_EQ(4ULL, params[0].typeSize);
   EXPECT_EQ("a", params[0].paramName);
-  EXPECT_EQ(6, params[0].offset);
+  EXPECT_EQ(3, params[0].locs.size());
+  EXPECT_EQ(6, params[0].locs[0].op);
+  EXPECT_EQ(2, params[0].locs[0].locValue1);
+  EXPECT_EQ(4, params[0].locs[1].op);
+  EXPECT_EQ(3, params[0].locs[1].locValue1);
+  EXPECT_EQ(1, params[0].locs[1].locValue2);
   EXPECT_EQ("char", params[1].typeName);
   EXPECT_EQ(1ULL, params[1].typeSize);
   EXPECT_EQ("c", params[1].paramName);
-  EXPECT_EQ(9, params[1].offset);
+  EXPECT_EQ(1, params[1].locs.size());
+  EXPECT_EQ(9, params[1].locs[0].op);
+  EXPECT_EQ(2, params[1].locs[0].locValue1);
+  EXPECT_EQ(3, params[1].locs[0].locValue2);
 
   // Test hex address, size, and param size.
   params.clear();
-  char kTestLine1[] = "FUNC a1 a2 a3 function name#2#int,b4,a,6c#char,1a,c,9c";
+  char kTestLine1[] = "FUNC a1 a2 a3 function name#2#int,b4,a,6#char,1a,c,9";
   ASSERT_TRUE(SymbolParseHelper::ParseFunction(kTestLine1, &address, &size,
                                                &stack_param_size, &name, params));
   EXPECT_EQ(0xa1ULL, address);
@@ -490,11 +498,11 @@ TEST(SymbolParseHelper, ParseFunctionValid) {
   EXPECT_EQ("int", params[0].typeName);
   EXPECT_EQ(0xb4ULL, params[0].typeSize);
   EXPECT_EQ("a", params[0].paramName);
-  EXPECT_EQ(0x6c, params[0].offset);
+  EXPECT_EQ(1, params[0].locs.size());
   EXPECT_EQ("char", params[1].typeName);
   EXPECT_EQ(0x1aULL, params[1].typeSize);
   EXPECT_EQ("c", params[1].paramName);
-  EXPECT_EQ(0x9c, params[1].offset);
+  EXPECT_EQ(1, params[1].locs.size());
 
   params.clear();
   char kTestLine2[] = "FUNC 0 0 0 function name";
