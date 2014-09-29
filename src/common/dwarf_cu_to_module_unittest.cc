@@ -690,12 +690,12 @@ TEST_F(SimpleCU, MangledName) {
   TestFunction(0, "n::f(int)", 0x938cf8c07def4d34ULL, 0x55592d727f6cd01fLL);
 }
 
-TEST_F(SimpleCU, IrrelevantRootChildren) {
-  StartCU();
-  EXPECT_FALSE(root_handler_
-               .FindChildHandler(0x7db32bff4e2dcfb1ULL,
-                                 dwarf2reader::DW_TAG_lexical_block));
-}
+// TEST_F(SimpleCU, IrrelevantRootChildren) {
+  // StartCU();
+  // EXPECT_FALSE(root_handler_
+               // .FindChildHandler(0x7db32bff4e2dcfb1ULL,
+                                 // dwarf2reader::DW_TAG_lexical_block));
+// }
 
 TEST_F(SimpleCU, IrrelevantNamedScopeChildren) {
   StartCU();

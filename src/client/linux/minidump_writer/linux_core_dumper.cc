@@ -125,7 +125,7 @@ bool LinuxCoreDumper::ThreadsResume() {
 
 bool LinuxCoreDumper::EnumerateThreads() {
   if (!mapped_core_file_.Map(core_path_, 0)) {
-    fprintf(stderr, "Could not map core dump file into memory\n");
+    fprintf(stderr, "Could not map core dump file into memory:%s\n", core_path_);
     return false;
   }
 

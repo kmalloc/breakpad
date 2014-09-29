@@ -1226,6 +1226,7 @@ void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeUnsigned(enum DwarfAttri
     default:
       break;
   }
+  GenericDIEHandler::ProcessAttributeUnsigned(attr, form, data);
 }
 
 void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeString(
@@ -1240,6 +1241,8 @@ void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeString(
       }
     default: break;
   }
+
+  GenericDIEHandler::ProcessAttributeString(attr, form, data);
 }
 
 void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeReference(
@@ -1258,6 +1261,8 @@ void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeReference(
       break;
     default: break;
   }
+
+  GenericDIEHandler::ProcessAttributeReference(attr, form, data);
 }
 
 void DwarfCUToModule::DwarfTypeHandler::Finish()

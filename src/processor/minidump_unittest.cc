@@ -77,8 +77,9 @@ using ::testing::Return;
 class MinidumpTest : public ::testing::Test {
 public:
   void SetUp() {
-    minidump_file_ = string(getenv("srcdir") ? getenv("srcdir") : ".") +
-      "/src/processor/testdata/minidump2.dmp";
+    // minidump_file_ = string(getenv("srcdir") ? getenv("srcdir") : ".") +
+      // "/src/processor/testdata/minidump2.dmp";
+    minidump_file_ = "./src/processor/testdata/minidump2.dmp";
   }
   string minidump_file_;
 };
