@@ -117,7 +117,7 @@ string CrashGenerator::GetCoreFilePath(pid_t pid) const {
   char buffer[8];
   ssize_t buffer_size = sizeof(buffer);
   bool use_pid = (ReadFile("/proc/sys/kernel/core_uses_pid", buffer, &buffer_size) &&
-    buffer_size == 2 && memcmp(buffer, "1", 1) == 1);
+    buffer_size == 2 && memcmp(buffer, "1", 1) == 0);
 
   string ret = temp_dir_.path() + "/core";
 
