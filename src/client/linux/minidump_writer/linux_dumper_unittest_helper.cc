@@ -35,6 +35,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/prctl.h>
 #include <sys/syscall.h>
 #include <unistd.h>
 
@@ -82,6 +83,9 @@ int main(int argc, char *argv[]) {
     fprintf(stderr, "ERROR: number of threads is 0");
     return 1;
   }
+
+  prctl(PR_SET_PDEATHSIG, SIGKILL);
+
   google_breakpad::scoped_array<pthread_t> threads(new pthread_t[num_threads]);
   pthread_attr_t thread_attributes;
   pthread_attr_init(&thread_attributes);
