@@ -1268,6 +1268,11 @@ void DwarfCUToModule::DwarfTypeHandler::ProcessAttributeReference(
 void DwarfCUToModule::DwarfTypeHandler::Finish()
 {
   BaseVarType* type = NULL;
+  if (name_.empty() && specification_)
+  {
+      name_ = specification_->unqualified_name;
+  }
+
   switch (tag_)
   {
     case dwarf2reader::DW_TAG_enumeration_type:
