@@ -725,7 +725,7 @@ bool SymbolParseHelper::ParseFuncParam(vector<char*>& pv, vector<FuncParam>& par
   for (int i = 0; i < num_params; ++i)
   {
     vector<char*> args;
-    if (!Tokenize(pv[i], ",", 4, &args))
+    if (!Tokenize(pv[i], "@", 4, &args))
     {
       params.clear();
       return false;
