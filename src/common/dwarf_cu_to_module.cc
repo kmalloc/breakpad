@@ -328,7 +328,7 @@ class PointerVarType: public BaseVarType
 
       if (baseTypeRef_ <= 0)
       {
-        name_ = anonymousName_;
+        name_ = "void*";
       }
       else
       {
