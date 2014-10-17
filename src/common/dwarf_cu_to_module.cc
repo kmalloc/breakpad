@@ -201,7 +201,7 @@ class BaseVarType
     VarTypePool* typePool_;
 };
 
-const char* BaseVarType::anonymousName_ = "@anon@";
+const char* BaseVarType::anonymousName_ = "$anon$";
 
 class VarTypePool
 {
