@@ -256,9 +256,9 @@ bool Module::Write(std::ostream &stream, SymbolData symbol_data) {
       {
         const FuncArgument& fa = func->params[ai];
         stream << "#"
-               << fa.type.typeName << ","
-               << fa.type.typeSize << ","
-               << fa.name          << ",";
+               << fa.type.typeName << "@"
+               << fa.type.typeSize << "@"
+               << fa.name          << "@";
 
         OutputParam(stream, fa.loc[0]);
         for (int li = 1; li < fa.loc.size(); ++li)
