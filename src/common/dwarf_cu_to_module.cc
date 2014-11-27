@@ -644,7 +644,7 @@ class DwarfCUToModule::GenericDIEHandler: public dwarf2reader::DIEHandler {
         parent_context_(parent_context),
         offset_(offset),
         declaration_(false),
-        specification_(NULL) { }
+        specification_(NULL), spec_(0) { }
 
   // Derived classes' ProcessAttributeUnsigned can defer to this to
   // handle DW_AT_declaration, or simply not override it.
@@ -704,6 +704,8 @@ class DwarfCUToModule::GenericDIEHandler: public dwarf2reader::DIEHandler {
   // string if the DIE has no such attribute or its content could not be
   // demangled.
   string demangled_name_;
+
+  uint64 spec_;
 };
 
 void DwarfCUToModule::GenericDIEHandler::ProcessAttributeUnsigned(
@@ -725,6 +727,7 @@ void DwarfCUToModule::GenericDIEHandler::ProcessAttributeReference(
       FileContext *file_context = cu_context_->file_context;
       if (file_context->IsUnhandledInterCUReference(
               data, cu_context_->reporter->cu_offset())) {
+        spec_ = data;
         cu_context_->reporter->UnhandledInterCUReference(offset_, data);
         break;
       }
@@ -744,6 +747,13 @@ void DwarfCUToModule::GenericDIEHandler::ProcessAttributeReference(
         // be a lot of work (changing to a two-pass structure), and I
         // don't think any producers we care about ever emit such
         // things.
+        // miliao edit: to handle function parameters, a few new structures are
+        // added to support more advanced parsing, turn out this can also help
+        // solve this forward reference to DW_AT_specification problem.
+        // set spec_ to refer to the offset of the unresolved DW_AT_specification.
+        // then when the whole CU is done parsing, it will be used to get
+        // the corresponding DW_AT_specification.
+        spec_ = data;
         cu_context_->reporter->UnknownSpecification(offset_, data);
       }
       break;
@@ -1486,6 +1496,8 @@ void DwarfCUToModule::FuncHandler::Finish() {
       cu_context_->reporter->UnnamedFunction(offset_);
       func->name = "<name omitted>";
     }
+
+    func->spec = spec_;
     func->address = low_pc_;
     func->size = high_pc_ - low_pc_;
     func->parameter_size = 0;
@@ -1969,6 +1981,22 @@ void DwarfCUToModule::ResolveFunctionParamType()
 
   for (int i = 0; i < func.size(); ++i)
   {
+    if (func[i]->spec)
+    {
+      SpecificationByOffset *specifications =
+        &cu_context_->file_context->file_private_->specifications;
+      SpecificationByOffset::iterator spec = specifications->find(func[i]->spec);
+      if (spec != specifications->end()) {
+        func[i]->name = spec->second.qualified_name;
+        if (func[i]->name.empty()) func[i]->name = spec->second.unqualified_name;
+      }
+      else
+      {
+        fprintf(stderr, "function at 0x%llx refers to a DW_AT_specification"
+            " at 0x%llx, which does not exist.", func[i]->address, func[i]->spec);
+      }
+    }
+
     vector<Module::FuncArgument>& params = func[i]->params;
     for (int j = 0; j < params.size(); ++j)
     {

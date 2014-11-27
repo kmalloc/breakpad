@@ -133,6 +133,8 @@ class Module {
         return x->address < y->address;
     }
 
+    Function(): spec(0) {}
+
     // The function's name.
     string name;
 
@@ -141,6 +143,8 @@ class Module {
 
     // The function's parameter size.
     Address parameter_size;
+
+    uint64 spec;
 
     // Source lines belonging to this function, sorted by increasing
     // address.
